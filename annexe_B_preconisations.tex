@@ -1,0 +1,1739 @@
+% !TeX spellcheck = fr_FR
+\chapter{Les préconisations pour la bibliothèque numérique}
+
+
+\section{Présentation}
+\subsection{Contexte}
+Le rapport d’audit fonctionnel de l’existant révèle que malgré sa robustesse l’ancien système XTF sous lequel CujasNum a été développé souffre de défauts d’ergonomie (multiplications des facettes, impossibilité de créer des collections, absence d’éditorialisation, etc.). Le prototype Codex semble résoudre certains problèmes identifiés dans l’ancienne bibliothèque en proposant des services (visionneuse Mirador, explorer, une page par document) auxquels on est habitués dans d’autres bibliothèques numériques. Cependant, le front-office de Codex nécessite des ajustements afin de fluidifier le parcours de l’usager. C’est sur la base de ce constat que ce document a été réalisé afin de proposer les meilleures solutions d’interface possible.
+
+\subsection{Méthodologie de travail}
+J’ai adopté une méthodologie itérative et démonstrative, pour mener à bien cette étude afin de formuler des recommandations pertinentes. Celle-ci s’articule autour des étapes suivantes :
+\begin{itemize}
+	\item L’exploitation de l’état des lieux : je me suis appuyé sur le document réalisé pour le rapport d’audit fonctionnel et technique, intitulé état de l’existant de la bibliothèque numérique actuelle et du prototype Codex. Ce document fait état des limites des fonctionnalités proposées dans Codex et des besoins exprimés par les utilisateurs et les professionnels. Il fait émerger les éléments essentiels à implémenter dans le nouveau système. 
+\item Pour chaque thématique étudiée, ma méthode de travail fut la suivante : 
+\begin{itemize}
+	\item Identification des besoins
+\item Réalisation d’un benchmark de cette fonction comparant ce qui se fait ailleurs, 
+\item Préconisations pour le prototype Codex
+\item Eventuellement proposition d’un module technique. 
+\item Examen de la pertinence de la fonction proposée à travers la figure du personae. 
+\end{itemize}
+\item L’étude réalisée porte principalement sur les points suivants :
+\begin{itemize}
+	\item La page d’accueil et l’arborescence
+\item Les modalités de recherche
+\item La page d’un document 
+\item Le compte personnel et les outils d’exploitation
+\item La valorisation des collections.
+\end{itemize}
+\end{itemize}
+ 
+\subsection{Les limites de l’étude}
+\begin{itemize}
+	\item Je ne traiterai pas les points suivants : les métadonnées, l’intégration des périodiques, archives, images et thèses ni de la question de l’IA. 
+\item Les raisons pour lesquelles ces points n’ont pas été traités sont de plusieurs ordres :
+\begin{itemize}
+	\item Le temps limité pour mener à bien cette étude, qui a demandé une priorisation des éléments à étudier. 
+\item Certains sujets doivent faire l’objet d’une étude approfondie dans un second temps. C’est par exemple le cas pour le traitement des métadonnées, qui nécessite un travail de concertation entre plusieurs services de la BIU Cujas 
+\item Les autres types de documents (archives, périodiques…) n’ont pas été abordés car ils nécessitent une étude approfondie spécifique. L'objectif premier est ici de se focaliser sur la ré informatisation de l'existant de la bibliothèque numérique, qui est constituée de monographies. Bien que les enjeux liés à ces nouveaux formats aient été recueillis et pris en compte au moment des entretiens avec les usagers, ils demandent une réflexion sur la manière de les intégrer et de les présenter. 
+\item L’intelligence artificielle a été elle aussi écartée. Elle représente une piste d’évolution technologique pertinente à explorer à l’avenir, son intégration n’a pas été jugée prioritaire pour la refonte.
+\end{itemize}
+\end{itemize}
+
+\subsection{Conception du benchmark}
+\subsubsection{Objectif du benchmark}
+\begin{itemize}
+	\item Identifier les bonnes pratiques des bibliothèques numériques
+\item Comparer les fonctionnalités existantes avec ce qui se fait maintenant en bibliothèque numérique
+\item Dégager des pistes d’amélioration pour Codex
+\item Alimenter les choix fonctionnels du projet
+\end{itemize}
+
+\subsubsection{Corpus des bibliothèques numériques examinées}
+\begin{itemize}
+	\item Le corpus de bibliothèques numériques rassemblé pour l’étude :
+\begin{itemize}
+	\item NuBIS
+\item Genovefa
+\item Sciences Po
+\item Gallica
+\item Lucienne
+\item Cariatide
+\item Institut de France
+\item Polona 
+\item Cambridge Digital Library
+\item Digital bodleian
+\end{itemize}
+\item Les raisons pour laquelle je choisis ces bibliothèques sont celles-ci : 
+\begin{itemize}
+	\item \textbf{NuBIS:} Bibliothèque numérique de la Bibliothèque Interuniversitaire de la Sorbonne (BIS, Université Paris I Panthéon Sorbonne) ayant fait l’objet d’une refonte très récente. Les fonctionnalités pertinentes proposées par la BIS sont l'éditorialisation sous différentes formes (billet de blog, expositions virtuelles, collections), la barre de recherche, la page à propos, la page présentant et donnant accès à chaque document, et la page d’aide.
+\item \textbf{Genovefa:} La bibliothèque numérique de la Bibliothèque Sainte Geneviève (BSG, Université Sorbonne Nouvelle) propose des fonctionnalités de rebonds entre les documents et vers des sites externes de la bibliothèque numérique, la visionneuse Mirador ainsi que l'éditorialisation de leurs collections.
+\item \textbf{Sciences Po:} La bibliothèque numérique de l’Institut d’Études Politiques de Paris présente du contenu en droit. Les fonctionnalités intéressantes sont la possibilité de créer un compte personnel avec deux types de visiteurs différenciés afin de proposer une consultation de documents sous droit, la page «à propos » ainsi que les pages d’actualités. 
+\item \textbf{Gallica:} La bibliothèque numérique de la Bibliothèque nationale de France (BnF), est un outil de référence au niveau national. Gallica propose des collections juridiques dans son onglet « Droit » anciennement connu sous le nom « les essentiels du droit ». Elle propose aussi des fonctionnalités qui nous intéressent notamment le compte personnel, la possibilité du téléchargement à la carte, la surbrillance des mots recherchés dans la liste de résultats.
+\item \textbf{Lucienne:} La bibliothèque numérique de l'Ecole normale supérieure (ENS) propose la possibilité de créer un compte personnel, une éditorialisation des collections (expositions virtuelles, parcours normalien.ne.s), ainsi que des pages d'index (notices biographiques, personnes identifiées).
+\item \textbf{Cariatide:} La bibliothèque de l’Institut national d'histoire de l'art (INHA) est pertinente pour sa manière d’organiser les collections. Elle propose elle aussi un compte personnel, des notices documentaires détaillées, des collections riches et diverses (archives, dessins, estampes, imprimés …).  L'éditorialisation des collections est bien conçue. 
+\item \textbf{Institut de France:} La bibliothèque numérique de l'Institut de France regroupe les données de plusieurs bibliothèques et musées.Les collections, riches, diverses et en provenance de plusieurs institutions, sont intéressantes pour leur organisation et leur mise en valeur. 
+\item \textbf{Polona:} La bibliothèque numérique de la bibliothèque nationale de Pologne. Elle permet à ses utilisateurs de se créer un compte personnel permettant de créer des collections, ajouter des annotations, enregistrer tes requêtes, mettre en favoris tes documents. Elle met en avant ses documents numérisés à travers des articles ou des billets de blog rédigés par des spécialistes. Elle a également créé un accès plus scientifiques pour les chercheurs (projets scientifiques, articles de blog, notes publiques).
+\item \textbf{Cambridge Digital Library:} La bibliothèque numérique de l’université de Cambridge a été sélectionnée pour son modèle pionnier d'éditorialisation scientifique. Sa visionneuse contient des tables des matières et propose la transcription et la traduction de certains documents anciens.  Elle donne accès à des documents sous droit.
+\item \textbf{Digital Bodleian:} La bibliothèque numérique de l'université d'Oxford est intéressante à consulter pour comprendre ce qui se fait dans le monde anglo-saxon. Les facettes proposent un filtrage par « object type ». Les documents sont très variés (archives, musique, ouvrages, iconographies, périodiques...)  et de différentes langues.
+\end{itemize}
+\end{itemize}
+
+\subsubsection{Notation des fonctionnalités examinées}
+J’ai appliqué à chacune des fonctionnalités étudiées de ces bibliothèques numériques une graduation permettant d’en évaluer le bon usage : 
+\begin{itemize}
+	\item 0 : la fonctionnalité n’existe pas
+\item 1 : la fonctionnalité existe mais elle ne fonctionne pas ou mal.
+\item 2 : la fonctionnalité existe et fonctionne normalement
+\item 3 : la fonctionnalité existe avec la particularité d’avoir un fonctionnement original améliorant l’expérience habituelle des utilisateurs.
+\end{itemize}
+\vfill
+
+\subsection*{Tableau de comparaison des différentes fonctionnalités issus du benchmark des bibliothèques numériques}
+\includegraphics[width=0.9\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/IMG_5955.jpeg}
+\subsection{Conception des personae}
+A la suite des entretiens que j’ai réalisés auprès des usagers et des différents services de Cujas, j’ai créé des personae, inspirés des informations obtenues, afin de confronter mes propositions aux besoins d’usagers types Les personae et les user stories sont des outils qui permettent de penser du point de vue des utilisateurs afin de proposer des services qui leur conviennent et d’améliorer l’expérience utilisateur.
+J’ai donc réalisé six personae chacun correspondant à une catégorie d’utilisateur pouvant être amené à utiliser la bibliothèque numérique1. Les personae sont :
+\begin{itemize}
+	\item \textbf{Chercheur expert en histoire du droit:} il utilise la bibliothèque numérique car cela lui permet d’accéder à distance à de nombreux documents en ligne. Il apprécie d’avoir un espace centralisant les documents. Les deux fonctionnalités qu’il cherche dans une bibliothèque numérique sont les tables des matières cliquables et la recherche en plein texte. 
+\item \textbf{Doctorante d’histoire du droit et des institutions:} elle utilise la bibliothèque numérique pour sa thèse. Elle trouve pratique que la table des matières soit cliquable et qu’elle ait la possibilité de pouvoir télécharger les documents qui l’intéressent sous format PDF afin de pouvoir les annoter. Elle aimerait bien que la consultation des documents numérisés se rapproche de celle des documents originaux. 
+\item \textbf{Etudiant en histoire du droit:} il consulte CujasNum dans l’optique de ses recherches pour son mémoire ou dans le cadre d’exercices pratiques en cours. Il a besoin d’avoir des explications concernant la prise en main de la bibliothèque, en particulier les services proposés ou les documents que l’on trouve dans la bibliothèque.
+\item \textbf{L’Amatrice éclairée:} il consulte la bibliothèque numérique pour approfondir sa culture générale ou un domaine précis. Il attend une navigation fluide, un accès direct aux sources et une médiation culturelle rigoureuse qui valorise la richesse des documents numérisés.
+\item \textbf{Responsable de la bibliothèque numérique:} il est chargé de superviser le développement de la bibliothèque numérique, dans l’optique de développer un public plus varié. Il aimerait également avoir la possibilité d’ajouter d’autres types de documents ayant une architecture plus complexe. Il souhaite mettre davantage en avant la richesse des collections de sa bibliothèque. 
+\item \textbf{Bibliothécaire:} elle consulte la bibliothèque numérique dans le cadre de formations et d’aide à la recherche. Elle a donc besoin d’informations claires sur le contenu, la description des documents, et des fonctionnalités de recherches fines, ainsi que des éléments explicatifs sur les modalités d’exploitation de la bibliothèque numérique.
+\item \textbf{Informaticien:} il n’est pas considéré ici comme un utilisateur mais comme une personne en charge du développement et du maintien de la bibliothèque numérique.
+\end{itemize}
+
+\section[Eléments fonctionnels]{Eléments fonctionnels et techniques}
+\subsection{Les modalités de recherche}
+\subsubsection{Les besoins identifiés}
+
+\begin{itemize}
+	\item Recherche simple
+\item Recherche avancée
+\item Filtrage 
+\item OCR
+\item Collections
+\item Filtres et facettes
+\end{itemize}
+
+\subsubsection{Benchmark}
+\paragraph*{La Recherche simple:}
+\addcontentsline{toc}{paragraph}{La Recherche simple:}
+
+\textbf{Lucienne, bibliothèque numérique de l’ENS: } 
+\url{https://lucienne.ens.psl.eu/s/lucienne/page/welcome}
+
+En arrivant sur la page d’accueil, on trouve tout de suite la barre de recherche simple. Ils ont décidé de rassembler au même endroit : la recherche simple, avancée et le bouton voir (filtrage).
+
+\begin{center}
+	\includegraphics[width=0.7\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherche_simple/Lucienne.jpeg}
+\end{center}
+
+\textbf{Cariatide, bibliothèque numérique de l’INHA: }
+\url{https://bibliotheque-numerique.inha.fr/}
+
+Sur la page d’accueil de Cariatide, on trouve la barre de recherche simple, avec la possibilité d’inclure ou non le plein texte et les tables des matières.
+
+\begin{center}
+	\includegraphics[width=0.7\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherche_simple/Cariatide.jpeg}
+\end{center}
+
+\textbf{Bibliothèque numérique de l’Institut de France: } 
+\url{https://bibnum.institutdefrance.fr/}
+
+On trouve la barre de recherche sur la page d’accueil avec la possibilité de faire une recherche simple en choisissant d’inclure ou de ne pas inclure dans celle-ci le plein-texte et les sommaires et légendes.
+
+\begin{center}
+	\includegraphics[width=0.7\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherche_simple/Institut_de_France.jpeg}
+\end{center}
+
+\textbf{Gallica, bibliothèque numérique de la BNF: }
+\url{https://gallica.bnf.fr/accueil/fr/html/accueil-fr}
+
+En arrivant sur la page d’accueil, on voit directement la recherche simple matérialisée à travers cette barre de recherche. On comprend également que lorsque l’on fait une recherche, on cherche « dans les 10 millions de documents de Gallica ». 
+
+\begin{center}
+	\includegraphics[width=0.7\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherche_simple/Gallica.jpeg}
+\end{center}
+
+
+\textbf{NuBIS, bibliothèque numérique de la BIS: }
+\url{https://nubis.bis-sorbonne.fr/}
+
+La barre de recherche simple est présente dès la page d’accueil. Passer la souris sur la barre fait apparaitre trois options de recherche : plein texte et métadonnée, métadonnées, plein texte. A chaque fois, une courte phrase explique dans quoi la recherche est effectuée en fonction de l’option choisie.
+
+\begin{center}
+	\includegraphics[width=0.7\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherche_simple/NuBIS}
+\end{center}
+
+\paragraph*{La recherche avancée :}
+\addcontentsline{toc}{paragraph}{La recherche avancée :}
+
+\textbf{Lucienne, bibliothèque numérique de l’ENS: }
+\url{https://lucienne.ens.psl.eu/s/lucienne/item/search}
+
+La recherche avancée est accessible par un bouton dès la page d’accueil de la bibliothèque numérique, sous la barre de recherche simple. Elle consiste en un formulaire sophistiqué dans lequel l’utilisateur se voit proposer plusieurs possibilités : 
+\begin{itemize}
+	\item Le paramétrage du tri des références trouvées
+\item Une recherche en plein texte
+\item Une recherche par « filtre » permettant de chercher dans des zones spécifiques de la notice, avec des opérateurs de recherche pointus (booléens, etc.)
+\item Une recherche dans une collection spécifique.
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=0.7\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherche_avancee/Lucienne.jpeg}
+\end{center}
+
+\textbf{Bibliothèque numérique de l’institut de France et des académies: } 
+\url{https://bibnum.institutdefrance.fr/recherche-avancee?}
+
+En cliquant sur le bouton de recherche avancée présent sur la page, celui-ci nous amène à un formulaire de recherche. Il permet de sélectionner les éléments dans lesquels on cherche (zones de la notice, plein texte, sommaires et légendes) et d’utiliser les opérateurs booléens ET, OU et SAUF. 
+
+\begin{center}
+	\includegraphics[width=0.7\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherche_avancee/Institut_de_France.jpeg}
+\end{center}
+
+\textbf{Cariatide, bibliothèque numérique de l’INHA: }
+\url{https://bibliotheque-numerique.inha.fr/recherche-avancee}
+
+La recherche avancée se trouve sur la page d’accueil amenant à un formulaire de recherche. Celui-ci permet de sélectionner les données dans lesquelles on cherche (zones de la notice, plein texte, table des matières) et d’ajouter un champ de recherche.
+
+\begin{center}
+	\includegraphics[width=0.7\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherche_avancee/Cariatide.jpeg}
+\end{center}
+
+\textbf{Gallica, bibliothèque numérique de la BNF: }
+\url{https://gallica.bnf.fr/services/engine/search/advancedSearch/}
+
+La recherche avancée est présente sous forme d’un lien cliquable dès la page d’accueil. Le formulaire de recherche avancée. On remarque qu’il y a différentes catégories de recherche en plus de la recherche en texte intégral. Un filtrage par type de document est proposé, ainsi qu’une recherche par proximité de termes. Il est possible de filtrer par bibliothèque versante et par collection ou thème. 
+
+\begin{center}
+	\includegraphics[width=0.7\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherche_avancee/Gallica.jpeg}
+\end{center}
+
+\textbf{Polona, bibliothèque numérique de la bibliothèque nationale de Pologne: }
+\url{https://polona.pl/} 
+
+Le formulaire de recherche avancée permet de faire un filtrage par droit d’auteur.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherche_avancee/Polona.jpeg}
+\end{center}
+
+\paragraph*{Recherche par filtrage (filtres, facettes):}
+\addcontentsline{toc}{paragraph}{Recherche par filtrage (filtres, facettes):}
+Il s’agit de la recherche par filtrage intitulée « Explorer » dans le prototype Codex, qui comprend l’ensemble des documents que l’on peut filtrer par des facettes. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/filtrage/IMG_5966.jpeg}
+\end{center}
+
+\textbf{Cariatide, bibliothèque de l’INHA:}
+\url{https://bibliotheque-numerique.inha.fr/collection/?search=&sort=_score&perpage=10&}
+
+Cariatide permet d’activer simultanément plusieurs filtres. Les filtres utilisés s’affichent au-dessus de la barre de recherche : on sait donc exactement quel filtre a été pris en compte.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/filtrage/IMG_5967.jpeg}
+\end{center}
+
+\url{https://bibliotheque-numerique.inha.fr/collection/?search=&sort=_score&perpage=10&page=1&&refine[Type][]=Estampe&r&&refine[period][]=19e+si%C3%A8cle+-+20e+si%C3%A8cle&r&&refine[locationcity][]=Bessy-sur-Cure&r&date_field=Date&&page=1&refine[locationcountry][]=France#title}
+
+\textbf{Genovefa, Bibliothèque Sainte Geneviève}
+\url{https://genovefa.bsg.univ-paris3.fr/s/genovefa/recherche}
+
+La BSG propose un système de filtres particulièrement détaillé, catégorisé en fonction de ce que l’on souhaite rechercher (type, auteur, éditeur).
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/filtrage/IMG_5968.jpeg}
+\end{center}
+
+\textbf{NuBIS, bibliothèque numérique de la BIS}
+\url{https://nubis.bis-sorbonne.fr/search?}
+
+Dans sa recherche par filtrage, NuBIS a fait le choix de proposer plusieurs types de filtres qui s’appliquent à tous les documents, quelque-soit leur type.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/filtrage/IMG_5969.jpeg}
+\end{center}
+
+\textbf{Polona, bibliothèque numérique de la bibliothèque nationale de Pologne:}
+\url{https://polona.pl/public-collections/collection/0de5caee-dd56-4e16-acc6-df73c5b1df4b}
+
+Les filtres de Polona sont intéressant surtout pour la création des filtres concernant les droits (protégé par le droit d’auteur, droits sur l’œuvre, licence).
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/filtrage/IMG_5970.jpeg}
+\end{center}
+
+\textbf{Bodleian Library, bibliothèque numérique d’Oxford:}
+\url{https://digital.bodleian.ox.ac.uk/search/#s=advanced}
+
+Les filtres de la Digital Library permettent de filtrer les documents océrisés (filtre Has Text), les documents partiellement ou totalement numérisés (fully digitized). Elle propose des collections (collection) qui correspondent à des types de documents, ainsi que des corpus thématiques (Project). 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/filtrage/IMG_5971.jpeg}
+\end{center}
+
+\paragraph*{Collections:}
+\addcontentsline{toc}{paragraph}{Collections:}
+\textbf{NuBIS, bibliothèque numérique de la BIS: }
+\url{https://nubis.bis-sorbonne.fr/collections}
+
+La BIS a fait le choix de présenter ces collections sous la forme de vignette indiquant également s’il y a une exposition sur le sujet ou bien des sous-collections avec le nombre précis à chaque fois.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/collections/IMG_5972.jpeg}
+\end{center}
+
+\textbf{Cariatide, bibliothèque numérique de l’INHA:}
+\url{https://bibliotheque-numerique.inha.fr/}
+
+Sur la page d’accueil de Cariatide, il est possible de trouver les six collections numérisées de la bibliothèque. En cliquant dessus, on arrive sur la collection en elle-même avec une présentation des sous-collection sommaires sous forme de table des matières. En bas de page, un bouton est présent permettant de faire une recherche simple ou par filtres uniquement dans la collection numérisée choisie. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/collections/IMG_5973.jpeg}
+\end{center}
+
+\textbf{Lucienne, bibliothèque numérique de l’ENS: }
+\url{https://lucienne.ens.psl.eu/s/lucienne/page/collections}
+
+L’ENS a fait le choix de présenter ses collections sous une classification typologique. La page Collections affiche une sélection de six collections. Un bouton « Découvrir toutes les collections » permet d’afficher l’ensemble des collections.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/collections/IMG_5974.jpeg}
+\end{center}
+
+\textbf{Bibliothèque numérique de l’institut de France et des académies: }
+\url{https://bibnum.institutdefrance.fr/corpus-parcours}
+
+L’onglet « Corpus et parcours » présente les collections numérisées de l’Institut de France et des académies qui lui sont rattachées en deux ensembles : 
+\begin{itemize}
+	\item Un ensemble de collections classées par typologie (iconographie \& illustration, imprimés, …)
+\item Un ensemble de collections classées par corpus ou par parcours thématiques.
+\end{itemize} 
+L’institut a fait le choix de les présenter sous la forme de vignettes. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/collections/IMG_5975.jpeg}
+\end{center}
+
+\textbf{Polona, bibliothèque numérique de la bibliothèque nationale de Pologne: }
+\url{https://polona.pl/}
+
+La page d’accueil affiche les collections en accès publique sur la bibliothèque numérique. Les collections sont organisées de façon thématique.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/collections/IMG_5976.jpeg}
+\end{center}
+
+\textbf{Digital Bodleian, bibliothèque numérique d’Oxford: }
+\url{https://digital.bodleian.ox.ac.uk/browse/}
+
+L’université d’Oxford présente ses collections suivant une arborescence hybride qui combine des critères géographies, temporels et matériels.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/collections/IMG_5977.jpeg}
+\end{center}
+
+\subsubsection{Proposition pour la bibliothèque numérique de Cujas}
+
+\begin{itemize}
+	\item \uline{Recherche simple:} la barre de recherche doit être présente sur la page d’accueil au centre avoir la possibilité de choisir d’inclure la recherche dans les métadonnées, le plein-texte et les métadonnées et le plein-texte. 
+\item \uline{Recherche avancée:} il faut qu’il y est un bouton cliquable se trouvant en-dessous de la barre de recherche amenant à un formulaire de recherche. Le formulaire de recherche peut comporter les champs suivants (titre, auteur, sujet, date de début et de fin, lieu et la classification Dewey).
+\item \uline{Recherche par filtrage:} l’ajouter comme un onglet séparé des autres formes de recherche afin de différencier leurs utilisations. On peut la représenter par la rubrique \enquote{Explorer} avec une loupe qui l’accompagne. Les filtres peuvent contenir les champs suivants : type de documents, sujets, auteurs, siècles, langues, éditeurs, les droits, les collections). Les filtres actionnés doivent être clairement identifiés (affichés en haut de la page ou signalés par une mise en couleur, par exemple).
+\item Présenter les collections sous formes de vignettes en indiquant le nombre de sous-collections constituant celle-ci. 
+\end{itemize}
+
+\subsubsection{Eléments techniques}
+
+\paragraph*{Module Advanced Search (Omeka.org)}
+\addcontentsline{toc}{paragraph}{Module Advanced Search (Omeka.org)}
+
+Lien vers la documentation:\url{https://omeka.org/s/modules/AdvancedSearch/}
+
+Advanced Search : améliore la recherche standard (visibilité, vignettes, commence par, ressources sans modèles, recherche dans plusieurs propriétés à la fois, etc.) et permet d’ajouter d’autres capacités de recherches (autocomplétion, filtres, facettes et l’interrogation de camp agrégés). Un des adaptateurs disponibles est avec le moteur de recherche Solr.
+
+\paragraph*{API Omeka-S-module-SearchSolr}
+\addcontentsline{toc}{paragraph}{API Omeka-S-module-SearchSolr}
+
+Lien vers la documentation:\url{https://github.com/Daniel-KM/Omeka-S-module-SearchSolr}
+ 
+API pour se connecter au moteur de recherche Solr (différent du module développé par Biblivre).
+Module basé sur la bibliothèque Solarium. Il est livré avec une API et une documentation complète, permettant d’intégrer de nouvelles fonctionnalités pour l’indexation et l’interrogation. 
+Moteur de recherche Solr (Apache Solr: \url{https://solr.apache.org/}): plateforme de recherche multimodale ultra-rapide, open source construite sur le texte intégral, le vecteur et les capacités de recherche géospatiale d’Apache Lucene. Modèle fiable, évolutif et tolérant aux pannes, fournissant une indexation distribuée, etc. Solr alimente les fonctionnalités de recherche et de navigation.
+
+\subsubsection{Réponse aux besoins identifiés par les personae}
+
+Afin de valider la pertinence des choix fonctionnels proposés pour les modalités de recherche, la synthèse ci-dessous illustre comment chaque fonctionnalité répond aux besoins prioritaires des personae :
+\begin{itemize}
+	\item \textbf{Besoin n°1 : Accès rapide aux documents numérisés}
+\begin{itemize}
+	\item \uline{Personae concernés :} chercheur expert en histoire du droit, doctorante, étudiant et la bibliothécaire.
+\item \uline{Réponse :} Mise en place d’une recherche simple avec autocomplétion et des filtres applicables à différents types de documents. 
+\end{itemize}
+\item \textbf{Besoin n°2 : Recherche croisée et ciblée dans les métadonnées :} 
+\begin{itemize}
+	\item \uline{Personae concernés :} chercheur expert en histoire du droit, doctorante, étudiant, l’amatrice éclairée et la bibliothécaire.
+\item \uline{Réponse :} Mise en place d’un accès direct vers un formulaire de recherche avancée permettant de combiner plusieurs champs (auteur, titre, date, sujet, cote) grâce à des opérateurs logiques.
+\end{itemize}
+\item \textbf{Besoin n°3 : Affinement et filtrage dynamique des résultats de recherche :}
+\begin{itemize}
+	\item \uline{Personae concernés :} chercheur expert en histoire du droit, doctorante, étudiant, bibliothécaire et le responsable de la bibliothèque numérique. 
+\item \uline{Réponse :} Mise en place de filtre permettant de sélectionner le type de document, le sujet, l’auteur, l’éditeur, le lieu, la période, les droits d’accès avec une mise en évidence dans filtres sélectionnés en haut de page dans une autre couleur.
+\end{itemize}
+\item \textbf{Besoin n°4 : navigation par thème}
+\begin{itemize}
+	\item \uline{Personae concernés :} chercheur expert en histoire du droit, doctorante, étudiant.
+\item \uline{Réponse :} Présentation des collections sous formes de vignettes avec une image et des titres explicites avec une indication des sous-collections la constituant.
+
+\end{itemize}
+\end{itemize}
+
+\subsection{La page d’un document}
+\subsubsection{Les besoins identifiés}
+\begin{itemize}
+	\item Une page descriptive par document numérisé
+\item Visionneuse Mirador
+\item  Rebonds à l’intérieur de la bibliothèque numérique mais également à l’extérieur de celle-ci
+\item Citation du document
+\item Exportation des données sous différents formats
+\end{itemize}
+
+\subsubsection{Benchmark}
+\textbf{Cariatide, bibliothèque numérique de l’INHA:} 
+\url{https://bibliotheque-numerique.inha.fr/collection/item/30452-dessins-de-costumes-par-berain-pour-des-pieces-de-lully?offset=1#item_data_title}
+\begin{itemize}
+	\item Une notice très détaillée. On comprend très bien tous les éléments constituant la notice. Celle-ci est divisée en plusieurs parties. Par contre le titre qui ne se distingue pas particulièrement du reste de la notice pouvant amener à s’interroger afin de savoir où il se trouve.
+\item Des rebonds depuis les noms de personnes, les types de documents, les focus thématiques. 
+\item Le bloc « Réutiliser », qui cite la bibliothèque d’origine, les conditions d’utilisation (lien vers des précisions) et donne le lien vers le Manifeste IIIF. 
+\item Un bouton de copie du permalien
+\item Une citation du document copiable
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=0.6\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/page_document/IMG_5978.jpeg}
+\end{center}
+
+
+\textbf{NuBIS, bibliothèque numérique de la BIS:}
+
+\url{https://nubis.bis-sorbonne.fr/ark:/15733/qcmq?view=full}
+\begin{itemize}
+	\item On voit en haut de quelle collection est issu le document. 
+\item Outils d’exploitation regroupés en haut de la page (Permalien, Manifest IIIF, Licence)
+\item Le type de licence est clairement indiqué en haut. Il s’agit d’un lien qui renvoie sur une page détaillée décrivant la licence
+\item Rebonds depuis les noms de personnes
+\item Lien vers le catalogue décrivant le document 
+\item Notice succincte en haut de page que l’on peut déployer
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=0.6\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/page_document/IMG_5979.jpeg}
+\end{center}
+
+\textbf{Lucienne, bibliothèque numérique de l’ENS:}
+
+\url{https://lucienne.ens.psl.eu/s/lucienne/item/51543}
+Les pages de présentation des documents de Lucienne sont intéressantes pour : 
+\begin{itemize}
+	\item La présence d’un fil d’ariane
+\item Une référence succincte en haut de la page, complétée de la notice complète plus bas. 
+\item Une notice comprenant la collection, le lien vers la notice dans le catalogue d’origine, et le signalement d’entités nommées. 
+\item De nombreux rebonds
+\item La possibilité de copier une citation. 
+\item La possibilité d’exporter les données sous différents formats (BibTex, CSV, Json-Table).
+\end{itemize}
+Par contre, la présentation en colonne, y compris sur grand écran, nécessite une manipulation de la souris fastidieuse. 
+
+\begin{center}
+	\includegraphics[width=0.6\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/page_document/IMG_5980.jpeg}
+	\includegraphics[width=0.6\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/page_document/IMG_5981.jpeg}
+\end{center}
+
+\subsubsection{Proposition pour la bibliothèque numérique de Cujas}
+\begin{itemize}
+	\item Une notice succincte avec la possibilité de masquer ou dérouler une notice complète 
+\item  Le document sur la gauche, en position sticky (l’image reste fixe y compris lorsqu’on fait dérouler la partie droite de l’écran) et la notice à droite que l’on peut faire défiler à l’écran.
+\item Le manifeste IIIF disponible sous forme de bouton sur la page de présentation, en plus de celui que l’on peut trouver dans la visionneuse Mirador.
+\item Conserver la vignette cliquable amenant directement sur la visionneuse.
+\end{itemize}
+
+\subsubsection{Eléments techniques}
+
+\paragraph*{Module Bibliography (Omeka-S)}
+
+\url{https://github.com/Daniel-KM/Omeka-S-module-Bibliography}
+Le module Bibliography d’Omeka S est utile pour générer et gérer des citations bibliographiques standardisées, afficher des blocs de références sur les pages publiques d’un site et importer des notices via des identifiants (comme le DOI ou l’ISBN).
+
+\paragraph*{Module CopyIdRef (Omeka-S)}
+
+\url{https://omeka.org/s/modules/CopIdRef/}
+
+Le module Copy IdRef permet d’utiliser le thésaurus IdRef de l’ABES. Il permet de générer automatique une page de présentation de l’auteur et liste tous les autres documents du catalogue lié à cet auteur. 
+
+
+\subsubsection{Réponse aux besoins identifiés par les personae}
+Afin de valider la pertinence des choix fonctionnels proposés pour la page d’un document, la synthèse ci-dessous illustre comment chaque fonctionnalité répond aux besoins prioritaires des personae :
+\begin{itemize}
+	\item \textbf{Besoin n°1 : Description détaillée d’un document}
+\begin{itemize}
+	\item \uline{Personae concernés :} chercheur expert en histoire du droit, doctorante, étudiant, amatrice éclairée, bibliothécaire et responsable de la bibliothèque numérique.
+\item \uline{Réponse :} Une notice détaillée avec le titre, le type de document et l’auteur mis en évidence avec le reste de la notice présenté dans un menu déroulant accompagné du manifeste IIIF présenté sous la forme d’un bouton.
+\end{itemize} 
+\item \textbf{Besoin n°2 : Exporter la référence de la ressource}
+\begin{itemize}
+	\item \uline{Personae concernés :} chercheur expert en histoire du droit, doctorante, étudiant et bibliothécaire.
+\item \uline{Réponse :} Création de la référence bibliographique à partir des balises renseignées dans la notice du document.
+\end{itemize}
+\item \textbf{Besoin n°3 : Alignement des métadonnées sur des référentiels}  
+\begin{itemize}
+	\item \uline{Personae concernés :} Responsable de la bibliothèque numérique, informaticien et bibliothécaire.
+\item \uline{Réponse :} Création de liens externes entre la bibliothèque numérique et d’autres sites comme Calames ou le Sudoc permettant d’avoir plusieurs points de navigation.
+\end{itemize}
+\item \textbf{Besoin n°4 : Exporter les métadonnées sur Zotero} 
+\begin{itemize}
+	\item \uline{Personae concernés :} Chercheur expert en droit, responsable de la bibliothèque numérique, informaticien et bibliothécaire.
+\item \uline{Réponse :} Possible d’exporter les métadonnées sous différents formats (BibTex, CSV, Json-LD) vers Zotero.
+\end{itemize}
+\end{itemize}
+
+\subsection{Compte personnel, consultation et exploitation des documents}
+\subsubsection{Les besoins identifiés}
+
+\begin{itemize}
+	\item Compte personnel (création de compte, historique, favoris, notifications, listes ou paniers)
+\item Téléchargement partiel ou de tout le document
+\item Variété de formats de téléchargement (PDF, JPEG, TIFF, etc.)
+\item Impression
+\item Export bibliographique (BibTex, RIS, Zotero)
+\item Partage d’un document ou d’une notice
+\item Annotation 
+\item Export des métadonnées
+\item Visualiseur (zoom, rotation, plein écran, pagination, IIIF)
+\item OCR, transcription 
+\item Table des matières
+\item Droits d’accès et de réutilisation (consultation libre, téléchargement, licences, domaines publics)
+\end{itemize}
+
+\subsubsection{Benchmark : le compte personnel}
+
+\textbf{Polona, bibliothèque numérique de la bibliothèque nationale de Pologne:}
+
+\url{https://polona.pl/auth/realms/polona/protocol/openid-connect/auth?client_id=polona-client&redirect_uri=https%3A%2F%2Fpolona.pl%2F&state=9a15e596-fcb7-440f-8c9f-b5d855191911&response_mode=fragment&response_type=code&scope=openid&nonce=6d042881-454d-4905-9b23-8edff860d79e&code_challenge=MrONZzd4069WbmcukWY1kDoQZefoMvpRj7J_8zCTy8Y&code_challenge_method=S256}
+ 
+On trouve le compte personnel dans le menu déroulant à gauche ou en cliquant sur l’onglet Connectez-vous en haut à droite sur la page d’accueil. 
+Chaque utilisateur a un profil de lecteur par défaut permettant à ce dernier de mettre en favoris ses documents, créer ses propres collections, écrire des notes, conserver ses requêtes. 
+Il est possible de définir d’autres services en fonction de son statut (scientifique, bibliothécaire, éditeur).
+
+\begin{center}
+	\includegraphics[width=0.4\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/compte_personnel/IMG_5982.jpeg}
+\end{center}
+
+\textbf{Bodleian Library, bibliothèque numérique d’Oxford:}
+\url{https://digital.bodleian.ox.ac.uk/login/?next=%2Fterms%2F}
+ 
+L’utilisateur a la possibilité de se créer un compte afin de pouvoir enregistrer ses recherches et ses articles préférés. Il a plusieurs moyens pour se connecter via son compte Google, Oxford Single Sign-On ou avec un email et un mot de passe.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/compte_personnel/IMG_5983.jpeg}
+\end{center}
+
+\textbf{Cariatide, bibliothèque numérique de l’INHA:}
+\url{https://bibliotheque-numerique.inha.fr/mon-espace-personnel}
+
+Dans Cariatide, la création d’un compte personnel permet à l’utilisateur d’enregistrer ses recherches, de configurer des notifications par mail, de sauvegarder, trier et partager les documents. Il y a deux moyens de connecter soit par son compte lecteur de l’INHA ou soit par celui de Cariatide.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/compte_personnel/IMG_5984.jpeg}
+\end{center}
+
+\textbf{Lucienne, bibliothèque numérique de l’ENS:}
+\url{https://lucienne.ens.psl.eu/login?redirect_url=/s/lucienne/page/welcome}
+
+Le compte personnel de Lucienne permet à l’usager de sélectionner les documents souhaités, d’écrire des notes personnelles, exporter la sélection.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/compte_personnel/IMG_5985.jpeg}
+\end{center}
+
+\textbf{Bibliothèque numérique de Sciences Po:}
+\url{https://federation.sciences-po.fr/cas/login?service=https%3A%2F%2Fbibnum.sciencespo.fr%2Fcas%2Fvalidate}
+
+La bibliothèque numérique de Sciences Po ayant la majorité de ses documents sous droits permet à ses utilisateurs leur consultation à partir d’une authentification. Cette authentification permet à l’étudiant, le chercheur de parcourir ses documents en fonction du statut du lecteur il n’a pas les mêmes options disponibles.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/compte_personnel/IMG_5986.jpeg}
+\end{center}
+
+\subsubsection{Benchmark : la consultation des documents}
+\textbf{Cambridge digital library:}
+
+\url{https://cudl.lib.cam.ac.uk/view/PR-BASKERVILLE-BOX-00003/1}
+
+Lorsque l’on consulte la visionneuse sur la bibliothèque numérique de l’université de Cambridge, celle-ci s’ouvre par défaut sur la visionneuse Universal Viewer permettant ainsi à des usagers moins expérimenté une prise en main rapide et une consultation du document simplifié.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/consultation_documents/IMG_5987.jpeg}
+\end{center}
+
+\textbf{Cambridge Digital Library:}
+
+\url{https://cudl.lib.cam.ac.uk/mirador/PR-BASKERVILLE-BOX-00003/0}
+
+Pour les usagers plus expérimentés ou aguerris, la CUDL a mis en place une autre visionneuse accessible depuis Universal Viewer en cliquant sur l’onglet de la visionneuse mirador permettant ainsi à ceux qui le souhaitent de la choisir pour travailler.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/consultation_documents/IMG_5988.jpeg}
+\end{center}
+
+\textbf{NuBIS, bibliothèque numérique de la BIS:}
+
+\url{https://nubis.bis-sorbonne.fr/viewer?manifest=https%3A%2F%2Fnubis.bis-sorbonne.fr%2Fiiif%2F2%2F924871%2Fmanifest}
+
+La visionneuse Mirador possède divers avantages comme on peut le voir grâce aux nombreux outils de consultation des images (zoom, rotation, contraste).
+
+Le bouton  est une autre fonctionnalité de Mirador permettant la réduction ou l’agrandissement de la fenêtre. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/consultation_documents/IMG_5989.jpeg}
+\end{center}
+
+\textbf{NuBIS:}
+
+\url{https://nubis.bis-sorbonne.fr/viewer?manifest=https%3A%2F%2Fnubis.bis-sorbonne.fr%2Fiiif%2F2%2F924871%2Fmanifest}
+
+Mirador permet de choisir le mode de diffusion de l’image (simple, galerie), d’afficher les vignettes des différentes vues et de comparer des documents (cette fonctionnalité n’existe pas dans Universal Viewer).
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/consultation_documents/IMG_5990.jpeg}
+\end{center}
+
+\subsubsection{Benchmark : exploitation des documents : options de téléchargements et formats disponibles}
+
+\textbf{NuBIS, bibliothèque numérique de la BIS:}
+
+\url{https://nubis.bis-sorbonne.fr/viewer?manifest=https%3A%2F%2Fnubis.bis-sorbonne.fr%2Fiiif%2F2%2F924871%2Fmanifest}
+
+NuBIS propose plusieurs options de téléchargement d’images (JPEG), en changeant le nombre de pixels à chaque fois.
+
+\begin{center}
+	\includegraphics[width=0.4\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/telechargements_et_formats/IMG_5991.jpeg}
+\end{center}
+
+\textbf{Gallica, bibliothèque numérique de la BNF:}
+
+\url{https://gallica.bnf.fr/ark:/12148/bpt6k5473731s/f134.image.r=%22antoine%20felix%20de%20monti%22?rk=21459;2#}
+
+La BNF permet lorsque l’on consulte un document de télécharger sous différents formats (PDF, JPEG, TXT) avec la possibilité de choisir entre le document entier ou une sélection.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/telechargements_et_formats/IMG_5992.jpeg}
+\end{center}
+
+\textbf{Digital Bodleian, bibliothèque numérique d’Oxford:}
+
+\url{https://digital.bodleian.ox.ac.uk/objects/8bbd55ac-f9e2-4c02-9fcf-e36fd38a3645/} 
+
+L’université d’Oxford donne également le choix pour le télécharger de plusieurs formats (PDF, JPEG), ainsi que la description de l’objet.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/telechargements_et_formats/IMG_5993.jpeg}
+\end{center}
+
+\subsubsection{Benchmark : exploitation des documents : options de partage, d’annotation des documents}
+
+\textbf{Gallica, bibliothèque numérique de la BNF:}
+
+\url{https://gallica.bnf.fr/ark:/12148/bpt6k5473731s/f134.image.r=%22antoine%20felix%20de%20monti%22?rk=21459;2#}
+
+La BnF offre plusieurs moyens de partager son document via mail, un lien, les réseaux sociaux.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/exploitation_documents/IMG_5994.jpeg}
+\end{center}
+
+\textbf{Lucienne, bibliothèque numérique de l’ENS:}
+
+\url{https://lucienne.ens.psl.eu/s/lucienne/item/62457}
+
+Lucienne permet la diffusion de ces documents libre de droit sur les réseaux sociaux (facebook, linkedin, whatsapp) ou par mail.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/exploitation_documents/IMG_5995.jpeg}
+\end{center}
+
+\textbf{Cariatide, bibliothèque numérique de l’INHA:}
+
+\url{https://bibliotheque-numerique.inha.fr/collection/item/59620-gazette-de-l-hotel-drouot-33-1913?offset=1}
+
+Cariatide offre aussi la possibilité de partager ses documents par mail et par réseaux sociaux (facebook ou whatsapp).
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/exploitation_documents/IMG_5996.jpeg}
+\end{center}
+
+\subsubsection{Benchmark : OCR, transcription}
+
+\textbf{Cambridge Digital Library:}
+
+\url{https://cudl.lib.cam.ac.uk/view/PR-07000-E-00374/10}
+
+La CUDL offre la possibilité en fonction des documents d’avoir accès la transcription ou à la traduction du texte présent à l’image dans la visionneuse.
+
+\begin{center}
+	\includegraphics[width=0.6\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/OCR_transcriptions/IMG_5997.jpeg}
+\end{center}
+
+\textbf{Gallica, bibliothèque numérique de la BNF:}
+
+\url{https://gallica.bnf.fr/ark:/12148/bpt6k5473731s/f134.image.r=%22antoine%20felix%20de%20monti%22?rk=21459;2#}
+
+La BnF permet à ses utilisateurs de faire une recherche OCR dans les documents qu’elle consulte afin de ne pas entrainer d’abus, elle a fixé un certain nombre de requête disponible, une fois le délai épuisé, l’utilisateur ne peut plus faire de recherche à l’intérieur devant attendre que le crédit se régénère. Cela n’a pas lieu quand on possède un compte personnel sur Gallica. Elle affiche également le nombre de résultats obtenus lorsque l’on a fait la recherche par mots dans tout le document.
+
+\begin{center}
+	\includegraphics[width=0.6\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/OCR_transcriptions/IMG_5998.jpeg}
+\end{center}
+
+\subsubsection{Benchmark : Droits d’accès et de réutilisation}
+
+\textbf{Bibliothèque numérique de Sciences Po:}
+
+\url{https://bibnum.sciencespo.fr/s/catalogue/access-request}
+
+Pour les documents sous droits, comme l’université Sciences Po l’inscrit dans son document de droit d’accès des documents, les personnes extérieures à l’université doivent demander via ce formulaire l’autorisation de consulter un document de leur bibliothèque en indiquant le but dans lequel la recherche est effectuée.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/droit_acces/IMG_5999.jpeg}
+\end{center}
+
+\subsubsection{Proposition pour la bibliothèque numérique de Cujas}
+\begin{itemize}
+	\item \uline{Compte personnel:}
+Il doit avoir deux modes de connexions: 
+\begin{itemize}
+	\item Une connexion utilisant l’identifiant et le mot de passe des lecteurs inscrits à Cujas
+\item Une connexion via la création d’un compte lecteur pour les personnes non inscrites.
+\end{itemize} 
+Il doit être accessible depuis le menu de navigation sur la page d’accueil.
+Il doit permettre aux lecteurs de mettre en favoris leurs documents, créer leurs propres collections, enregistrer des requêtes, configurer des notifications par mail, trier et partager les documents.
+\item Consultation des documents: installer la visionneuse Mirador avec les fonctionnalités de comparaison des documents, de zoom, de rotation de l’image, de capture de  tout ou partie d’une image. 
+\item Exploitation des documents : 
+\begin{itemize}
+	\item Proposer plusieurs formats de téléchargement (PDF, JPEG, TXT)
+\item Permettre le téléchargement sélectif (une partie ou la totalité du document)
+\item Ajouter sur la notice du document les options de partage des documents (facebook, whatsapp, email…).
+\end{itemize}
+Avec la visionneuse Mirador, il doit être possible de faire une recherche plein-texte à l’intérieur du document et de permettre aux personnes d’écrire des annotations.
+\item Pour les documents sous droits, il faut créer un formulaire pour les personnes extérieures à l’université pouvant contenir les champs suivants : nom, mail, urls des documents demandés, niveau d’études, motifs de la demande.
+\end{itemize}
+
+\subsubsection{Eléments techniques}
+\paragraph*{Module IIIF Server} 
+\addcontentsline{toc}{paragraph}{Module IIIF Server}
+
+Lien vers la documentation: \url{https://omeka.org/s/modules/IiifServer/}
+
+Module permettant d’intégrer les spécifications IIIF pour permettre de traiter et de partager instantanément des images de toute taille et de tout média (pdf, audio, vidéo, 3D…) dans les formats souhaités. Il peut utiliser n’importe quel serveur d’image pour les afficher comme le module Image Server, Cantaloupe ou IIP Image. 
+
+\paragraph*{Module Metadata browse}
+
+Lien vers la documentation : \url{https://omeka.org/s/docs/user-manual/modules/metadatabrowse/}
+
+Ce module permet de relier dynamiquement les documents entre eux de manière interne grâce à des critères communs (auteur, sujet, date).
+Il permet de parcourir toutes les ressources qui partagent une valeur pour une propriété de métadonnées particulière. Il le fait en transformant les propriétés sélectionnées en un lien, ou en ajoutant un lien ci-dessous des prorpiétés qui se lit \enquote{voir tous les éléments avec cette valeur}.
+
+\subsubsection{Réponse aux besoins identifiés par les personae}
+
+Afin de valider la pertinence des choix fonctionnels proposés pour le compte personnel, la consultation et l’exploitation des documents, la synthèse ci-dessous illustre comment chaque fonctionnalité répond aux besoins prioritaires des personae :
+\begin{itemize}
+	\item \textbf{Besoin n°1 : Sauvegarder les requêtes et enregistrer les documents}
+\begin{itemize}
+	\item \uline{Personae concernés :} chercheur expert en histoire du droit, doctorante, étudiant et bibliothécaire.
+\item \uline{Réponse :} Création d’un compte personnel pour le lecteur permettant de sauvegarder les requêtes, mettre en favoris les documents, paramétrer les notifications par mail, constituer ses collections, trier et partager les documents.
+\end{itemize}
+\item \textbf{Besoin n°2 : Comparer des documents, sélectionner une partie du texte}
+\begin{itemize}
+	\item \uline{Personae concernés :} chercheur expert en histoire du droit, doctorante, étudiant, bibliothécaire et l’amatrice éclairée.
+\item \uline{Réponse :} Mise en place de la visionneuse Mirador permettant de comparer, d’annoter, de zoomer, d’obtenir le manifeste IIIF. Toutefois, la visionneuse ne permet pas d’ajouter toute l’arborescence de la table des matières des documents.
+\end{itemize}
+\item \textbf{Besoin n°3 : Télécharger une partie ou l’intégralité du document et recherché à l’intérieur}
+\begin{itemize}
+	\item \uline{Personae concernés :} chercheur expert en histoire du droit, doctorante, étudiant, bibliothécaire et responsable de la bibliothèque.
+\item \uline{Réponse :} Mise à disposition de choisir entre télécharger uniquement la page en cours de consultation, ou tout le document sous différents formats (JPEG, PDF, TXT). Possible de faire une recherche par occurrence dans le document à partir de la visionneuse.
+\end{itemize}
+\item \textbf{Besoin n°4 : Accès aux documents sous droits}
+\begin{itemize}
+	\item \uline{Persona concerné :} Responsable de la bibliothèque numérique et bibliothécaire.
+\item \uline{Réponse :} Création d’un formulaire pour les personnes extérieures à l’université devant justifier le motif de la consultation pour cet ouvrage et mettre en place des droits différenciés pour les personnes de l’université pour ce type de consultation.
+\end{itemize}
+\end{itemize}
+
+\subsection{Valorisation, information et accompagnement des usagers}
+\subsubsection{Les besoins identifiés}
+\begin{itemize}
+	\item Informations institutionnelles
+\begin{itemize}
+	\item Contact
+\item Mentions légales
+\item Politique de confidentialité (RGPD)
+\item Conditions d’utilisation
+\item Informations sur l’accessibilité (norme WCAG)
+\end{itemize}
+\item Accompagnement des usagers
+\begin{itemize}
+	\item FAQ
+\item Tutoriels et guides de recherche
+\end{itemize}
+\item Valorisation 
+\begin{itemize}
+	\item Présentation des collections et des fonds
+\item Exposition virtuelle
+\item Articles 
+\item Editions numériques (édition critique, transcription, annotation)
+\item Galerie de personnalités 
+\item Billets de blog 
+\item Actualités
+\end{itemize}
+\end{itemize}
+
+\subsubsection{Benchmark : Informations institutionnelles}
+
+\paragraph*{Page « A propos »}
+\addcontentsline{toc}{paragraph}{Page « A propos »}
+Il s’agit généralement d’une présentation de la bibliothèque numérique, ses collections, ses acteurs. Des éléments concernant les conditions d’utilisation des documents et des éléments techniques peuvent y être joints. 
+
+\textbf{Gallica, bibliothèque numérique de la BNF:}
+\url{https://gallica.bnf.fr/accueil/fr/html/a-propos}
+
+Dans la page « A propos » de Gallica sont exposés : 
+\begin{itemize}
+	\item L’histoire de la bibliothèque numérique
+\item Une explication pour la distinguer de Gallica Intra muros (Gallica Intra-muros propose en consultation les documents « sous droits », à l’intérieur des murs de la BnF)
+\item Une courte description des conditions d’utilisation et de reproduction des documents.
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/a_propos/IMG_6001.jpeg}
+\end{center}
+
+\textbf{Cambridge digital library:}
+\url{https://cudl.lib.cam.ac.uk/about/}
+
+L’ensemble des informations importantes sont rassemblées en un seul endroit et structurées en plusieurs parties : une introduction de la CUDL, l’actualité, la communauté, les contributeurs ainsi que les termes et conditions d’usages. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/a_propos/IMG_6002.jpeg}
+\end{center}
+
+\textbf{Digital Bodleian, bibliothèque numérique d’Oxford:}
+\url{https://digital.bodleian.ox.ac.uk/about/}
+
+Sur cette page l’université d’Oxford présente : 
+\begin{itemize}
+	\item La nouvelle bibliothèque numérique et les collections que l’on va pouvoir y trouver 
+\item Les services qu’elle a mis en place 
+\item Des éléments de contact
+\item Une brève présentation de l’équipe en charge de la bibliothèque numérique
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/a_propos/IMG_6003.jpeg}
+\end{center}
+
+\textbf{Cariatide, bibliothèque numérique de l’INHA:}
+\url{https://bibliotheque-numerique.inha.fr/}
+
+La page d’accueil propose une courte présentation de la bibliothèque numérique et des fonds numérisés. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/a_propos/IMG_6004.jpeg}
+\end{center}
+
+\textbf{Genovefa, Bibliothèque Sainte Geneviève:}
+\url{https://genovefa.bsg.univ-paris3.fr/s/genovefa/page/accueil}  
+
+La BSG présente sur sa page d’accueil brièvement les types de documents que les personnes vont trouver sur la bibliothèque numérique, les missions qui l’animent ainsi que la façon dont les fonds peuvent être explorés.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/a_propos/IMG_6005.jpeg}
+\end{center}
+
+\textbf{NuBIS, bibliothèque numérique de la BIS:}
+\url{https://nubis.bis-sorbonne.fr/a-propos/}
+
+La BIS a fait le choix de centraliser les éléments présentant NuBIS dans la page « A propos » : 
+\begin{itemize}
+	\item Les corpus numérisés
+\item Les aspects techniques concernant quatre points (la numérisation, l’OCR, les outils de diffusion et les métadonnées)
+\item L’équipe de la BIS en charge du maintien et de l’alimentation de NuBIS
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/a_propos/IMG_6006.jpeg}
+\end{center}
+
+\paragraph*{Mentions légales} 
+
+Les mentions légales, par définition obligatoires, comprennent la dénomination sociale et ses coordonnées, les mentions relatives à la propriété intellectuelle, les mentions relatives à l’hébergement du site, le nom du directeur de publication. Les bibliothèques numériques présentent ces informations sous forme plus ou moins développée, parfois jointes avec les informations relatives au RGPD et aux cookies. 
+
+\textbf{Bibliothèque numérique de Sciences Po:}
+\url{https://bibnum.sciencespo.fr/s/catalogue/page/mentions-legales}
+
+La bibliothèque de Sciences Po propose sur la même page : 
+\begin{itemize}
+	\item Le propriétaire de la bibliothèque et son hébergeur2
+\item Des éléments de responsabilité
+\item Des éléments concernant la gestion des données personnelles
+\item Des liens hypertextes pour aller vers d’autres sites web.
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/mentions_legales/IMG_6007.jpeg}
+\end{center}
+
+\textbf{Gallica, bibliothèque numérique de la BNF:}
+\url{https://gallica.bnf.fr/accueil/fr/html/mentions-legales}
+
+La BnF fait une brève présentation des mentions légales allant à l’essentiel en mentionnant l’éditeur du site et le directeur de publication.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/mentions_legales/IMG_6008.jpeg}
+\end{center}
+
+\textbf{Cariatide, bibliothèque numérique de l’INHA:}
+\url{https://bibliotheque-numerique.inha.fr/mentions-legales}
+
+L’INHA présente : 
+\begin{itemize}
+	\item Le directeur de la publication
+\item L’éditeur
+\item Les responsables de la conception et de la réalisation
+\item L’hébergeur
+\end{itemize}
+Elle donne enfin des éléments de responsabilité des contenus, signale les liens sortant et donne des éléments de propriété intellectuelle. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/mentions_legales/IMG_6009.jpeg}
+\end{center}
+
+\textbf{NuBIS, bibliothèque numérique de la BIS:}
+\url{https://nubis.bis-sorbonne.fr/mentions-legales/}
+
+La BIS renseigne au même endroit les informations obligatoires demandées par le gouvernement et des éléments concernant le traitement des données personnelles (non collecte, usage de traceurs et de cookies de mesure d’audience anonymisés).
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/mentions_legales/IMG_6010.jpeg}
+\end{center}
+
+\textbf{Lucienne, bibliothèque numérique de l’ENS:}
+\url{https://lucienne.ens.psl.eu/s/lucienne/page/mentions-legales}
+
+L’ENS a fait le choix de rassembler sur une même page les mentions légales, les crédits ainsi que les conditions d’utilisation du site et de reproduction des images.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/mentions_legales/IMG_6011.jpeg}
+\end{center}
+
+\paragraph*{Politique de confidentialité (RGPD)}
+
+Cette mention obligatoire est généralement accessible depuis le pied de page. Elles sont parfois jointes aux mentions légales. 
+
+\textbf{Digital Bodleian, bibliothèque numérique d’Oxford:}
+\url{https://glam.web.ox.ac.uk/privacy-policy-digital-bodleian-website}
+
+Un lien en pied de page renvoie à une page du site web de l’université concernant la bibliothèque numérique, mentionnant des éléments sur les utilisateurs des données personnelles assortis d’une définition précise de celles-ci, le type de données collectées et l’usage qui en est fait, leur lieu de stockage, leur durée de conservation, les droits des utilisateurs et des éléments concernant les cookies.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/RGPD/IMG_6012.jpeg}
+\end{center}
+
+\textbf{Polona, bibliothèque numérique de la bibliothèque nationale de Pologne:} \url{https://polona.pl/static/polona/da364945-2bd1-4f6f-bb56-23846128b0dc}
+
+Un lien en pied de page du site donne des explications sur la gestion des données personnelles (sécurité, mécanisme des cookies, collecte, usage).
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/RGPD/IMG_6013.jpeg}
+\end{center}
+
+\textbf{Lucienne, bibliothèque numérique de l’ENS:}
+\url{https://lucienne.ens.psl.eu/s/lucienne/page/politique-de-confidentialite}
+
+Un lien en pied de page mène à une page « Politique de confidentialité » divisée en quatre grandes thématiques : généralités applicables aux traitements mis en œuvre, informations tenant à la collecte et au traitement sur le site internet des bibliothèques de l’ENS-PSL, du catalogue et de la bibliothèque numérique et pour finir la gestion des cookies et traceurs, assorti d’un contact pour joindre la déléguée à la protection des données personnelles.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/RGPD/IMG_6014.jpeg}
+\end{center}
+
+\paragraph*{Conditions d’utilisation}
+
+Les conditions d’utilisation des documents numérisés sont toujours abordées de façon précise dans les bibliothèques numériques analysées. Des licences Etalab ou Creative Commons peuvent être appliquées aux documents. Ces informations sont parfois complétées de liens vers une documentation complémentaire. Des outils de réutilisation et de partage peuvent être mentionnés. Les conditions d’utilisation peuvent enfin être présentées avec la politique de confidentialité (RGPD). 
+
+\textbf{Digital Bodleian, bibliothèque numérique d’Oxford:}
+\url{https://digital.bodleian.ox.ac.uk/terms/}
+
+Les conditions d’utilisation sont abordées à travers une table des matières cliquable qui décrit les conditions d’utilisation, les usages autorisés et interdits, la stabilité des accès aux informations, l’application du droit d’auteur, la responsabilité de l’institution. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/conditions_utilisation/IMG_6015.jpeg}
+\end{center}
+
+\textbf{Polona, bibliothèque numérique de la bibliothèque nationale de Pologne:}
+\url{https://polona.pl/static/polona/polona-regulamin}
+
+La bibliothèque nationale de Pologne propose un règlement très précis concernant l’usage de la bibliothèque numérique. Le site précise la procédure d’utilisation de la bibliothèque, ce que les usagers ont le droit de faire, mais aussi des mesures que le personnel de la BCP a le droit de prendre en fonction de situation prédéfinies dans le règlement.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/conditions_utilisation/IMG_6016.jpeg}
+\end{center}
+
+\textbf{Gallica, bibliothèque numérique de la BNF:}
+\url{https://gallica.bnf.fr/accueil/fr/html/conditions-dutilisation-de-gallica}
+
+La BNF propose une page accessible depuis le pied de page de Gallica. Celle-ci les conditions et les modalités d’utilisation du site, les conditions d’accès au site ainsi que l’engagement et les responsabilités de l’internaute. La BNF explique brièvement les raisons qui font qu’elle collecte les données personnelles des usagers.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/conditions_utilisation/IMG_6017.jpeg}
+\end{center}
+
+\textbf{Cariatide, bibliothèque numérique de l’INHA:}
+\url{https://bibliotheque-numerique.inha.fr/conditions-utilisation}
+
+L’INHA explique que tous ses documents numérisés se trouvent sous la licence Ouverte / Open Licence, Etalab. Elle présente brièvement les outils mis à disposition pour réutiliser les notices, les partager, ainsi que les outils mis à disposition dans la visionneuse.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/conditions_utilisation/IMG_6018.jpeg}
+\end{center}
+
+\textbf{NuBIS, bibliothèque numérique de la BIS:}
+\url{https://nubis.bis-sorbonne.fr/conditions-d-utilisation/}
+
+La BIS distingue clairement les droits pour les documents librement réutilisables et les droits pour les documents sous droits. Elle indique que les documents publics se trouvent sous la licence Etalab, et que les documents sous droits se trouvent sous la licence Creative Commons CC BY-NC-ND version 4.0 (droit à la diffusion, mais pas d’utilisation commerciale). Elle donne également accès à des ressources complémentaires afin de compléter l’information des usagers sur la réutilisation des images (Guide de l’INHA). 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/conditions_utilisation/IMG_6019.jpeg}
+\end{center}
+
+\paragraph*{Accessibilité (norme WCAG)}
+
+Les bibliothèques numériques proposent généralement une Déclaration d’accessibilité en pied de page qui explicitent clairement l’état d’accessibilité des sites, souvent partiel. De rares bibliothèques numériques proposent la possibilité de paramétrer l’affichage à des fins d’accessibilité. 
+
+\textbf{Digital Bodleian, bibliothèque numérique d’Oxford:}
+\url{https://visit.bodleian.ox.ac.uk/website-accessibility}
+
+La Digital Bodleian Library propose depuis le pied de page un lien vers une déclaration d’accessibilité. Elle y signale un site partiellement accessible et en explique les raisons. L’université explique comment elle teste l’accessibilité de ses sites Web et reste à attentive aux retours des usagers qui leur signalent des problèmes.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/WCAG/IMG_6020.jpeg}
+\end{center}
+
+\textbf{Cariatide, bibliothèque numérique de l’INHA:}
+\url{https://bibliotheque-numerique.inha.fr/accessibilite}
+
+La déclaration d’accessibilité est accessible depuis le pied de page. Elle évoque de façon transparente l’état de conformité du site, les résultats des tests menés et liste les contenus non accessibles. Une particularité propre à l’INHA extrêmement utile est de mettre à disposition sur toutes ses pages des options d’accessibilité (police dyslexie, contrastes renforcés, augmenter le texte) permettant à l’utilisateur de cocher celle dont il a besoin.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/WCAG/IMG_6021.jpeg}
+\end{center}
+
+\textbf{Lucienne, bibliothèque numérique de l’ENS:}
+\url{https://lucienne.ens.psl.eu/s/lucienne/page/accessibilite}
+
+L’ENS propose depuis le pied e page une déclaration d’accessibilité transparent. Elle y indique pourquoi le site est partiellement conforme. Un audit a été réalisé par l’entreprise de studio web indépendant Kaeness, qui liste précisément toutes les pages ayant fait l’objet de la vérification de conformité. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/WCAG/IMG_6022.jpeg}
+\end{center}
+
+\paragraph*{Contact}
+
+Généralement accessible depuis le pied de page, parfois en rubrique d’aide, le contact peut prendre la forme d’un mail cliquable ou d’un formulaire de contact. D’autres adresses peuvent être proposées afin d’orienter correctement les différentes demandes. 
+
+\textbf{Gallica, bibliothèque numérique de la BNF:}
+\url{https://gallica.bnf.fr/accueil/fr/html/contact}
+
+En pied de page (footer), Gallica a mis un lien vers la page contact où elle donne l’adresse à laquelle les utilisateurs peuvent contacter la bibliothèque concernant une demande, signaler un problème, faire part d’une suggestion. Un lien vers un service de réponse à des questions bibliographiques est proposé depuis le même endroit invitant les lecteurs à orienter correctement leurs messages. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/contact/IMG_6023.jpeg}
+\end{center}
+
+\textbf{Cariatide, bibliothèque numérique de l’INHA:}
+\url{https://bibliotheque-numerique.inha.fr/contact}
+
+Un formulaire de contact est accessible depuis le pied de page ou depuis l’onglet à propos. Il concerne uniquement les demandes à propos de la bibliothèque numérique ou des fonds numérisés. Pour toutes autres renseignements ou demandes concernant la réutilisation des images, Cariatide a transmis deux adresses mails séparés pour répondre à chaque cas.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/contact/IMG_6024.jpeg}
+\end{center}
+
+\textbf{NuBIS, bibliothèque numérique de la BIS:}
+\url{https://nubis.bis-sorbonne.fr/aide/}
+
+Une adresse mail est indiquée sur la page d’aide de NuBIS (accessible également depuis le pied de page) afin d’envoyer des remarques, questions, ou demandes. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/contact/IMG_6025.jpeg}
+\end{center}
+
+\textbf{Lucienne, bibliothèque numérique de l’ENS:}
+\url{https://lucienne.ens.psl.eu/s/lucienne/page/contact}
+
+Le lien de contact se trouve uniquement en pied de page et renvoie à un formulaire. Aucune adresse mail n’est indiquée. L’utilisateur doit obligatoirement cocher une case afin d’autoriser la bibliothèque à enregistrer le mail pour répondre au message. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/contact/IMG_6026.jpeg}
+\end{center}
+
+\subsubsection{Benchmark : Accompagnement des usagers}
+\paragraph*{Tutoriels et guides de recherche}
+
+Certaines bibliothèques numériques mettent à disposition des explications détaillées pour apprendre à chercher, consulter et exploiter les documents. Certaines proposent des modules d’aide technique en particulier concernant les API afin de mieux disséminer leurs données. 
+
+\textbf{Polona, bibliothèque numérique de la bibliothèque nationale de Pologne:}
+\url{https://polona.pl/static/POLONA/instrukcja-polona/konto-uzytkownika}
+
+Un manuel d’utilisation est proposé aux utilisateurs souhaitant utiliser les collections numérisées par la BCP. Il est structuré en quatre thématiques (compte utilisateur, navigation sur le site, recherche, contact). 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/tutoriels/IMG_6027.jpeg}
+\end{center}
+
+\textbf{Gallica, bibliothèque numérique de la BNF:}
+\url{https://gallica.bnf.fr/accueil/fr/html/aide-a-la-recherche}
+
+Sa page d’aide à la recherche est une mine d’information permettant à l’usager de prendre en main Gallica. La BNF a fait le choix de varier les formes de contenus sur cette page et propose de courtes vidéos youtube sous la forme de sketchnote afin de présenter de façon ludique les tutoriels d’aide à la recherche. Des explications sont proposées à propos de la recherche de documents, de l’OCR et du mode texte, des formats de téléchargement et du partage des documents. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/tutoriels/IMG_6028.jpeg}
+\end{center}
+
+\textbf{Digital Bodleian, bibliothèque numérique d’Oxford:}
+\url{https://digital.bodleian.ox.ac.uk/help/}
+
+L’université d’Oxford a créé un guide d’utilisation de la Digital Bodleian expliquant thématiques par thématiques comment prendre en main la bibliothèque. Par exemple, elle explique le fonctionnement de son outil de recherche (simple, avancée, facettes).
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/tutoriels/IMG_6029.jpeg}
+\end{center}
+
+\textbf{Documentation à propos des API:}
+Digital Bodleian Library : \url{https://digital.bodleian.ox.ac.uk/developer/}
+
+Dans son menu de navigation, elle propose également une documentation sur les API que la bibliothèque numérique utilise, en particulier l’API IIIF Documentation et l’API Documentation (Digitial Bodleian Search and Data).
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/tutoriels/IMG_6030.jpeg}
+\end{center}
+
+\textbf{Cariatide, bibliothèque numérique de l’INHA:}
+\url{https://bibliotheque-numerique.inha.fr/aide}
+
+Sa page d’aide est accessible à partir de la rubrique « A propos ». Sur cette page, l’INHA explique comment découvrir ses collections, faire une recherche (simple, avancée), consulter un document. Elle détaille les outils présents dans la visionneuse.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/tutoriels/IMG_6031.jpeg}
+\end{center}
+
+\paragraph*{Les FAQ}
+
+\textbf{Cambridge Digital Library:}
+\url{https://cudl.lib.cam.ac.uk/help/#}
+
+L’université de Cambridge a choisi de présenter l’aide à la prise en main de la bibliothèque sous la forme d’une foire aux questions (FAQ). C’est simple et rapide et permet de trouver directement l’information recherchée si la question a été traitée.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/FAQ/IMG_6032.jpeg}
+\end{center}
+
+\textbf{Digital Bodleian, bibliothèque numérique d’Oxford:}
+\url{https://digital.bodleian.ox.ac.uk/faq/#}
+
+La FAQ centralise les réponses aux questions fréquemment posées concernant la bibliothèque numérique. Les questions les plus courantes sont traitées et les réponses immédiatement accessibles aux lecteurs. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/FAQ/IMG_6033.jpeg}
+\end{center}
+
+\textbf{NuBIS, bibliothèque numérique de la BIS:}
+\url{https://nubis.bis-sorbonne.fr/aide/}
+
+NuBIS a fait le choix de présenter sa FAQ sous la forme originale d’un menu déroulant : L’utilisateur ne déploie que la réponse de la question qui l’intéresse. La liste s’en trouve condensée et la recherche de la question souhaitée plus rapide. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/FAQ/IMG_6034.jpeg}
+\end{center}
+
+\subsubsection{Benchmark : Valorisation} 
+La valorisation des collections numérisées prend de multiple formes en fonction des types de documents mis en ligne et de l’ampleur de la collection numérique. 
+Les documents sont généralement organisés en collections. Ces collections peuvent être des regroupements thématiques, des regroupements de documents autour d’une personnalité, ou des fonds documentaires présents dans les collections physiques. La distinction entre regroupement de documents et fonds documentaires n’est pas toujours inscrite dans la structure de la bibliothèque numérique et ces éléments sont souvent mêlés. 
+L’éditorialisation de ces collections peut prendre plusieurs formes : description, historique, sélection, article, exposition virtuelle, galeries de personnalités, fiches biographiques… Certaines bibliothèques numériques présentent des projets d’édition numérique réalisées avec leurs collections. 
+Des actualités ou des billets de blogs permettent de tenir informés les lecteurs des nouveaux développements. 
+
+\paragraph*{Présentation et éditorialisation des collections et des fonds}
+
+\textbf{NuBIS, bibliothèque numérique de la BIS:}
+Exemple : collection Histoire de la BIS : \url{https://nubis.bis-sorbonne.fr/collections/10366}
+
+Une courte description de la collection indique au lecteur son contenu et le contexte de création de celle-ci. On distingue clairement les quatre sous-collection qui la structurent, chacune accompagnée d’une description qui lui est propre. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/presentation_editorialisation/IMG_6035.jpeg}
+\end{center}
+
+\paragraph*{Contenu de la description :}
+
+\textbf{Cambridge Digital Library:}
+\url{https://cudl.lib.cam.ac.uk/collections/batesonarchive/1}
+
+L’université de Cambridge a fait le choix d’éditorialiser la présentation de ses collections. La structure de la collection est présentée dans le texte de présentation. Les collections peuvent contenir des documents numérisés d’une personne ou sur une thématique. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/presentation_editorialisation/IMG_6036.jpeg}
+\end{center}
+
+\textbf{Digital Bodleian, bibliothèque numérique d’Oxford:}
+\url{https://digital.bodleian.ox.ac.uk/collections/incunabula/}
+
+Pour chacune de ses collections, l’université d’Oxford présente brièvement chaque collection et quels types d’ouvrages elle regroupe. Elle précise parfois comment les documents ont été acquis, comme pour ceux qui constituent sa collection d’incunables.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/presentation_editorialisation/IMG_6037.jpeg}
+\end{center}
+
+\textbf{Genovefa, Bibliothèque Sainte Geneviève:}
+\url{https://genovefa.bsg.univ-paris3.fr/s/genovefa/page/cartes_et_plans}
+
+La BSG présentent chacune de ses collections en indiquant la provenance des documents qui la composent et des informations sur la publication. S’il s’agit d’un fonds personnel, la personne ayant possédé le fonds est brièvement présentée. Des liens vers d’autres fonds ou documents peuvent être tissés depuis la présentation, comme c’est le cas depuis la présentation du fonds de cartes et plans (Fonds Dezos de La Roquette, Baltique, Islande).
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/presentation_editorialisation/IMG_6038.jpeg}
+\end{center}
+
+\paragraph*{Organisation en focus thématiques} 
+
+\textbf{Cariatide, bibliothèque numérique de l’INHA:}
+\url{https://bibliotheque-numerique.inha.fr/focus-thematiques} 
+
+Cariatide propose une page de focus thématiques divisée en quatre blocs successifs : les dernières parutions, les histoires de collection, puis les articles et pour finir tous les focus thématiques, dans lesquels on peut lancer une recherche et que l’on peut filtrer.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/organisation_focus_thematiques/IMG_6040.jpeg}
+\end{center}
+
+Les focus thématiques contiennent \uline{quatre types de valorisations:} des historiques de collection, des articles, des sélections et des expositions virtuelles. Les contenus sont clairement identifiés, on sait donc à quelle catégorie appartient l’élément consulté. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/organisation_focus_thematiques/IMG_6041.jpeg}
+\end{center}
+
+\paragraph*{Les fonds documentaires constitués}
+
+
+\textbf{Genovefa, Bibliothèque Sainte Geneviève:}
+\url{https://genovefa.bsg.univ-paris3.fr/s/genovefa/page/fonds-prozor}
+
+Genovefa éditorialise ses fonds documentaires numérisés comme on peut le constater avec le fonds Prozor. Elle indique comment la bibliothèque a pu acquérir le fonds et le nombre de documents numérisés et mis en ligne. Elle en décrit le contenu et les spécificités, afin que les lecteurs puissent en évaluer rapidement l’intérêt pour leurs recherches. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/fonds/IMG_6042.jpeg}
+\end{center}
+
+\paragraph*{Les fiches biographiques et galeries de personnalités} 
+
+\textbf{Lucienne, bibliothèque numérique de l’ENS:}
+\url{https://lucienne.ens.psl.eu/s/lucienne/item/264210}
+
+L’ENS a créé des fiches biographiques d’auteur dans sa bibliothèque numérique à l’intérieur de laquelle elle recense tous les documents issus de cet auteur. Cela permet une autre forme de navigation à l’intérieur du contenu numérisé dans la bibliothèque numérique.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/fiches_biographiques_et_galerie_personnalites/IMG_6043.jpeg}
+\end{center}
+
+L’ENS a aussi mis en avant une autre forme de valorisation de ses collections à travers les parcours des normalien.ne.s. Ces parcours exposent le travail de ces personnes au sein de l’institution, comme ce fut le cas pour le bibliothécaire Pierre Petitmengin.
+Lucienne : https://lucienne.ens.psl.eu/s/lucienne/page/parcours-normaliens
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/fiches_biographiques_et_galerie_personnalites/IMG_6044.jpeg}
+\end{center}
+
+\paragraph*{Les Expositions virtuelles :}
+
+\textbf{NuBIS, bibliothèque numérique de la BIS:}
+\url{https://nubis.bis-sorbonne.fr/expositions/}
+
+Les responsables de NuBIS proposent aux agents qui le souhaitent de participer à la valorisation des collections numérisées. Cela permet de créer une communauté autour de la bibliothèque numérique participant ainsi à sa visibilité. Pour ce faire, deux guides pour la rédaction des billets de blog3 et des expositions virtuelles sont mis à disposition sur le site de NuBis. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/expositions_virtuelles/IMG_6045.jpeg}
+\end{center}
+
+\textbf{Lucienne, bibliothèque numérique de l’ENS:}
+L’ENS a créé des expositions virtuelles afin de valoriser ses collections patrimoniales et de diffuser le savoir à un large public.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/expositions_virtuelles/IMG_6046.jpeg}
+\end{center}
+
+\textbf{Genovefa, Bibliothèque Sainte Geneviève:}
+\url{https://genovefa.bsg.univ-paris3.fr/s/genovefa/page/selections_thematiques}
+
+Genovefa met en valeur ses collections à travers des expositions virtuelles accessibles depuis la rubrique sélection thématique. Il s’agit généralement d’une façon de prolonger en ligne une exposition ayant eu lieu à la bibliothèque. Cela permet de rattacher les documents à un contexte ou une thématique scientifique et d’attirer un plus large public.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/expositions_virtuelles/IMG_6047.jpeg}
+\end{center}
+
+\paragraph*{Présentation d’éditions numériques}
+
+\textbf{Genovefa:} \url{https://genovefa.bsg.univ-paris3.fr/s/genovefa/page/editions_numeriques}
+
+La BSG a comme particularité de mettre en avant les projets en Humanités numériques qui ont été menés avec les collections numérisées de l’établissement. Les projets sont présentés sous la responsabilité de l’enseignant qui en a la charge. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/editions_numeriques/IMG_6048.jpeg}
+\end{center}
+
+\paragraph*{Billets de blog, actualités, lettres d’information}
+
+\textbf{NuBIS, bibliothèque numérique de la BIS:}
+\url{https://nubis.bis-sorbonne.fr/blog/}
+
+La BIS valorise ses collections numérisées en publiant des billets de blogs à propos des documents récemment mis en ligne et de leurs auteurs. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/blog_actualites_lettres/IMG_6049.jpeg}
+\end{center}
+
+\textbf{Gallica, bibliothèque numérique de la BNF:}
+\url{https://gallica.bnf.fr/accueil/fr/html/le-blog-gallica}
+
+Gallica a mis en place différentes formes de valorisation sur son site. Le blog de Gallica relaie cette valorisation d’une autre manière, en proposant des billets qui évoquent les collections numérisées, et leur organisation en parcours thématiques. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/blog_actualites_lettres/IMG_6050.jpeg}
+\end{center}
+
+\textbf{Gallica:} \url{https://gallica.bnf.fr/accueil/fr/html/accueil-fr}
+
+Gallica propose également une lettre d’actualité mensuelle à laquelle les usagers peuvent s’inscrire gratuitement. Cette lettre a pour objectif de fidéliser la communauté des lecteurs. Elle décrit tous les mois l’actualité de Gallica afin de permettre aux usagers de savoir quels documents ont été mis en ligne.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/blog_actualites_lettres/IMG_6051.jpeg}
+\end{center}
+
+\textbf{Bibliothèque numérique de Sciences Po:}
+\url{https://bibnum.sciencespo.fr/s/catalogue/page/accueil}
+
+La bibliothèque numérique de Sciences Po met en avant son actualité en page d’accueil dans un format court et précis.
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/blog_actualites_lettres/IMG_6052.jpeg}
+\end{center}
+
+\textbf{Polona, bibliothèque numérique de la bibliothèque nationale de Pologne:}
+\url{https://polona.pl/pdn/blog-entries?page=0&size=24&sort=NEWEST_PUBLICATION_DATE}
+
+Polona présente ses actualités sous la forme de billets de blog destinés à sa communauté scientifique ou à un large public. Un filtrage est possible par thématique. 
+
+\begin{center}
+	\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/blog_actualites_lettres/IMG_6053.jpeg}
+\end{center}
+
+\subsubsection{Proposition pour la bibliothèque numérique de Cujas}
+\begin{itemize}
+	\item La bibliothèque numérique doit contenir une page à propos, une page sur les mentions légales, une page sur la politique de confidentialité (RGPD), une page sur les conditions d’utilisation, une page sur l’accessibilité et une adresse mail de contact.
+\item L’accompagnement des usagers peut s’appuyer sur une foire aux questions (FAQ). Ce format, très familier pour la majorité des utilisateurs, offre des réponses simples et rapides sans alourdir la navigation dans la bibliothèque numérique. 
+\item Une organisation en collections et sous-collections à trois niveaux doit être mise en place (nécessaire pour le corpus Pfister-Roumy). 
+\item Des pages d’éditorialisation doivent pouvoir être ouvertes pour présenter les collections et les sous-collections, présenter les documents qui y figurent et justifier la démarche intellectuelle qui a abouti à leur création. Les textes de présentations doivent être visibles sur la page dès que l’on consulte la collection. Elles doivent comporter des images pour illustrer le type de documents que l’on va trouver.
+\item Il doit être possible d’implémenter une page d’éditorialisation pour un document spécifique, depuis la page de présentation du document. 
+\item L’éditorialisation des fonds peut prendre différentes formes : billets de blog écrits par des chercheurs ou des étudiants encadrés par un directeur, galerie des professeurs de Faculté de droit de Paris, expositions virtuelles ou parcours guidés. Des liens vers les expositions et plateformes créés et gérés par le SPAR doit être envisagé. Cette éditorialisation doit permettre d’améliorer la visibilité de la bibliothèque numérique, de contextualiser les documents et de les relier entre eux autour d’un thème commun, renforçant ainsi sa crédibilité scientifique et culturelle.
+\item Cette organisation en collections ne doit pas être mélangée à la présentation thématique actuellement présente en page d’accueil. 
+\end{itemize}
+
+\subsubsection{Réponse aux besoins identifiés par les personae}
+
+Afin de valider la pertinence des choix fonctionnels proposés pour la valorisation, l’information et l’accompagnement des usagers, la synthèse ci-dessous illustre commet chaque fonctionnalité répond aux besoins prioritaires des personae :
+\begin{itemize}
+	\item \textbf{Besoin n°1 : Explication sur la prise en main de la bibliothèque numérique :}
+\begin{itemize}
+	\item \uline{Personae concernés :} chercheur expert en histoire du droit, doctorante, étudiant, professionnel du droit.
+\item \uline{Réponse :} Création d’une page d’aide centralisant les questions courantes concernant la prise en main de la bibliothèque numérique et des outils mis à la disposition des usagers (Mirador, IIIF, recherche simple, recherche avancée, recherche plein-texte).
+\end{itemize}
+\item \textbf{Besoin n°2 : Médiation culturelle des documents numérisés :}
+\begin{itemize}
+	\item \uline{Persona concerné :} Responsable de la bibliothèque numérique et chercheur expert en histoire du droit.
+\item \uline{Réponse :} Valorisation des collections ou des documents numérisés à travers différents espaces d’éditorialisation (présentation des collections, expositions virtuelles, parcours guidés). Les enseignants-chercheurs s’informent beaucoup grâce aux actualités.
+\end{itemize}
+\end{itemize}
+
+\section[Page d'accueil]{Page d’accueil et son arborescence}
+\subsection{Le plan du site}
+
+\begin{itemize}
+	\item Accueil
+\item Collections
+\begin{itemize}
+	\item Fondamentaux du droit 
+\item Les cours Carbonnier
+\item Les Cours de droit
+\item Le fonds Pardessus
+\end{itemize} 
+\item Thématiques 
+\begin{itemize}
+	\item Codes
+\item Droit civil
+\item Droit coutumier
+\item Droit romain
+\item Droit Canonique
+\item Droit commercial
+\item Droit pénal
+\end{itemize}
+\item Recherche
+\begin{itemize}
+	\item Simple
+\item Avancée
+\item Plein-texte
+\item Explorer
+\end{itemize}
+\item Galerie virtuelle
+\begin{itemize}
+	\item Galerie des professeurs
+\item Hoppe Droit
+\item Expositions
+\end{itemize}
+\item A propos
+\begin{itemize}
+	\item Contact
+\item Aide
+\item Conditions d’utilisation
+\end{itemize}
+\item Compte personnel
+\item Contact
+\item Conditions d’utilisation
+\item Mentions légales
+\item Plan du site 
+\item Accessibilité : partiellement conforme
+
+\end{itemize}
+\subsection{Page d’accueil : maquette}
+
+\begin{center}
+	\includegraphics[width=0.9\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/Conceptualisation_page_accueil/Page_accueil_2.pdf}
+\end{center}
+
+\section*{Conclusion}
+\addcontentsline{toc}{section}{Conclusion}
+\begin{itemize}
+	\item Ces recommandations constituent une base de travail pour le futur cahier des charges de Codex. Certains points sont à instruire, comme les métadonnées descriptives et leur alignement avec des référentiels. Les propositions sont à préciser, valider ou modifier. 
+\item Le développement de cette interface représente une belle opportunité de modernisation. Cette transition doit s’inscrire dans une démarche globale d’accompagnement des équipes afin qu’ils comprennent ces nouveaux outils et services mis à disposition des usagers. De plus, une forme éditorialisation (présentation des collections, parcours guidés, rédaction d’actualités) est attendue demandant une connaissance fine des espaces prévus à cet effet et de leur fonctionnement. Enfin, dans une logique de transmission et d’ouverture, une documentation rigoureuse est nécessaire pour s’approprier l’architecture de la plateforme.
+\item En réunissant ces conditions, le prototype Codex ne sera plus uniquement un catalogue de consultation mais deviendra un véritable espace de vie intellectuelle, de médiation culturelle et de partage du savoir.
+\end{itemize}
+
+
+\section*{Annexes}
+\addcontentsline{toc}{section}{Annexes}
+\subsection*{Personae}
+\addcontentsline{toc}{subsection}{Personae}
+
+\subsubsection*{Chercheur expert en histoire du droit}
+\addcontentsline{toc}{subsubsection}{Chercheur expert en histoire du droit}
+Hugo
+
+Age : 56 ans
+
+Métier : Professeur d’histoire du droit à Paris II.
+
+Le Chercheur Expert en Histoire du Droit.
+
+(Archétype : enseignants-chercheurs et directeur de revue).
+
+\paragraph*{Motivations principales:}
+
+\begin{itemize}
+	\item Avoir accès à un lieu virtuel concentré réunissant des sources du droit rare ou physiquement difficiles d’accès, pour s’éviter des déplacements fastidieux.
+\item Création d’une deuxième liste Pfister-Roumy : important de numériser tous les manuels de droit civil, de procédure, commercial entre 1800 et 1940, ainsi que les revues notamment les trimestriel du droit civil crée en 1902, les grandes revues.
+\item Bibliothèque numérique : lieu concentré où l’on peut trouver les sources souhaitées.
+\item Développer la science ouverte
+\item Rendre plus facile et accessible les collections.
+\end{itemize} 
+
+\paragraph*{Expériences / habitude de recherches:} 
+\begin{itemize}
+	\item Recherche plus aléatoire à travers les collections de la bibliothèque numérique comme il pourrait être amené à le faire dans une salle de lecture.
+\item Apprécie la bibliothèque de Munich car possibilité de se balader dans les collections comme il le souhaite
+\item Aime pouvoir faire une balade bucolique dans l’arborescence.
+\item Le mode de consultation de la bibliothèque Cujas est plus commode que dans d’autres bibliothèques numériques, navigue bien dedans contrairement à Internet Archives.
+\item Aime pouvoir télécharger ses documents sous format PDF.
+\item Tous les documents qui l’intéressent il les a téléchargés sous format PDF afin de se constituer une arborescence à l’intérieur de son propre ordinateur afin de s’y retrouver lorsqu’il recherche un document ou un passage l’intéressant pour ses travaux.
+\item Travaille par cercle concentrique sur un projet de recherche.
+\end{itemize}
+
+\paragraph*{Besoin pour la nouvelle bibliothèque:}
+
+\begin{itemize}
+	\item Si on fait une demande ciblée aimerait avoir la possibilité d’avoir d’autres résultats lorsque l’on clique sur la notice faisait référence à des travaux similaires ou quand l’auteur et ses travaux eux-mêmes peuvent être cité ailleurs.
+	\item Ne pas être contraint dans sa démarche de recherche par des filtres trop précis
+	\item Avoir plus de filtre permettrait de voir qu’il y a d’autres ouvrages pouvant être intéressant lui permettant d’aller plus loin.
+	\item Aimerait que la navigation à l’intérieur d’un ouvrage numérique se rapproche de celui d’un ouvrage papier que l’on peut manipuler comme on le souhaite.
+	\item OCR très important.
+	\item Se rapprocher de la souplesse de fonctionnement d’un livre (facilité de repérages des éléments intéressants ainsi que de déplacement à l’intérieur). 
+	\item Comparaison des textes à l’intérieur d’une même visionneuse ne l’a jamais utilisé lui-même mais a eu un retour d’expérience d’un collègue lui disant que c’est bien.
+	\item Avoir la possibilité lorsque l’on cherche par mots-clés qui est surligné dans le texte (titre, passage dans le texte), avec la possibilité de s’y rendre directement sur la page avec le passage qui nous intéresse (exemple : comme sur Gallica).
+	\item Avoir le choix de télécharger la totalité du document ou qu’une partie serait bien. Cela éviterait que cela soit trop lourd et cela serait aussi plus commode.
+	\item Création d’un compte personnel lui permettant d’enregistrer ses recherches afin d’avoir un « historique », mettre en favoris, annoter. Avoir un espace à soi avec la possibilité de pouvoir répartir les sources comme il le souhaite pouvant créer des dossiers avec des sous-dossiers comme dans son ordinateur.
+	\item Important d’avoir la référence bibliographique afin de l’exporter dans Zotero, évitant ainsi de devoir chercher partout les éléments devant la constituer.
+	\item Avoir la possibilité de rebondir sur d’autres sites comme le Sudoc ou Calames.
+	\item Intéressant de pouvoir permettre aux chercheurs d’écrire un court article permettant de mettre en avant une partie du fonds sur lequel il travaille.
+	item Mettre plus en avant les collections de la bibliothèque numérique notamment lorsqu’il y a de nouvelles numérisations qui sont réalisées trouvent cela important.
+	
+\end{itemize}
+
+\paragraph*{Frustration:} 
+
+\begin{itemize}
+	\item Actuellement, filtres trop précis pour l’usage qu’il souhaite en faire n’apprécie pas vraiment cette contrainte ne trouvant pas forcément cela très intéressant.
+\item Il aimerait bien pouvoir prendre un chemin de traverse sinon trop réducteur.
+\item Face à un ouvrage numérique, si la navigation à l’intérieur de celui-ci n’est pas facilitée par une table des matières cliquables ou de la recherche plein-texte possible (OCR). Cela rend la recherche plus fastidieuse surtout lorsque celui-ci est très volumineux.
+\item Problème d’absence d’océrisation dans les textes rend impossible le repérage de mots dans le texte afin de gagner du temps. 
+\item En cas d’absence d’OCR obligé de télécharger l’ouvrage et de le faire océrisé de façon approximative via Adobe professionnel. Reconnait que pour un étudiant ou un jeune chercheur cette solution n’est pas envisageable.
+\item Lorsqu’il y a un zoom dans la visionneuse a dû mal à l’utiliser surtout si c’est celui où l’on peut zoomer automatiquement grâce à la molette de la souris.
+\item Ne trouve pas tous les services liés à la visionneuse très commode.
+\item Aime moins le format word qu’il trouve moins ergonomique.
+\end{itemize}
+
+\subsubsection*{Doctorante en histoire du droit et des institutions}
+\addcontentsline{toc}{subsubsection}{Doctorante en histoire du droit et des institutions}
+Ophelia 
+
+Age : 30 ans
+
+Métier : Maître de conférence à Paris I.
+
+La Doctorante Experte en histoire du Droit et des institutions
+
+(Archétype : doctorante ayant travaillé sur la bibliothèque numérique devenu maitre de conférence)
+
+\paragraph*{Motivations principales:} 
+\begin{itemize}
+	\item La bibliothèque numérique possède une riche collection d’ouvrages.
+\item D’avoir des tables des matières cliquables lui permettant d’avoir une aisance dans la navigation des documents numérisés. Cela se rapproche un peu de la manipulation que l’on peut avoir avec un livre papier pouvant aller directement à la section qui l’intéresse.
+\end{itemize}
+\paragraph*{Expériences / habitudes de recherches:}
+\begin{itemize}
+	\item Utiliser énormément la recherche simple moins la recherche avancée même si elle la trouve bien. 
+\item Elle utilise énormément le PDF, car elle apprécie de pouvoir les annoter comme elle le souhaite, découper des passages afin de constituer ses cours sur powerpoints. 
+\item Elle a l’habitude de chercher, de fouiller pour trouver le document qui l’intéresse ça fait partie de son processus de réflexion et elle apprécie pouvoir le faire.
+\item Elle apprécie d’avoir la possibilité de naviguer dans le document grâce à la table des matières cliquables rendant la manipulation du texte plus agréable sans avoir à tourner chaque page pour tomber sur la partie ou la section qui l’intéresse de juste à cliquer dessus pour y avoir directement accès lui apporte un confort dans ses recherches.
+\item Elle utilise aussi beaucoup quand c’est possible la recherche par occurrence dans les PDF qu’elle a téléchargé. Cela renforce la facilité de navigation et la prise en main de celui-ci et complète les tables des matières.
+\end{itemize}
+\paragraph*{Besoin pour la nouvelle bibliothèque:}
+\begin{itemize}
+	\item Elle a l’impression que les facettes n’ont pas été fait par un juriste. Après la logique est bien mais si on souhaite les conserver elle suggère de créer une arborescence à deux ou trois niveaux en fonction des thématiques afin simplifier son utilisation et sa compréhension.
+\item Elle aimerait avoir un compte personnel permettant de mettre en favoris les documents recherchés, de pouvoir y revenir plus tard même si on n’a fermé le site car étant amené à consulter plusieurs fois les mêmes documents au cours de ses recherches avoir juste à revenir sur son compte. Cela apporte un confort. Cela peut être un compte comme on en trouve sur le catalogue Primo.
+\item Elle aimerait bien avoir accès à la référence bibliographique déjà rédigé qu’elle n’a plus qu’à copier-coller dans son document.
+\item Elle aimerait bien trouver une page d’aide dans la bibliothèque numérique, clarifiant comment prendre en main les nouveaux outils comme la visionneuse IIIF ou bien une foire aux questions disponibles recensant les questions qui sont souvent posées, y répondre en donnant accès à tous afin que si d’autres se posent les mêmes questions puissent avoir déjà la réponse.
+\item Cela pourrait peut-être bien d’avoir un titre abrégé pour les étudiants lorsque le titre est latin. Ce n’est pas toujours évident pour eux de repérer les documents surtout avec les déclinaisons car tous n’ont pas forcément reçu un enseignement latiniste. Cela permettrait également au moteur de recherche de trouver les documents car si la déclinaison latine n’a pas été renseigné. Il peut arriver que le moteur de recherche ne trouve pas le document.
+\item Elle apprécierait d’avoir la possibilité d’avoir le choix entre télécharger seulement une partie du document ou sa totalité comme sur Gallica.
+\end{itemize}
+\paragraph*{Frustrations:}
+\begin{itemize}
+	\item Titre des vignettes laissent sous-entendre que l’on va traiter d’une collection précise avec des ouvrages en lien avec celui-ci sauf qu’en réalité c’est moins le cas. Elle a une impression de fouillis.
+\item Il manque une explication liée à la raison pour laquelle les corpus ont été construite de cette façon et non d’une autre. Elle se sent donc un peu perdue ayant du mal à comprendre pourquoi les documents ont été rassemblés de cette façon. Une explication sur les choix éviterait une confusion.
+\item N’utilise pas vraiment les facettes car elles les trouvent trop précise voir inadapté à certain moment. Par exemple : quand ces dernières font référence à un document – Loi des Douze Tables – ne parvient pas dans ce cas à comprendre son utilité car pour elle si un chercheur recherche ce document il va utiliser la recherche simple pour le trouver.
+\item Lorsqu’elle avait du mal à accéder à la bibliothèque numérique, elle contournait le problème en cherchant de mémoires le titre de son ouvrage dans Google tombant sur le PDF de ce dernier mais n’ayant par ce chemin d’accès aucun moyen d’aller dans la bibliothèque numérique une fois l’ouvrage consulté ou d’accéder à ses métadonnées. 
+\item N’apprécie pas la manière dont le panier a été configuré surtout lorsqu’elle quitte la page et elle porte tous ses favoris. 
+\end{itemize}
+
+
+\subsubsection*{Etudiant en histoire du droit}
+\addcontentsline{toc}{subsubsection}{Etudiant en histoire du droit}
+Lucas
+
+Age : 21 ans
+ 
+Métier : étudiant en master 1 d’histoire du droit
+
+Etudiant en histoire du droit
+
+\paragraph*{Source:}
+\begin{itemize}
+	\item Résultat de l’enquête de terrain sur LimeSurvey
+Tendance d’utilisation de la bibliothèque numérique :
+\item Pour accéder à la bibliothèque numérique, ils ont tendance à utiliser soit le site de la bibliothèque Cujas, le catalogue ou encore par une recherche internet qu’ils ont effectué dans un moteur de recherche.
+\item Ils utilisent principalement le PDF, la recherche simple et la recherche avancée ainsi que les tables des matières.
+\end{itemize}
+\paragraph*{Besoins pour Codex:}
+\begin{itemize}
+	\item Une visionneuse IIIF (zoom profond, visualisation aisé de documents en haute résolution, comparaison entre images, recherche plein texte...)
+\item Reconnaissance automatique de texte (tous les documents ou une catégorie)
+\item Exporter des références bibliographiques pouvoir soit les copier-coller soit les mettre dans un logiciel bibliographique comme Zotero, EndNote...
+\item Rebondir sur une référence dans d'autres bibliothèques numériques ou catalogue (SUDOC, CALAMES, GALLICA...)
+\item Avoir le choix entre plusieurs formats (PDF, TXT...)
+\item Avoir la possibilité de télécharger soit une partie du document ou tout le document au format souhaité.
+\item Disposer d'un compte personnel (enregistrement des recherches, mémoriser des documents dans une liste de lecture...).
+\end{itemize}
+\paragraph*{Frustrations:}
+\begin{itemize}
+	\item Dans l’ensemble, ils sont moyennement satisfaits en ce qui concerne l’organisation et la navigation dans la bibliothèque, la clarté des informations, la facilité avec laquelle on trouve un document dedans et de son design et de sa lisibilité.
+\end{itemize}
+
+\subsubsection*{L’Amatrice éclairée}
+\addcontentsline{toc}{subsubsection}{L’Amatrice éclairée}
+Clémence 
+
+Age : 35 ans
+
+Métier : Professionnel du droit
+
+Le juriste
+
+\paragraph*{Source:}
+\begin{itemize}
+	\item Résultat de l’enquête de terrain sur LimeSurvey
+Tendance d’utilisation de la bibliothèque numérique :
+\item Il accède généralement à la bibliothèque numérique grâce à une recherche dans le catalogue de la bibliothèque, par le site de la bibliothèque ou bien au cours d’une recherche sur Internet.
+\item Ils ont tendance à consulter la visionneuse JPEG, le PDF, la recherche simple et avancée ainsi que la table des matières et par moment les collections présentes dans la page d’accueil.
+\end{itemize}
+\paragraph*{Besoins pour Codex:}
+\begin{itemize}
+	\item Une visionneuse IIIF (zoom profond, visualisation aisé de documents en haute résolution, comparaison entre images, recherche plein texte...)
+\item Reconnaissance automatique de texte (tous les documents ou une catégorie)
+\item Exporter des références bibliographiques pouvoir soit les copier-coller soit les mettre dans un logiciel bibliographique comme Zotero, EndNote...
+\item Rebondir sur une référence dans d'autres bibliothèques numériques ou catalogue (SUDOC, CALAMES, GALLICA...)
+\item Avoir le choix entre plusieurs formats (PDF, TXT...)
+\item Disposer d'un compte personnel (enregistrement des recherches, mémoriser des documents dans une liste de lecture...).
+\item Demande à numériser les ouvrages anciens qu’on peut certes emprunter, mais s’effritent e sur lesquels certains surlignent ou écrivent de façon scandaleuse en toute impunité.
+\end{itemize}
+\paragraph*{Frustrations:}
+\begin{itemize}
+	\item Dans l’ensemble, ils ne sont pas du tout satisfaits par la bibliothèque numérique actuellement notamment en ce qui concerne l’organisation des contenus et la navigation à l’intérieur de celle-ci, de la facilité avec laquelle on trouve le document souhaité et la clarté des informations qui les décrivent.
+\item Ils semblent plutôt satisfaits en ce qui concerne les modalités de consultation et le design et la lisibilité.
+\end{itemize}
+
+
+\subsubsection*{Bibliothécaire} 
+\addcontentsline{toc}{subsubsection}{Bibliothécaire}
+Nolween
+ 
+Age : 42 ans
+
+Métier : Responsable des services numériques
+
+Bibliothécaire
+
+(Archétype : Bibliothécaire en charge du service public et de l’accompagnement)
+
+\paragraph*{Motivations principales:}
+\begin{itemize}
+	\item Elle accompagne les usagers à prendre en main la bibliothèque et à les rendre autonome dans leur utilisation.
+\item Elle souhaite connaitre les services proposés et leur fonctionnement.
+\item Elle doit pouvoir répondre aux questions des chercheurs comme d’un plus large public.
+\item Elle a à cœur d’assurer la médiation entre les documents numériques et le public.
+\end{itemize}
+
+\paragraph*{Besoins pour la nouvelle bibliothèque numérique:}
+\begin{itemize}
+	\item Elle a besoin d’informations claires sur le contenu, la description des documents, et des fonctionnalités de recherches fines, ainsi que des éléments explicatifs sur les modalités d’exploitation de la bibliothèque numérique
+\item Elle aimerait pouvoir s’appuyer sur une page « d’Aide » ou une « FAQ » claire, avec des tutoriels ou des bulles d’aide contextuelles pour l’utilisation de la recherche avancée.
+\item Elle souhaiterait pour éviter toute confusion un affichage clair des droits. Elle propose d’intégrer explicitement des mentions de droits (ex : licences Creative Commons, Domaine Public) directement sur la notice du document. Celle-ci peut être accompagnée d’une page explicative dans l’onglet aide afin d’expliquer la différence entre les deux.
+\end{itemize}
+
+\paragraph*{Frustrations:}
+\begin{itemize}
+	\item Elle ne veut pas perdre du temps à expliquer des fonctionnalités mal conçues ou peu intuitives.
+\item Elle constate une ambiguïté concernant les droits de réutilisation des documents numériques notamment en différenciant les documents sous droit de ceux libre de droit.
+\item Le moteur de recherche actuel génère énormément de « bruit », ce qui décourage les lecteurs.
+\item La recherche avancée ne fonctionne pas très bien ne retournant pas les résultats espérés. 
+\item Il manque de la documentation ou des fiches synthétiques permettant de comprendre les outils mis en place sur la plateforme.
+\end{itemize}
+
+\subsubsection*{Responsable de la bibliothèque numérique}
+\addcontentsline{toc}{subsubsection}{Responsable de la bibliothèque numérique}
+Esméralda
+
+Age :  50 ans
+
+Métier : responsable du patrimoine et de la numérisation
+
+Responsable de la bibliothèque numérique
+
+\paragraph*{Motivations principales:}
+\begin{itemize}
+	\item Elargir le public, car c’est la volonté de la direction d’avoir une bibliothèque capable d’agréger d’autres contenus provenant d’autres bibliothèques politiques. De plus, ils trouvent que le portail les essentiels du droit n’est pas satisfaisant pour les juristes. 
+\item Elle souhaite accueillir d’autres types de documents non plus uniquement des monographies mais également des revues, des thèses, des images…
+\item Etre interconnectés et interopérable.
+\item Faire connaitre, créer une communauté attachée, qui revienne, participe, fasse connaître en augmentant ainsi la consultation et les propositions de collaboration pour la bibliothèque. 
+\end{itemize}
+\paragraph*{Côtés positifs de la bibliothèque numérique:}
+\begin{itemize}
+	\item On voit d’emblée qu’il s’agit d’une bibliothèque numérique de droit grâce à la page d’accueil. Celle-ci respecte la charte graphique, le nom de la bibliothèque Cujas est bien identifiable. 
+\item Les cours de droit sont bien identifiés, mais ils sont séparés en deux entités : les Cours de droit et les Cours Carbonnier. 
+\item La visionneuse JPEG est de bonne permettant de consulter convenablement les ouvrages numérisés.
+\end{itemize}
+\paragraph*{Amélioration des services:}
+\begin{itemize}
+	\item Rendre le site accessible en permettant de traduire la page au moins en anglais.
+\item Adapter le site à des personnes handicapées (respectant les normes, permettant d’améliorer la lisibilité, facilité la lecture, de naviguer sans effort, d’avoir la possibilité aux personnes déficientes visuelles permettant d’utiliser le format Daisy).
+\item Dans la bibliothèque numérique, il faudrait que l’on trouve les données des différents types de formats, des espaces de valorisation et éditorialisation, des outils de recherche ainsi que d’exploitation des données comme un lien zotero, un compte personnel, également les informations juridiques et de contact ainsi qu’un outil de statistiques pour un usage interne.
+\item Dans cette nouvelle bibliothèque, il est important que les index soient à tous les nouveaux types de documents ajoutés. Les documents doivent pouvoir être consulté par types mais doivent pouvoir également être mélangé. 
+\item Ce serait bien concernant la valorisation et l’éditorialisation, de prévoir à plusieurs endroits qui ne soient pas systématiques mais activables au fur et à mesure qu’on les crée. Dans ce sens, il faudrait pouvoir avoir accès au back-office afin de pouvoir faire l’éditorialisation ou exécuter des changements si jamais, il remarque une erreur, afin de la corriger. 
+\item Il faudrait également qu’il y est une présentation générale en page d’accueil, ainsi qu’une présentation de chacun des corpus ou des collections avec la possibilité d’intégrer d’autres documents grâce à des ou grâce au protocole IIIF.
+\item La liste des résultats lorsqu’une recherche est effectuée doit pouvoir être filtrable c’est-à-dire par ordre alphabétique grâce au nom de l’auteur, par date d’édition croissant ou décroissant et éventuellement par titres.
+\item Il faudrait qu’à chaque fois que cela est possible d’adosser les données bibliographiques complètes à des référentiels et de permettre des rebonds sur les données issues de référentiels (auteur, sujet, format).
+\item Il faudrait pouvoir permettre aux utilisateurs d’avoir le choix au moment du téléchargement du document, soit il décide de le télécharger en entier soit ils prennent uniquement la partie qui les intéressent.
+\item Il faudrait penser à pouvoir ajouter les réseaux sociaux à l’intérieur. 
+\item Créer une galerie des grands juristes : choisir des grands auteurs, écrit une présentation sur eux compris entre 5 et 10 000 signes en faisant également le lien avec les œuvres numérisées sur Cujas ou ailleurs. 
+\end{itemize}
+\paragraph*{Frustrations:}
+\begin{itemize}
+	\item Il n’est pas possible de faire de l’éditorialisation des collections ce qui participent à l’invisibilité de la bibliothèque numérique sur Internet. 
+\item Les actualités sont actuellement difficilement visibles, depuis le côté droit de l’à propos, et représentent uniquement un lien vers les actualités du service sur le site Cujas. 
+\item Le contenu des collections est confus, on ne sait pas si on est dans une approche thématique ou dans une approche par corpus. 
+\item Le corpus des Fondamentaux du droit n’est pas mis en valeur, alors qu’il constitue la collection phare de la bibliothèque numérique et prioritairement ce qui va intéresser les utilisateurs. 
+\item Elle n’a pas accès au back-office de la bibliothèque numérique ce qui donne un effet boîte noire où elle ignore ce qui se passe à l’intérieur. Elle ne voit pas comment le workflow réagit.
+\item Dans la page de recherche avancée, on trouve au même endroit la possibilité de faire de la recherche avancée dans la partie intitulée notice bibliographique. Cela peut créer une confusion d’autant que la recherche avancée ne fonctionne pas très bien. La recherche en texte intégral non plus, car il faudrait qu’il y est davantage de texte océrisés dedans afin de pouvoir faire une recherche optimale.
+\item Concernant le rapatriement de données pour le moment cela n’est pas faisable représentant une limitation importante. 
+\item Compte tenu de la solution logiciel utilisé, c’est retrouvé isolé avec le temps par rapport au monde des bibliothèques qui a évolué, se trouvent déconnecté de la communauté.
+\end{itemize}
+
+\subsubsection*{Informaticien}
+\addcontentsline{toc}{subsubsection}{Informaticien}
+Thomas
+
+Age : 45 ans
+
+Métier : Responsable du service informatique
+
+L’Informaticien
+
+Archétype : le gestionnaire de l’infrastructure, garant de la sécurité, de la pérennité des 
+données et de l’interopérabilité.
+
+\paragraph*{Motivations principales:}
+\begin{itemize}
+	\item L'interopérabilité avant tout : Concevoir un système ouvert reposant sur des standards internationaux non propriétaires (XML, JSON, RDF, EAD, JPEG 2000, TIFF, PDF/A) pour faciliter les échanges.
+\item L'automatisation des flux : Soulager le personnel humain en automatisant un maximum de tâches de traitement (génération d'identifiants ARK, création de métadonnées DC/METS, transferts SFTP), particulièrement la nuit pour éviter les surcharges réseau.
+\item La pérennité et la sécurité des données : Assurer un archivage pérenne des fichiers maîtres (TIFF) au CINES via la création automatique de paquets SIP, pour préserver la matière première et permettre de futurs retraitements (comme l'amélioration de l'OCR).
+\end{itemize}
+\paragraph*{Expériences / Habitudes de travail (L'existant):}
+\begin{itemize}
+	\item Il a construit "ArcNum" (en Python), un script automatisé complexe qui gère la chaîne de traitement (workflow) de la validation à la publication, en passant par de multiples serveurs de stockage (118, 134, NAS).
+\item Il doit gérer l'héritage de CujasNum, basé sur XTF : une technologie choisie par défaut vers 2008 car c'était la seule capable de gérer des livres électroniques océrisés, mais qui fonctionne de manière très rigide (sans véritable back-office, où tout ce qui est versé est immédiatement publié).
+\end{itemize}
+\paragraph*{Besoins techniques pour Codex:}
+\begin{itemize}
+	\item Une architecture modulaire et API : Le système doit reposer sur des modules communicants et exposer ses données via des API REST (nécessitant parfois des clés de connexion) et le protocole OAI-PMH pour le moissonnage externe.
+\item Une gestion fine des données : Le système doit être capable de modéliser des hiérarchies complexes (comme pour les périodiques : Titre > Année > Fascicule > Article) et de regrouper les documents en "sets" (par sujet, par lots, par classification Dewey) pour un moissonnage sélectif.
+\item Une gestion centralisée des accès : Intégrer nativement les protocoles d'authentification (SSO, SAML via Shibboleth ou Renater) pour donner accès aux documents sous droits uniquement au réseau de l'université ou sur place.
+\item Un back-office avec des rôles précis : Mettre en place un système de gestion des rôles (archiviste, catalogueur, éditeur de contenu, validateur) permettant à chacun d'agir de façon autonome sans dépendre systématiquement du service informatique.
+\item L'intégration du standard IIIF : Séparer la gestion des images du reste en utilisant un serveur IIIF dédié, qui fournira les images et les manifestes pour alimenter la bibliothèque, sans dupliquer les fichiers.
+\end{itemize}
+\paragraph*{Frustrations et Contraintes:}
+\begin{itemize}
+	\item La dette technique et la rigidité : Dans le système XTF actuel, il est impossible de créer des collections ou des expositions facilement ("pas de back-office"), ce qui rend l'interface figée.
+\item Les limites de performance : Les fichiers PDF actuels sont extrêmement lourds (300 à 400 Go) ce qui fait planter les téléchargements des usagers.
+\item Les erreurs humaines bloquantes : Le "maillon faible" de son architecture très automatisée reste l'intervention humaine lors des corrections ; une erreur de validation bloque la chaîne d'archivage automatique vers le CINES et oblige à faire des mises à jour coûteuses en temps.
+\item Le défi de la maintenance : Il doit trouver une solution pour structurer les cycles de mises à jour de la future plateforme sans impacter l'accès des lecteurs et sans générer une nouvelle dette technique pour les équipes futures.
+\end{itemize}

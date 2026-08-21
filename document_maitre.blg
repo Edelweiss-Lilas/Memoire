@@ -1,0 +1,4 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'document_maitre.blg'
+[37] biber:342> INFO - === Mon Aug  3, 2026, 12:12:26
+[47] Biber.pm:421> INFO - Reading 'document_maitre.bcf'

@@ -1,0 +1,859 @@
+% !TeX spellcheck = fr_FR
+\chapter{Rapport d'audit fonctionnel et technique}
+
+\section*{Introduction}
+\addcontentsline{toc}{section}{Introduction} 
+
+\subsection*{Contexte} 
+\addcontentsline{toc}{subsection}{Contexte}
+A l’origine, la bibliothèque Cujas a été créée en 1829 pour desservir la bibliothèque de la Faculté de droit de Paris. En 1970, elle devient une bibliothèque interuniversitaire à la suite des réformes universitaires1. Cujas est spécialisée en droit, en économie et en sciences politiques, elle constitue aujourd’hui une bibliothèque de référence nationale et internationale dans ces domaines2. Par ailleurs, elle devient pôle associé de la BnF en sciences juridiques. 
+
+En 1979, elle devient bibliothèque interuniversitaire par convention entre les universités de Panthéon-Sorbonne (Paris I) et Panthéon-Assas (Paris II)3. Elle possède un riche patrimoine documentaire plus de 40 000 volumes anciens et un fonds francophone et international d’une grande diversité4. 
+
+La bibliothèque possède aussi des fonds spécialisés. Elle conserve un ensemble unique de collections de sciences juridiques, économique et politiques  : thèses et mémoires, publications officielles de la Société des Nations, des Nations Unies, Journal officiel de la France et des anciennes colonies. Elle conserve également une collection de travaux académiques imprimés en Allemagne aux XVIe et XIXe siècle, des documents retraçant la sociabilité universitaire et l’histoire de l’enseignement de l’ancienne Faculté de Droit de Paris5. 
+
+Entre 2001 et 2004, la bibliothèque Cujas entreprend une première phase de numérisation autour d’un projet d’exposition virtuelle pour le bicentenaire du Code civil (2004) confiant cette prestation à la société Safig. Il s’agit alors d’une numérisation en mode image et en niveaux de gris, avec une saisie manuelle de la table des matières ou au moins de la pagination. Le prestataire fournit l’hébergement des données6. 
+
+
+
+\subsection*{Présentation du projet de la bibliothèque} 
+\addcontentsline{toc}{subsection}{Présentation du projet de la bibliothèque}
+
+En 2006, la décision est prise de créer une bibliothèque numérique juridique, à l’origine du projet de CujasNum. Deux enseignants-chercheurs, Laurent Pfister et Franck Roumy, rédigent une liste de « fondamentaux du droit » à numériser en priorité : 471 ouvrages du XVe au XXe siècle, soit 1 462 volumes et environ 1 001 559 pages issus de la réserve Pavillon7. 
+
+A l’origine, la BIU Cujas souhaite devenir un pôle de réplication de Persée et acquiert un scanner Kirtas pour ce projet. Toutefois, sa candidature n’est pas retenue. Elle refond alors son projet en diminuant le nombre d’ouvrages à numériser et en se coordonnant avec la BnF qui a créé sa propre liste de fondamentaux du droit, la liste Kerbrat8.  
+
+La liste Pfister-Roumy retravaillée est constituée de près de 435 titres des XVème au XXème siècles qui sont des fondamentaux de l’histoire du droit : sources normatives en droit romain, en droit coutumier, en législation, jurisprudence et doctrine9. 
+
+L’enjeu de la bibliothèque numérique est de favoriser l’étude et la recherche en sciences juridiques, en facilitant l’accès à l’information, d’apporter du contenu au système d’information de la bibliothèque afin qu’il devienne un outil de travail performant pour l’ensemble des publics intéressés. Il est nécessaire également de protéger les collections de la BIU Cujas tout en accroissant leur utilisation, de les valoriser en les rendant accessibles plus facilement en France et à l’étranger, augmentant ainsi la visibilité du droit français10. 
+
+CujasNum est développée sous XTF. Il s’agit au début d’un catalogue de PDF accessible en ligne avec des tables des matières écrites manuellement permettant de naviguer à l’intérieur du document11. En 2013, l’implémentation d’une visionneuse JPEG permet aux usagers de consulter les documents directement dans la bibliothèque numérique12. Quoique robuste, XTF est devenu obsolète avec le temps et répond difficilement aux besoins actuels des usagers (impossibilité d'éditorialiser les collections ou d'intégrer d’autres types de documents).  
+
+Face à ce constat, un nouveau prototype interne (nommé « Codex ») est actuellement à l’étude. L’enjeu de cette refonte est de sortir la bibliothèque numérique de son isolement en la faisant basculer vers un outil ouvert et interopérable (via l’intégration de serveurs IIIF, d’API et du protocole OAI-PMH), afin de pouvoir s’insérer dans les grands projets documentaires nationaux de l’Enseignement Supérieur, tels que le projet Orion de l’Abes13. 
+
+\subsection*{Méthodologie employée}
+\addcontentsline{toc}{subsection}{Méthodologie employée}
+
+Cette étude se déroule entre le 1er avril et le 31 juillet 2026. Les avis et les besoins liés à l’existant ont été obtenu entre croisant différentes méthodes : des entretiens avec les professionnels de Cujas et les enseignants-chercheurs, des échanges informels ainsi qu’une enquête en ligne qui a eu lieu du 14 avril au 3 juillet 2026. 
+
+Ces éléments sont complétés par mes propres observations et analyses. Mes recommandations sont toutefois renvoyées au document de préconisation ciblées que je livrerai à l’issue de ce stage. 
+
+\subsection*{Objectifs des entretiens}  
+\addcontentsline{toc}{subsection}{Objectifs des entretiens}
+
+L’objectif de ces entretiens menés sont multiples. D’abord, il s’agit de disposer d’un retour critique sur la bibliothèque numérique actuelle, de comprendre les attentes des chercheurs, et des services de la BIU Cujas concernant la future bibliothèque numérique, en particulier en terme de fonctionnalités et de services. Cela permet de disposer d’éléments pour préparer des propositions fonctionnelles pour le projet. 
+
+
+
+
+
+\section*{Sources} 
+\addcontentsline{toc}{section}{Sources}
+
+
+\subsection*{Enseignants et chercheurs, lecteurs de la bibliothèque numérique} 
+\addcontentsline{toc}{subsection}{Enseignants et chercheurs, lecteurs de la bibliothèque numérique}
+
+Descamps Olivier (OD), Professeur de l’histoire du droit de Paris II, responsable scientifique du CST droit (BNF), entretien du 18/05/2026. But de l’interview : besoin des chercheurs, aimerait bien créer une deuxième liste Pfister-Roumy pour continuer le travail entamé par ces deux professeurs.  
+
+Masséna Floriane (FM), Maître de conférence d’histoire du droit et des institutions de Paris I, entretien du 01/06/2026. But de l’interview : Utilisation de CujasNum pour son doctorat. Connaitre son avis sur la bibliothèque numérique en générale ainsi que ses habitudes de recherches. 
+
+Moiroud Cécile (CM), Maître de conférences HDR, Droit public, Paris I, entretien du 17/05/2026. But de l’interview : un entretien semi-directif où Cécile Moiroud a indiqué au fil de sa consultation de la bibliothèque numérique actuelle ses remarques et ce qu’elle apprécie. 
+
+Pfister Laurent (LP), Professeur d’histoire du droit et des institutions de Paris II, entretien du 17/05/2026. But de l’interview : Rôle joué dans la création de la première bibliothèque numérique de Cujas, en constituant la liste Pfister-Roumy, corpus important de la bibliothèque. Demander également son avis sur la valorisation des collections et sur ses habitudes de recherches. 
+
+Enquête de satisfaction sous LimeSurvey ouverte du 14 avril au 03 juillet 2026 sur les sites de la bibliothèque numérique et de la bibliothèque Cujas.   
+
+
+
+\subsection*{Professionnel de Cujas} 
+\addcontentsline{toc}{subsection}{Professionnel de Cujas}
+
+Bolard Cécile (CB), Responsable de la numérisation et des collections numérisées, entretien du 19/05/2026. But de l’interview : Avoir son avis concernant la bibliothèque numérique actuelle, ce qui lui convient, ne lui convient pas, ses attentes et ses souhaits concernant la refonte de la bibliothèque numérique.  
+
+Colcanap Gregory (GC), Directeur de la bibliothèque interuniversitaire Cujas, entretien du 27/04/2026. But de l’interview : Connaître ses attentes concernant la bibliothèque numérique, avoir son avis sur l’existant. 
+
+Dubois Olesea (OD), Responsable de la bibliothèque numérique de Sciences Po, entretien du 15/06/2026. But de l’interview : elle a travaillé à la bibliothèque Cujas où elle a contribué à faire évoluer le processus de numérisation. Avoir son retour d’expérience concernant CujasNum, avoir l’historique de CujasNum. 
+
+Dufournet Stéphane (SD), Responsable du Département du Patrimoine, de la conservation, et de la numérisation, entretien du 22/04/2026. But de l’interview : Connaitre son avis sur l’existant, et avoir ses attentes concernant la nouvelle bibliothèque numérique ainsi que des suggestions de fonctionnalités pour celle-ci. 
+
+Gallo, Anne-Sophie (ASG), Kotliar, Natacha, Responsable et membre du Département de l’informatique documentaire. Disposer d’éléments concernant l’interopérabilité, la gestion des métadonnées, la connexion aux catalogues 
+
+Gottely Alexandra (AG) : Responsable du Département partenariats et appui à la recherche, ancienne responsable de la bibliothèque numérique, entretien du 28/04/2026. But de l’interview : avoir un historique de la bibliothèque numérique (CujasNum), ainsi qu’une présentation du premier projet de réinformatisation de la bibliothèque numérique avec les constats qu’elle avait fait à ce moment-là. 
+
+Leulmi Mebrouk (BL), Responsable du Département informatique technique, entretien du 29/04/2026 et du 27/05/2026. But de la première interview : avoir un historique de la création de CujasNum, et la schématisation de la donnée depuis le traitement jusqu’à la mise en ligne. But de la seconde interview : les questions portaient sur l’architecture logicielle du prototype. 
+
+Limandri Sandrine (SL): Responsable de l’atelier de numérisation, entretien du 02/04/2026. But de l’interview: explication concernant l’atelier de numérisation en me montrant les listes de suivi et toutes les étapes depuis la sélection jusqu’à la mise en ligne ainsi que les éléments constitutifs d’un document numérique à Cujas. 
+
+Merat Alix (AM) et Sourdillon Jeanne (JS) : Responsable et adjointe du Département des périodiques et des ressources électroniques, entretien du 15/04/2026. But de l’interview : comprendre leurs attentes concernant les périodiques si les revues sont ajoutées dans la future bibliothèque numérique. 
+
+Suszko Fanny (FS), stagiaire, état de l’existant de la bibliothèque numérique actuelle et du prototype Codex datant du 16/06/2026. But : Analyse de l’existant. Les préconisations de Fanny Suszko sont renvoyées au document de propositions ciblées.  
+
+Entretiens informels avec l’équipe du Service patrimoine et numérisation (SPN).  
+
+\section*{Analyse fonctionnelle} 
+\addcontentsline{toc}{section}{Analyse fonctionnelle}
+
+\section{Les contenus} 
+
+\subsection{L’analyse de l’existant}
+
+\subsubsection{La politique documentaire et la qualité scientifique des contenus} 
+
+Les chercheurs signalent une lacune importante dans les collections numérisées concernant les recueils de la période 1930 à 1980. Ce manque est lié aux contraintes du domaine public empêchant la diffusion libre de bon nombre d’ouvrages numérisés de cette période ainsi qu’à la date déjà ancienne de création de la liste Pfister-Roumy. Ces lacunes pourraient cependant être en partie comblées par la négociation d’accords ou un dispositif technique, comme le font d’autres établissements14. 
+
+\subsubsection{La diversité des types de documents} 
+
+	Actuellement, la bibliothèque numérique propose uniquement des monographies15. Cette situation génère une forte insatisfaction tant du côté du Département du patrimoine, de la conservation et de la numérisation (DPCN) que de celui du Département des Périodiques et des ressources électroniques (DPRE). La cause principale est d’ordre technique. En effet, le logiciel sous XTF de CujasNum accepte uniquement l’arborescence « à plat » empêchant ainsi l’intégration de documents nécessitant une hiérarchie16, comme les revues ou les archives. Ils ne peuvent pas pour le moment intégrer ou traiter d’autres formats comme des périodiques qui nécessitent une architecture arborescente17.
+
+\subsubsection{L’éditorialisation} 
+
+L’éditorialisation des contenus par le DPCN est actuellement impossible sous XTF sans une intervention du Département informatique technique. L’absence d’outils d’éditorialisation empêche la création de corpus spécifiques et limite la finesse d’affichage18. L’éditorialisation se résume donc à une présentation sommaire des corpus, une production de tables de matières et une structuration en collections chronologiques ou thématiques. 
+
+Les utilisateurs qualifient l’organisation actuelle des collections de « casse-tête » chronophage19. Le mélange entre des collections thématiques et chronologiques n’est pas intuitif, et les vignettes présentes sur la page d’accueil créent de fausses attentes quant à la précision des sources proposées20.  
+
+La bibliothèque numérique actuelle n’est pas rattachée aux canaux de communication existant dans la bibliothèque Cujas. Actuellement, CujasNum ne partage aucune nouveauté concernant les numérisations misent en ligne sur le site, participant ainsi à son invisibilité auprès des utilisateurs21. Il existait auparavant un bulletin de numérisation22 qui jouait ce rôle de communication avec les lecteurs mais qui a été arrêté au moment du COVID.   
+
+\subsubsection{L’intégration de collections d’autres bibliothèques numériques} 
+
+L’infrastructure actuelle souffre d’un fort isolement. Bien qu’il existe un partenariat de numérisation avec Persée pour les revues scientifiques et juridiques, les fichiers générés ne sont pas disponibles et ne peuvent actuellement pas être reversés ou rapatriés dans le système de la bibliothèque Cujas23. Il est également impossible de rapatrier les contenus numérisés et consultés massivement sur le portail de la BNF à cause de blocages architecturaux24. Il n’est pas non plus possible de rapatrier dans la bibliothèque numérique un volume lacunaire qui aurait été numérisé par un autre établissement. 
+
+\subsection{Les propositions d’améliorations des répondants}
+
+\subsubsection{La politique documentaire et la qualité scientifique des contenus}
+
+Pour pallier les manques actuels, il est recommandé de compléter les numérisations de la période 1800 à 1940, notamment pour les manuels de droit civil, de procédure et de droit commercial25. Il serait également pertinent de numériser les différentes éditions successives d’un même ouvrage afin de permettre aux chercheurs de retracer l’évolution de la pensée d’un auteur au fil du temps. Pour piloter cette politique documentaire, la création d’un comité scientifique est suggérée pour établir des priorités de numérisation de façon collaborative comme ce fut le cas pour la liste Pfister-Roumy26.  
+
+\subsubsection{La diversité des types de documents}
+
+L’amélioration technique majeure attendue est la capacité d’accueillir de nouveaux types de documents pour refléter la richesse des collections de Cujas27. Le système devra impérativement prendre en charge les revues et les périodiques ainsi que les documents iconographiques et les archives28. Cela permettrait de mettre davantage en avant la richesse des collections de Cujas. Il s’agit d’un souhait évoqué par les chercheurs et les différents services de la bibliothèque.  
+
+\subsubsection{L’éditorialisation} 
+
+C’est l’un des besoins les plus fortement exprimés pour redonner de la cohérence aux collections. Il est préconisé d’ajouter des textes explicatifs et scientifiques pour justifier la logique de classification adoptée, évitant ainsi la confusion des utilisateurs face à des regroupements thématiques ou chronologiques d’apparence incohérente29. L’éditorialisation doit être pensée par des juristes pour des juristes, afin d’expliquer concrètement pourquoi un ouvrage est important pour l’histoire du droit30. Plusieurs formats sont proposés :  
+
+La création de parcours thématiques guidés ou d’une « galerie des grands juristes »31, proposant des notices biographiques et des liens directs vers leurs œuvres32. 
+
+L’intégration d’explications sur le contexte de publication (privilèges accordés, choix des éditeurs, évolution de la doctrine au fil des rééditions)33.  
+
+L’organisation des contenus en sous-catégories claires et rationnelles (droit, doctrine, revues, jurisprudence)34. 
+
+\subsubsection{Les éléments de communication} 
+
+Pour valoriser la bibliothèque numérique et accompagner ses publics, il est proposé de créer des supports explicatifs, comme des vidéos de présentation de corpus35. Proposer des retours d’expérience concrets (par exemple, un doctorant détaillant la procédure suivie pour prendre en main la bibliothèque afin de préparer son article) constituerait une excellente porte d’entrée pour transmettre des conseils d’utilisation (tips) aux nouveaux chercheurs36. L’ajout de tutoriels ou de foire aux questions seraient une aide supplémentaire pour prendre en main la bibliothèque numérique pour les nouveaux utilisateurs ou mêmes les plus anciens afin d’avoir un document de référence lorsqu’ils sont confrontés à de nouveaux outils ou services37.  
+
+\subsubsection{L’intégration de collections d’autres bibliothèques numériques}
+
+La bibliothèque numérique doit s’affranchir de son isolement actuel pour devenir un véritable portail interconnecté38. Plutôt que de numériser ce qui existe déjà, le nouveau système doit être en mesure de moissonner et rapatrier les données d’autres institutions, de créer des ponts et des liens externes vers des plateformes comme Persée ou Dalloz39. Elle doit pouvoir être capable de reconstituer virtuellement les corpus dispersés de la liste Pfister-Roumy40.  
+
+
+
+\section{Les publics}
+
+\subsection{L’analyse de l’existant} 
+
+\subsubsection{Les profils des utilisateurs}
+
+A l’origine de la création de CujasNum, le public cible était les chercheurs. Cujas étant une bibliothèque de recherche, la bibliothèque numérique a donc été développée pour répondre à leurs besoins41. 
+
+Au fil du temps, le public consultant la bibliothèque numérique s’est étoffé d’autres visiteurs comme les doctorants et les étudiants en droit et en histoire du droit. Les résultats de l’enquête vont dans ce sens aussi. 18.52\% des répondants sont étudiants, 19.75\% des enseignants ou des chercheurs, 32.10\% des professionnels de l’information et des bibliothèques, et 9.88\% des doctorants. Les professionnels du droit ne représentent à ce jour que 2.47\% des répondants42.  
+
+Une grande partie du public est spécialisé en droit (43.10\%), mais on observe que le reste de l’audience se divise en plusieurs domaines de spécialité dont deux relativement proches. Les spécialistes de l’histoire du droit (9.88\% des répondants) et les spécialistes en histoire (8.64\% des répondants). Ils sont suivis de près par les historiens du livre ou de l’édition (7.41\%). Une minorité de répondants ont pour domaine de spécialité l’économie ou la statistique (2.47\%). 7.4\% ont une autre spécialité43. 
+
+\subsubsection{La fréquentation}
+
+L’attrait des chercheurs pour la bibliothèque numérique de Cujas vient de la richesse de ses collections, principalement en histoire du droit. Les chercheurs apprécient de la consulter, car ils ont accès à des documents qu’il leur serait compliqué ou fastidieux de trouver et consulter sans elle44. 
+
+Les chercheurs privilégient une bibliothèque numérique à une autre en raison de son programme de numérisation. Ils savent que lorsqu’ils consultent les collections de Cujas ils trouveront principalement les sources de droit : le contenu de CujasNum est donc bien identifié par ses lecteurs45.  
+
+\subsubsection{Les statistiques de consultation}
+
+La bibliothèque numérique a perdu en visibilité. Cette cause est liée à plusieurs facteurs. Il se trouve qu’on la voit difficilement sur la page d’accueil du site de Cujas46. On est obligé de faire défiler la page pour la trouver et elle n’apparait pas dans les onglets du site de la bibliothèque Cujas47. Lorsque l’on fait une recherche dans un moteur de recherche comme celui de Google, le PageRank est mauvais. La recherche d’un titre n’arrive \enquote{qu’en cinquième ou sixième pages de résultats}48.  
+
+\subsection{Les propositions d’améliorations des répondants}
+
+Les différents services de la bibliothèque se retrouvent autour de l’importance d’élargir le public cible de la future bibliothèque numérique et de ne plus se cantonner uniquement à celui des chercheurs. Il est primordial pour la bibliothèque d’intégrer dans le public visé le grand public49. En élargissant son public, cela lui permettrait de répondre à son objectif qui est de rendre la bibliothèque à terme capable d’agréger le contenu d’autres bibliothèques politiques ou juridiques devenant ainsi une plateforme pour les bibliothèques de droit50. Dans un objectif à long terme, Cujas aimerait devenir une alternative et un pôle de référence pour les juristes51.  
+
+Pour la direction, il est important de faire en sorte d’alléger la charge de travail en exploitant les nouveaux outils d’automatisation basée sur les données (IA, extraction depuis XML-ALTO). Ce n’est pas parce que le \enquote{monde des juristes} a commencé à traiter la question que les bibliothèques ne peuvent pas s’y pencher eux aussi. Il est important que le personnel de la bibliothèque y soit formé afin de comprendre comment ces outils sont exploités et fonctionnent52. 
+
+
+
+\section{La description des documents}
+
+\subsection{L’analyse de l’existant}
+
+Actuellement, les notices bibliographiques sont incomplètes et accessibles uniquement sous la forme d’infobulles.  Les notices sur les livres anciens sont souvent pauvres. Avant 2013, les standards et les normes de catalogage du livre ancien n’étaient pas utilisés à Cujas.  
+
+On trouve également deux versions des notices bibliographiques qui sont plus ou moins renseignées en fonctions de l’endroit où elles sont consultées53. La version accessible depuis la liste de résultats est \enquote{plus détaillée} que celle à partir de la visionneuse54.  
+
+Il manque l’affichage d’une page dédiée à chaque document permettant à l’utilisateur d’avoir un aperçu clair des informations55. A son stade de développement, Codex propose cette page. En effet, à l’intérieur du prototype Codex chaque document possède sa propre page avec une distinction claire de chaque élément constituant la notice permettant à l’utilisateur de repérer les éléments qui l’intéressent. Toutefois, certains problèmes repérés sur CujasNum y demeurent identiques56.  
+
+Par ailleurs, aucun des éléments écrits dans la notice n’est relié ou adossé à un référentiel57. Il n’est pas possible de faire des rebonds auteur ou sujet. Il n’est pas non plus possible de créer des liens vers la notice papier ou vers des sites se trouvant à l’extérieur de la bibliothèque58.  
+
+Enfin, la notice affichée à partir de la visionneuse est indiquée comme étant complète alors que la notice la plus complète est celle que l’on peut afficher dans la liste de résultat ou bien à partir des vignettes59.  
+
+\subsection{Les propositions d’amélioration des répondants} 
+
+Les notices bibliographiques de la future bibliothèque numérique doivent être adossées à des référentiels. Un alignement des métadonnées doit être effectué dans ce sens. Cela permettrait de faire rapprochement entre les documents mais aussi entre les différentes collections à travers la création de rebonds auteurs ou sujets60.  
+
+Il faudrait également avoir la possibilité de \enquote{paramétrer les éléments de la Dublin Core} s’affichant sur le portail de la bibliothèque numérique61. Dans l’idéal, il serait bien que la description du document puisse contenir l’indexation Rameau ainsi que celle d’Hauville62. Un des souhaits mentionnés par les utilisateurs est de savoir s’il est possible d’avoir un titre abrégé en français notamment pour les documents en latin afin de permettre au non-spécialiste d’avoir une idée de ce dont traite le document63.  
+
+
+
+\section{La recherche d’information}
+
+\subsection{L’analyse de l’existant}
+
+\subsubsection{Les moyens de recherche : recherche simple, avancée et dans l’OCR}
+
+Les utilisateurs et les différents services sont enclins à dire que la recherche simple fonctionne relativement bien. La troncature et la recherche par mots-clés satisfait les utilisateurs qui trouvent utile le petit guide écrit en-dessous de la barre de recherche permettant d’avoir une compréhension rapide de son utilisation.  
+
+En revanche, l’avis est plus négatif concernant la recherche avancée, en particulier des personnels de la bibliothèque. De plus, une confusion peut être faite entre la recherche plein-texte et celle avancée. Ces deux recherches se trouvent sur la même page pouvant laisser croire qu’ils fonctionnent de la même façon. La recherche plein-texte ne peut être utilisée à son plein potentiel étant donné que de nombreux documents numérisés ne sont pas océrisés. L’absence d’OCR, très demandé par les chercheurs les amène à contourner cette difficulté en faisant appel à leurs frais à des outils comme Abode Pro pour le générer eux-mêmes64. 
+
+Les chercheurs utilisent énormément la navigation dans la table des matières. Ils soulignent l’importance de celles-ci car cela leur permet d’économiser du temps de recherche. Ils apprécient d’avoir la possibilité de pouvoir cliquer sur une section ou une sous-section dans le document et de s’y rendre directement65. Les tables des matières rendent le document numérisé plus manipulables, et permettent un usage proche de celui d’un livre papier66. 
+
+\subsubsection{Navigation par thèmes}  
+
+Les utilisateurs expriment leur mécontentement concernant la navigation par thèmes qu’ils trouvent incohérente. Ils ne comprennent pas la manière dont été constitué les collections et soulignent le manque d’explication pour comprendre la logique utilisée pour répartir les documents67. 
+
+L’organisation actuelle, qui mélange des collections thématiques et chronologiques, pose plusieurs problèmes. Par exemple, la présence d’un auteur du XVIIe siècle dans la collection du droit romain crée une incohérence chez les historiens du droit qui associent ce type de droit à l’Empire romain68. 
+
+Les titres des collections sont à la fois trop précis et trompeurs et ne correspondent pas au contenu réel de chacune des collections69.  
+
+Les filtres et les facettes proposés dans la bibliothèque numérique ne répondent plus aux besoins des utilisateurs qui s’en plaignent et rejoignent sur ce point le mécontentement des services internes de Cujas notamment le DPCN. Les facettes utilisées dans CujasNum sont issues de l’indexation Hauville. Il s’agit d’une indexation propre à la bibliothèque Cujas créée par Frédérique Hauville, qui déconstruit l’indexation RAMEAU lorsque ce langage ne permet pas une description satisfaisante des documents de la bibliothèque numérique70. 
+
+Les filtres générés par l’indexation Hauville sont trop précis (nombre d’entre eux ne sont liés qu’à un seul document), contraignant l’utilisateur dans sa recherche71. On remarque une forte répétition des mêmes facettes amenant à rendre cette indexation illisible. L’utilisateur ne parvient pas à voir quel filtre il a sélectionné car celui-ci ne se distingue pas dans la masse des filtres existant72. Certaines des indexations Hauville contiennent le nom d’un ouvrage important de l’histoire du droit : les chercheurs soulignent l’inutilité de cette indexation quand une recherche par titre suffit pour trouver le document73.  
+
+\subsection{Les propositions d’amélioration des répondants}
+
+\subsubsection{Les moyens de recherche : recherche simple, avancée et par OCR}
+
+Une forte demande a été exprimée par les chercheurs concernant la recherche plein-texte. Ils insistent en particulier sur la nécessité de disposer à la fois d’une recherche plein texte et de tables des matières ce qui constitue un véritable atout pour mener leurs recherches dans de bonnes conditions74. Ces deux éléments permettent une manipulation du document numérique proche de celle du livre papier75.  
+
+Il serait apprécié qui soit signalé, par exemple dans la notice, le taux d’océrisation réelle des documents. Par ailleurs, de nombreux documents ont été océrisés sans que cela ne soit signalé dans la notice. Cette mention devrait figurer sur la page du document afin que l’on puisse filtrer la liste de résultats pour ne conserver que les documents océrisés76. 
+
+\subsubsection{Navigation par thèmes}  
+
+Actuellement, les collections sont créées grâce à des requêtes77. Il serait nécessaire de proposer un autre modèle de construction de collection pour permettre la création de collection et de sous-collection à l’intérieur de celle-ci tout en ajoutant de l’éditorialisation pour justifier les choix78. Pour les chercheurs, aucune constitution n’est mauvaise en soi tant qu’elle peut être justifiée et expliquée79. 
+
+\subsubsection{Filtres et facettes} 
+
+Les filtres et les facettes doivent être plus généraux et regrouper plusieurs documents. Il serait également important que celles-ci puissent adaptées aux différents types de documents numérisés, surtout si l’on souhaite ajouter des périodiques. Un filtre trop précis n’est pas forcément pertinent pour ce type de contenu80.  
+
+Il peut être utile d’avoir des facettes mieux constituées, proposant une arborescence claire à plusieurs niveaux (exemple donné : une entrée code peut être déclinée en code français et code étranger)81.  
+
+
+
+\section{La consultation} 
+
+\subsection{L’analyse de l’existant}
+
+Dans CujasNum, la visionneuse JPEG fonctionne bien et est de bonne qualité. Elle permet d’intégrer la table des matières en prenant en compte l’arborescence complète. Elle peut aller jusqu’à sept niveaux82. La table des matières, cliquable directement dans la visionneuse ainsi qu’à l’intérieur du PDF, constitue une aide à la recherche grandement appréciée par les chercheurs83. 
+
+Dans Codex, on observe que plusieurs visionneuses ont été mises à dispositions ce qui est un avantage certain pour élargir le public de la bibliothèque numérique. Le lecteur peux choisir entre une visionneuse simple d’utilisation comme UniversalViewer ou une plus technique comme Mirador84. Cela laisse l’utilisateur libre de choisir ses modalités de consultation et s’adapte à ses besoins et compétences.  
+
+Toutefois, dans Codex, on remarque que Mirador a du mal à afficher la table des matières, en raison du niveau d’arborescence et de caractères possibles trop restreints85. 
+
+Les chercheurs sont satisfaits de pouvoir télécharger le document sous format PDF86. C’est un format que tous connaissent et apprécient. 
+
+\subsection{Les propositions d’amélioration des répondants}
+
+Les chercheurs aimeraient avoir la possibilité de pouvoir comparer deux documents sur la même interface, ou d’extraire une partie du texte qui les intéresse afin de le mettre dans leurs cours87.  
+
+Ils sont nombreux à souhaiter être en mesure de ne télécharger qu’une partie du document et de sélectionner les pages qu’ils souhaitent88. Le cas échéant, il serait apprécié de pouvoir conserver la page de garde de l’ouvrage afin de savoir d’où l’information a été extraite89.  
+
+Les chercheurs apprécieraient de disposer de la référence bibliographique complète de l’ouvrage. Cela leur ferait gagner du temps en ayant simplement à faire un copier-coller dans leur document90. 
+
+
+
+\section{Les services proposés}
+
+\subsection{L’analyse de l’existant}
+
+Actuellement, peu de services sont proposés dans la bibliothèque numérique. La bibliothèque ne propose pas de compte personnel permettant d’enregistrer son historique de recherche, ou de mettre en favoris des ouvrages numérisés. Il est également impossible d’exporter une référence bibliographique91. 
+
+En principe la bibliothèque numérique permet de se constituer un panier de recherche constitué de favoris que l’on peut s’envoyer par mail sous forme de liste. Cependant, la liste ne parvint pas à être envoyé à cause d’une « erreur de servlet inattendue ». La connexion est refusée rendant impossible l’envoi de la liste d’ouvrage sélectionné92.  
+
+Par ailleurs, il n’est pas possible de conserver l’historique des requêtes de recherche ou d’ajouter des libellés afin de regrouper les documents traitant d’un sujet identique. Un autre problème est la perte des favoris collectés par les lecteurs lorsque l’on ferme la page du site. Le panier ne garde pas en mémoire les favoris93. Les lecteurs ne perçoivent donc pas l’intérêt de ce service.  
+
+\subsection{Les propositions d’amélioration}
+
+L’enquête en ligne a démontré que parmi les différents services proposés, celui d’avoir un compte personnel ressort. Nombreux sont les répondants qui aimeraient avoir la possibilité de pouvoir enregistrer en favoris les ouvrages consultés, tout en permettant de se créer une arborescence avec des fichiers afin de les classer94. Pour une majorité, le compte personnel n’a pas besoin d’être très sophistiqué et peut proposer des fonctionnalités simples95.  
+
+Les personnels de Cujas et les lecteurs se rejoignent sur l’utilité de disposer d’un compte personnel dans la bibliothèque numérique. Il faudrait que celui-ci permette de mettre en favoris les ouvrages, d’enregistrer les requêtes, d’avoir un historique de recherche et de pouvoir faire  une recherche uniquement dans les favoris. Le compte personnel devrait aussi donner la possibilité de partager des documents et de paramétrer des notifications afin d’être alerté lors de la mise en ligne d’un ouvrage susceptible d’intéresser96.  
+
+La direction aimerait beaucoup qu’il soit possible avec la refonte de la bibliothèque numérique de pouvoir mettre en place des services plus avancées permettant la fouille de texte. Elle propose pour ce faire de s’appuyer sur les ressources d’ISTEX. Par exemple, on pourrait permettre à travers une requête SQL, la création d’un corpus de document généré à la volée97 pour les chercheurs qui souhaitent réaliser une fouille de textes.   
+
+Enfin, un enseignant-chercheur recommande de mettre en avant la bibliothèque numérique Cujas à travers les réseaux sociaux afin de rendre la bibliothèque davantage visible98.  
+
+
+
+\section{Ergonomie}
+
+\subsection{L’analyse de l’existant}
+
+Le prototype Codex et CujasNum partagent, à quelques exceptions près, la même présentation générale des éléments. Cette architecture similaire permet à l’utilisateur de comprendre rapidement les sources disponibles. Toutefois aucun plan du site n’est accessible depuis la page d’accueil. 
+
+Dans Codex, certaines fonctionnalités sont répétées ou subdivisées en plusieurs endroits ce qui nuit à leur visibilité. C’est le cas de la fonction de recherche, présente en plusieurs endroits avec des modalités différentes pas toujours compréhensibles :  
+
+\begin{itemize}
+	\item \enquote{Explorer} propose une recherche par filtrage dans l’ensemble du corpus, et est présent en deux endroits sur la page de titre. 
+
+\item L’onglet \enquote{rechercher} se subdivise en recherche avancée ou plein texte. 
+
+\item La barre de recherche Rechercher propose une recherche dont on ne sait si elle cherche dans l’ensemble du site, les métadonnées descriptives ou l’OCR99.  
+
+\end{itemize}
+En revanche, la page d’accueil introduit de nouvelles fonctionnalités absentes de CujasNum, telles qu’un espace d’actualités, les ouvrages récemment publiés ainsi que les documents les plus consultés. Ces ajouts dynamisent l’interface et donnent de la \enquote{vie} à une bibliothèque numérique100.  
+
+Alors que CujasNum ne propose pas de rebonds vers d’autres éléments dans la bibliothèque numérique, Codex permet de rebondir depuis les sujets, la couverture géographique, la période101. Codex permet également de rebondir vers des documents similaires depuis la notice du document102, même si on ignore comment ces rebonds sont construits. 
+
+Concernant la page des \enquote{Collections}, l’absence totale de présentation de l’espace nuit à sa compréhension. Le contenu s’avère confus, car il mélange une approche thématique avec une approche par corpus sans les justifier, rendant la navigation peut lisible pour l’utilisateur.  
+
+Par ailleurs, il manque – tant dans le prototype que sur CujasNum – une page d’aide à l’utilisation permettant d’accompagner la prise en main de la bibliothèque numérique et de répondre aux questions courantes des usagers103. 
+
+Enfin, bien que les deux sites s’adaptent aux différents formats d’écrans, ils ne sont que partiellement conformes aux normes d’accessibilité104. Rien ne semble en effet avoir été mis en place pour permettre aux personnes en situation de handicap de l’utiliser convenablement.  
+
+\subsection{Les propositions d’amélioration}
+
+Dès l’ouverture de la bibliothèque numérique, il apparaît indispensable de proposer une présentation claire et synthétique de CujasNum ou de Codex105. Par ailleurs, l’adoption de titres plus larges pour les collections permettrait d’éviter toute confusion106.  
+
+Pour offrir une meilleure lisibilité, il serait pertinent de proposer un accès par Corpus numérisés permettant d’avoir une vision d’ensemble du contenu de la bibliothèque numérique, en plus de l’accès thématique107. 
+
+Il faudrait qu’à tout le moins les métadonnées auteurs soit alignées sur le référentiel IdRef.  
+
+Enfin, les collections présentes sur d’autres sites doivent pouvoir être reliées à la bibliothèque numérique, ce qui favoriserait la découverte fortuite des documents108. 
+
+
+
+\section{Analyse juridique} 
+
+\subsection{L’analyse de l’existant}
+
+Actuellement, les conditions d’utilisation des contenus numérisés sont confuses du fait de la coexistence de deux mentions faisant références à deux entités distinctes : les mentions légales que l’on trouve dans le pied de page, qui concernent le site de la bibliothèque Cujas109, et la rubrique \enquote{à propos} dans la bibliothèque numérique qui indique les conditions d’usage des documents numérisés de manière assez confuse110. Le constat est le même dans le prototype Codex111. 
+
+Par ailleurs, on remarque que les notices bibliographiques ne permettent en aucune façon de connaitre les conditions précises d’utilisation des documents, alors même que certains (fonds Carbonnier) ne sont pas libres de droit. Les droits attachés aux documents doivent être clairement indiqués, d’autant plus qu’il n’est pas autorisé de diffuser un document sous droit en dehors des enceintes de la bibliothèque ou sans un système d’accréditation en ligne112.  
+
+\subsection{Les propositions d’amélioration}
+
+Le dossier juridique est à instruire. Il convient toutefois de prévoir des \enquote{espaces d’informations et des modalités de filtrage}113. Les conditions d’utilisation doivent être explicitées et une mention d’opt-out prévue ainsi que des modalités de contact en cas de contestation.  
+
+La notice présentant un document doit être assorti d’une licence Etalab et/ou Creative Commons. Un filtrage des documents sous droit ou libres de droit doit pouvoir être réalisé par les facettes (balise DCRight des notices Dublin Core) 114.  
+
+Pour les documents sous droit qui doivent être numérisés, il convient de prévoir une consultation sur place par le réseau filaire sur les postes de la bibliothèque Cujas, ainsi qu’un système d’accréditation à distance ; il serait également intéressant de mettre en place un \enquote{horodatage débloquant le document sur le web une fois que les droits sont arrivés à terme}115.  
+
+Les articles de valorisation rédigés par des enseignants-chercheurs doivent également bénéficier d’un statut. 
+
+Enfin, la numérisation et la mise en ligne de documents comportant des jurisprudences demande, du fait de leur anonymisation désormais obligatoire, une étude rigoureuse, en particulier concernant les revues116.  
+
+
+
+\section*{Analyse technique}
+\addcontentsline{toc}{section}{Analyse technique}
+
+\section{CujasNum}
+
+\subsection{Éléments techniques} 
+\begin{itemize}
+	\item La bibliothèque gère plusieurs formats :  TIFF pour l’archivage natif sans perte, JPEG pour la visionneuse, PNG pour la vignette et PDF pour le téléchargement, XML-ALTO et TXT pour l’OCR.
+\item Type de fichiers proposés aux lecteurs : JPEG, PDF. 
+\item Arborescence à plat 
+\item Développé sous XTF (logiciel libre développé par l’université de Californie). 
+\item Visionneuse JPEG 
+\item Back-office : \enquote{boîte noire} 
+\end{itemize}
+\vfill
+
+\subsection{SWOT}
+
+\begin{table}[H]
+\centering
+\caption{Analyse SWOT de CujasNum}
+\label{tab:swot_cujasnum}
+\vspace{0.3cm}
+\begin{tblr}{
+	colspec = { X[1,l,m] | X[1,l,m] },
+	hlines,
+	vlines,
+	row{1,3} = {font=\bfseries},% Met en gras les titres des sections
+	}
+	% --- LIGNE 1 : Titres ---
+	\textbf{Forces (internes) du projet} & \textbf{Opportunités (externes) pour le projet} \\
+	
+	% --- LIGNE 2 : Contenu ---
+	Recherche simple : moteur de recherche plutôt efficace, permettant toutes les troncatures et recherches expertes.
+	Visionneuse JPEG : fonctionne bien, simple et facile à prendre en main pour tout type d’utilisateur du grand public aux chercheurs expérimentés. Ressemble à celle que l’on peut trouver sur Internet Archive.
+	Interopérabilité : possible grâce aux notices bibliographiques sous format Dublin Core et à l’entrepôt OAI-PMH.
+	XTF : réputé pour être vraiment solide.
+	&
+	 \\
+	
+	% --- LIGNE 3 : Titres ---	
+	\textbf{Faiblesses (internes) du projet} & \textbf{Menaces (externes) du projet} \\ 
+	
+	% --- LIGNE 4 : Contenu ---
+	Entrepôt OAI-PMH : existant mais difficile voire impossible de le moissonner. 
+	L’arborescence : empêche l’ajout d’autres types de documents comme les périodiques.
+	Opacité (Boîte noire):Impossible pour les experts métiers de faire un changement ou une correction d’eux-mêmes sans  passer par l’expert technique.
+	L’indexation inefficace : éléments très proche qui ne sont pas indexés de la même manière. Cela crée du bruit et ce n’est pas efficace pour la recherche.
+	XTF : pas possible de créer des collections.
+	Isolement : Absence de liens externes et d’alignement à des référentiels.
+	Obsolescence technologique : entraînant progressivement l’isolement de CujasNum et son invisibilité.
+	&
+	
+	CujasNum a été développé sous XTF qui n’est plus mis à jour depuis 2018 : risques de sécurité et de fermeture de la bibliothèque numérique par Renater.
+	Poids des formats utilisés notamment avec le TIFF.
+	Menace sur la conservation des données du fait de l’archivage pérenne au CINES mis à l’arrêt.\\
+	
+	\end{tblr}
+\end{table}
+
+\section{Codex}
+
+\subsection{Aspects techniques de Codex}
+
+\begin{itemize}
+	\item Développement sous Python-Django 
+\item Architecture modulaire et multiplateforme. 
+\item Utilisation du protocole IIIF 
+\item Mise en place d’API pour le moissonnage de métadonnées et interroger d’autres sites. 
+\item Utilisation de standards ouverts et de différents formats reconnus 
+\item Utilisation des protocoles SSO et SAML : protocoles de sécurités permettant au système d’interroger les serveurs de l’université afin de savoir s’il est bien inscrit chez eux. 
+\item Avoir accès contrôlé au back-office par profil d’utilisateur. 
+\end{itemize}
+\vfill
+
+\subsection{SWOT} 
+
+\begin{table}[H]
+	\centering
+	\caption{Analyse SWOT du prototype Codex}
+	\label{tab:swot_Codex}
+	\vspace{0.3cm}
+	\begin{tblr}{
+			colspec = { X[1,l,m] | X[1,l,m] },
+			hlines,
+			vlines,
+			row{1,3} = {font=\bfseries},% Met en gras les titres des sections
+		}
+		% --- LIGNE 1 : Titres ---
+		\textbf{Forces (internes) du projet} & \textbf{Opportunités (externes) pour le projet} \\
+		
+		% --- LIGNE 2 : Contenu ---
+		Evolutivité permise par l’architecture du site. 
+		Système « maison » conçu et maintenu en interne : forte adaptation aux besoins, pas de dépendance à un prestataire. 
+		Interopérabilité permise par les standards et les formats choisis. 
+		Le système n’est donc pas figé, car il permet d’ajouter d’autres types de documents ayant un autre format. 
+		Capacité à donner accès à des documents sous droits. 
+		Possibilité de travailler en sécurité avec de nombreux intervenants.
+		&
+		Permet de relancer le moissonnage OAI-PMH par la BnF. 
+		Le système permet le moissonnage de métadonnées extérieures. 
+		Possibilité pour les experts métiers de comprendre le circuit de la donnée et d’agir pour correction de manière simplifiée. 
+		Interopérabilité : 
+		Le protocole IIIF va permettre de combler des lacunes en rapatriant des données d’autres établissements. 
+		Visibilité accrue grâce au moissonnage des métadonnées. 
+		Les standards et les normes du web de données utilisés permettent un alignement avec les principaux référentiels et de construire des liens vers d’autres plateformes. 
+		Possibilité de verser des documents sous droits et donner un accès restreint.\\
+		
+		% --- LIGNE 3 : Titres ---	
+		\textbf{Faiblesses (internes) du projet} & \textbf{Menaces (externes) du projet} \\ 
+		
+		% --- LIGNE 4 : Contenu ---
+		Beaucoup d’éléments restent proche de CujasNum et doivent évoluer. 
+		Système « maison » conçu et maintenu en interne : menace sur la maintenance et l’évolution du système (Système non documenté et seulement connu à Cujas). 
+		&
+		Coût humain important et délicat car développement en interne donc on ne possède pas un vivier de personnes sur lesquelles s’appuyer pour maintenir sur moyen et long terme. \\
+		
+	\end{tblr}
+\end{table}
+
+\section*{Annexes} 
+\addcontentsline{toc}{section}{Annexes}
+
+\subsection*{Annexe 1 : Descamps Olivier (OD), Professeur de l’histoire du droit de Paris II, responsable scientifique du CST droit (BNF).}  
+\addcontentsline{toc}{subsection}{Annexe 1 : Descamps Olivier (OD), Professeur de l’histoire du droit de Paris II, responsable scientifique du CST droit (BNF).}
+
+« Pour lui la bibliothèque numérique réunissant des sources d’histoire du droit qui serait difficile ou fastidieux de consulter. Il nécessiterait des démarches pour aller les consulter en Italie, Allemagne. Il s’agit d’un lieu concentré où l’on peut trouver les sources souhaitées et très importants à l’heure actuelle. » 
+
+Méthode de recherche : « Est-ce que vous utilisez principalement la recherche simple et la recherche avancée ou peut-il vous arriver de faire une recherche plus aléatoire à travers les collections de la bibliothèque numérique comme vous pourriez être amené à le faire dans une salle de lecture ? Exactement ça. Idée initiale avec des démarches pour regarder autour ce que l’on peut trouver. C’est très agréable. Bibliothèque numérique de Munich bonne présentation, lien avec des propositions avec possibilité de cliquer dessus avec les mêmes éditions d’ouvrages, ou autre documents. Cela fait le prolongement de la recherche. Balade bucolique dans l’arborescence numérique. »  
+
+« Cujas : demande sur un auteur. Si on fait une demande ciblée, d’autrefois référence à d’autres ouvrages avec le même auteur pouvant être cité par quelqu’un d’autre. Le hasard est pertinent et agréable pour constituer le pan de la recherche. » 
+
+Pour les filtres : « Quand vous faites vos recherches, quels types de mots-clés utilisez-vous pour obtenir vos résultats (plutôt thématique ou très précis) ? La règle est qui peut le plus peut le moins. Ayant plus de filtre, élargissement du spectre. La recherche du moment. Des filtres trop précis ne seraient pas forcément très intéressant et cela peut être contraignant. C’est mieux d’avoir plus de filtres permettant de voire qu’il y a autre chose permettant d’aller plus loin. Il aimerait bien pouvoir prendre un chemin de traverse sinon trop réducteur. » 
+
+« Le problème d’absence d’océrisation, pas d’autre méthode pour repérer. Si on sait ce que l’on cherche comme par exemple un commentaire sur le digeste. Si c’est un ouvrage que l’on ne connait pas particulièrement cela devient difficile. Soit on va à la tdm, taper un mot si toutefois c’est océrisé quand les docs ne le sont pas cela devient plus difficile.  
+
+Stratégie mise en place : il a téléchargé adobe professionnel permettant une océrisation.  
+
+Un jeune étudiant en thèse cela ne serait pas possible. Il serait obligé par exemple dns le digeste : livre ix sur dommage sur les biens d’autrui. Avancer en « aveugle », tâtonnement. » 
+
+« Avoir le choix entre télécharger une partie du document se serait bien. C’est généralement où tout l’un ou tout l’autre. Cela évite que ce soit trop lourd. Si possible d’avoir plus de commodité ce serait mieux. C’est le culte de la performance. Le milieu de la recherche : dvlpt de la slow science où l’on prend son temps. Il y a une impatiente qui s’est développé avec l’époque dans laquelle on vit. » 
+
+« Un espace à soi, avoir la possibilité de pouvoir bien répartir les sources comme il le souhaite ce qu’il fait à l’extérieur pouvoir le faire à l’intérieur. Il souhaiterait si cela est possible de pouvoir recréer l’arborescence de ses dossiers à l’intérieur de la bibliothèque numérique. » 
+
+« Ce serait bien, très utile. Création d’un zotero, dirige l’histoire juridique travaillant sur le parlement de paris pour pouvoir retrouver les ouvrages où ils sont et éviter de chercher dans tous les coins. Pouvoir importer c’est très bien car cela va vite.  
+
+Il faut le faire. C’est important car les jeunes chercheurs, étudiants ont besoin de cela. Il a une collègue qui est abonné à plusieurs comptes pour voir les nouveautés pouvoir les nouveautés, acquisition récente pour pouvoir monter ces séminaires. 
+
+Si vous voulez plus de monde c’est les réseaux sociaux, c’est le numérique. Co-directeur de la revue, ils sont beaucoup moins lu, alors que le numérique permettrait d’amener plusieurs personnes. » 
+
+Projet liste Pfister-Roumy 2.0 : « Ce qu’il souhaiterait voir, important de numériser tous les manuels de droit civil, de procédure, commercial entre 1800 et 1940. C’est décisif. Créer des sous-catégories.  
+
+Les revues : trimestriel de droit civil crée en 1902. Il y a 4 volumes qui sont numérisés, trouvés sur gallica. C’est déterminant de numériser les grandes revues. Développer la science ouverte. Grandes revues : revue XIXe s on en trouve avec BNF, combler les trous pour rendre facile et accessible à distance pour n’importe qui. Il est obligé d’aller à l’étage ‘en-dessous à la bibliothèque andré, revue de droit civil de 1923 à 1930 car ce n’est pas en ligne cela dépasse l’entendement. 
+
+Lister les grandes revues et les faire numériser de leur date de création jusqu’à 1940.  
+
+Le droit, la doctrine, les revues, la jurisprudence. Organiser de manière accessible, rationnelle car c’est un casse-têtes, ce n’est pas claire. Il a mis une heure pour voir un arrêt.  
+
+Pour la période moderne : Roumy-Pfsiter bien mais possible de les compléter.  
+
+Il travaille sur le droit colonial et pénal complété des revues et de la jurisprudence. Travaille conjoint entre Cujas, BNF et cour de cassation. Qqch de très précieux. Il y a en droit civil il y a des trous dans la raquette.  
+
+Présentation du corpus, possibilité de le faire avec une vidéo pour expliquer. Retour ‘expérience sur un doctorant, un étudiant pour voir comment il a navigué sur les recherches. Pour expliquer comment il l’a utilisé.  
+
+L’idée par rapport à ce programme national. Organisation avec BNF d’un colloque pour présenter un état d’avancement, avec deux chercheurs présente comment ils ont mené leur recherche étape par étape et montrer le cheminement pour pouvoir préparer un article, une communication. Voir l’arborescence, ce qui a été fait, conseil d’utilisation (Tips) pour que ce soit reproductible pour d’autres personnes s’ils veulent se lancer dans une recherche. 
+
+Pour cette deuxième liste, il faudrait remonter avec un petit comité, réunissant 4 /5 personnes travaillant sur des périodes différentes. Voir ce qui est possible de faire, prioriser. Il y a un budget de numérisation. » 
+
+
+
+\subsection*{Annexe 2 : Masséna Floriane (FM), Maître de conférence d’histoire du droit et des institutions de Paris I, entretien du 01/06/2026.}  
+\addcontentsline{toc}{subsection}{Annexe 2 : Masséna Floriane (FM), Maître de conférence d’histoire du droit et des institutions de Paris I, entretien du 01/06/2026.}
+
+
+« Elle apprécie énormément la présence de la table des matières dans la visionneuse où dans le pdf étant cliquable cela l’arrange davantage car lui permettant d’aller à l’endroit souhaité directement ce qui est plutôt pratique car cela se rapproche des pratiques de manipulations d’un livre papier. Cela permet d’aller en effet directement à la section qui l’intéresse sans avoir à faire défiler toutes les pages une à une ce qui peut devenir vite long et fastidieux lorsque l’on a de gros volumes à analyser. » 
+
+« Elle apprécie également le fait de pouvoir télécharger le document sous format pdf lui permettant de le garder par la suite et de pouvoir l’annoter comme elle le souhait de son côté. » 
+
+« Elle aime bien la recherche simple et avancée de la bibliothèque numérique préférant les utiliser au vignette présente sur la bibliothèque numérique représentant pour une difficulté à manipuler. Elle ne comprend pas bien comment ont été découpé les collections entre un mélange de collection thématique et chronologique représentant une incohérence pour elle, si la volonté est de garder les vignettes actuelles il est nécessaire selon elle d’avoir une explication sur la façon dont le corpus a été constitué. Cela n’est pas forcément évident de comprendre comment les sources ont été rassemblé afin de constituer les collections. Il est nécessaire d’expliquer les choix menant à cette décision afin de ne pas créer de confusion. » 
+
+« C’est la même remarque que pour les collections juste avant, elle a dû mal à comprendre la manière dont ont été construite les facettes rendant difficile la prise en main et la pertinence de ces dernières notamment celle trop précise faisant référence à un document précis (exemple : Droit romain – Loi des Douze Tables). Dans le cas des documents cités ce n’est pas très intéressant car ce n’est pas ce qui est recherchée par le lecteur. C’est un texte très connu par conséquent si on veut le lire on taperait plus naturellement le nom dans la barre de recherche que sélectionner le filtre. » 
+
+« En essayant d’utiliser les filtres au cours de l’entretien, elle s’est aperçue que par exemple des documents manquaient et ne parvenait pas à comprendre le peu de résultat de ce dernier. Par exemple, le filtre droit romain – mandat avec un seul résultat trouvable dans la bibliothèque numérique n’était pas représentatif selon elle de ce que l’on peut trouver normalement car lorsqu’elle effectue la même recherche dans le catalogue de la bibliothèque Cujas elle obtient davantage de résultat. Pour elle, cela représente un inconvénient certain qui est la peur de passer à côté d’une source à cause d’une facette trop précise ne permettant pas le rapprochement avec d’autres documents pouvant avoir au final les mêmes thématiques. » 
+
+« Une autre particularité soulignée, la facette code, elle ne comprend pas bien à quel code nous faisons références pour elle, il serait nécessaire d’indiquer un deuxième niveau afin de différencier le code français du code étranger. Pareil pour le droit romain, avoir une distinction nette entre le public, privé... » 
+
+« Elle n’est pas complétement convaincue par la classification. Elle ne parvient pas à comprendre comment elle est faite et pourquoi de tels choix ont été pris. Elle ne peut pas utiliser les facettes car trop précise à certains moments voire même inexacts à d’autres. Par exemple : la facette droit romain – mandat ne retourne qu’un seul document de ce type alors qu’elle sait et qu’elle a vu notamment dans le catalogue de la bibliothèque Cujas qu’il y en a beaucoup plus. Un autre problème des facettes indique un document précis pour elle cela n’a pas de sens. D’autant que pour cet ouvrage étant connu, elle le chercherait d’elle plutôt que d’utiliser un filtre amenant à celui-ci. Cela illustre pour elle la raison pour laquelle elle n’utilise pas les facettes à cause de la crainte de passer à côté de document essentiellement pour ces travaux. C’est donc pour cela qu’elle préfère utiliser la recherche simple. »   
+
+« La bibliothèque Cujas est une bibliothèque de recherche donc devrait plutôt partir de quand le document a été écrit cela semble plus logique pour eux que de partir de ce que traite le document car chronologiquement cela n’est pas logique.  
+
+Ex : droit romain voit un auteur du XVIIe siècle pas à être présent dans le droit romain. » 
+
+« Problème : collection thématique et chronologique => pas hyper facile à utiliser, d’autant que mettant des vignettes précises en page d’accueil elle s’attend à trouver des sources précises liées à la collection alors que pour elle cela n’est pas réellement le cas. » 
+
+« Pb : passe à côté de leur source. Besoin d’explication sur le contenu. Pas évident de comprendre pourquoi il n’y a que 9 vignettes. Forte impression de rater des sources. Aller regarder dans les collections : pour tenter sa chance. Elle a dû mal à comprendre pertinence des vignettes. » 
+
+« Des explications sont nécessaires dans la collection pour comprendre pourquoi cette logique a été mis en place. Il n’y a rien sinon pour comprendre cette logique amenant à bcp d’incompréhension dessus et de confusion par moment car ne sachant pas comment les appréhender. » 
+
+« Autre exemple : droit pénal / code => question autour de ces deux collections car normalement un même document présent dans l’un doit se trouver dans l’autre et inversement. » 
+
+« Ne comprends pas l’idée du panier selon elle, il n’est pas utile car ce n’est pas comme ça qu’elle conçoit l’utilisation du panier car elle trouve cela embêtant que lorsqu’on ferme la page elle ne puisse pas revenir sur ces recherches lorsqu’elle revient consulter le site. » 
+
+« Oui, elle apprécierait grandement de pouvoir avoir un compte personnel. Elle dit qu’il n’a pas besoin forcément d’être très compliqué où d’avoir plein de fonctionnalités. Selon elle, le simple fait de pouvoir mettre en favoris un document qui l’a intéressé et de pouvoir y revenir même une fois que la page a été fermé car cela a été conservé sur le compte elle trouverait ça d’une grande aide. Comme elle l’expliquait au cours de ces travaux, elle a amené sur une période donnée à revenir assez régulièrement sur les mêmes documents plusieurs fois dans le mois donc le fait d’avoir un espace qui centralise tout cela peut lui apporter un confort non négligeable. » 
+
+« Elle apprécierait grandement s’il était possible de récupérer une référence bibliographique toute faite de la source pour lui permettre de la citer directement dans sa bibliographie. Cela l’aiderait énormément, lui faisant gagner du temps et encore une fois lui apporterait un confort non négligeable. » 
+
+\subsection*{Annexe 3 : Moiroud Cécile (CM), Maître de conférences HDR, Droit public, Paris I, entretien du 17/05/2026.}
+\addcontentsline{toc}{subsection}{Annexe 3 : Moiroud Cécile (CM), Maître de conférences HDR, Droit public, Paris I, entretien du 17/05/2026.}  
+
+« Il est primordial pour elle que l’on puisse se rapprocher le plus possible de l’usage d’un ouvrage papier que l’on peut avoir lorsqu’on les consulte dans une salle de lecture. Pour retrouver ce confort que l’on a avec les livres, cela passe par la table des matières de l’ouvrage qui est cliquable pouvant amener directement à la section du document qui l’intéresse, complétée cette expérience avec la recherche plein-texte au sein du document serait pratique aussi. Cela se rapproche de l’index personne que l’on trouve à la fin d’un ouvrage. Cela le remplace tout en permettant de cibler précisément le nom dans le document ce qui est moins évident quand on parcourt un livre papier. » 
+
+« Il est important également selon elle d’avoir une réflexion autour de la constitution des collections pour ne pas créer l’impression que ce sont des collections hermétiques entre elles. » 
+
+\subsection*{Annexe 4 : Pfister Laurent (LP), Professeur d’histoire du droit et des institutions de Paris II, entretien du 17/05/2026.}
+\addcontentsline{toc}{subsection}{Annexe 4 : Pfister Laurent (LP), Professeur d’histoire du droit et des institutions de Paris II, entretien du 17/05/2026.}
+
+« Trou : raison domaine public. Quand on fait des études, recherches au-delà de 1930 : difficulté de trouver des recueils numérisés entre 1930 et 1980 dans les recueils Dalloz. C’est dommage que toute cette période soit ignorée. Intéressant / pertinent de se rapprocher de Dalloz comment on pourrait travailler avec eux. » 
+
+« Pour certains ouvrages : intéressant pour les chercheurs de numériser la première édition et d’autres éditions postérieures. Exemple : Aubriot, cours de droit civil présenté comme un cours d’auteur allemand. A partir 3e / 4e édition : affranchissement de cette conception et dvlpt de leur propre théorie du patrimoine. Intérêt pas pour tous de montrer l’évolution de penser de certains auteurs. » 
+
+« Manière de valoriser le portail : bien de présenter les ouvrages, montrer leur qualité. Intéressant d’attirer l’attention du public sur ce que contient l’ouvrage. Trouver dans des ouvrages pas connu des propos correspondant à des théories contemporaines. Présenter les ouvrages et leur contenu. Difficulté pour les privatistes : ne résonne qu’avec Pautier et Daumas. »  
+
+« La recherche par occurrence est ce qui se rapproche le plus de l’impression de travailler avec le livre dans les mains mais de façon numérique. » 
+
+« A remarquer le défaut lié aux filtres de la bibliothèque numérique. Pareil, si les filtres sont trop précis ou trop généraux moins intéressant car par principes ils savent ce qu’ils recherchent. Moins partisan de l’utilisation des filtres. Préfère largement utiliser : l’OCR et les Tables des matières. » 
+
+« Pensait que tous les textes sur la bibliothèque numérique étaient océsirés pour faire la recherche plein-texte. En apprenant que ce n’était pas le cas à juger que dans les premières fonctionnalités importantes à mettre en place avant d’autres fonctionnalités plus poussée est l’océrisation des documents permettant ainsi la recherche plein-texte qui serait salvatrice combinée aux tables des matières apporteraient un grand confort pour les chercheurs. » 
+
+« Il dit que ce serait bien d’avoir la référence bibliographique de l’ouvrage présent sur la page de consultation de l’ouvrage. Cela leur permettrait d’avoir simplement à copier et coller la référence dans leur document afin de constituer leur bibliographie. » 
+
+« C’est une bonne idée selon lui de faire ça (galerie des grands juristes) car cela lui permettrait aux chercheurs d’apporter une plus valu à leur travail. D’autant que selon lui, cela permettrait d’étendre à un autre type d’utilisateur dans le cas d’un travail conjoint avec la communauté scientifique permettant aux enseignants-chercheurs spécialiste de la question ou du fonds numérisés sur le site de la bibliothèque numérique. »  
+
+« Notices biographiques et genre de l’ouvrage sur sa façon de concevoir. Explication pouvant leur être donné sur les décisions qui ont été pris et sont répétés d’un ouvrage à l’autre. Concernant la publication d’ouvrage : privilège accordé et expliquer que les éditeurs et auteurs ont fait des choix pour ces recueils. La doctrine comme s’est trouvée. Explication : commentaire de coutumes par les auteurs ou éditeurs. Cela faciliterait le travail. » 
+
+« Arrivée de trouver par hasard un auteur. Site gagnerait en sérieux, en scientificité et en accessibilité. » 
+
+« Recherche plein-texte : très salvateur. Gallica s’en aperçut. Chercher par occurrence. Trouver très vite avec une entrée et la recherche plein-texte a permis de trouver plein de chose permettant d’écrire un article derrière. » 
+
+« Sur une page d’accueil : faire plein de chose, il y aurait moyen de mettre en valeur la coutume ancienne à la bnf. Imaginé une page : focus sur une image rare renouvelable sur plusieurs mois, focus sur un genre littéraire. Information évolutive et information fixe. » 
+
+« Editorialisation et océrisation : deux choses qui valoriseront la bibliothèque numérique. 
+
+Associés les noms des chercheurs, communauté scientifique elle saura orienter. On trouve un relais auprès d’un autre public orienté vers la bibliothèque numérique. Se rendre accessible dans les discours : lien avec une équipe avec des enseignants qui contribueront. Se rapprocher des équipes du dictionnaire des juristes français et c’est la propriété PUF. Vérifier la question des droits : exploitation par chacun ne fasse pas concurrence à l’ouvrage globale. »  
+
+« En fonction de l’actualité juridique dans le cas où l’on souhaite intéresser un autre public. Voir comment rattacher le corpus de source et sur une question de droit en fonction de l’actualité montrant la pertinence. Suscitant un travail avec des historiens, publicistes. » 
+
+« Intérêt pour la bibliothèque numérique : envoi d’étudiant sur la bibliothèque de cour de cassation => lancer des mémoires de recherche. Etudiante travaillant sur les appellations pour participer au colloque. Fonds : travail préparatoire qui permettrait de préparer le terrain »  
+
+« Déjà une forme d’éditorialisation à travers la catégorisation : pas toujours certain que ce soit la meilleure des entrées. Avoir une classification littéraire et un peu mélangé tout. » 
+
+\subsection*{Annexe 5 : Bolard Cécile (CB), Responsable de la numérisation et des collections numérisées, entretien du 19/05/2026.}
+\addcontentsline{toc}{subsection}{Annexe 5 : Bolard Cécile (CB), Responsable de la numérisation et des collections numérisées, entretien du 19/05/2026.}
+
+« Non visible depuis la page d’accueil du site Cujas, car par présent dans les onglets, et non visible sans scroller. Navigateurs certifiés : fonctionne avec firefox, Edge, => voir pour les autres. Je ne sais pas ce que signifie cette notion de certification. PageRank mauvais : une recherche d’un titre arrive en 5 ou 6è page de résultat Google => comment concevoir la bib num pour le faire remonter ? Aucun élément de communication mettant en valeur les collections : Pas de posts réseaux sociaux, d’actus sur le site de Cujas, quasi pas de présentation du contenu » 
+
+« Actuellement il manque une page par document, où on trouverait : Les données bibliographiques complètes, adossées à des référentiels à chaque fois que c’est possible, avec des rebonds sur les données issues de référentiel (rebond auteur, rebond sujet en particulier). » 
+
+« Il faut qu’on puisse paramétrer les éléments de la DC qui sont effectivement affichés. Il faudrait pouvoir intégrer les descripteurs RAMEAU des documents numérisés présents dans les notices du catalogue, quitte à ce que ces descripteurs ne soient pas dans la DublinCore. Ils doivent être cliquables pour faire des rebonds. L’idéal serait qu’on puisse générer des facettes depuis ces descripteurs. Il ne s’agit pas de remplacer les descripteurs Hauville, mais de prévoir les deux indexations simultanément. Les données juridiques. » 
+
+« Aucun espace d’aide / à implémenter et disposer d’un espace contact pour répondre aux demandes d’accompagnement, de formation… Eléments de contact : questions, demande de reproduction payante, suggestion de numérisation… » 
+
+« Citations : Zotero ou Export des données bibliographiques sous différents formats. »  
+
+« Compte personnel avec dossiers pour constituer des sélections : possibilité de relancer une recherche OCR dans la sélection, export de la sélection, enregistrement des requêtes et archivage automatique des résultats dans un dossier dédié, et information par mail de nouveaux résultats, possibilité de partager un compte personnel avec un groupe (pour qu’un professeur partage avec ses étudiants) et processus de suppression pour les comptes inutilisés. » 
+
+« Téléchargement : pdf (complet, parties), TXT (complet, parties), et d’autres formats. Impression : totale, partielle. »  
+
+« On tombe directement sur des « collections » sans présentation de l’endroit où on est ni actualités. Le contenu des pavés est confus, on ne sait pas si on est dans une approche thématique ou dans une approche par Corpus. C’est entre les deux, et donc ce n’est pas compréhensible. Le corpus des Fondamentaux du droit n’est pas mis en valeur, alors qu’il constitue la collection phare de la bibliothèque numérique et prioritairement ce qui va intéresser notre public cœur de cible (historiens du droit). Exemple : sous « droit romain », on trouve des ouvrages des Fondamentaux du droit ET des cours de droit. Les cours de droit sont bien identifiés, mais séparés en deux entités : Cours de droit et Cours Carbonnier. Aucune identification des images présentées (obligatoire) » 
+
+« Confusion concernant les conditions d’utilisation des contenus numérisés :  
+
+On trouve en pied de page les mentions légales du site de Cujas… or il ne s’agit pas de la bibliothèque numérique.  
+
+On trouve en Rubrique à propos les conditions d’usage de la bibliothèque numérique, qui sont confuses et ne correspondent pas à ce qui est dit en pied de page. Il faut conserver néanmoins une rubrique spécifique, à voir ce qui se fait dans d’autres bibliothèques numériques. » 
+
+« Il n’y a aucune possibilité de différencier les mentions légales par document : la balise existe dans la notice DC : elle doit être visible, la rédaction de la balise doit être unifiée dans un référentiel, cela doit faire partie des éléments filtrables. »  
+
+« Aucune possibilité de diffuser un document sous droit uniquement dans les emprises de Cujas et sur nos postes, comme la légisation nous y autorise (il faudrait un horodatage que débloque sur le web à la date de libération des droits) » 
+
+« Le dossier est à instruire, mais il faut prévoir les espaces d’informations et modalités de filtrage. Il faudrait prévoir des espaces pour indiquer le statut des espaces de valorisation : si un chercheur rédige un article sur un corpus, ou un commentaire d’un document, ce texte doit bénéficier d’un statut. » 
+
+
+
+\subsection*{Annexe 6 : Colcanap Gregory (GC), Directeur de la bibliothèque interuniversitaire Cujas, entretien du 27/04/2026.} 
+\addcontentsline{toc}{subsection}{Annexe 6 : Colcanap Gregory (GC), Directeur de la bibliothèque interuniversitaire Cujas, entretien du 27/04/2026.}
+
+
+« Bib num : construit pour usage ciblé, limité en type de docs (monographie uniquement). Volonté de récupérer les docs num à la BNF, sur Gallica, pas obstacle sur une multi diffusion. Augmenter le volume de doc num, notamment périodique, iconographie. => coll en propre bib » 
+
+« Réflexions sur océrisations : gdes parties des documents numérisés ne sont pas océrisés. Pb : en dessous de 99\% pas possible = pas d’OCR. Faire confiance l’intelligence du chercheur. Capable de le faire. «  
+
+« Procéder à une océrisation à posteriori soit prestataire externe soit utilisation d’outils en opensource. Cas dans la licence Mistral : terrain d’expérimentation amélioration OCR avec IA, à voir à MT corriger océrisation ou faire de la transcription. «  
+
+« Possibilité de mettre en place une médiation : proposition d’un chercheur s’il travaille sur le doc. » 
+
+« Créer une galerie des grands juristes : choisir des grands auteurs, 5 à 10k signes. Liens faire de toutes les œuvres numérisées sur cujas ou ailleurs. Présentation + œuvres = lien jurisPat => sorte de visites guidées. Entrée particulière de la bib. Faire un lien notices, coll automatique avec indexation. Mettre champs même doc papier, mettre du RAMEAU. Avoir les mêmes indexations pour pouvoir attraper les deux. Notices identique comme sur SUDOC. » 
+
+« Curieux : partie éditorialisée, peut avoir deux types de catégories. Permettre une petite publication sur le travail effectué, enrichissement des collections. Question éditorialisation en citant la personne. Lien faire des liens entre recherche et bibliothèque. » 
+
+\subsection*{Annexe 7 : Dubois Olesea (OD), Responsable de la bibliothèque numérique de Sciences Po, entretien du 15/06/2026.}
+\addcontentsline{toc}{subsection}{Annexe 7 : Dubois Olesea (OD), Responsable de la bibliothèque numérique de Sciences Po, entretien du 15/06/2026.}
+
+
+« Il n’y avait rien. Travail minutieux correspondant à la notion d’inventaire pas juste inventorier un système d’inventaire. C’est un fichier de recollement. Chaque fiche : passeport du document correspondant au doc, description bibliographique du document avec le document lui-même sans passer par le Sudoc (erreur proche de 0). On a les tdm et la descriptions techniques / physiques du doc : toutes les feuilles blanches, etc. : faire un constat d’état surtout pour les collections uniques. Indiquer chaque document : quand on doit déplier une carte, etc. deux notions : aspects bibliographiques, aspects techniques faites de manières exhaustives. C’est déjà une archive en soi, à quelle date voit l’état de la page. Il y a 20 ans : pas de normes, de standards. Mais malheureusement les docs qui ont été pris : pas aussi riche. Cette précision n’existe plus. Docs : mêmes années etc, mais avec des pages supplémentaires (besoin de l’indiquer pour les chercheurs). Fonds sur lequel elle a travaillé : métadonnées très riche et profonde pour avoir le squelette et la base. Bib num : seule chose que l’utilisateur voit c’est la vitrine du doc. Plus on est bavard dans les descriptions, plus il trouvera ou fera son choix pour son sujet de recherche pour ces cours. Décrire au max. » 
+
+« Cherchait des notices dans le Sudoc ou cherchait des notices dans le catalogue de Cujas quand il existait il était très pauvre. Parfois, elle est passée au niveau où il n’y avait rien. Des fois, des notices très maigres mais avec des titres incomplets, dates avec des ?, pas les bonnes dimensions. Soit elle partait de zéro, soit elle partait des notices sudoc qu’il fallait enrichir pour que ce soit plus intéressant pour le lecteur. » 
+
+
+
+\subsection*{Annexe 8 : Dufournet Stéphane (SD), Responsable du Département du Patrimoine, de la conservation, et de la numérisation, entretien du 22/04/2026.} 
+\addcontentsline{toc}{subsection}{Annexe 8 : Dufournet Stéphane (SD), Responsable du Département du Patrimoine, de la conservation, et de la numérisation, entretien du 22/04/2026.}
+
+
+« Élargir le public pour plsrs raisons. Volonté direction avoir une bib capable d’agréger d’autres contenus provenant d’autres bib politique. Portail les essentiels du droit pas satisfaisant pour juristes. Exemple JO : intérêt pour cabinet avocat, grand public pour les décrets de naturalisation (vérif JO Algérie avec anonymisation). Si ajoute des revues publiques : avec élargissement vers sciences politiques et sciences économiques. » 
+
+« Recherche avancée. Confondant avec recherché texte integral. Pb car 80% pas OCR. Filtre qui ne vont pas. Page d’accueil = requête où on cherche par le titre. »  
+
+« Mode d’affichage pas très fin impossible creation corpus, pas d’éditorialisation. » 
+
+« Il n’y a que des monographies, pas pu intégrer les cartes postales (possibilité de les faire numériser par BNF). Ne voit pas cmt le workflow réagit + faire tdm pour des estampes et des cartes postales. » 
+
+« Gênant point de vue conception bib num : pas de communauté derrière. » 
+
+« Accueillir d’autres types de doc » 
+
+« Être interconnectés avec interopérabilité » 
+
+« Accès back office (affiche métadonnées, modif page d’accueil) » 
+
+« Avoir meilleure présentation des collections. » 
+
+« Revoir les mentions légales => resort de la bn. » 
+
+« Bib num conçue comme répertoire de PDF. Pensée à ajouter les réseaux sociaux » 
+
+« Public : bib de recherché, doctorant, chercheurs, pas l’impasse sur le grand public (étudiant, érudit, retraités). » 
+
+« Devenir la bib num de réf en science juridique se metre au niveau de Gallica et IIIF.» 
+
+« Aller voir ISTEX (proposer des passerelles vers des corpus de recherché, corpus à la demande) » 
+
+« Possibilité de faire OCR à la volée : être intéressant. » 
+
+« Open source : question de moyens se pose vraiment. » 
+
+« Bien voir impact sur la faisabilité et conditions qu’il faut pour atteindre les objectifs nécessaires de les hiérarchiser. » 
+
+« Avoir possibilité de télécharger notice enrichie avec TDM. » 
+
+« Creation de corpus à la volée à partir d’une requête. Inédit des process à venir => perspectives de qu’est-ce qui pourrait intéresser les chercheurs à mettre en place. Les choses à faire à la volée avec IA. » 
+
+
+
+\subsection*{Annexe 9 : Gottely Alexandra (AG) : Responsable du Département partenariats et appui à la recherche, ancienne responsable de la bibliothèque numérique, entretien du 28/04/2026.}
+\addcontentsline{toc}{subsection}{Annexe 9 : Gottely Alexandra (AG) : Responsable du Département partenariats et appui à la recherche, ancienne responsable de la bibliothèque numérique, entretien du 28/04/2026.}
+
+
+« Bib : déjà partenaire avec une expo en ligne sur l’anniv du code civil. Pour nourrir cette expo : mettre à dispo cours polycopiés du doyen, contact à la famille pour demander son accord car doc /s droit à ce moment-là et les descendants l’ont complété. » 
+
+« Choix sur les formats des fichiers, tests d’OCR et de correction d’OCR (pas au point et on ne peut pas se le permettre de correction en interne ni d’argent en externe).  
+
+Besoin : interface pour le public.  
+
+Ouvrage : reconstitution intellectuelle de la structure du doc (appelé tdm). » 
+
+« Mise en place bib num /s XTF dvlpé par l’université de Californie. Pas utilisé en France mais très utilisé dans le monde anglo-saxon. Très réputé pour être vraiment solide. » 
+
+« Choix fait à l’origine : XTF manière générale utilisé dans monde anglo-saxon avec une interface publique ajoutée par-dessus. Logiciel proposé par Brouk.  Logiciel libre : important pour Cujas. Mettre tei XTF le permettait de les mettre en place assez facilement » 
+
+« Moteur de recherche plutôt efficace, permettant toutes les troncatures, recherches expertes. Pas de soucis sur la façon dont ils fonctionnaient. Mise en ligne : PDF en noir et blanc. Idée : juristes pas besoin qu’ils soient jolis mais ils devaient être lisibles surtout car doc de travail. » 
+
+« DC : format propre pour description. Adapter pour le DC. Plein de forme différentes. Langage : très modulable mais aussi son défaut. Notice DC : fallait qu’elle puisse répondre aux consignesde la BNF et CINES. CINES n’utilisait/e pas les mêmes codes de lang que la BNF. Structuration notices DC liées à ça. Application des normes de ces deux structures. » 
+
+« Avoir un recatalogage des ouvrages pour avoir des notices plus propres. 2013 : pas de catalogage av de livres anciens car pers de former pour ça. Collègue cataloguait quand elle trouvait notice en ligne, elle l’exemplarisait sinon elle cataloguait comme livres courants » 
+
+Partie indexation : Demandé à revoir indexation. Discussion autour de ce sujet : obtenu à ce qu’il réduise le nb d’entrée (certains livres : 20 indexations = bcp de bruits). Demandé 5 indexations max.  
+
+Apd 2020 (COVID): Regarder à voir si tous ce qu’il y avait en ligne soit accessible. Début : valorisation avec actualités sur Twitter. Aperçu que c’était la croix et la bannière : nécessité de reprise de l’indexation à ce moment-là, des choses qui n’allaient pas. Rythme : une fois par semaine post actualités environ. 
+
+Pas fausse comme indexation : exemple => actu manuel des cours. Si appui s/ indexation : résultat du XVIe s qui remontait pas complètement faux : mais pas ce à quoi on s’attend. 
+
+Soucis concernant indexation : éléments très proches qui ne sont pas indexés de la même manière. Pas possible d’avoir ça dans la bib num = ça fait du bruit et pas efficace pour la recherche.  
+
+Manquement : harmonisation, simplification mais pas abrutir la chose, réinstauré le max de nb d’indexation si pas le cas, mettre plus de règle, se baser plus sur le ressenti d’un lecteur qui utilise la bib num. pas faire indexation : pdv un ouvrage et de quoi il parle mais j’ai un ouvrage entre les mains auxquels le lecteur va essayer d’y accéder, cmt va-t-il le caractériser, quels mots-clés utilisés ? se mettre à la place de l’usager. » 
+
+« Page d’accueil : bulletin des nouveautés (diffusion à plsrs endroits, l’avoir à un seul endroit et faire un appel de lien pour le présenter ailleurs), avoir un espace de focus (espace large, libre, en lien avec la num …). » 
+
+
+
+\subsection*{Annexe 10 : Leulmi Mebrouk (BL), Responsable du Département informatique technique, entretien du 29/04/2026 et du 27/05/2026.}
+\addcontentsline{toc}{subsection}{Annexe 10 : Leulmi Mebrouk (BL), Responsable du Département informatique technique, entretien du 29/04/2026 et du 27/05/2026.}
+
+CujasNum : 
+
+« Projet parti d’une expo pour Jean Carbonnier. Fallait numériser les cours de Jean Carbonnier. Technique : postuler pour le projet Persée, direction intéressé pour faire partie d’un centre réplica, pour être candidat achat d’un scanner Kirtas. Pour pouvoir dvlper une chaîne de prod en interne. Cujas n’a pas été retenu. » 
+
+« Choix XTF : seule possibilité de mettre des livres électroniques en ligne. Université de Californie parmi les pionniers des livres numériques avec océrisation. Clairement il n’y avait pas d’autres outils. Outil en bout de chaine : ne gère pas le workflow, c’est un front. Recherche pas titre ou par texte. Dvlpé pour venir en bout de chaîne d’un outil utilisé par la bibliothèque fedora (système intégré des bibliothèques open source) permet de servir de catalogue en unimarc. Equipe de la CDL : construction d’une passerelle prenant les infos présentent dans fedora (métadonnées, notices) et les exposent. » 
+
+« Extraction du peu d’infos avec l’arrivée de la notice (cote, code barre, titre). Code barre pas présente sur toutes les notices. Notices enrichies par la suite pour mieux répondre à l’indexation Hauville. » 
+
+« XTF : outil automatique. Pas possible de créer des collections. Obligé de faire une requête pour créer une collection. Pas de back-office tout ce qui est dispo en back est publié. » 
+
+« Num : arrivée en plus alors pas de spécialiste. Pas notion d’archiviste. Car pas de spécialiste et besoin d’attendre l’arrivée des personnes compétentes. » 
+
+« XTF : fait pour se passer des personnes. Catalogueur sur fedora continue à cataloguer ces livres sans se préoccuper du reste. Fait pour ne pas solliciter des gens pour ne pas travailler dans le back mais de sous-traiter à un presta. » 
+
+« Cujas : création des notices, des METS, de la visionneuse créée en locales en 2008/9 avec les infos + quelques services. Possible d’avoir un service à la demande pour le contenu. » 
+
+« PDF faisant 300/400Go énormément de temps pour télécharger les docs et cela fait planter le téléchargement. » 
+
+Prototype Codex : 
+
+« Type : format. Prototype : avoir une alternative si par exemple demain on nous oblige à fermer le site si on considère qu’il y a besoin. » 
+
+« Alimentation : fabrication à la volée. Origine : donnée stockée dans des bdd permettant évolution format à fournir (actuellement DC, METS). Possibilité d’évoluer vers d’autres formats de données (comme EAD).  
+
+Oui c’est possible de traiter des données pour d’autres types de doc. Pour le moment, cela reste générique. Affichage : pas d’importance. » 
+
+« Si on veut créer des collections possible en les mappant sur les métadonnées. Cela signifie qu’un opérateur va sélectionner en lui disant ce qu’il doit prendre. Possibilité de faire une collection dynamique : ex = droit juridique français => cherche dans les métadonnées. Codex : remplacement de XTF. Collection peut être publié ou pas.  
+
+On peut créer un set. Identifiant, description, par sujet, valeur de critères.  
+
+Là actuellement, pas possible. Set : permet de regrouper des docs pour le moissonnage sélectif. Souplesse sur ce qui se fait sur un établissement. » 
+
+« Ark de cujas : ark:/45829. Il s’appelle pdf. Mais on peut le pointer où l’on veut. Pour une image : c’est img. On s’est basé sur le code-barre car on sait que l’on n’aura jamais de doublons. Bnf : demander de rajouter un deuxième identifiant :URL. Ne fonctionne pas avec un résolveur de lien. Lien généré automatiquement. Dans bib num actuel : pas accès directement à la notice contrairement au proto. Il va implémenter ce format. » 
+
+« Tous les docs générés respectent les standards autorisés (DC, XML…). RFC. Echange : format xml, json pas word. Image : format ouvert (comme jpeg). Pdf-A. TIFF. Métadonnées : DC, METS, PREMIS (si on veut). MODS, EAD… => s’appuie sur un format pour échanger les métadonnées pour être traiter par les outils existants. Format comme les archivistes. API : pour le moissonnage. Modèle web de données : échange vraiment interopérable. »  
+
+« Tiff, JPEG, PNG, PDF/A + OCR + métadonnées DC, METS + API sécurisées (XML, JSON) + OAIS moissonnage, ce sont des standards ouverts (pas propriétaire voir les RFC). » 
+
+« Même pour les authentifications centrales : SSO, SAML. => peut le faire. SAML : utilisé notamment par les fédération d'identité comme Schibboleth. C’est un protocole d’authentification. Exemple : donner accès à un certain livre à tous les enseignants-chercheurs inscrits à l’université. Peut arriver qu’ils ne soient pas inscrits à Paris I ou Paris II. Peut demander une autorisation, il aurait une liste permettant de trouver son université. Envoi les authentifications cachées à notre serveur pour donner les informations. Cela permet de donner des droits (comme sur moodle pour se connecter à l’ENC) => Wayf (Where are you from) => doit s’inscrire dans la fonction de ce service sur la liste de Renater, pas le droit de le faire comme ça. Les gens que je souhaite intégrer et le signale pour leur permettre l’authentification avec le logo de l’université, pour revenir ensuite sur le site. Codex : installation par défaut de ce protocole pour centraliser les authentifications. »  
+
+« Utilisation d’un serveur IIIF a part. fournissant images et manifeste à part. prend les infos. Composée d’une base commune avec des modules principes de communication intermodules. Choix de l’architecture de ce proto : possible d’ajouter des choses, enlever, évoluer des choses. Viendra enrichir les collections. Objectif : faire moins et présenter plus. Partager l’action de numérisation. Possible d’aller les infos chez les uns et les autres. Permet de se concentrer sur ce qui n’existe pas. Possible d’aller moissonner sur BNF si manque un num, volume, …. » 
+
+\subsection*{Annexe 11 : Limandri Sandrine (SL) : Responsable de l’atelier de numérisation, entretien du 02/04/2026.} 
+\addcontentsline{toc}{subsection}{Annexe 11 : Limandri Sandrine (SL) : Responsable de l’atelier de numérisation, entretien du 02/04/2026.}
+
+« Tiff : correspondances (remarques, pagination, nom des fichiers avec paginations sur 4 nombres). Remarques : infos essentielles (changement de séquences (changement de pagination en cours de route)) » 
+
+« Mentor étudiant : table des matières. Structure du doc. Sandrine doit faire correspondre ensuite via une formule la table des matières avec la table des correspondances. » 
+
+« Si erreur prend trois jours pour corriger une erreur et qu’elle soit de nouveau en ligne »  
+
+« Dublin core remplit par le prestataire qui part du bordereau. Vérification : bordereau + indexation (balise sujet, cote Dewey, couverture géographique, couverture chronologique). » 
+
+
+
+\subsection*{Annexe 12 : Merat Alix (AM) et Sourdillon Jeanne (JS) : Responsable et adjointe du Département des périodiques et des ressources électroniques, entretien du 15/04/2026.} 
+\addcontentsline{toc}{subsection}{Annexe 12 : Merat Alix (AM) et Sourdillon Jeanne (JS) : Responsable et adjointe du Département des périodiques et des ressources électroniques, entretien du 15/04/2026.}
+
+« La revue respecte une architecture qui lui est propre : titre, année, numéro de volume. » 
+
+« 3 niv périodiques : titre année num => architecture min » 
+
+« Annuel : pas de num » 
+
+« periodique : fascicule s'intègre dans un ensemble. Revue scientifique. » 
+
+« Structuration en sommaire » 
+
+« Num en mode image comme sur gallica avec un OCR, fonctionnalités de recherche. Apparition tdm qui permettent de naviguer » 
+
+« Pb de droit : comment gérer l’anonymisation des noms de parties dans les revues de jurisprudence. Av 2019 cela se faisait maintenant la question se pose. Question importante sur la jurisprudence. » 
+
+\subsection*{Annexe 13 : Suszko Fanny (FS), stagiaire, état de l’existant de la bibliothèque numérique actuelle et du prototype Codex datant du 16/06/2026.}
+\addcontentsline{toc}{subsection}{Annexe 13 : Suszko Fanny (FS), stagiaire, état de l’existant de la bibliothèque numérique actuelle et du prototype Codex datant du 16/06/2026.}
+
+« Notice bibliographique numérique : sur cette notice où peut trouver les informations suivantes : le titre, l’éditeur, la date, l’identifiant, les sources ainsi qu’un lien vers la version pdf cliquable. La notice semble avoir un problème avec les caractères accentués car l’accent grave sur le e a été remplacé par un ï un point d’interrogation à l’envers. Cette notice est accessible lorsque l’on se trouve sur la visionneuse et que l’on a cliqué sur la feuille en haut à droite. Ici il s’agit d’une autre notice de présentation différente de la première, car on y trouve davantage d’informations. Sur celle-ci on y trouve l’identifiant, les sujets traités, l’auteur, la couverture chronologique, éditeur, date, type de document, description et la langue. » 
+
+« Sur le prototype (Codex), les notices bibliographiques sont mieux présentées, ce qui permet de repérer plus facilement les différents éléments qui les constituent (titre, auteur, éditeur, date, etc.). C’est une excellente initiative d'avoir mis en évidence, sur la même page, les documents similaires. Cette présentation rend la fonctionnalité beaucoup plus visible ; elle existait déjà dans CujasNum mais était très peu utilisée, car elle apparaissait sous l'intitulé "Dans la même catégorie", sans doute moins parlant pour les usagers. En revanche, pour le moment, la notice bibliographique de Codex demeure dépourvue de référentiel, tout comme celle de CujasNum, et ne renvoie vers aucun lien extérieur à la bibliothèque numérique. » 
+
+« Recherche avancée : la recherche avancée a été dans une page à part où elle contient en fait deux champs la recherche avancée illustrée par un formulaire et la recherche en texte intégral permettant de fouiller les textes qui ont été océrisés. Le terme de notice bibliographique peut rendre les utilisateurs confus car ils se situent dans l’onglet recherche avancée et trouve le formulaire intitulé notice bibliographique, n’étant pas tous des spécialistes du livre ils ne seront peut-être pas forcément pourquoi il y a ce terme qui apparaît. Après on peut s’interroger sur la nécessité de se séparer ces trois éléments dans des pages distinctes : est-ce forcément ce qu’il y a de plus judicieux à l’heure actuelle ? » 
+
+« Recherche simple : C’est pratique d’avoir cette barre de recherche pouvant permettre aux chercheurs de trouver la ressource les intéressant le plus par divers moyens. »  
+
+« Facettes que l’on peut trouver en parcourant les collections : les facettes ont été créées par une personne travaillant à Cujas où elle est partie du référentiel RAMEAU mais s’apercevant par moment que celui-ci n’était pas suffisamment précis pour le droit à préférer déconstruire ce référentiel l’utilisant que quand il était approprié et le complémentant par d’autres informations provenant d’autres sites de droit. Au démarrage celui-ci convenait largement car il y avait peu de document numérisés. En revanche, aujourd’hui cela est loin d’être le cas puisque dorénavant ce filtrage devenu trop précis ne permet de retrouver la totalité des documents. Un autre inconvénient vient aussi du fait que l’on retrouve une même facette écrite de façons légèrement différentes comment un tiret qui change ou la présente d’une majuscule pour l’un et n’ont pour l’autre, créant donc deux facettes qui ne communiquent sur le fond pas entre elle car pour l’ordinateur il s’agit de deux éléments complètement différents. Cela amène donc à réfléchir sur la façon dont celle- ci sont créés. » 
+
+« Visionneuse JPEG avec la table des matières : avoir une table des matières cliquables aussi bien dans la visionneuse JPEG que dans le PDF est un vrai plus permettant de rendre l’ouvrage numérisé manipulable se rapprochant de l’utilisation d’un ouvrage papier, grandement apprécié par les lecteurs. Avoir la possibilité d’aller directement sur la partie qui les intéresse leur fait gagner du temps et leur évite de devoir tourner les pages unes à unes pour trouver l’information qui les intéresse. Le numérique peut avoir cet aspect moins pratique comparé à un livre papier que l’on peut manipuler un peu à notre guise. La table des matières est une composante essentielle permettant de recréer cette sensation pour les lecteurs. » 
+
+« Codex : Avoir mis en place la possibilité d’avoir deux types de visionneuse une plus simple d’utilisation, la visionneuse turner que le grand public pourrait utiliser. Avoir ajouté la visionneuse Mirador en complément est une bonne idée car grâce à cette visionneuse peut s’adresser à un public plus expérimenté. Mirador permet d’afficher une interface commune aux documents provenant de bibliothèques numériques compatibles avec les standards IIIF. Avec cette visionneuse, on a la possibilité de zoomer, de comparer et d’annoter des images haute résolution. »  
+
+« A propos : La page d’à propos permet de lire que la bibliothèque numérique patrimoniale propose une sélection pointue de documents rares et précieux en science juridique. On peut voir également qu’il y a trois sections une portant sur les fondamentaux du droit, la seconde sur les cours de droit et la dernière sur la numérisation concertée. On peut voir également un encart en haut à droite portant sur les actualités et en-dessous on y trouve les conditions d’usage. »  
+
+« Page d’accueil de Codex. La page d’accueil mentionne simplement qu’il s’agit de la bibliothèque numérique de Cujas, sans donner plus de détails sur la nature ou l’origine de son contenu ; un encart A propos est mentionné redonnant les mêmes informations que sur l’ancien site de la bibliothèque numérique de Cujas. On voit la présence de 5 collections, chacune renvoyant au contenu qu’elle contient. Grâce aux intitulés on comprend qu’il s’agit d’une bibliothèque de droit. Sur la partie droite on voit deux types d’actualités représentées : une parlant des actualités globales que l’on peut retrouver par exemple dans des mails informatifs envoyés par les universités pour parler de la vie de la bibliothèque et expliquer les projets qui sont en cours, ce qui va avoir lieu. En revanche, la deuxième partie parle des ouvrages récemment numérisés qui sont mis en ligne. Le menu de navigation est présenté clairement, de manière aérée sans sous-menu. Toutefois, on peut observer des répétions dans les onglets pouvant amener à se questionner sur l’utilité d’avoir autant d’onglet nommé différemment certes mais finalement permettant de faire la même action. On peut par exemple faire de la recherche sous différente forme (utilisant l’onglet explorer, l’onglet recherche comportant deux niveaux d’arborescence, la barre de recherche se trouvant à droite, en dessous à nouveau l’onglet explorer mais cette fois avec une loupe et à côté l’onglet plein texte). Cela n’en devient pas très pratique au final. Ici c’est la partie sur les récentes publications présentes sur la page d’accueil. C’est une bonne idée car cela permet de mettre en avant les numérisations effectuées par le service et montrer implicitement que la bibliothèque numérique est constante alimentation de ces collections. Sans forcément besoin d’avoir de faire une communication excessive. Cela peut être en effet une bonne idée d’avoir un encart faisant remonter les ouvrages les plus consultés dans la bibliothèque numérique pouvant amener d’autres lecteurs à les consulter dans le cadre de leur recherche ou s’il souhaite enrichir leur culture générale. »  
+
+« Codex, la page collection. La page « Collections » reprend les 9 collections dont seulement 5 sont disponibles sur la page d’accueil étant modifiable il me semble c’est-à-dire que l’on peut en enlever ou en ajouter sur la page d’accueil en fonction des collections déjà présentes. Cela n’en crée pas de nouvelles. La collection ne présente aucun contenu éditorial permettant d'expliquer la logique de sélection des documents. » 
+
+« Mentions légales pour CujasNum : sort de la bibliothèque numérique arrivée sur la page des mentions légales de la bibliothèque Cujas. Il s’agit des mentions légales applicables à l’ensemble de la bibliothèque mais ne prenne pas en compte les spécificités liées à la bibliothèque numérique et aux documents présents pouvant avoir des particularités liées aux droits de ces derniers. » 
+
+« Mentions légales pour Codex : on reste dans la bibliothèque numérique mais elles ne sont pas adaptées au cas de la bibliothèque numérique. Il s’agit de celle spécifique à la bibliothèque Cujas, que l’on retrouve sur le site de la bibliothèque. »  
+
+
+
+\subsection*{Annexe 14 : Enquête de satisfaction sous LimeSurvey ouverte du 14 avril au 03 juillet 2026 sur les sites de la bibliothèque numérique et de la bibliothèque Cujas.} 
+\addcontentsline{toc}{subsection}{Annexe 14 : Enquête de satisfaction sous LimeSurvey ouverte du 14 avril au 03 juillet 2026 sur les sites de la bibliothèque numérique et de la bibliothèque Cujas.}
+
+
+Public :  
+
+\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/IMG_5952.jpeg}
+
+Spécialité des lecteurs : 
+
+\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/IMG_5953.jpeg}
+
+Réponses aux nouveaux services ou fonctionnalités proposées :  
+
+\includegraphics[width=0.5\textwidth]{/home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/IMG_5954.jpeg}
+
