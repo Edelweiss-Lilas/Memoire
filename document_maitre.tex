@@ -2,10 +2,11 @@
 %crée par J.B. Camps
 %Dernières modifications E. Rouquette (03/2026)
 
-%%%%%%%%%%%%%%%%%%%%%% PRÉAMBULE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%PRÉAMBULE%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-%%%%%%%%%%%%%% partie obligatoire du préambule
+%%%%%%%%%%%%%% partie obligatoire du préambule %%%%%%%%%%%%%% 
 \documentclass[12pt,twoside]{book}
 \usepackage{fontspec}
 \usepackage{xunicode}
@@ -14,36 +15,80 @@
 %\setotherlanguage{} %indiquer les autres langues utilisée
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PACKAGES UTILISÉS
+%%%%%%%%%%%%%%%%%%%PACKAGES UTILISÉS%%%%%%%%%%%%%%%%%%%
 
 \usepackage{csquotes} % les guillemets français
-\usepackage{lettrine} %faire une lettrine (pas obligatoire)
+\usepackage{lettrine} %faire une lettrine
+
+%%%%%%%%%%%%%%%%%%% BIBLIOGRAPHIE %%%%%%%%%%%%%%%%%%%
 
 \usepackage[style=enc,sorting=nyt,maxbibnames=10]{biblatex}%charger le style de l'EnC (téléchargeable ici https://ctan.org/pkg/biblatex-enc)
-\addbibresource{} %le fichier bibliograhique. Exemple de chemin à partir du dossier où se trouve le document maître:Exemple ./dossierA/fichier.bib
+\DeclareFieldFormat{citetitle}{\textit{#1}}% cite automatiquement les titres en italiques
+
+% Ajout des différents fichiers bibliographiques.
+\addbibresource{} %Exemple de chemin à partir du dossier où se trouve le document maître:Exemple ./dossierA/fichier.bib
 %\defbibheading{}{\subsection*{}} Si l'on veut changer le titre de la/les bibliographie(s)
 
 
-%%%Faire un ou plusieurs index
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% INDEX %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\usepackage{imakeidx} %pour faire un ou plusieurs index
-%\makeindex %commande pour générer l'index
-
-
-%RAJOUTEZ ICI VOS PACKAGES
+\usepackage{imakeidx} %pour faire un ou plusieurs index
+\makeindex %commande pour générer l'index
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%% ABBRÉVIATIONS %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Ce package permet de générer automatiquement des listes d'acrononyme.
+\usepackage{acro}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CONFIGURATION DE MISE EN PAGE
+\DeclareAcronym{abes}{short= ABES, long = Agence bibliographique de l'enseignement supérieur}
+\DeclareAcronym{api}{short = API, long = \textit{Application Programming Interface}}
+\DeclareAcronym{ark}{short = ARK, long = Archival Resource Key}
+\DeclareAcronym{biu cujas}{short = BIU Cujas, long = Bibliothèque interuniversitaire Cujas}
+\DeclareAcronym{bnf}{short = BnF, long = Bibliothèque nationale de France}
+\DeclareAcronym{cines}{short = CINES, long = Centre informatique national de l'enseignement supérieur}
+\DeclareAcronym{did}{short = DID, long = Département information documentaire}
+\DeclareAcronym{dit}{short = DIT, long = Département informatique technique}
+\DeclareAcronym{sigb}{short= SIGB, long = Système Intégré de Gestion de Bibliothèque}
+\DeclareAcronym{dpcn}{short = DPCN, long = {Département du Patrimoine, de la conservation et de la numérisation}}
+\DeclareAcronym{dpre}{short = DPRE, long = Département des périodiques et des ressources électroniques}
+\DeclareAcronym{esr}{short = ESR, long = Enseignement Supérieur et de la Recherche}
+\DeclareAcronym{html}{short = HTML, long = HyperText Markup Language}
+\DeclareAcronym{iiif}{short = IIIF, long = \textit{International Image Interoperability Framework}}
+\DeclareAcronym{jpeg}{short = JPEG, long = \textit{Joint Photographic Experts Group}}
+\DeclareAcronym{oai-pmh}{short = OAI-PMH, long = \textit{Open Archives Initiative Protocol for Metadata Harvesting}}
+\DeclareAcronym{ocr}{short = OCR, long = \textit{Optical Character Recognition}}
+\DeclareAcronym{png}{short = PNG, long = \textit{Portable Network Graphics}}
+\DeclareAcronym{pdf}{short = PDF, long =  Portable Document Format}
+\DeclareAcronym{rdf}{short = RDF, long = \textit{Resource Description Framework}}
+\DeclareAcronym{rest}{short = REST, long= Representation State Transfer}
+\DeclareAcronym{rgpd}{short = RGPD, long = règlement général sur la protection des données}
+\DeclareAcronym{rg2a}{short=RGAA, long = Référentiel général d’amélioration de l’accessibilité}
+\DeclareAcronym{saml}{short = SAML, long = Security Assertion Markup Language}
+\DeclareAcronym{seo}{short = SEO, long = Search Engine Optimization}
+\DeclareAcronym{sic}{short = SIC, long = Sciences de l'Information et de la Communication}
+\DeclareAcronym{sso}{short = SSO, long = Single Sign-On}
+\DeclareAcronym{sql}{short = SQL, long = Structure Query Language}
+\DeclareAcronym{sudoc}{short = SUDOC, long = Système universitaire de documentation}
+\DeclareAcronym{tdm}{short = TDM, long = \textit{Text and Data Mining}}
+\DeclareAcronym{tei}{short = TEI, long = Text Enconding Initiative}
+\DeclareAcronym{tiff}{short = TIFF, long = \textit{Tagged Image File Format}}
+\DeclareAcronym{uri}{short = URI, long = Uniform Resource Identifier}
+\DeclareAcronym{ux}{short = UX, long = User Experience}
+\DeclareAcronym{wcag}{short = WCAG, long = Web Content Acessibility Guidelines}
+\DeclareAcronym{xtf}{short = XTF, long = eXtensible Text Framework}
+
+%%%%%%%%%%%%%%%%%%% CONFIGURATION DE MISE EN PAGE %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%% Les compteurs (sections, subsections, etc)
 %\renewcommand{\thesection}{\Roman{section}.}%On ne fait apparaître que le numéro de la section
-% Numérotation de la section en chiffre
-\renewcommand{\thesection}{\arabic{section}.}
-% Numérotation de la subsection en chiffre
-\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}}
-% Numérotation de la subsubsection pour obtenir le résultat suivant (4.1.1)
+\renewcommand{\thesection}{\thechapter.\arabic{section}}
+\renewcommand{\thesection}{\arabic{section}.}% Numérotation de la subsection en chiffre
+\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}}% Numérotation de la subsubsection pour obtenir le résultat suivant (4.1.1)
 \renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
 %Si l'on veut faire apparaître les subsubsection dans le table des matières (à commenter sinon)
 \setcounter{tocdepth}{3}
@@ -107,8 +152,6 @@
 }
 
 
-
-
 %indiquer des règles d'hyphénation pour des mots précis si besoin
 %\begin{hyphenrules}{french}
 %	\hyphenation{}
@@ -119,7 +162,7 @@
 
 % A mettre après les autres appels de packages car redéfinit certaines commandes).
 
-\usepackage[colorlinks=false, breaklinks=true, pdfusetitle, pdfsubject ={Mémoire HN}, pdfkeywords={les mots-clés}]{hyperref} %
+\usepackage[colorlinks=false, breaklinks=true, pdfusetitle, pdfsubject ={Modernisation à l'accès du patrimoine juridique}, pdfkeywords={les mots-clés}]{hyperref} %
 \usepackage[numbered]{bookmark}%va avec hyperref; marche mieux pour les signets. l'option numbered: les signets dans le pdf sont numérotés
 \usepackage{xurl} % Permet les retours à la ligne n'importe où dans les URL
 % Compléter pdfsubjet et pdfkeywords
@@ -141,37 +184,38 @@
 
 
 
-%%%%%%%%%%%%%%%%%%%% Package glossaries
+%%%%%%%%%%%%%%%%%%%% GLOSSAIRES %%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %Exception: il faut le charger APRÈS hyperref
-%\usepackage[toc=true]{glossaries}
-%\makeglossaries
+\usepackage[toc=true]{glossaries}
+\makeglossaries
 %avec TexStudio: F9 pour compiler le glossaire (s'il y a aussi un index)
 
-%mettre les entrées du glossaire ici ou les mettre dans un fichier à part que l'on appelle ici par \loadglsentries{nom_du_fichier.tex}
-
-%Structure d'une entrée de glossaire
-%\newglossaryentry{}{%
-%	name={},%
-%	description={}
-%}
+\loadglsentries{glossaire.tex}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%% ENVIRONNEMENTS %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%% DÉFINITION DES COMMANDES ET ENVIRONNMENTS
 \usepackage{tabularray}
 \usepackage{float}
 \usepackage{graphicx}
 \usepackage{ulem}
 
 
-
- %%%%%%%%%%%%%% INFORMATIONS POUR LA PAGE DE TITRE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%% INFORMATIONS POUR LA PAGE DE TITRE %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
 \author{Fanny \textsc{Suszko} - M2 TNAH}
-\title{Titre du mémoire}
+\title{Moderniser l'accès au patrimoine juridique: Diagnostic et refonte de la bibliothèque numérique de Cujas à l'heure de la Transition bibliographique}
 
-%%%%%%%%%%%%%%%%%%%%%% DOCUMENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% DOCUMENT %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{document}
 	\begin{titlepage}
 		\begin{center}
@@ -200,12 +244,12 @@
 			\bigskip
 			
 			\begin{Huge}
-				\textbf{Moderniser l’accès au patrimoine juridique : }\\
+				\textbf{Moderniser l’accès au patrimoine juridique: }\\
 			\end{Huge}
 			\bigskip
 			\bigskip
 			\begin{LARGE}
-				\textbf{Diagnostic et refonte de la bibliothèque numérique Cujas à l'heure de la Transition bibliographique}\\
+				\textbf{Diagnostic et refonte de la bibliothèque numérique de Cujas à l'heure de la Transition bibliographique}\\
 			\end{LARGE}
 			
 			\bigskip
@@ -232,67 +276,107 @@
 	
 \frontmatter
 
+%%%%%%%%%%%%%%%%%%%%%%%%% RESUME %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 	\chapter{Résumé}
 \medskip
-	\lettrine{A} l'ère de la transition bibliographique, les technologies numérique évoluent rapidement qu'il devient presqu'impossible de pouvoir toutes les suivre sans l'appui d'une communauté afin d'éviter aux institutions patrimoniales de se trouver isoler à cause de services devenus obsolètes. Aujourd'hui, il est important de construire une bibliothèque numérique capable de créer des passerelles afin de participer à la valorisation des collections des institutions patrimoniales sans se trouver noyer dans la masse de données. Ce mémoire s'inscrit dans le projet de réinformatisation de la Bibliothèque Cujas à travers l'étude fine de la bibliothèque numérique actuelle, consolider par des entretiens faisant émerger des besoins auxquels un benchmark devait permettre de répondre aux attentes aussi bien des usagers que des experts métiers de la bibliothèque. Il met en lumière l'enjeu que représente la refonte de la bibliothèque notamment en terme d'interopérabilité des données, d'alignement des métadonnées sur des référentiels et d'accompagnement auprès des usagers mais aussi auprès des personnels de bibliothèques qui l'utiliseront. \\
+	\lettrine{À} l'ère de la transition bibliographique, les technologies numériques évoluent si rapidement qu'il devient presqu'impossible de pouvoir toutes les suivre sans l'appui d'une communauté afin d'éviter aux institutions patrimoniales de se trouver isolées à cause de services devenus obsolètes. Aujourd'hui, il est important de construire une bibliothèque numérique capable de créer des passerelles afin de participer à la valorisation des collections des institutions patrimoniales sans se trouver noyé dans la masse de données. Ce mémoire s'inscrit dans le projet de réinformatisation de la Bibliothèque Cujas à travers l'étude fine de la bibliothèque numérique actuelle, consolidée par des entretiens faisant émerger des besoins auxquels un benchmark devait permettre de répondre aux attentes aussi bien des usagers que des experts métiers de la bibliothèque. Il met en lumière l'enjeu que représente la refonte de la bibliothèque numérique notamment en terme d'interopérabilité des données, d'alignement des métadonnées sur des référentiels et d'accompagnement auprès des usagers mais aussi auprès des personnels de bibliothèques qui l'utiliseront. \\
 	
 	\textbf{Mots-clés:} bibliothèque numérique; Bibliothèque interuniversitaire Cujas; interopérabilité; benchmark; web de données; éditorialisation; ouverture des données; approche centrée usagers.
 	
-	\textbf{Informations bibliographiques:} Fanny Suszko, \textit{ Moderniser l'accès au patrimoine juridique : Diagnostic et refonte de la bibliothèque numérique Cujas à l'heure de la Transition bibliographique}, mémoire de master \enquote{Technologies numériques appliquées à l'histoire}, dir. Thomas Chaineux, École nationale des chartes, 2026.
+	\textbf{Informations bibliographiques:} Fanny Suszko, \textit{ Moderniser l'accès au patrimoine juridique : Diagnostic et refonte de la bibliothèque numérique de Cujas à l'heure de la Transition bibliographique}, mémoire de master \enquote{Technologies numériques appliquées à l'histoire}, dir. Thomas Chaineux, École nationale des chartes, 2026.
 	
 		\newpage{\pagestyle{empty}\cleardoublepage}
+		
+%%%%%%%%%%%%%%%%%%%%%%%%% REMERCIEMENTS %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	
 	\chapter{Remerciements}
 	
-\lettrine{M}es remerciements vont tout d'abord à Cécile Bolard et Stéphane Dufournet, pour m'avoir pris sous leurs ailes durant mon stage à la Bibliothèque interuniversitaire Cujas. Je tiens également à remercier Carmen Parvis, Céline Pauvros, Maeli Desenclos, Pauline Bigiarini, Philippe Le Guirriec, Sandrine Limandrini, travaillant aux Départements du Patrimoine de la conservation et de la numérisation, pour leurs conseils et leurs réponses à mes questions. Je remercie également MeBrouk Leulmi, Alexandra Gottely, Anne-Sophie Gallo et Natacha Kotliar d'avoir pris le temps de me voir en entretien afin de parler de l'historique de la bibliothèque numérique de Cujas et de leurs attentes pour la refonte. 
+\lettrine{M}es remerciements vont tout d'abord à Cécile Bolard et Stéphane Dufournet, pour m'avoir prise sous leurs ailes durant mon stage à la Bibliothèque interuniversitaire Cujas. Je tiens également à remercier Carmen Parvis, Céline Pauvros, Maeli Desenclos, Pauline Bigiarini, Philippe Le Guirriec, Sandrine Limandri, travaillant aux Départements du Patrimoine de la conservation et de la numérisation, pour leurs conseils et leurs réponses à mes questions. Je remercie également Mebrouk Leulmi, Alexandra Gottely, Anne-Sophie Gallo et Natacha Kotliar d'avoir pris le temps de me voir en entretien afin de parler de l'historique de la bibliothèque numérique de Cujas et de leurs attentes pour la refonte. 
 
-Ma gratitude va aussi envers le directeur de la bibliothèque de Cujas, ainsi qu'aux enseignants-chercheurs en histoire du droit que j'ai pu rencontré au cours de mon stage qui m'ont aidé à mener à bien mon étude pour cette nouvelle bibliothèque numérique. Je suis également reconnaissante d'avoir pu rencontré d'autres responsables de bibliothèque numérique : Cécile Obligi, responsable de NuBIS, Olesea Dubois, responsable de la bibliothèque numérique de Sciences Po, Vincent Tardif, responsable de Lucienne et Pauline Rivière, responsable de Genovefa, d'avoir pu avoir leur avis ainsi que leur retour d'expérience concernant un projet d'une telle ampleur, celle de la refonte d'une bibliothèque numérique.
+Ma gratitude va aussi envers le directeur de la bibliothèque de Cujas, ainsi qu'aux enseignants-chercheurs en histoire du droit que j'ai pu rencontrer au cours de mon stage qui m'ont aidé à mener à bien mon étude pour cette nouvelle bibliothèque numérique. Je suis également reconnaissante d'avoir pu rencontrer d'autres responsables de bibliothèque numérique : Cécile Obligi, responsable de NuBIS, Olesea Dubois, responsable de la bibliothèque numérique de Sciences Po, Vincent Tardif, responsable de Lucienne et Pauline Rivière, responsable de Genovefa. J'ai pu avoir leur avis ainsi que leur retour d'expérience concernant un projet d'une telle ampleur, celle de la refonte d'une bibliothèque numérique.
 
-J'adresse ma reconnaissance envers Thomas Chaineux, mon tuteur pour ce stage, qui a su se montrer disponible et répondre à toutes mes questions au cours de ses quatre mois de stage. A travers ses conseils et son soutien, j'ai pu mener à bien ce stage. Je remercie également Emmanuelle Bermès, responsable pédagogique du master à l'Ecole des Chartes, pour sa disponibilité, ses conseils et ses encouragements.
+J'adresse ma reconnaissance envers Thomas Chaineux, mon tuteur pour ce stage, qui a su se montrer disponible et répondre à toutes mes questions au cours de ces quatre mois de stage. Grâce à ses conseils et son soutien, j'ai pu mener à bien ce stage. Je remercie également Emmanuelle Bermès, responsable pédagogique du master à l'Ecole des Chartes, pour sa disponibilité, ses conseils et ses encouragements.
 
-Enfin, je remercie mes parents de m'avoir soutenu au cours de ses six années d'études, et d'avoir pris le temps de relire attentivement mon travail. Merci à tous mes camarades de promotion pour cette année riche en découvertes, pour leur esprit d'entraide et la bonne ambiance partagée avec eux.
+Enfin, je remercie ma famille de m'avoir soutenue au cours de ces six années d'études, et d'avoir pris le temps de relire attentivement mon travail. Merci à tous mes camarades de promotion pour cette année riche en découvertes, pour leur esprit d'entraide et la bonne ambiance partagée avec eux.
 	\newpage{\pagestyle{empty}\cleardoublepage}
 	
-%%%%%%%%%%%% \bibliographie ici (normes de l'EnC)
-%\printbibliography
-\input{introduction.tex}  
-%si l'introduction est longue, elle peut être importée avec input
+\chapter{Liste des abréviations}
+\printacronyms[heading=none]
+
+%%%%%%%%%%%%%%%%%%%%%%%%% BIBLIOGRAPHIE %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Bibliographie}
+\printbibliography[keyword={tex}, notkeyword={dontcite}, title={Sources institutionnelles et documentation interne de la BIU Cujas}]
+\printbibliography[keyword={tex}, notkeyword={dontcite}, title={Histoire des institutions universitaires, de la discipline juridique et de ses collections}]
+\printbibliography[keyword={tex}, notkeyword={dontcite}, title={Transition bibliographique, Web sémantique et ingénierie de l'interopérabilité}]
+%%%%%%%%%%%%%%%%%%%%%%%%% INTRODUCTION %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{introduction.tex}  % importation du fichier d'introduction
 
 \newpage{\pagestyle{empty}\cleardoublepage}
 
-%%%%%%%%%%%%%%%%%Le corps du mémoire
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%% MAINMATTER %%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 	\mainmatter
 %Trier par dossiers si besoin (front, main,annexes,), se crérer un docuemnt .tex par structure (section ou chapter selon la taille et la pertinence) Exemple de chemin à partir du dossier où se trouve le document maître: ./dossierA/fichier.tex
 
-	
+%%%%%%%%%%%%%%%%%%%%%%%%% Partie I %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 	\part{Cujas et son patrimoine numérique : histoire et état des lieux }
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%% INTRODUCTION %%%%%%%%%%%%%%%%%%%%%%%%%%	
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%% CHAPITRE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{chapitre_1.tex}
 \input{chapitre_2.tex}
 \input{chapitre_3.tex}
-%\input{exemple_section1.tex} %Input: importer un fichier
-%etc
-%Ou bien: ne pas mettre chapter, et importer le chapitre complet:
-%\input{mon_chapitre_1.tex}
-%\input{mon_chapitre_2.tex}	
-%etc
-	
+
+%%%%%%%%%%%%%%%%% CONCLUSION DE LA PARTIE I %%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%% Partie II %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 	\part{De la théorie à la pratique : évaluer les besoins au sein des réseaux documentaires interconnectés}
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%% INTRODUCTION %%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%% CHAPITRE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{chapitre_4.tex}
+\input{chapitre_5.tex}
 
-	%etc.
+%%%%%%%%%%%%%%%%% CONCLUSION DE LA PARTIE II %%%%%%%%%%%%%%%%%%%%
+	
+%%%%%%%%%%%%%%%%%%%%%%%%% Partie III %%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
 	\part{Concevoir les services et accompagner les usagers dans un système en mutation}
 	
-	\chapter*{Conclusion}
+%%%%%%%%%%%%%%%%%%%%%%%%%% INTRODUCTION %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% CHAPITRE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{chapitre_6.tex}
+\input{chapitre_7.tex}
+\input{chapitre_8.tex}
+
+%%%%%%%%%%%%%%%%% CONCLUSION DE LA PARTIE III %%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%% CONCLUSION %%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{conclusion.tex}
 	\addcontentsline{toc}{chapter}{Conclusion}
 \newpage{\pagestyle{empty}\cleardoublepage}
 	
-
-
-
-
-
-
 %%%%%%%%%%%%%%%%%%
 
 \appendix %Des appendices: tables figures, etc
@@ -307,8 +391,7 @@ Enfin, je remercie mes parents de m'avoir soutenu au cours de ses six années d'
 
 \backmatter % glossaire, index, table des figures, table des matières.. (la bibliographie a déjà été appelée)
 
-%\printindex
-%\printglossaries[title=Glossaire]
+\printglossaries
 %\listoftables
 %\listoffigures
 \tableofcontents
