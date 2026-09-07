@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.19)  1 SEP 2026 19:49
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.19)  7 SEP 2026 23:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -200,6 +200,34 @@ Loading lettrine.cfg
 \Lettrine@tweaks=\toks21
 \Llist@everypar=\toks22
 )
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
+\MT@toks=\toks23
+\MT@tempbox=\box56
+\MT@count=\count307
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
+\MT@prot@toks=\toks24
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen175
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count308
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype-xetex.def
+File: microtype-xetex.def 2025/07/09 v3.2b Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 443.
+LaTeX Info: Redefining \lslig on input line 451.
+\MT@outer@space=\skip51
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
 
@@ -225,7 +253,7 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))
 (/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count307
+\lrq@indent=\count309
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -237,63 +265,63 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count308
-\c@listtotal=\count309
-\c@listcount=\count310
-\c@liststart=\count311
-\c@liststop=\count312
-\c@citecount=\count313
-\c@citetotal=\count314
-\c@multicitecount=\count315
-\c@multicitetotal=\count316
-\c@instcount=\count317
-\c@maxnames=\count318
-\c@minnames=\count319
-\c@maxitems=\count320
-\c@minitems=\count321
-\c@citecounter=\count322
-\c@maxcitecounter=\count323
-\c@savedcitecounter=\count324
-\c@uniquelist=\count325
-\c@uniquename=\count326
-\c@refsection=\count327
-\c@refsegment=\count328
-\c@maxextratitle=\count329
-\c@maxextratitleyear=\count330
-\c@maxextraname=\count331
-\c@maxextradate=\count332
-\c@maxextraalpha=\count333
-\c@abbrvpenalty=\count334
-\c@highnamepenalty=\count335
-\c@lownamepenalty=\count336
-\c@maxparens=\count337
-\c@parenlevel=\count338
-\blx@tempcnta=\count339
-\blx@tempcntb=\count340
-\blx@tempcntc=\count341
-\c@blx@maxsection=\count342
-\blx@maxsegment@0=\count343
-\blx@notetype=\count344
-\blx@parenlevel@text=\count345
-\blx@parenlevel@foot=\count346
-\blx@sectionciteorder@0=\count347
-\blx@sectionciteorderinternal@0=\count348
-\blx@entrysetcounter=\count349
-\blx@biblioinstance=\count350
-\labelnumberwidth=\skip51
-\labelalphawidth=\skip52
-\biblabelsep=\skip53
-\bibitemsep=\skip54
-\bibnamesep=\skip55
-\bibinitsep=\skip56
-\bibparsep=\skip57
-\bibhang=\skip58
+\c@tabx@nest=\count310
+\c@listtotal=\count311
+\c@listcount=\count312
+\c@liststart=\count313
+\c@liststop=\count314
+\c@citecount=\count315
+\c@citetotal=\count316
+\c@multicitecount=\count317
+\c@multicitetotal=\count318
+\c@instcount=\count319
+\c@maxnames=\count320
+\c@minnames=\count321
+\c@maxitems=\count322
+\c@minitems=\count323
+\c@citecounter=\count324
+\c@maxcitecounter=\count325
+\c@savedcitecounter=\count326
+\c@uniquelist=\count327
+\c@uniquename=\count328
+\c@refsection=\count329
+\c@refsegment=\count330
+\c@maxextratitle=\count331
+\c@maxextratitleyear=\count332
+\c@maxextraname=\count333
+\c@maxextradate=\count334
+\c@maxextraalpha=\count335
+\c@abbrvpenalty=\count336
+\c@highnamepenalty=\count337
+\c@lownamepenalty=\count338
+\c@maxparens=\count339
+\c@parenlevel=\count340
+\blx@tempcnta=\count341
+\blx@tempcntb=\count342
+\blx@tempcntc=\count343
+\c@blx@maxsection=\count344
+\blx@maxsegment@0=\count345
+\blx@notetype=\count346
+\blx@parenlevel@text=\count347
+\blx@parenlevel@foot=\count348
+\blx@sectionciteorder@0=\count349
+\blx@sectionciteorderinternal@0=\count350
+\blx@entrysetcounter=\count351
+\blx@biblioinstance=\count352
+\labelnumberwidth=\skip52
+\labelalphawidth=\skip53
+\biblabelsep=\skip54
+\bibitemsep=\skip55
+\bibnamesep=\skip56
+\bibinitsep=\skip57
+\bibparsep=\skip58
+\bibhang=\skip59
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language90
-\c@mincomprange=\count351
-\c@maxcomprange=\count352
-\c@mincompwidth=\count353
+\c@mincomprange=\count353
+\c@maxcomprange=\count354
+\c@mincompwidth=\count355
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -304,88 +332,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'enc.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count354
-\c@savedafterword=\count355
-\c@annotator=\count356
-\c@savedannotator=\count357
-\c@author=\count358
-\c@savedauthor=\count359
-\c@bookauthor=\count360
-\c@savedbookauthor=\count361
-\c@commentator=\count362
-\c@savedcommentator=\count363
-\c@editor=\count364
-\c@savededitor=\count365
-\c@editora=\count366
-\c@savededitora=\count367
-\c@editorb=\count368
-\c@savededitorb=\count369
-\c@editorc=\count370
-\c@savededitorc=\count371
-\c@foreword=\count372
-\c@savedforeword=\count373
-\c@holder=\count374
-\c@savedholder=\count375
-\c@introduction=\count376
-\c@savedintroduction=\count377
-\c@namea=\count378
-\c@savednamea=\count379
-\c@nameb=\count380
-\c@savednameb=\count381
-\c@namec=\count382
-\c@savednamec=\count383
-\c@translator=\count384
-\c@savedtranslator=\count385
-\c@shortauthor=\count386
-\c@savedshortauthor=\count387
-\c@shorteditor=\count388
-\c@savedshorteditor=\count389
-\c@labelname=\count390
-\c@savedlabelname=\count391
-\c@institution=\count392
-\c@savedinstitution=\count393
-\c@lista=\count394
-\c@savedlista=\count395
-\c@listb=\count396
-\c@savedlistb=\count397
-\c@listc=\count398
-\c@savedlistc=\count399
-\c@listd=\count400
-\c@savedlistd=\count401
-\c@liste=\count402
-\c@savedliste=\count403
-\c@listf=\count404
-\c@savedlistf=\count405
-\c@location=\count406
-\c@savedlocation=\count407
-\c@organization=\count408
-\c@savedorganization=\count409
-\c@origlocation=\count410
-\c@savedoriglocation=\count411
-\c@origpublisher=\count412
-\c@savedorigpublisher=\count413
-\c@publisher=\count414
-\c@savedpublisher=\count415
-\c@language=\count416
-\c@savedlanguage=\count417
-\c@origlanguage=\count418
-\c@savedoriglanguage=\count419
-\c@pageref=\count420
-\c@savedpageref=\count421
-\shorthandwidth=\skip59
-\shortjournalwidth=\skip60
-\shortserieswidth=\skip61
-\shorttitlewidth=\skip62
-\shortauthorwidth=\skip63
-\shorteditorwidth=\skip64
-\locallabelnumberwidth=\skip65
-\locallabelalphawidth=\skip66
-\localshorthandwidth=\skip67
-\localshortjournalwidth=\skip68
-\localshortserieswidth=\skip69
-\localshorttitlewidth=\skip70
-\localshortauthorwidth=\skip71
-\localshorteditorwidth=\skip72
+\c@afterword=\count356
+\c@savedafterword=\count357
+\c@annotator=\count358
+\c@savedannotator=\count359
+\c@author=\count360
+\c@savedauthor=\count361
+\c@bookauthor=\count362
+\c@savedbookauthor=\count363
+\c@commentator=\count364
+\c@savedcommentator=\count365
+\c@editor=\count366
+\c@savededitor=\count367
+\c@editora=\count368
+\c@savededitora=\count369
+\c@editorb=\count370
+\c@savededitorb=\count371
+\c@editorc=\count372
+\c@savededitorc=\count373
+\c@foreword=\count374
+\c@savedforeword=\count375
+\c@holder=\count376
+\c@savedholder=\count377
+\c@introduction=\count378
+\c@savedintroduction=\count379
+\c@namea=\count380
+\c@savednamea=\count381
+\c@nameb=\count382
+\c@savednameb=\count383
+\c@namec=\count384
+\c@savednamec=\count385
+\c@translator=\count386
+\c@savedtranslator=\count387
+\c@shortauthor=\count388
+\c@savedshortauthor=\count389
+\c@shorteditor=\count390
+\c@savedshorteditor=\count391
+\c@labelname=\count392
+\c@savedlabelname=\count393
+\c@institution=\count394
+\c@savedinstitution=\count395
+\c@lista=\count396
+\c@savedlista=\count397
+\c@listb=\count398
+\c@savedlistb=\count399
+\c@listc=\count400
+\c@savedlistc=\count401
+\c@listd=\count402
+\c@savedlistd=\count403
+\c@liste=\count404
+\c@savedliste=\count405
+\c@listf=\count406
+\c@savedlistf=\count407
+\c@location=\count408
+\c@savedlocation=\count409
+\c@organization=\count410
+\c@savedorganization=\count411
+\c@origlocation=\count412
+\c@savedoriglocation=\count413
+\c@origpublisher=\count414
+\c@savedorigpublisher=\count415
+\c@publisher=\count416
+\c@savedpublisher=\count417
+\c@language=\count418
+\c@savedlanguage=\count419
+\c@origlanguage=\count420
+\c@savedoriglanguage=\count421
+\c@pageref=\count422
+\c@savedpageref=\count423
+\shorthandwidth=\skip60
+\shortjournalwidth=\skip61
+\shortserieswidth=\skip62
+\shorttitlewidth=\skip63
+\shortauthorwidth=\skip64
+\shorteditorwidth=\skip65
+\locallabelnumberwidth=\skip66
+\locallabelalphawidth=\skip67
+\localshorthandwidth=\skip68
+\localshortjournalwidth=\skip69
+\localshortserieswidth=\skip70
+\localshorttitlewidth=\skip71
+\localshortauthorwidth=\skip72
+\localshorteditorwidth=\skip73
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
@@ -401,19 +429,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count422
-\c@textcitetotal=\count423
-\c@textcitemaxnames=\count424
-\c@biburlbigbreakpenalty=\count425
-\c@biburlbreakpenalty=\count426
-\c@biburlnumpenalty=\count427
-\c@biburlucpenalty=\count428
-\c@biburllcpenalty=\count429
+\c@textcitecount=\count424
+\c@textcitetotal=\count425
+\c@textcitemaxnames=\count426
+\c@biburlbigbreakpenalty=\count427
+\c@biburlbreakpenalty=\count428
+\c@biburlnumpenalty=\count429
+\c@biburlucpenalty=\count430
+\c@biburllcpenalty=\count431
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count430
+\c@smartand=\count432
 )
 Package biblatex Info: Trying to load bibliography style 'enc'...
 Package biblatex Info: ... file 'enc.bbx' found.
@@ -459,10 +487,10 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks23
-\XKV@tempa@toks=\toks24
+\XKV@toks=\toks25
+\XKV@tempa@toks=\toks26
 )
-\XKV@depth=\count431
+\XKV@depth=\count433
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifxetex.sty
@@ -473,29 +501,28 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
-\c@tracingmulticols=\count432
-\mult@box=\box56
-\multicol@leftmargin=\dimen175
-\c@unbalance=\count433
-\c@collectmore=\count434
-\doublecol@number=\count435
-\multicoltolerance=\count436
-\multicolpretolerance=\count437
-\full@width=\dimen176
-\page@free=\dimen177
-\premulticols=\dimen178
-\postmulticols=\dimen179
-\multicolsep=\skip73
-\multicolbaselineskip=\skip74
-\partial@page=\box57
-\last@line=\box58
-\mc@boxedresult=\box59
-\maxbalancingoverflow=\dimen180
-\mult@rightbox=\box60
-\mult@grightbox=\box61
-\mult@firstbox=\box62
-\mult@gfirstbox=\box63
-\@tempa=\box64
+\c@tracingmulticols=\count434
+\mult@box=\box57
+\multicol@leftmargin=\dimen176
+\c@unbalance=\count435
+\c@collectmore=\count436
+\doublecol@number=\count437
+\multicoltolerance=\count438
+\multicolpretolerance=\count439
+\full@width=\dimen177
+\page@free=\dimen178
+\premulticols=\dimen179
+\postmulticols=\dimen180
+\multicolsep=\skip74
+\multicolbaselineskip=\skip75
+\partial@page=\box58
+\last@line=\box59
+\mc@boxedresult=\box60
+\maxbalancingoverflow=\dimen181
+\mult@rightbox=\box61
+\mult@grightbox=\box62
+\mult@firstbox=\box63
+\mult@gfirstbox=\box64
 \@tempa=\box65
 \@tempa=\box66
 \@tempa=\box67
@@ -531,16 +558,17 @@ Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
 \@tempa=\box97
 \@tempa=\box98
 \@tempa=\box99
-\c@minrows=\count438
-\c@columnbadness=\count439
-\c@finalcolumnbadness=\count440
-\last@try=\dimen181
-\multicolovershoot=\dimen182
-\multicolundershoot=\dimen183
-\mult@nat@firstbox=\box100
-\colbreak@box=\box101
-\mc@col@check@num=\count441
-\g__mc_curr_col_int=\count442
+\@tempa=\box100
+\c@minrows=\count440
+\c@columnbadness=\count441
+\c@finalcolumnbadness=\count442
+\last@try=\dimen182
+\multicolovershoot=\dimen183
+\multicolundershoot=\dimen184
+\mult@nat@firstbox=\box101
+\colbreak@box=\box102
+\mc@col@check@num=\count443
+\g__mc_curr_col_int=\count444
 ))
 \document_maitre@idxfile=\write4
 \openout4 = `document_maitre.idx'.
@@ -552,10 +580,10 @@ Writing index file document_maitre.idx
 Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
 )
 Package: acro 2022/04/01 v3.8 typeset acronyms and other abbreviations (CN)
-\l__acro_tmpa_int=\count443
-\l__acro_tmpb_int=\count444
-\l__acro_tmpc_int=\count445
-\l__acro_tmpd_int=\count446
+\l__acro_tmpa_int=\count445
+\l__acro_tmpb_int=\count446
+\l__acro_tmpc_int=\count447
+\l__acro_tmpd_int=\count448
 Loading module `base' ...
 Loading module `interface' ...
 Loading module `aux' ...
@@ -564,16 +592,16 @@ Loading module `acronyms' ...
 Loading module `formatting' ...
 Loading module `ppfixes' ...
 Loading module `tools' ...
-\l__acro_minimal_usage_int=\count447
-\l__acro_nest_int=\count448
-\g_acro_barrier_int=\count449
-\g_acro_barrier_total_int=\count450
+\l__acro_minimal_usage_int=\count449
+\l__acro_nest_int=\count450
+\g_acro_barrier_int=\count451
+\g_acro_barrier_total_int=\count452
 Loading module `commands' ...
-\l_acro_nest_level_int=\count451
+\l_acro_nest_level_int=\count453
 Loading module `templates' ...
 Loading module `list' ...
 Loading module `pages' ...
-\l__acro_pages_seq_threshold_int=\count452
+\l__acro_pages_seq_threshold_int=\count454
 Loading module `locale' ...
 (/usr/local/texlive/2025/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
@@ -585,53 +613,74 @@ Loading module `definitions' ...
 Loading module `upgrade' ...
 )
 ==> First Aid for acro.sty applied!
-\c@g@acro@abes@int=\count453
-\c@g@acro@api@int=\count454
-\c@g@acro@ark@int=\count455
-\c@g@acro@biu cujas@int=\count456
-\c@g@acro@bnf@int=\count457
-\c@g@acro@cines@int=\count458
-\c@g@acro@did@int=\count459
-\c@g@acro@dit@int=\count460
-\c@g@acro@sigb@int=\count461
-\c@g@acro@dpcn@int=\count462
-\c@g@acro@dpre@int=\count463
-\c@g@acro@esr@int=\count464
-\c@g@acro@html@int=\count465
-\c@g@acro@iiif@int=\count466
-\c@g@acro@jpeg@int=\count467
-\c@g@acro@oai-pmh@int=\count468
-\c@g@acro@ocr@int=\count469
-\c@g@acro@png@int=\count470
-\c@g@acro@pdf@int=\count471
-\c@g@acro@rdf@int=\count472
-\c@g@acro@rest@int=\count473
-\c@g@acro@rgpd@int=\count474
-\c@g@acro@rg2a@int=\count475
-\c@g@acro@saml@int=\count476
-\c@g@acro@seo@int=\count477
-\c@g@acro@sic@int=\count478
-\c@g@acro@sso@int=\count479
-\c@g@acro@sql@int=\count480
-\c@g@acro@sudoc@int=\count481
-\c@g@acro@tdm@int=\count482
-\c@g@acro@tei@int=\count483
-\c@g@acro@tiff@int=\count484
-\c@g@acro@uri@int=\count485
-\c@g@acro@ux@int=\count486
-\c@g@acro@wcag@int=\count487
-\c@g@acro@xtf@int=\count488
+\c@g@acro@ABES@int=\count455
+\c@g@acro@API@int=\count456
+\c@g@acro@API REST@int=\count457
+\c@g@acro@ARK@int=\count458
+\c@g@acro@BU@int=\count459
+\c@g@acro@BIS@int=\count460
+\c@g@acro@BIU Cujas@int=\count461
+\c@g@acro@BNF@int=\count462
+\c@g@acro@BSG@int=\count463
+\c@g@acro@CADIST@int=\count464
+\c@g@acro@CINES@int=\count465
+\c@g@acro@CMS@int=\count466
+\c@g@acro@CSV@int=\count467
+\c@g@acro@DID@int=\count468
+\c@g@acro@DIT@int=\count469
+\c@g@acro@DPCN@int=\count470
+\c@g@acro@DPRE@int=\count471
+\c@g@acro@ENS@int=\count472
+\c@g@acro@ESR@int=\count473
+\c@g@acro@HOPPE-Droit@int=\count474
+\c@g@acro@HTML@int=\count475
+\c@g@acro@IFLA-LRM@int=\count476
+\c@g@acro@IIIF@int=\count477
+\c@g@acro@INHA@int=\count478
+\c@g@acro@JPEG@int=\count479
+\c@g@acro@JSON@int=\count480
+\c@g@acro@JSON-LD@int=\count481
+\c@g@acro@METS@int=\count482
+\c@g@acro@NAS@int=\count483
+\c@g@acro@OAI-PMH@int=\count484
+\c@g@acro@OCR@int=\count485
+\c@g@acro@OEMI@int=\count486
+\c@g@acro@PNG@int=\count487
+\c@g@acro@PDF@int=\count488
+\c@g@acro@RAMEAU@int=\count489
+\c@g@acro@RDA-FR@int=\count490
+\c@g@acro@RDF@int=\count491
+\c@g@acro@RIS@int=\count492
+\c@g@acro@SAML@int=\count493
+\c@g@acro@SEO@int=\count494
+\c@g@acro@SFTP@int=\count495
+\c@g@acro@SIC@int=\count496
+\c@g@acro@SIGB@int=\count497
+\c@g@acro@SIP@int=\count498
+\c@g@acro@SKOS@int=\count499
+\c@g@acro@SSO@int=\count500
+\c@g@acro@SQL@int=\count501
+\c@g@acro@SUDOC@int=\count502
+\c@g@acro@TDM@int=\count503
+\c@g@acro@TIFF@int=\count504
+\c@g@acro@URI@int=\count505
+\c@g@acro@UX@int=\count506
+\c@g@acro@VIAF@int=\count507
+\c@g@acro@WCAG@int=\count508
+\c@g@acro@XML@int=\count509
+\c@g@acro@XML-TEI@int=\count510
+\c@g@acro@XTF@int=\count511
 (/usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box102
-\beforetitleunit=\skip75
-\aftertitleunit=\skip76
-\ttl@plus=\dimen184
-\ttl@minus=\dimen185
-\ttl@toksa=\toks25
-\titlewidth=\dimen186
-\titlewidthlast=\dimen187
-\titlewidthfirst=\dimen188
+\ttl@box=\box103
+\beforetitleunit=\skip76
+\aftertitleunit=\skip77
+\ttl@plus=\dimen185
+\ttl@minus=\dimen186
+\ttl@toksa=\toks27
+\titlewidth=\dimen187
+\titlewidthlast=\dimen188
+\titlewidthfirst=\dimen189
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -639,18 +688,18 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count489
-\Gm@cntv=\count490
-\c@Gm@tempcnt=\count491
-\Gm@bindingoffset=\dimen189
-\Gm@wd@mp=\dimen190
-\Gm@odd@mp=\dimen191
-\Gm@even@mp=\dimen192
-\Gm@layoutwidth=\dimen193
-\Gm@layoutheight=\dimen194
-\Gm@layouthoffset=\dimen195
-\Gm@layoutvoffset=\dimen196
-\Gm@dimlist=\toks26
+\Gm@cnth=\count512
+\Gm@cntv=\count513
+\c@Gm@tempcnt=\count514
+\Gm@bindingoffset=\dimen190
+\Gm@wd@mp=\dimen191
+\Gm@odd@mp=\dimen192
+\Gm@even@mp=\dimen193
+\Gm@layoutwidth=\dimen194
+\Gm@layoutheight=\dimen195
+\Gm@layouthoffset=\dimen196
+\Gm@layoutvoffset=\dimen197
+\Gm@dimlist=\toks28
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
@@ -658,21 +707,21 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 (/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip77
-\f@nch@offset@elh=\skip78
-\f@nch@offset@erh=\skip79
-\f@nch@offset@olh=\skip80
-\f@nch@offset@orh=\skip81
-\f@nch@offset@elf=\skip82
-\f@nch@offset@erf=\skip83
-\f@nch@offset@olf=\skip84
-\f@nch@offset@orf=\skip85
-\f@nch@height=\skip86
-\f@nch@footalignment=\skip87
-\f@nch@widthL=\skip88
-\f@nch@widthC=\skip89
-\f@nch@widthR=\skip90
-\@temptokenb=\toks27
+\f@nch@headwidth=\skip78
+\f@nch@offset@elh=\skip79
+\f@nch@offset@erh=\skip80
+\f@nch@offset@olh=\skip81
+\f@nch@offset@orh=\skip82
+\f@nch@offset@elf=\skip83
+\f@nch@offset@erf=\skip84
+\f@nch@offset@olf=\skip85
+\f@nch@offset@orf=\skip86
+\f@nch@height=\skip87
+\f@nch@footalignment=\skip88
+\f@nch@widthL=\skip89
+\f@nch@widthC=\skip90
+\f@nch@widthR=\skip91
+\@temptokenb=\toks29
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
@@ -696,14 +745,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count492
+\c@section@level=\count515
 ) (/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen197
-\Hy@linkcounter=\count493
-\Hy@pagecounter=\count494
+\@linkdim=\dimen198
+\Hy@linkcounter=\count516
+\Hy@pagecounter=\count517
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
@@ -711,7 +760,7 @@ File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count495
+\Hy@SavedSpaceFactor=\count518
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
@@ -738,9 +787,9 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count496
+\c@Hy@tempcnt=\count519
 LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen198
+\XeTeXLinkMargin=\dimen199
  (/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
@@ -748,9 +797,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count497
-\Field@Width=\dimen199
-\Fld@charsize=\dimen256
+\Fld@menulength=\count520
+\Field@Width=\dimen256
+\Fld@charsize=\dimen257
 Package hyperref Info: Hyper figures OFF on input line 6078.
 Package hyperref Info: Link nesting OFF on input line 6083.
 Package hyperref Info: Hyper index ON on input line 6086.
@@ -758,19 +807,19 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count498
-\c@Item=\count499
-\c@Hfootnote=\count500
+\Hy@abspage=\count521
+\c@Item=\count522
+\c@Hfootnote=\count523
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
 File: hxetex.def 2025-07-12 v7.01o Hyperref driver for XeTeX
-\pdfm@box=\box103
-\c@Hy@AnnotLevel=\count501
-\HyField@AnnotCount=\count502
-\Fld@listcount=\count503
-\c@bookmark@seq@number=\count504
+\pdfm@box=\box104
+\c@Hy@AnnotLevel=\count524
+\HyField@AnnotCount=\count525
+\Fld@listcount=\count526
+\c@bookmark@seq@number=\count527
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
@@ -781,13 +830,13 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 84.
 )
-\Hy@SectionHShift=\skip91
+\Hy@SectionHShift=\skip92
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
-\BKM@id=\count505
+\BKM@id=\count528
 ))
 (/usr/local/texlive/2025/texmf-dist/tex/latex/xurl/xurl.sty
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
@@ -798,16 +847,16 @@ Package: glossaries 2025/08/11 v4.8 (NLCT)
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2025/04/03 v2.09 (NLCT)
-\@glsmfirst=\toks28
-\@glsmrest=\toks29
+\@glsmfirst=\toks30
+\@glsmrest=\toks31
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks30
-\ex@=\dimen257
+\@emptytoks=\toks32
+\ex@=\dimen258
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tracklang/tracklang.sty
 Package: tracklang 2025/03/11 v1.6.6 (NLCT) Track Languages
@@ -825,7 +874,7 @@ Package: datatool-base 2025/04/25 v3.4.1 (NLCT)
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2025/06/16 v2.17y AMS math features
-\@mathmargin=\skip92
+\@mathmargin=\skip93
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -833,94 +882,94 @@ Package: amstext 2024/11/17 v2.01 AMS text
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen258
+\pmbraise@=\dimen259
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count506
+\inf@bad=\count529
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count507
-\leftroot@=\count508
+\uproot@=\count530
+\leftroot@=\count531
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count509
-\DOTSCASE@=\count510
+\classnum@=\count532
+\DOTSCASE@=\count533
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box104
-\strutbox@=\box105
+\Mathstrutbox@=\box105
+\strutbox@=\box106
 LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen259
+\big@size=\dimen260
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count511
+\macc@depth=\count534
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count512
+\c@MaxMatrixCols=\count535
 \dotsspace@=\muskip22
-\c@parentequation=\count513
-\dspbrk@lvl=\count514
-\tag@help=\toks31
-\row@=\count515
-\column@=\count516
-\maxfields@=\count517
-\andhelp@=\toks32
-\eqnshift@=\dimen260
-\alignsep@=\dimen261
-\tagshift@=\dimen262
-\tagwidth@=\dimen263
-\totwidth@=\dimen264
-\lineht@=\dimen265
-\@envbody=\toks33
-\multlinegap=\skip93
-\multlinetaggap=\skip94
-\mathdisplay@stack=\toks34
+\c@parentequation=\count536
+\dspbrk@lvl=\count537
+\tag@help=\toks33
+\row@=\count538
+\column@=\count539
+\maxfields@=\count540
+\andhelp@=\toks34
+\eqnshift@=\dimen261
+\alignsep@=\dimen262
+\tagshift@=\dimen263
+\tagwidth@=\dimen264
+\totwidth@=\dimen265
+\lineht@=\dimen266
+\@envbody=\toks35
+\multlinegap=\skip94
+\multlinetaggap=\skip95
+\mathdisplay@stack=\toks36
 LaTeX Info: Redefining \[ on input line 2949.
 LaTeX Info: Redefining \] on input line 2950.
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/datatool/datatool-l3fp.def
 File: datatool-l3fp.def 2025/04/25 v3.4.1 (NLCT)
 )
-\@dtl@toks=\toks35
-\@dtl@tmpcount=\count518
-\dtl@tmplength=\skip95
-\l__datatool_measure_box=\box106
-\dtl@sortresult=\count519
+\@dtl@toks=\toks37
+\@dtl@tmpcount=\count541
+\dtl@tmplength=\skip96
+\l__datatool_measure_box=\box107
+\dtl@sortresult=\count542
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/datatool/datatool-utf8.ldf
 File: datatool-utf8.ldf 2025/04/25 v3.4.1 (NLCT)
 )
-\@dtl@datatype=\count520
-\l__datatool_tmpa_int=\count521
-\l__datatool_tmpb_int=\count522
-\l__datatool_tmpc_int=\count523
-\l__datatool_tmpd_int=\count524
-\l__datatool_count_int=\count525
-\l__datatool_tmp_datatype_int=\count526
-\l__datatool_tmpa_dim=\dimen266
-\l__datatool_tmpb_dim=\dimen267
-\c_datatool_unknown_int=\count527
-\l__datatool_year_int=\count528
-\l__datatool_month_int=\count529
-\l__datatool_day_int=\count530
-\l__datatool_hour_int=\count531
-\l__datatool_minute_int=\count532
-\l__datatool_second_int=\count533
-\l__datatool_tzhour_int=\count534
-\l__datatool_tzminute_int=\count535
-\l__datatool_julian_int=\count536
-\l__datatool_local_julian_int=\count537
-\l__datatool_prefix_int=\count538
-\l__datatool_suffix_int=\count539
-\@dtl@foreach@level=\count540
+\@dtl@datatype=\count543
+\l__datatool_tmpa_int=\count544
+\l__datatool_tmpb_int=\count545
+\l__datatool_tmpc_int=\count546
+\l__datatool_tmpd_int=\count547
+\l__datatool_count_int=\count548
+\l__datatool_tmp_datatype_int=\count549
+\l__datatool_tmpa_dim=\dimen267
+\l__datatool_tmpb_dim=\dimen268
+\c_datatool_unknown_int=\count550
+\l__datatool_year_int=\count551
+\l__datatool_month_int=\count552
+\l__datatool_day_int=\count553
+\l__datatool_hour_int=\count554
+\l__datatool_minute_int=\count555
+\l__datatool_second_int=\count556
+\l__datatool_tzhour_int=\count557
+\l__datatool_tzminute_int=\count558
+\l__datatool_julian_int=\count559
+\l__datatool_local_julian_int=\count560
+\l__datatool_prefix_int=\count561
+\l__datatool_suffix_int=\count562
+\@dtl@foreach@level=\count563
 
 
 Package tracklang Warning: No `datatool' support for dialect `france'  on input
@@ -930,18 +979,18 @@ Package tracklang Warning: No `datatool' support for dialect `france'  on input
 Package tracklang Warning: No `datatool' support for dialect `france'  on input
  line 9908.
 
-\dtl@codeA=\count541
-\dtl@codeB=\count542
+\dtl@codeA=\count564
+\dtl@codeB=\count565
 )
-\gls@level=\count543
-\@gls@tmpb=\toks36
-\gls@tmplen=\skip96
-\l__glossaries_tmpa_dim=\dimen268
-\l__glossaries_tmpb_dim=\dimen269
-\glskeylisttok=\toks37
-\glslabeltok=\toks38
-\glsshorttok=\toks39
-\glslongtok=\toks40
+\gls@level=\count566
+\@gls@tmpb=\toks38
+\gls@tmplen=\skip97
+\l__glossaries_tmpa_dim=\dimen269
+\l__glossaries_tmpb_dim=\dimen270
+\glskeylisttok=\toks39
+\glslabeltok=\toks40
+\glsshorttok=\toks41
+\glslongtok=\toks42
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
 av.sty
@@ -950,219 +999,222 @@ Package: glossary-hypernav 2025/08/11 v4.8 (NLCT)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
 ty
 Package: glossary-list 2025/08/11 v4.8 (NLCT)
-\glslistdottedwidth=\skip97
+\glslistdottedwidth=\skip98
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
 ty
 Package: glossary-long 2025/08/11 v4.8 (NLCT)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
-\LTleft=\skip98
-\LTright=\skip99
-\LTpre=\skip100
-\LTpost=\skip101
-\LTchunksize=\count544
-\LTcapwidth=\dimen270
-\LT@head=\box107
-\LT@firsthead=\box108
-\LT@foot=\box109
-\LT@lastfoot=\box110
-\LT@gbox=\box111
-\LT@cols=\count545
-\LT@rows=\count546
-\c@LT@tables=\count547
-\c@LT@chunks=\count548
-\LT@p@ftn=\toks41
+\LTleft=\skip99
+\LTright=\skip100
+\LTpre=\skip101
+\LTpost=\skip102
+\LTchunksize=\count567
+\LTcapwidth=\dimen271
+\LT@head=\box108
+\LT@firsthead=\box109
+\LT@foot=\box110
+\LT@lastfoot=\box111
+\LT@gbox=\box112
+\LT@cols=\count568
+\LT@rows=\count569
+\c@LT@tables=\count570
+\c@LT@chunks=\count571
+\LT@p@ftn=\toks43
 )
-\glsdescwidth=\skip102
-\glspagelistwidth=\skip103
+\glsdescwidth=\skip103
+\glspagelistwidth=\skip104
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/styles/glossary-super.
 sty
 Package: glossary-super 2025/08/11 v4.8 (NLCT)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2024/07/20 v4.2c the supertabular environment
-\c@tracingst=\count549
-\ST@wd=\dimen271
-\ST@rightskip=\skip104
-\ST@leftskip=\skip105
-\ST@parfillskip=\skip106
-\ST@pageleft=\dimen272
-\ST@headht=\dimen273
-\ST@tailht=\dimen274
-\ST@pagesofar=\dimen275
-\ST@pboxht=\dimen276
-\ST@rowht=\dimen277
-\ST@prevht=\dimen278
-\ST@toadd=\dimen279
-\ST@dimen=\dimen280
-\ST@pbox=\box112
+\c@tracingst=\count572
+\ST@wd=\dimen272
+\ST@rightskip=\skip105
+\ST@leftskip=\skip106
+\ST@parfillskip=\skip107
+\ST@pageleft=\dimen273
+\ST@headht=\dimen274
+\ST@tailht=\dimen275
+\ST@pagesofar=\dimen276
+\ST@pboxht=\dimen277
+\ST@rowht=\dimen278
+\ST@prevht=\dimen279
+\ST@toadd=\dimen280
+\ST@dimen=\dimen281
+\ST@pbox=\box113
 ))
 (/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
 ty
 Package: glossary-tree 2025/08/11 v4.8 (NLCT)
-\l__glossaries_tree_max_known_level_int=\count550
-\l__glossaries_tree_offset_dim=\dimen281
-\l__glossaries_tree_namewidth_dim=\dimen282
-\l__glossaries_tree_symbolwidth_dim=\dimen283
-\l__glossaries_tree_prenamesym_width_dim=\dimen284
-\l__glossaries_tree_presubnamesym_width_dim=\dimen285
-\l__glossaries_tree_namewidth_padding_dim=\dimen286
-\l__glossaries_tree_symbolwidth_padding_dim=\dimen287
-\l__glossaries_tree_namesymbolwidth_dim=\dimen288
-\l__glossaries_tree_namesymbolwidth_padding_dim=\dimen289
-\l__glossaries_tree_level_int=\count551
-\glstreeindent=\skip107
+\l__glossaries_tree_max_known_level_int=\count573
+\l__glossaries_tree_offset_dim=\dimen282
+\l__glossaries_tree_namewidth_dim=\dimen283
+\l__glossaries_tree_symbolwidth_dim=\dimen284
+\l__glossaries_tree_prenamesym_width_dim=\dimen285
+\l__glossaries_tree_presubnamesym_width_dim=\dimen286
+\l__glossaries_tree_namewidth_padding_dim=\dimen287
+\l__glossaries_tree_symbolwidth_padding_dim=\dimen288
+\l__glossaries_tree_namesymbolwidth_dim=\dimen289
+\l__glossaries_tree_namesymbolwidth_padding_dim=\dimen290
+\l__glossaries_tree_level_int=\count574
+\glstreeindent=\skip108
 ))
 \glswrite=\write5
 \glo@main@file=\write6
 \openout6 = `document_maitre.glo'.
 
 Package glossaries Info: Writing glossary file document_maitre.glo on input lin
-e 187.
- (./glossaire.tex)
+e 225.
+ (./backmatter/glossaire.tex)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tabularray/tabularray.sty
 Package: tabularray 2025-08-29 v2025B Typeset tabulars and arrays with LaTeX3
-\l__tblr_a_int=\count552
-\l__tblr_c_int=\count553
-\l__tblr_r_int=\count554
-\l__tblr_d_dim=\dimen290
-\l__tblr_h_dim=\dimen291
-\l__tblr_o_dim=\dimen292
-\l__tblr_p_dim=\dimen293
-\l__tblr_q_dim=\dimen294
-\l__tblr_r_dim=\dimen295
-\l__tblr_s_dim=\dimen296
-\l__tblr_t_dim=\dimen297
-\l__tblr_v_dim=\dimen298
-\l__tblr_w_dim=\dimen299
-\l__tblr_a_box=\box113
-\l__tblr_b_box=\box114
-\l__tblr_c_box=\box115
-\l__tblr_d_box=\box116
-\c@tblrcount=\count555
-\c@rownum=\count556
-\c@colnum=\count557
-\c@rowcount=\count558
-\c@colcount=\count559
-\abovesep=\dimen300
-\belowsep=\dimen301
-\leftsep=\dimen302
-\rightsep=\dimen303
-\gTblrLevelInt=\count560
-\g__tblr_data_row_key_count_int=\count561
-\g__tblr_data_column_key_count_int=\count562
-\g__tblr_data_cell_key_count_int=\count563
-\g__tblr_array_int=\count564
-\l__tblr_key_count_int=\count565
-\l__tblr_key_quotient_int=\count566
-\l__tblr_key_quotient_two_int=\count567
-\l__tblr_key_remainder_int=\count568
-\g__tblr_data_str_value_count_int=\count569
-\lTblrChildTotalInt=\count570
-\lTblrChildHtotalInt=\count571
-\lTblrChildVtotalInt=\count572
-\l__child_diff_h_int=\count573
-\l__child_diff_v_int=\count574
-\l__child_sign_h_int=\count575
-\l__child_sign_v_int=\count576
-\l__child_step_int=\count577
-\lTblrDefaultHruleWidthDim=\dimen304
-\lTblrDefaultVruleWidthDim=\dimen305
-\l__tblr_split_balance_int=\count578
-\l__tblr_strut_dp_dim=\dimen306
-\l__tblr_strut_ht_dim=\dimen307
-\g__tblr_cell_wd_dim=\dimen308
-\g__tblr_cell_ht_dim=\dimen309
-\g__tblr_cell_head_dim=\dimen310
-\g__tblr_cell_foot_dim=\dimen311
-\l__tblr_measured_cell_box=\box117
-\g__tblr_last_box=\box118
-\l__tblr_temp_box=\box119
-\l__tblr_column_target_dim=\dimen312
-\l__tblr_hfuzz_dim=\dimen313
-\l__tblr_caption_box=\box120
-\l__tblr_caption_left_box=\box121
-\lTblrRowHeadInt=\count579
-\lTblrRowFootInt=\count580
-\l__tblr_row_head_box=\box122
-\l__tblr_row_foot_box=\box123
-\l__tblr_row_head_foot_dim=\dimen314
-\lTblrTableWidthDim=\dimen315
-\l__tblr_table_firsthead_box=\box124
-\l__tblr_table_middlehead_box=\box125
-\l__tblr_table_lasthead_box=\box126
-\l__tblr_table_firstfoot_box=\box127
-\l__tblr_table_middlefoot_box=\box128
-\l__tblr_table_lastfoot_box=\box129
-\l__tblr_remain_height_dim=\dimen316
-\l__tblr_long_from_int=\count581
-\l__tblr_long_to_int=\count582
-\l__tblr_curr_i_int=\count583
-\l__tblr_prev_i_int=\count584
-\lTblrTablePageInt=\count585
-\l__tblr_table_head_box=\box130
-\l__tblr_table_foot_box=\box131
-\l__tblr_table_head_foot_dim=\dimen317
-\l__tblr_table_head_body_foot_dim=\dimen318
-\l__tblr_table_box=\box132
-\lTblrRowFirstInt=\count586
-\lTblrRowLastInt=\count587
-\l__tblr_table_hlines_box=\box133
-\l__tblr_hline_box=\box134
-\l__tblr_row_box=\box135
-\l__tblr_col_o_wd_dim=\dimen319
-\l__tblr_col_b_wd_dim=\dimen320
-\l__tblr_hline_leftskip_dim=\dimen321
-\l__tblr_hline_rightskip_dim=\dimen322
-\l__tblr_row_ht_dim=\dimen323
-\l__tblr_row_dp_dim=\dimen324
-\l__tblr_row_abovesep_dim=\dimen325
-\l__tblr_row_belowsep_dim=\dimen326
-\l__tblr_row_vlines_box=\box136
-\l__tblr_vline_box=\box137
-\l__tblr_cell_box=\box138
-\l__tblr_row_upper_dim=\dimen327
-\l__tblr_row_lower_dim=\dimen328
-\l__tblr_row_vpace_dim=\dimen329
-\l__tblr_vline_aboveskip_dim=\dimen330
-\l__tblr_vline_belowskip_dim=\dimen331
-\lTblrCellRowSpanInt=\count588
-\lTblrCellColSpanInt=\count589
-\l__tblr_cell_wd_dim=\dimen332
-\l__tblr_cell_ht_dim=\dimen333
-\lTblrCellAboveBorderWidthDim=\dimen334
-\lTblrCellBelowBorderWidthDim=\dimen335
-\lTblrCellLeftBorderWidthDim=\dimen336
-\lTblrCellRightBorderWidthDim=\dimen337
-\l__tblr_diag_box=\box139
-\l__tblr_cell_inner_wd_dim=\dimen338
-\l__tblr_cell_inner_dp_dim=\dimen339
-\l__tblr_cell_hanchor_dim=\dimen340
-\l__tblr_last_cell_table_ht_dim=\dimen341
-\l__tblr_last_cell_table_dp_dim=\dimen342
-\l__tblr_last_vline_wd_dim=\dimen343
-\l__tblr_tikz_node_box=\box140
+\l__tblr_a_int=\count575
+\l__tblr_c_int=\count576
+\l__tblr_r_int=\count577
+\l__tblr_d_dim=\dimen291
+\l__tblr_h_dim=\dimen292
+\l__tblr_o_dim=\dimen293
+\l__tblr_p_dim=\dimen294
+\l__tblr_q_dim=\dimen295
+\l__tblr_r_dim=\dimen296
+\l__tblr_s_dim=\dimen297
+\l__tblr_t_dim=\dimen298
+\l__tblr_v_dim=\dimen299
+\l__tblr_w_dim=\dimen300
+\l__tblr_a_box=\box114
+\l__tblr_b_box=\box115
+\l__tblr_c_box=\box116
+\l__tblr_d_box=\box117
+\c@tblrcount=\count578
+\c@rownum=\count579
+\c@colnum=\count580
+\c@rowcount=\count581
+\c@colcount=\count582
+\abovesep=\dimen301
+\belowsep=\dimen302
+\leftsep=\dimen303
+\rightsep=\dimen304
+\gTblrLevelInt=\count583
+\g__tblr_data_row_key_count_int=\count584
+\g__tblr_data_column_key_count_int=\count585
+\g__tblr_data_cell_key_count_int=\count586
+\g__tblr_array_int=\count587
+\l__tblr_key_count_int=\count588
+\l__tblr_key_quotient_int=\count589
+\l__tblr_key_quotient_two_int=\count590
+\l__tblr_key_remainder_int=\count591
+\g__tblr_data_str_value_count_int=\count592
+\lTblrChildTotalInt=\count593
+\lTblrChildHtotalInt=\count594
+\lTblrChildVtotalInt=\count595
+\l__child_diff_h_int=\count596
+\l__child_diff_v_int=\count597
+\l__child_sign_h_int=\count598
+\l__child_sign_v_int=\count599
+\l__child_step_int=\count600
+\lTblrDefaultHruleWidthDim=\dimen305
+\lTblrDefaultVruleWidthDim=\dimen306
+\l__tblr_split_balance_int=\count601
+\l__tblr_strut_dp_dim=\dimen307
+\l__tblr_strut_ht_dim=\dimen308
+\g__tblr_cell_wd_dim=\dimen309
+\g__tblr_cell_ht_dim=\dimen310
+\g__tblr_cell_head_dim=\dimen311
+\g__tblr_cell_foot_dim=\dimen312
+\l__tblr_measured_cell_box=\box118
+\g__tblr_last_box=\box119
+\l__tblr_temp_box=\box120
+\l__tblr_column_target_dim=\dimen313
+\l__tblr_hfuzz_dim=\dimen314
+\l__tblr_caption_box=\box121
+\l__tblr_caption_left_box=\box122
+\lTblrRowHeadInt=\count602
+\lTblrRowFootInt=\count603
+\l__tblr_row_head_box=\box123
+\l__tblr_row_foot_box=\box124
+\l__tblr_row_head_foot_dim=\dimen315
+\lTblrTableWidthDim=\dimen316
+\l__tblr_table_firsthead_box=\box125
+\l__tblr_table_middlehead_box=\box126
+\l__tblr_table_lasthead_box=\box127
+\l__tblr_table_firstfoot_box=\box128
+\l__tblr_table_middlefoot_box=\box129
+\l__tblr_table_lastfoot_box=\box130
+\l__tblr_remain_height_dim=\dimen317
+\l__tblr_long_from_int=\count604
+\l__tblr_long_to_int=\count605
+\l__tblr_curr_i_int=\count606
+\l__tblr_prev_i_int=\count607
+\lTblrTablePageInt=\count608
+\l__tblr_table_head_box=\box131
+\l__tblr_table_foot_box=\box132
+\l__tblr_table_head_foot_dim=\dimen318
+\l__tblr_table_head_body_foot_dim=\dimen319
+\l__tblr_table_box=\box133
+\lTblrRowFirstInt=\count609
+\lTblrRowLastInt=\count610
+\l__tblr_table_hlines_box=\box134
+\l__tblr_hline_box=\box135
+\l__tblr_row_box=\box136
+\l__tblr_col_o_wd_dim=\dimen320
+\l__tblr_col_b_wd_dim=\dimen321
+\l__tblr_hline_leftskip_dim=\dimen322
+\l__tblr_hline_rightskip_dim=\dimen323
+\l__tblr_row_ht_dim=\dimen324
+\l__tblr_row_dp_dim=\dimen325
+\l__tblr_row_abovesep_dim=\dimen326
+\l__tblr_row_belowsep_dim=\dimen327
+\l__tblr_row_vlines_box=\box137
+\l__tblr_vline_box=\box138
+\l__tblr_cell_box=\box139
+\l__tblr_row_upper_dim=\dimen328
+\l__tblr_row_lower_dim=\dimen329
+\l__tblr_row_vpace_dim=\dimen330
+\l__tblr_vline_aboveskip_dim=\dimen331
+\l__tblr_vline_belowskip_dim=\dimen332
+\lTblrCellRowSpanInt=\count611
+\lTblrCellColSpanInt=\count612
+\l__tblr_cell_wd_dim=\dimen333
+\l__tblr_cell_ht_dim=\dimen334
+\lTblrCellAboveBorderWidthDim=\dimen335
+\lTblrCellBelowBorderWidthDim=\dimen336
+\lTblrCellLeftBorderWidthDim=\dimen337
+\lTblrCellRightBorderWidthDim=\dimen338
+\l__tblr_diag_box=\box140
+\l__tblr_cell_inner_wd_dim=\dimen339
+\l__tblr_cell_inner_dp_dim=\dimen340
+\l__tblr_cell_hanchor_dim=\dimen341
+\l__tblr_last_cell_table_ht_dim=\dimen342
+\l__tblr_last_cell_table_dp_dim=\dimen343
+\l__tblr_last_vline_wd_dim=\dimen344
+\l__tblr_tikz_node_box=\box141
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count590
-\float@exts=\toks42
-\float@box=\box141
-\@float@everytoks=\toks43
-\@floatcapt=\box142
+\c@float@type=\count613
+\float@exts=\toks44
+\float@box=\box142
+\@float@everytoks=\toks45
+\@floatcapt=\box143
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box143
-\UL@hyphenbox=\box144
-\UL@skip=\skip108
-\UL@hook=\toks44
-\UL@height=\dimen344
-\UL@pe=\count591
-\UL@pixel=\dimen345
-\ULC@box=\box145
+\UL@box=\box144
+\UL@hyphenbox=\box145
+\UL@skip=\skip109
+\UL@hook=\toks46
+\UL@height=\dimen345
+\UL@pe=\count614
+\UL@pixel=\dimen346
+\ULC@box=\box146
 Package: ulem 2019/11/18
-\ULdepth=\dimen346
+\ULdepth=\dimen347
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'polyglossia' package.
@@ -1172,34 +1224,34 @@ Package csquotes Info: Redefining alias 'default' -> 'french'.
 (./document_maitre.aux)
 \openout1 = `document_maitre.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 214.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 21
-4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 260.
+LaTeX Font Info:    ... okay on input line 260.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 260.
+LaTeX Font Info:    ... okay on input line 260.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 260.
+LaTeX Font Info:    ... okay on input line 260.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 260.
+LaTeX Font Info:    ... okay on input line 260.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 260.
+LaTeX Font Info:    ... okay on input line 260.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 260.
+LaTeX Font Info:    ... okay on input line 260.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 260.
+LaTeX Font Info:    ... okay on input line 260.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 260.
+LaTeX Font Info:    ... okay on input line 260.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 260.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 26
+0.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 214.
-LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    ... okay on input line 260.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 260.
+LaTeX Font Info:    ... okay on input line 260.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 260.
+LaTeX Font Info:    ... okay on input line 260.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -1207,61 +1259,77 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 214.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 214.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 214.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 214.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 214.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 214.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 214.
-LaTeX Font Info:    Redeclaring math accent \check on input line 214.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 214.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 214.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 214.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 214.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 214.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 214.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 214.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 214.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 214.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 214.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 214.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 214.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 214.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 214.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 214.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 214.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 260.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 260.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 260.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 260.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 260.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 260.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 260.
+LaTeX Font Info:    Redeclaring math accent \check on input line 260.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 260.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 260.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 260.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 260.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 214.
+(Font)              `operators' in the math version `normal' on input line 260.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 214.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 260.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 214.
+(Font)              `operators' in the math version `bold' on input line 260.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 214.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 260.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 214.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 260.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 214.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 260.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 214.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 260.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 214.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 260.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 214.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 260.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 214.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 260.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 214.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 260.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 214.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 260.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 214.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 260.
+LaTeX Info: Redefining \microtypecontext on input line 260.
+Package microtype Info: Applying patch `item' on input line 260.
+Package microtype Info: Applying patch `toc' on input line 260.
+Package microtype Info: Applying patch `eqnum' on input line 260.
+Package microtype Info: Applying patch `footnote' on input line 260.
+Package microtype Info: Applying patch `verbatim' on input line 260.
+LaTeX Info: Redefining \microtypesetup on input line 260.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
+File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Mod
+ern Roman (RS)
+)
 Package biblatex Info: Trying to load language 'french'...
 Package biblatex Info: ... file 'french.lbx' found.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/french.lbx
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/french.lbx
 File: french.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 )
 Package biblatex Info: XeTeX detected.
@@ -1274,8 +1342,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'document_maitre.bbl' found.
 
 (./document_maitre.bbl)
-Package biblatex Info: Reference section=0 on input line 214.
-Package biblatex Info: Reference segment=0 on input line 214.
+Package biblatex Info: Reference section=0 on input line 260.
+Package biblatex Info: Reference segment=0 on input line 260.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1311,7 +1379,7 @@ Package biblatex Info: Reference segment=0 on input line 214.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 214.
+Package hyperref Info: Link coloring OFF on input line 260.
 
 
 [1
@@ -1327,12 +1395,11 @@ Package hyperref Info: Link coloring OFF on input line 214.
 Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 31.66232pt (À);
-(lettrine.sty)             reported on input line 279.
-
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
-
- []
-
+(lettrine.sty)             reported on input line 325.
+Package lettrine.sty Info: Targeted height = 24.16246pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 24.16241pt (I);
+(lettrine.sty)             reported on input line 328.
 
 
 [1
@@ -1340,28 +1407,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 279--280
 
 ]
 
-[2
-
-]
+[2]
 Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 24.16241pt (M);
-(lettrine.sty)             reported on input line 292.
+(lettrine.sty)             reported on input line 342.
 
 
 [3
+
 
 ]
 
 [4
 
-] (./introduction.tex
+]
 
 [5
 
 ]
 
-[6
+[6]
+
+[7]
+
+[8
+
+]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+
+[9]
+
+[10]
+
+[11]
+
+[12]
+
+[13]
+
+[14] (./mainmatter/introduction.tex
+
+[15]
+
+[16
 
 ]
 Package lettrine.sty Info: Targeted height = 24.16246pt
@@ -1370,46 +1466,58 @@ Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             reported on input line 8.
 
 
-[7]
+[17]
 
-[8])
+[18])
 
-[9]
+[19]
 
-[10
-
-]
+[20]
 
 [1
 
 
+
 ]
 
-[2] (./chapitre_1.tex
+[2]
+Package lettrine.sty Info: Targeted height = 24.16246pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 24.16241pt (L);
+(lettrine.sty)             reported on input line 400.
+ (./mainmatter/Partie_I/Ch1/chapitre_1.tex
+
+[3]
+
+[4
+
+]
 Chapitre 1.
 Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 25.01146pt (A);
 (lettrine.sty)             reported on input line 3.
-(./chapitre_1.1.tex
-
-[3
-
-])
-
-[4] (./chapitre_1.2.tex
+(./mainmatter/Partie_I/Ch1/chapitre_1.1.tex
 
 [5]
 
-[6]) (./chapitre_1.3.tex
+[6]) (./mainmatter/Partie_I/Ch1/chapitre_1.2.tex
 
 [7]
 
-[8])) (./chapitre_2.tex
+[8]
 
-[9]
+[9])
 
-[10
+[10] (./mainmatter/Partie_I/Ch1/chapitre_1.3.tex
+
+[11]
+
+[12])) (./mainmatter/Partie_I/Ch2/chapitre_2.tex
+
+[13]
+
+[14
 
 ]
 Chapitre 2.
@@ -1417,32 +1525,38 @@ Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 24.16241pt (L);
 (lettrine.sty)             reported on input line 3.
-(./chapitre_2.1.tex
-
-[11]
-
-[12]) (./chapitre_2.2.tex
-
-[13]
-
-[14]) (./chapitre_2.3.tex
-
-[15]
-
-[16]) (./chapitre_2.4.tex
-Overfull \hbox (0.79065pt too wide) in paragraph at lines 1--1
-|[]\TU/lmr/bx/n/17.28 L’indexation Hauville : adapter le langage RAMEAU
- []
 
 
+[15] (./mainmatter/Partie_I/Ch2/chapitre_2.1.tex
+
+[16]
 
 [17]
 
-[18])) (./chapitre_3.tex
+[18]
 
-[19]
+[19]) (./mainmatter/Partie_I/Ch2/chapitre_2.2.tex
 
-[20
+[20]
+File: 202605_NUM_schemas_Workflow_prod_publ_V2.pdf Graphic file (type pdf)
+<202605_NUM_schemas_Workflow_prod_publ_V2.pdf>
+
+
+[21]
+
+[22]
+
+[23]
+
+[24]) (./mainmatter/Partie_I/Ch2/chapitre_2.3.tex
+
+[25]
+
+[26])) (./mainmatter/Partie_I/Ch3/chapitre_3.tex
+
+[27]
+
+[28
 
 ]
 Chapitre 3.
@@ -1450,69 +1564,87 @@ Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 31.66232pt (À);
 (lettrine.sty)             reported on input line 3.
-(./chapitre_3.1.tex
+(./mainmatter/Partie_I/Ch3/chapitre_3.1.tex
 
-[21]
-
-[22]) (./chapitre_3.2.tex
-
-[23]
-
-[24]
-
-[25]) (./chapitre_3.3.tex
-
-[26]
-
-[27]
-
-[28]
-
-[29]))
+[29]
 
 [30]
 
-[31
+[31]) (./mainmatter/Partie_I/Ch3/chapitre_3.2.tex
 
-]
+[32]
 
-[32] (./chapitre_4.tex
-Chapitre 4.
-Package lettrine.sty Info: Targeted height = 24.16246pt
-(lettrine.sty)             (for loversize=0, accent excluded),
-(lettrine.sty)             Lettrine height = 24.16241pt (L);
-(lettrine.sty)             reported on input line 3.
-(./chapitre_4.1.tex
+[33]
 
-[33
-
-]
-
-[34]
+[34]) (./mainmatter/Partie_I/Ch3/chapitre_3.3.tex
 
 [35]
 
-[36]) (./chapitre_4.2.tex
+[36]))
+Package lettrine.sty Info: Targeted height = 24.16246pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 24.72845pt (C);
+(lettrine.sty)             reported on input line 413.
+
 
 [37]
 
 [38]
 
-[39]
+[39
 
-[40]) (./chapitre_4.3.tex
+]
+
+[40]
+Package lettrine.sty Info: Targeted height = 24.16246pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 24.16241pt (U);
+(lettrine.sty)             reported on input line 434.
+ (./mainmatter/Partie_II/Ch4/chapitre_4.tex
 
 [41]
 
 [42]
+Chapitre 4.
+Package lettrine.sty Info: Targeted height = 24.16246pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 24.16241pt (L);
+(lettrine.sty)             reported on input line 3.
+(./mainmatter/Partie_II/Ch4/chapitre_4.1.tex
 
-[43]
+[43
 
-[44])) (./chapitre_5.tex
+]
+
+[44]
 
 [45]
 
-[46
+[46]
+
+[47]) (./mainmatter/Partie_II/Ch4/chapitre_4.2.tex
+
+[48]
+
+[49]
+
+[50]
+
+[51]) (./mainmatter/Partie_II/Ch4/chapitre_4.3.tex
+
+[52]
+
+[53]
+
+[54]
+
+[55])) (./mainmatter/Partie_II/Ch5/chapitre_5.tex
+
+[56]
+
+[57]
+
+[58
 
 ]
 Chapitre 5.
@@ -1520,57 +1652,92 @@ Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 24.16241pt (L);
 (lettrine.sty)             reported on input line 3.
-(./chapitre_5.1.tex
+(./mainmatter/Partie_II/Ch5/chapitre_5.1.tex
 
-[47]) (./chapitre_5.2.tex
+[59]) (./mainmatter/Partie_II/Ch5/chapitre_5.2.tex
 
-[48]
+[60]
 
-[49]) (./chapitre_5.3.tex
+[61]) (./mainmatter/Partie_II/Ch5/chapitre_5.3.tex
 
-[50]
+[62]
 
-[51]) (./chapitre_5.4.tex
+[63]) (./mainmatter/Partie_II/Ch5/chapitre_5.4.tex
 
-[52]
+[64]
 
-[53]))
+[65]))
+Package lettrine.sty Info: Targeted height = 24.16246pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 24.72845pt (C);
+(lettrine.sty)             reported on input line 447.
 
-[54]
 
-[55
+[66]
+
+[67]
+
+[68
 
 ]
 
-[56] (./chapitre_6.tex
+[69]
+
+[70]
+Package lettrine.sty Info: Targeted height = 24.16246pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 24.16241pt (L);
+(lettrine.sty)             reported on input line 464.
+ (./mainmatter/Partie_III/Ch6/chapitre_6.tex
+
+[71]
+
+[72
+
+]
 Chapitre 6.
 Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 24.16241pt (L);
 (lettrine.sty)             reported on input line 2.
-(./chapitre_6.1.tex
+(./mainmatter/Partie_III/Ch6/chapitre_6.1.tex
 
-[57
+[73]
 
-]
+[74]
 
-[58]
+[75]
+File: ./images/consultation_documents/IMG_5987.jpeg Graphic file (type bmp)
+<./images/consultation_documents/IMG_5987.jpeg>
 
-[59]
 
-[60]
+[76]
 
-[61]) (./chapitre_6.2.tex
+[77]
 
-[62]
+[78]
+File: ./images/filtrage/IMG_5970.jpeg Graphic file (type bmp)
+<./images/filtrage/IMG_5970.jpeg>
 
-[63]) (./chapitre_6.3.tex
 
-[64])) (./chapitre_7.tex
+[79]) (./mainmatter/Partie_III/Ch6/chapitre_6.2.tex
 
-[65]
+[80]
 
-[66
+[81]
+
+[82]) (./mainmatter/Partie_III/Ch6/chapitre_6.3.tex
+
+[83]
+File: ./images/Screenshot from 2026-09-07 20-54-20.png Graphic file (type bmp)
+<./images/Screenshot from 2026-09-07 20-54-20.png>
+)) (./mainmatter/Partie_III/Ch7/chapitre_7.tex
+
+[84]
+
+[85]
+
+[86
 
 ]
 Chapitre 7.
@@ -1578,23 +1745,28 @@ Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 24.16241pt (L);
 (lettrine.sty)             reported on input line 3.
-(./chapitre_7.1.tex
+(./mainmatter/Partie_III/Ch7/chapitre_7.1.tex
 
-[67]
+[87]
 
-[68]) (./chapitre_7.2.tex
+[88]) (./mainmatter/Partie_III/Ch7/chapitre_7.2.tex
 
-[69]
+[89]
 
-[70]) (./chapitre_7.3.tex
+LaTeX Warning: Citation 'mesguichBibliothequesFaceMonde' on page 90 undefined o
+n input line 12.
 
-[71])) (./chapitre_8.tex
 
-[72]
 
-[73]
+[90]) (./mainmatter/Partie_III/Ch7/chapitre_7.3.tex
 
-[74
+[91]
+
+[92])) (./mainmatter/Partie_III/Ch8/chapitre_8.tex
+
+[93]
+
+[94
 
 ]
 Chapitre 8.
@@ -1602,48 +1774,51 @@ Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 24.16241pt (L);
 (lettrine.sty)             reported on input line 3.
-(./chapitre_8.1.tex
+(./mainmatter/Partie_III/Ch8/chapitre_8.1.tex
 
-[75]
-Overfull \hbox (2.11258pt too wide) in paragraph at lines 14--15
-\TU/lmr/m/n/12 office collaboratif et administrable par le métier au centre de 
-son architecture. C’était d’ailleurs
- []
+[95]
+
+[96]
+
+[97]) (./mainmatter/Partie_III/Ch8/chapitre_8.2.tex
+
+[98]
+
+[99]))
+Package lettrine.sty Info: Targeted height = 24.16246pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 24.72845pt (C);
+(lettrine.sty)             reported on input line 477.
 
 
+[100] (./mainmatter/conclusion.tex
 
-[76]) (./chapitre_8.2.tex
+[101]
 
-[77]
-
-[78])) (./conclusion.tex
-
-[79]
-
-[80
+[102
 
 ]
 Package lettrine.sty Info: Targeted height = 24.16246pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 25.01146pt (A);
-(lettrine.sty)             reported on input line 3.
+(lettrine.sty)             reported on input line 5.
 
 
-[81]
+[103]
 
-[82])
+[104])
 
-[83]
+[105]
 
-[84
-
-]
-
-[85
+[106
 
 ]
 
-[86] (./annexe_A_rapport_audit.tex
+[107
+
+]
+
+[108] (./backmatter/annexe_A_rapport_audit.tex
 Annexe A.
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
@@ -1651,381 +1826,9 @@ Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=
 ex-text;!
 
 
-[87
+[109
 
 ]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[88]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[89]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-Overfull \hbox (19.01077pt too wide) in paragraph at lines 86--87
-[]\TU/lmr/m/n/12 Limandri Sandrine (SL) : Responsable de l’atelier de numérisat
-ion, entretien du 02/04/2026.
- []
-
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[90]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-Overfull \hbox (3.47462pt too wide) in paragraph at lines 107--108
-[]\TU/lmr/m/n/12 Actuellement, la bibliothèque numérique propose uniquement des
- monographies15. Cette
- []
-
-
-
-[91]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[92]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[93]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[94]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[95]
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-
-
-[96]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[97]
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[98]
-
-[99]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[100]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[101]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[102]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[103]
-
-[104]
-Overfull \vbox (12.76428pt too high) has occurred while \output is active []
-
-
-
-[105]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[106]
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[107]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[108]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[109]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
@@ -2059,38 +1862,6 @@ Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=
 ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
 
 
 [111]
@@ -2104,20 +1875,6 @@ Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=
 ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
@@ -2135,115 +1892,9 @@ Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=
 ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
 
 
 [113]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
@@ -2257,162 +1908,14 @@ Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=
 ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
 
 
 [115]
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
 
 
 [116]
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
 
@@ -2420,103 +1923,9 @@ ex-text;!
 [117]
 Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
 text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
 
 
 [118]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
 
@@ -2524,216 +1933,15 @@ ex-text;!
 [119]
 Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
 text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
 
 
 [120]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
 
 [121]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
@@ -2741,71 +1949,11 @@ ex-text;!
 
 
 [122]
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
 
 
 [123]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
 
@@ -2833,707 +1981,1511 @@ Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=
 ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
 text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/IMG_595
-2.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/IMG_5952.jpe
-g>
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
 
 
 [125]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/IMG_595
-3.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/IMG_5953.jpe
-g>
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/IMG_595
-4.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/IMG_5954.jpe
-g>
-) (./annexe_B_preconisations.tex
 
 [126]
-Annexe B.
 
+[127]
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
 
-[127
-
-]
 
 [128]
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+
 
 [129]
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+
 
 [130]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/IMG_595
-5.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/IMG_5955.jpe
-g>
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
 
 
 [131]
-Overfull \vbox (14.84853pt too high) has occurred while \output is active []
-
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
 
 
 [132]
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+
 
 [133]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherc
-he_simple/Lucienne.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherche_si
-mple/Lucienne.jpeg>
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
 
 
 [134]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherc
-he_simple/Cariatide.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherche_si
-mple/Cariatide.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherc
-he_simple/Institut_de_France.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherche_si
-mple/Institut_de_France.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherc
-he_simple/Gallica.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherche_si
-mple/Gallica.jpeg>
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
 
 
 [135]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherc
-he_simple/NuBIS.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherche_si
-mple/NuBIS.jpeg>
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
 
 
 [136]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherc
-he_avancee/Lucienne.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherche_av
-ancee/Lucienne.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherc
-he_avancee/Institut_de_France.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherche_av
-ancee/Institut_de_France.jpeg>
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
 
 
 [137]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherc
-he_avancee/Cariatide.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherche_av
-ancee/Cariatide.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherc
-he_avancee/Gallica.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherche_av
-ancee/Gallica.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherc
-he_avancee/Polona.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/recherche_av
-ancee/Polona.jpeg>
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
 
 
 [138]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/filtrag
-e/IMG_5966.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/filtrage/IMG
-_5966.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/filtrag
-e/IMG_5967.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/filtrage/IMG
-_5967.jpeg>
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
 
 
 [139]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/filtrag
-e/IMG_5968.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/filtrage/IMG
-_5968.jpeg>
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
 
 
 [140]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/filtrag
-e/IMG_5969.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/filtrage/IMG
-_5969.jpeg>
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
 
 
 [141]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/filtrag
-e/IMG_5970.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/filtrage/IMG
-_5970.jpeg>
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
 
 
 [142]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/filtrag
-e/IMG_5971.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/filtrage/IMG
-_5971.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/collect
-ions/IMG_5972.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/collections/
-IMG_5972.jpeg>
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
 
 
 [143]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/collect
-ions/IMG_5973.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/collections/
-IMG_5973.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/collect
-ions/IMG_5974.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/collections/
-IMG_5974.jpeg>
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
 
 
 [144]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/collect
-ions/IMG_5975.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/collections/
-IMG_5975.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/collect
-ions/IMG_5976.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/collections/
-IMG_5976.jpeg>
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
 
 
 [145]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/collect
-ions/IMG_5977.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/collections/
-IMG_5977.jpeg>
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
 
 
 [146]
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+File: ./images/IMG_5952.jpeg Graphic file (type bmp)
+<./images/IMG_5952.jpeg>
+
 
 [147]
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+File: ./images/IMG_5953.jpeg Graphic file (type bmp)
+<./images/IMG_5953.jpeg>
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+File: ./images/IMG_5954.jpeg Graphic file (type bmp)
+<./images/IMG_5954.jpeg>
+) (./backmatter/annexe_B_preconisations.tex
 
 [148]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/page_do
-cument/IMG_5978.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/page_documen
-t/IMG_5978.jpeg>
+Annexe B.
 
 
-[149]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/page_do
-cument/IMG_5979.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/page_documen
-t/IMG_5979.jpeg>
+[149
 
+]
 
 [150]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/page_do
-cument/IMG_5980.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/page_documen
-t/IMG_5980.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/page_do
-cument/IMG_5981.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/page_documen
-t/IMG_5981.jpeg>
-
 
 [151]
 
 [152]
+File: ./images/IMG_5955.jpeg Graphic file (type bmp)
+<./images/IMG_5955.jpeg>
+
 
 [153]
 
 [154]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/compte_
-personnel/IMG_5982.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/compte_perso
-nnel/IMG_5982.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/compte_
-personnel/IMG_5983.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/compte_perso
-nnel/IMG_5983.jpeg>
-
 
 [155]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/compte_
-personnel/IMG_5984.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/compte_perso
-nnel/IMG_5984.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/compte_
-personnel/IMG_5985.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/compte_perso
-nnel/IMG_5985.jpeg>
+File: ./images/recherche_simple/Lucienne.jpeg Graphic file (type bmp)
+<./images/recherche_simple/Lucienne.jpeg>
 
 
 [156]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/compte_
-personnel/IMG_5986.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/compte_perso
-nnel/IMG_5986.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/consult
-ation_documents/IMG_5987.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/consultation
-_documents/IMG_5987.jpeg>
+File: ./images/recherche_simple/Cariatide.jpeg Graphic file (type bmp)
+<./images/recherche_simple/Cariatide.jpeg>
+File: ./images/recherche_simple/Institut_de_France.jpeg Graphic file (type bmp)
+
+<./images/recherche_simple/Institut_de_France.jpeg>
+File: ./images/recherche_simple/Gallica.jpeg Graphic file (type bmp)
+<./images/recherche_simple/Gallica.jpeg>
 
 
 [157]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/consult
-ation_documents/IMG_5988.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/consultation
-_documents/IMG_5988.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/consult
-ation_documents/IMG_5989.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/consultation
-_documents/IMG_5989.jpeg>
+File: ./images/recherche_simple/NuBIS.jpeg Graphic file (type bmp)
+<./images/recherche_simple/NuBIS.jpeg>
 
 
 [158]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/consult
-ation_documents/IMG_5990.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/consultation
-_documents/IMG_5990.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/telecha
-rgements_et_formats/IMG_5991.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/telechargeme
-nts_et_formats/IMG_5991.jpeg>
+File: ./images/recherche_avancee/Lucienne.jpeg Graphic file (type bmp)
+<./images/recherche_avancee/Lucienne.jpeg>
+File: ./images/recherche_avancee/Institut_de_France.jpeg Graphic file (type bmp
+)
+<./images/recherche_avancee/Institut_de_France.jpeg>
 
 
 [159]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/telecha
-rgements_et_formats/IMG_5992.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/telechargeme
-nts_et_formats/IMG_5992.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/telecha
-rgements_et_formats/IMG_5993.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/telechargeme
-nts_et_formats/IMG_5993.jpeg>
+File: ./images/recherche_avancee/Cariatide.jpeg Graphic file (type bmp)
+<./images/recherche_avancee/Cariatide.jpeg>
+File: ./images/recherche_avancee/Gallica.jpeg Graphic file (type bmp)
+<./images/recherche_avancee/Gallica.jpeg>
+File: ./images/recherche_avancee/Polona.jpeg Graphic file (type bmp)
+<./images/recherche_avancee/Polona.jpeg>
 
 
 [160]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/exploit
-ation_documents/IMG_5994.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/exploitation
-_documents/IMG_5994.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/exploit
-ation_documents/IMG_5995.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/exploitation
-_documents/IMG_5995.jpeg>
+File: ./images/filtrage/IMG_5966.jpeg Graphic file (type bmp)
+<./images/filtrage/IMG_5966.jpeg>
+File: ./images/filtrage/IMG_5967.jpeg Graphic file (type bmp)
+<./images/filtrage/IMG_5967.jpeg>
 
 
 [161]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/exploit
-ation_documents/IMG_5996.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/exploitation
-_documents/IMG_5996.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/OCR_tra
-nscriptions/IMG_5997.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/OCR_transcri
-ptions/IMG_5997.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/OCR_tra
-nscriptions/IMG_5998.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/OCR_transcri
-ptions/IMG_5998.jpeg>
+File: ./images/filtrage/IMG_5968.jpeg Graphic file (type bmp)
+<./images/filtrage/IMG_5968.jpeg>
 
 
 [162]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/droit_a
-cces/IMG_5999.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/droit_acces/
-IMG_5999.jpeg>
+File: ./images/filtrage/IMG_5969.jpeg Graphic file (type bmp)
+<./images/filtrage/IMG_5969.jpeg>
 
 
 [163]
+File: ./images/filtrage/IMG_5970.jpeg Graphic file (type bmp)
+<./images/filtrage/IMG_5970.jpeg>
+
 
 [164]
+File: ./images/filtrage/IMG_5971.jpeg Graphic file (type bmp)
+<./images/filtrage/IMG_5971.jpeg>
+File: ./images/collections/IMG_5972.jpeg Graphic file (type bmp)
+<./images/collections/IMG_5972.jpeg>
+
 
 [165]
+File: ./images/collections/IMG_5973.jpeg Graphic file (type bmp)
+<./images/collections/IMG_5973.jpeg>
+File: ./images/collections/IMG_5974.jpeg Graphic file (type bmp)
+<./images/collections/IMG_5974.jpeg>
+
 
 [166]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/a_propo
-s/IMG_6001.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/a_propos/IMG
-_6001.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/a_propo
-s/IMG_6002.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/a_propos/IMG
-_6002.jpeg>
+File: ./images/collections/IMG_5975.jpeg Graphic file (type bmp)
+<./images/collections/IMG_5975.jpeg>
+File: ./images/collections/IMG_5976.jpeg Graphic file (type bmp)
+<./images/collections/IMG_5976.jpeg>
 
 
 [167]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/a_propo
-s/IMG_6003.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/a_propos/IMG
-_6003.jpeg>
+File: ./images/collections/IMG_5977.jpeg Graphic file (type bmp)
+<./images/collections/IMG_5977.jpeg>
 
 
 [168]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/a_propo
-s/IMG_6004.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/a_propos/IMG
-_6004.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/a_propo
-s/IMG_6005.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/a_propos/IMG
-_6005.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/a_propo
-s/IMG_6006.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/a_propos/IMG
-_6006.jpeg>
-
 
 [169]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/mention
-s_legales/IMG_6007.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/mentions_leg
-ales/IMG_6007.jpeg>
-
 
 [170]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/mention
-s_legales/IMG_6008.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/mentions_leg
-ales/IMG_6008.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/mention
-s_legales/IMG_6009.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/mentions_leg
-ales/IMG_6009.jpeg>
+File: ./images/page_document/IMG_5978.jpeg Graphic file (type bmp)
+<./images/page_document/IMG_5978.jpeg>
 
 
 [171]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/mention
-s_legales/IMG_6010.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/mentions_leg
-ales/IMG_6010.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/mention
-s_legales/IMG_6011.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/mentions_leg
-ales/IMG_6011.jpeg>
+File: ./images/page_document/IMG_5979.jpeg Graphic file (type bmp)
+<./images/page_document/IMG_5979.jpeg>
 
 
 [172]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/RGPD/IM
-G_6012.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/RGPD/IMG_601
-2.jpeg>
+File: ./images/page_document/IMG_5980.jpeg Graphic file (type bmp)
+<./images/page_document/IMG_5980.jpeg>
+File: ./images/page_document/IMG_5981.jpeg Graphic file (type bmp)
+<./images/page_document/IMG_5981.jpeg>
 
 
 [173]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/RGPD/IM
-G_6013.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/RGPD/IMG_601
-3.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/RGPD/IM
-G_6014.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/RGPD/IMG_601
-4.jpeg>
-
 
 [174]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/conditi
-ons_utilisation/IMG_6015.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/conditions_u
-tilisation/IMG_6015.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/conditi
-ons_utilisation/IMG_6016.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/conditions_u
-tilisation/IMG_6016.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/conditi
-ons_utilisation/IMG_6017.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/conditions_u
-tilisation/IMG_6017.jpeg>
-
 
 [175]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/conditi
-ons_utilisation/IMG_6018.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/conditions_u
-tilisation/IMG_6018.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/conditi
-ons_utilisation/IMG_6019.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/conditions_u
-tilisation/IMG_6019.jpeg>
-
 
 [176]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/WCAG/IM
-G_6020.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/WCAG/IMG_602
-0.jpeg>
+File: ./images/compte_personnel/IMG_5982.jpeg Graphic file (type bmp)
+<./images/compte_personnel/IMG_5982.jpeg>
+File: ./images/compte_personnel/IMG_5983.jpeg Graphic file (type bmp)
+<./images/compte_personnel/IMG_5983.jpeg>
 
 
 [177]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/WCAG/IM
-G_6021.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/WCAG/IMG_602
-1.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/WCAG/IM
-G_6022.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/WCAG/IMG_602
-2.jpeg>
+File: ./images/compte_personnel/IMG_5984.jpeg Graphic file (type bmp)
+<./images/compte_personnel/IMG_5984.jpeg>
+File: ./images/compte_personnel/IMG_5985.jpeg Graphic file (type bmp)
+<./images/compte_personnel/IMG_5985.jpeg>
 
 
 [178]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/contact
-/IMG_6023.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/contact/IMG_
-6023.jpeg>
+File: ./images/compte_personnel/IMG_5986.jpeg Graphic file (type bmp)
+<./images/compte_personnel/IMG_5986.jpeg>
+File: ./images/consultation_documents/IMG_5987.jpeg Graphic file (type bmp)
+<./images/consultation_documents/IMG_5987.jpeg>
 
 
 [179]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/contact
-/IMG_6024.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/contact/IMG_
-6024.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/contact
-/IMG_6025.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/contact/IMG_
-6025.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/contact
-/IMG_6026.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/contact/IMG_
-6026.jpeg>
+File: ./images/consultation_documents/IMG_5988.jpeg Graphic file (type bmp)
+<./images/consultation_documents/IMG_5988.jpeg>
+File: ./images/consultation_documents/IMG_5989.jpeg Graphic file (type bmp)
+<./images/consultation_documents/IMG_5989.jpeg>
 
 
 [180]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/tutorie
-ls/IMG_6027.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/tutoriels/IM
-G_6027.jpeg>
+File: ./images/consultation_documents/IMG_5990.jpeg Graphic file (type bmp)
+<./images/consultation_documents/IMG_5990.jpeg>
+File: ./images/telechargements_et_formats/IMG_5991.jpeg Graphic file (type bmp)
+
+<./images/telechargements_et_formats/IMG_5991.jpeg>
 
 
 [181]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/tutorie
-ls/IMG_6028.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/tutoriels/IM
-G_6028.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/tutorie
-ls/IMG_6029.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/tutoriels/IM
-G_6029.jpeg>
+File: ./images/telechargements_et_formats/IMG_5992.jpeg Graphic file (type bmp)
+
+<./images/telechargements_et_formats/IMG_5992.jpeg>
+File: ./images/telechargements_et_formats/IMG_5993.jpeg Graphic file (type bmp)
+
+<./images/telechargements_et_formats/IMG_5993.jpeg>
 
 
 [182]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/tutorie
-ls/IMG_6030.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/tutoriels/IM
-G_6030.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/tutorie
-ls/IMG_6031.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/tutoriels/IM
-G_6031.jpeg>
+File: ./images/exploitation_documents/IMG_5994.jpeg Graphic file (type bmp)
+<./images/exploitation_documents/IMG_5994.jpeg>
+File: ./images/exploitation_documents/IMG_5995.jpeg Graphic file (type bmp)
+<./images/exploitation_documents/IMG_5995.jpeg>
 
 
 [183]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/FAQ/IMG
-_6032.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/FAQ/IMG_6032
-.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/FAQ/IMG
-_6033.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/FAQ/IMG_6033
-.jpeg>
+File: ./images/exploitation_documents/IMG_5996.jpeg Graphic file (type bmp)
+<./images/exploitation_documents/IMG_5996.jpeg>
+File: ./images/OCR_transcriptions/IMG_5997.jpeg Graphic file (type bmp)
+<./images/OCR_transcriptions/IMG_5997.jpeg>
+File: ./images/OCR_transcriptions/IMG_5998.jpeg Graphic file (type bmp)
+<./images/OCR_transcriptions/IMG_5998.jpeg>
 
 
 [184]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/FAQ/IMG
-_6034.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/FAQ/IMG_6034
-.jpeg>
+File: ./images/droit_acces/IMG_5999.jpeg Graphic file (type bmp)
+<./images/droit_acces/IMG_5999.jpeg>
 
 
 [185]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/present
-ation_editorialisation/IMG_6035.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/presentation
-_editorialisation/IMG_6035.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/present
-ation_editorialisation/IMG_6036.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/presentation
-_editorialisation/IMG_6036.jpeg>
-
 
 [186]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/present
-ation_editorialisation/IMG_6037.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/presentation
-_editorialisation/IMG_6037.jpeg>
-
 
 [187]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/present
-ation_editorialisation/IMG_6038.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/presentation
-_editorialisation/IMG_6038.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/organis
-ation_focus_thematiques/IMG_6040.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/organisation
-_focus_thematiques/IMG_6040.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/organis
-ation_focus_thematiques/IMG_6041.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/organisation
-_focus_thematiques/IMG_6041.jpeg>
-
 
 [188]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/fonds/I
-MG_6042.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/fonds/IMG_60
-42.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/fiches_
-biographiques_et_galerie_personnalites/IMG_6043.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/fiches_biogr
-aphiques_et_galerie_personnalites/IMG_6043.jpeg>
+File: ./images/a_propos/IMG_6001.jpeg Graphic file (type bmp)
+<./images/a_propos/IMG_6001.jpeg>
+File: ./images/a_propos/IMG_6002.jpeg Graphic file (type bmp)
+<./images/a_propos/IMG_6002.jpeg>
 
 
 [189]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/fiches_
-biographiques_et_galerie_personnalites/IMG_6044.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/fiches_biogr
-aphiques_et_galerie_personnalites/IMG_6044.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/exposit
-ions_virtuelles/IMG_6045.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/expositions_
-virtuelles/IMG_6045.jpeg>
+File: ./images/a_propos/IMG_6003.jpeg Graphic file (type bmp)
+<./images/a_propos/IMG_6003.jpeg>
 
 
 [190]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/exposit
-ions_virtuelles/IMG_6046.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/expositions_
-virtuelles/IMG_6046.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/exposit
-ions_virtuelles/IMG_6047.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/expositions_
-virtuelles/IMG_6047.jpeg>
+File: ./images/a_propos/IMG_6004.jpeg Graphic file (type bmp)
+<./images/a_propos/IMG_6004.jpeg>
+File: ./images/a_propos/IMG_6005.jpeg Graphic file (type bmp)
+<./images/a_propos/IMG_6005.jpeg>
+File: ./images/a_propos/IMG_6006.jpeg Graphic file (type bmp)
+<./images/a_propos/IMG_6006.jpeg>
 
 
 [191]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/edition
-s_numeriques/IMG_6048.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/editions_num
-eriques/IMG_6048.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/blog_ac
-tualites_lettres/IMG_6049.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/blog_actuali
-tes_lettres/IMG_6049.jpeg>
+File: ./images/mentions_legales/IMG_6007.jpeg Graphic file (type bmp)
+<./images/mentions_legales/IMG_6007.jpeg>
 
 
 [192]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/blog_ac
-tualites_lettres/IMG_6050.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/blog_actuali
-tes_lettres/IMG_6050.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/blog_ac
-tualites_lettres/IMG_6051.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/blog_actuali
-tes_lettres/IMG_6051.jpeg>
+File: ./images/mentions_legales/IMG_6008.jpeg Graphic file (type bmp)
+<./images/mentions_legales/IMG_6008.jpeg>
+File: ./images/mentions_legales/IMG_6009.jpeg Graphic file (type bmp)
+<./images/mentions_legales/IMG_6009.jpeg>
 
 
 [193]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/blog_ac
-tualites_lettres/IMG_6052.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/blog_actuali
-tes_lettres/IMG_6052.jpeg>
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/blog_ac
-tualites_lettres/IMG_6053.jpeg Graphic file (type bmp)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/images/blog_actuali
-tes_lettres/IMG_6053.jpeg>
+File: ./images/mentions_legales/IMG_6010.jpeg Graphic file (type bmp)
+<./images/mentions_legales/IMG_6010.jpeg>
+File: ./images/mentions_legales/IMG_6011.jpeg Graphic file (type bmp)
+<./images/mentions_legales/IMG_6011.jpeg>
 
 
 [194]
+File: ./images/RGPD/IMG_6012.jpeg Graphic file (type bmp)
+<./images/RGPD/IMG_6012.jpeg>
+
 
 [195]
+File: ./images/RGPD/IMG_6013.jpeg Graphic file (type bmp)
+<./images/RGPD/IMG_6013.jpeg>
+File: ./images/RGPD/IMG_6014.jpeg Graphic file (type bmp)
+<./images/RGPD/IMG_6014.jpeg>
+
 
 [196]
-File: /home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/Conceptualisat
-ion_page_accueil/Page_accueil_2.pdf Graphic file (type pdf)
-</home/fanny-suszko/Documents/ENC/stage/mémoire/stage_cujas/Conceptualisation_p
-age_accueil/Page_accueil_2.pdf>
+File: ./images/conditions_utilisation/IMG_6015.jpeg Graphic file (type bmp)
+<./images/conditions_utilisation/IMG_6015.jpeg>
+File: ./images/conditions_utilisation/IMG_6016.jpeg Graphic file (type bmp)
+<./images/conditions_utilisation/IMG_6016.jpeg>
+File: ./images/conditions_utilisation/IMG_6017.jpeg Graphic file (type bmp)
+<./images/conditions_utilisation/IMG_6017.jpeg>
 
 
 [197]
+File: ./images/conditions_utilisation/IMG_6018.jpeg Graphic file (type bmp)
+<./images/conditions_utilisation/IMG_6018.jpeg>
+File: ./images/conditions_utilisation/IMG_6019.jpeg Graphic file (type bmp)
+<./images/conditions_utilisation/IMG_6019.jpeg>
+
 
 [198]
+File: ./images/WCAG/IMG_6020.jpeg Graphic file (type bmp)
+<./images/WCAG/IMG_6020.jpeg>
+
 
 [199]
+File: ./images/WCAG/IMG_6021.jpeg Graphic file (type bmp)
+<./images/WCAG/IMG_6021.jpeg>
+File: ./images/WCAG/IMG_6022.jpeg Graphic file (type bmp)
+<./images/WCAG/IMG_6022.jpeg>
+
 
 [200]
+File: ./images/contact/IMG_6023.jpeg Graphic file (type bmp)
+<./images/contact/IMG_6023.jpeg>
+
 
 [201]
+File: ./images/contact/IMG_6024.jpeg Graphic file (type bmp)
+<./images/contact/IMG_6024.jpeg>
+File: ./images/contact/IMG_6025.jpeg Graphic file (type bmp)
+<./images/contact/IMG_6025.jpeg>
+File: ./images/contact/IMG_6026.jpeg Graphic file (type bmp)
+<./images/contact/IMG_6026.jpeg>
+
 
 [202]
+File: ./images/tutoriels/IMG_6027.jpeg Graphic file (type bmp)
+<./images/tutoriels/IMG_6027.jpeg>
+
 
 [203]
+File: ./images/tutoriels/IMG_6028.jpeg Graphic file (type bmp)
+<./images/tutoriels/IMG_6028.jpeg>
+File: ./images/tutoriels/IMG_6029.jpeg Graphic file (type bmp)
+<./images/tutoriels/IMG_6029.jpeg>
+
 
 [204]
+File: ./images/tutoriels/IMG_6030.jpeg Graphic file (type bmp)
+<./images/tutoriels/IMG_6030.jpeg>
+File: ./images/tutoriels/IMG_6031.jpeg Graphic file (type bmp)
+<./images/tutoriels/IMG_6031.jpeg>
+
 
 [205]
+File: ./images/FAQ/IMG_6032.jpeg Graphic file (type bmp)
+<./images/FAQ/IMG_6032.jpeg>
+File: ./images/FAQ/IMG_6033.jpeg Graphic file (type bmp)
+<./images/FAQ/IMG_6033.jpeg>
+
 
 [206]
+File: ./images/FAQ/IMG_6034.jpeg Graphic file (type bmp)
+<./images/FAQ/IMG_6034.jpeg>
+
 
 [207]
+File: ./images/presentation_editorialisation/IMG_6035.jpeg Graphic file (type b
+mp)
+<./images/presentation_editorialisation/IMG_6035.jpeg>
+File: ./images/presentation_editorialisation/IMG_6036.jpeg Graphic file (type b
+mp)
+<./images/presentation_editorialisation/IMG_6036.jpeg>
+
 
 [208]
+File: ./images/presentation_editorialisation/IMG_6037.jpeg Graphic file (type b
+mp)
+<./images/presentation_editorialisation/IMG_6037.jpeg>
+
 
 [209]
+File: ./images/presentation_editorialisation/IMG_6038.jpeg Graphic file (type b
+mp)
+<./images/presentation_editorialisation/IMG_6038.jpeg>
+File: ./images/organisation_focus_thematiques/IMG_6040.jpeg Graphic file (type 
+bmp)
+<./images/organisation_focus_thematiques/IMG_6040.jpeg>
+File: ./images/organisation_focus_thematiques/IMG_6041.jpeg Graphic file (type 
+bmp)
+<./images/organisation_focus_thematiques/IMG_6041.jpeg>
+
 
 [210]
+File: ./images/fonds/IMG_6042.jpeg Graphic file (type bmp)
+<./images/fonds/IMG_6042.jpeg>
+File: ./images/fiches_biographiques_et_galerie_personnalites/IMG_6043.jpeg Grap
+hic file (type bmp)
+<./images/fiches_biographiques_et_galerie_personnalites/IMG_6043.jpeg>
 
-[211])
+
+[211]
+File: ./images/fiches_biographiques_et_galerie_personnalites/IMG_6044.jpeg Grap
+hic file (type bmp)
+<./images/fiches_biographiques_et_galerie_personnalites/IMG_6044.jpeg>
+File: ./images/expositions_virtuelles/IMG_6045.jpeg Graphic file (type bmp)
+<./images/expositions_virtuelles/IMG_6045.jpeg>
+
 
 [212]
-No file document_maitre.gls.
+File: ./images/expositions_virtuelles/IMG_6046.jpeg Graphic file (type bmp)
+<./images/expositions_virtuelles/IMG_6046.jpeg>
+File: ./images/expositions_virtuelles/IMG_6047.jpeg Graphic file (type bmp)
+<./images/expositions_virtuelles/IMG_6047.jpeg>
 
 
-[213
+[213]
+File: ./images/editions_numeriques/IMG_6048.jpeg Graphic file (type bmp)
+<./images/editions_numeriques/IMG_6048.jpeg>
+File: ./images/blog_actualites_lettres/IMG_6049.jpeg Graphic file (type bmp)
+<./images/blog_actualites_lettres/IMG_6049.jpeg>
 
 
-]
+[214]
+File: ./images/blog_actualites_lettres/IMG_6050.jpeg Graphic file (type bmp)
+<./images/blog_actualites_lettres/IMG_6050.jpeg>
+File: ./images/blog_actualites_lettres/IMG_6051.jpeg Graphic file (type bmp)
+<./images/blog_actualites_lettres/IMG_6051.jpeg>
 
-[214
-
-] (./document_maitre.toc
 
 [215]
+File: ./images/blog_actualites_lettres/IMG_6052.jpeg Graphic file (type bmp)
+<./images/blog_actualites_lettres/IMG_6052.jpeg>
+File: ./images/blog_actualites_lettres/IMG_6053.jpeg Graphic file (type bmp)
+<./images/blog_actualites_lettres/IMG_6053.jpeg>
+
 
 [216]
 
 [217]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
 
 [218]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
+File: ./images/Page_accueil_2.pdf Graphic file (type pdf)
+<./images/Page_accueil_2.pdf>
 
 
 [219]
+
+[220]
+
+[221]
+
+[222]
+
+[223]
+
+[224]
+
+[225]
+
+[226]
+
+[227]
+
+[228]
+
+[229]
+
+[230]
+
+[231]
+
+[232]
+
+[233])
+
+[234] (./document_maitre.gls
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textfrench' on input line 1.
+
+
+
+[235
+
+
+
+
+])
+
+[236] (./document_maitre.toc
+
+[237
+
+]
+
+[238]
+
+[239]
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+
+
+[240]
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
@@ -3544,34 +3496,60 @@ Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=
 ex-text;!
 
 
-[220])
+[241]
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+
+
+[242]
+
+[243])
 \tf@toc=\write7
 \openout7 = `document_maitre.toc'.
 
 
 
-Package acro Warning: Empty acronym list. If you have used acronyms then
-(acro)                re-compile to get the list filled. Otherwise remove
-(acro)                \printacronyms
-
-
-
-[221] (./document_maitre.aux)
+[244] (./document_maitre.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                document_maitre
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'document_maitre.run.xml'.
 \openout1 = `document_maitre.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42541 strings out of 468389
- 1030105 string characters out of 5440619
- 1735276 words of memory out of 5000000
- 70470 multiletter control sequences out of 15000+600000
- 643127 words of font info for 112 fonts, out of 8000000 for 9000
+ 48097 strings out of 468389
+ 1162048 string characters out of 5440619
+ 1985069 words of memory out of 5000000
+ 75971 multiletter control sequences out of 15000+600000
+ 649991 words of font info for 142 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 75i,13n,104p,2498b,4112s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,104p,2498b,5778s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document_maitre.pdf (233 pages).
+Output written on document_maitre.pdf (266 pages).

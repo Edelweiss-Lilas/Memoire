@@ -6,7 +6,10 @@
 %%%%%%%%%%%%%%%%%%%%%%PRÉAMBULE%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%% partie obligatoire du préambule %%%%%%%%%%%%%% 
+
+%%%%%%%%%%%%%% partie obligatoire du préambule %%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \documentclass[12pt,twoside]{book}
 \usepackage{fontspec}
 \usepackage{xunicode}
@@ -14,21 +17,31 @@
 \setmainlanguage{french}%indiquer la langue principale du document
 %\setotherlanguage{} %indiquer les autres langues utilisée
 
-
 %%%%%%%%%%%%%%%%%%%PACKAGES UTILISÉS%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \usepackage{csquotes} % les guillemets français
 \usepackage{lettrine} %faire une lettrine
 
+%%%%%%%%%%%%%%%%%%% GESTION TYPOGRAPHIQUE & OVERFULL/UNDERFULL %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{microtype} %Ajustement discret de la largeur des caractères et l'espacement entre eux.
+\setlength{\hfuzz}{1pt} % Indique à LaTeX d'ignorer les dépassements inférieurs à 1 pt.
+\setlength{\vfuzz}{15pt} % Tolère un dépassement vertical
+\emergencystretch=1.5em  % Autorise à étirer un peu un mot
+\hbadness=2000 %Remonte le seuil d'alerte pour les lignes trop aérées
 %%%%%%%%%%%%%%%%%%% BIBLIOGRAPHIE %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\usepackage[style=enc,sorting=nyt,maxbibnames=10]{biblatex}%charger le style de l'EnC (téléchargeable ici https://ctan.org/pkg/biblatex-enc)
+\usepackage[backend=biber,style=enc,sorting=nyt,maxbibnames=10]{biblatex}%charger le style de l'EnC (téléchargeable ici https://ctan.org/pkg/biblatex-enc)
 \DeclareFieldFormat{citetitle}{\textit{#1}}% cite automatiquement les titres en italiques
 
 % Ajout des différents fichiers bibliographiques.
-\addbibresource{} %Exemple de chemin à partir du dossier où se trouve le document maître:Exemple ./dossierA/fichier.bib
+\addbibresource{./bibliographie/cujas.bib}
+\addbibresource{./bibliographie/numerisation.bib}
+\addbibresource{./bibliographie/donnees_metadonnees.bib}
+\addbibresource{./bibliographie/methodologie.bib} %Exemple de chemin à partir du dossier où se trouve le document maître:Exemple ./dossierA/fichier.bib
 %\defbibheading{}{\subsection*{}} Si l'on veut changer le titre de la/les bibliographie(s)
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% INDEX %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -43,43 +56,63 @@
 %Ce package permet de générer automatiquement des listes d'acrononyme.
 \usepackage{acro}
 
-
-\DeclareAcronym{abes}{short= ABES, long = Agence bibliographique de l'enseignement supérieur}
-\DeclareAcronym{api}{short = API, long = \textit{Application Programming Interface}}
-\DeclareAcronym{ark}{short = ARK, long = Archival Resource Key}
-\DeclareAcronym{biu cujas}{short = BIU Cujas, long = Bibliothèque interuniversitaire Cujas}
-\DeclareAcronym{bnf}{short = BnF, long = Bibliothèque nationale de France}
-\DeclareAcronym{cines}{short = CINES, long = Centre informatique national de l'enseignement supérieur}
-\DeclareAcronym{did}{short = DID, long = Département information documentaire}
-\DeclareAcronym{dit}{short = DIT, long = Département informatique technique}
-\DeclareAcronym{sigb}{short= SIGB, long = Système Intégré de Gestion de Bibliothèque}
-\DeclareAcronym{dpcn}{short = DPCN, long = {Département du Patrimoine, de la conservation et de la numérisation}}
-\DeclareAcronym{dpre}{short = DPRE, long = Département des périodiques et des ressources électroniques}
-\DeclareAcronym{esr}{short = ESR, long = Enseignement Supérieur et de la Recherche}
-\DeclareAcronym{html}{short = HTML, long = HyperText Markup Language}
-\DeclareAcronym{iiif}{short = IIIF, long = \textit{International Image Interoperability Framework}}
-\DeclareAcronym{jpeg}{short = JPEG, long = \textit{Joint Photographic Experts Group}}
-\DeclareAcronym{oai-pmh}{short = OAI-PMH, long = \textit{Open Archives Initiative Protocol for Metadata Harvesting}}
-\DeclareAcronym{ocr}{short = OCR, long = \textit{Optical Character Recognition}}
-\DeclareAcronym{png}{short = PNG, long = \textit{Portable Network Graphics}}
-\DeclareAcronym{pdf}{short = PDF, long =  Portable Document Format}
-\DeclareAcronym{rdf}{short = RDF, long = \textit{Resource Description Framework}}
-\DeclareAcronym{rest}{short = REST, long= Representation State Transfer}
-\DeclareAcronym{rgpd}{short = RGPD, long = règlement général sur la protection des données}
-\DeclareAcronym{rg2a}{short=RGAA, long = Référentiel général d’amélioration de l’accessibilité}
-\DeclareAcronym{saml}{short = SAML, long = Security Assertion Markup Language}
-\DeclareAcronym{seo}{short = SEO, long = Search Engine Optimization}
-\DeclareAcronym{sic}{short = SIC, long = Sciences de l'Information et de la Communication}
-\DeclareAcronym{sso}{short = SSO, long = Single Sign-On}
-\DeclareAcronym{sql}{short = SQL, long = Structure Query Language}
-\DeclareAcronym{sudoc}{short = SUDOC, long = Système universitaire de documentation}
-\DeclareAcronym{tdm}{short = TDM, long = \textit{Text and Data Mining}}
-\DeclareAcronym{tei}{short = TEI, long = Text Enconding Initiative}
-\DeclareAcronym{tiff}{short = TIFF, long = \textit{Tagged Image File Format}}
-\DeclareAcronym{uri}{short = URI, long = Uniform Resource Identifier}
-\DeclareAcronym{ux}{short = UX, long = User Experience}
-\DeclareAcronym{wcag}{short = WCAG, long = Web Content Acessibility Guidelines}
-\DeclareAcronym{xtf}{short = XTF, long = eXtensible Text Framework}
+\DeclareAcronym{ABES}{short= ABES, long = Agence bibliographique de l'enseignement supérieur}
+\DeclareAcronym{API}{short = API, long = \textit{Application Programming Interface}}
+\DeclareAcronym{API REST}{short = API REST, long = \textit{Application Programming Interface Representation State Transfer}}
+\DeclareAcronym{ARK}{short = ARK, long = Archival Resource Key}
+\DeclareAcronym{BU}{short = BU, long = \textit{Bibliothèque universitaire}}
+\DeclareAcronym{BIS}{short = BIS, long = \textit{Bibliothèque interuniversitaire de la Sorbonne}}
+\DeclareAcronym{BIU Cujas}{short = BIU Cujas, long = Bibliothèque interuniversitaire Cujas}
+\DeclareAcronym{BNF}{short = BnF, long = Bibliothèque nationale de France}
+\DeclareAcronym{BSG}{short = BSG, long = Bibliothèque Sainte-Geneviève}
+\DeclareAcronym{CADIST}{short = CADIST, long = Centre d'acquisition et de diffusion de l'information scientifique et technique}
+\DeclareAcronym{CINES}{short = CINES, long = Centre informatique national de l'enseignement supérieur}
+\DeclareAcronym{CMS}{short = CMS, long = \textit{Content Management System}}
+\DeclareAcronym{CSV}{short = CSV, long = \textit{Comma-Separated Values}}
+\DeclareAcronym{DID}{short = DID, long = Département information documentaire}
+\DeclareAcronym{DIT}{short = DIT, long = Département informatique technique}
+\DeclareAcronym{DPCN}{short = DPCN, long = {Département du Patrimoine, de la conservation et de la numérisation}}
+\DeclareAcronym{DPRE}{short = DPRE, long = Département des périodiques et des ressources électroniques}
+\DeclareAcronym{ENS}{short = ENS, long = \textit{École normale Supérieure}}
+\DeclareAcronym{ESR}{short = ESR, long = Enseignement Supérieur et de la Recherche}
+\DeclareAcronym{HOPPE-Droit}{short = HOPPE-Droit, long = Hypothèses d'Observation des Productions Pédagogiques Editées en Droit}
+\DeclareAcronym{HTML}{short = HTML, long = HyperText Markup Language}
+\DeclareAcronym{IFLA-LRM}{short = IFLA-LRM, long = \textit{International Federation of Library Associations - Library Reference Model}}
+\DeclareAcronym{IIIF}{short = IIIF, long = \textit{International Image Interoperability Framework}}
+\DeclareAcronym{INHA}{short = INHA, long = Institut national d’histoire de l’art}
+\DeclareAcronym{JPEG}{short = JPEG, long = \textit{Joint Photographic Experts Group}}
+\DeclareAcronym{JSON}{short = JSON, long = \textit{JavaScript Object Notation}}
+\DeclareAcronym{JSON-LD}{short = JSON-LD, long = \textit{JavaScript Object Notation for Linked Data}}
+\DeclareAcronym{METS}{short = METS, long = \textit{Metadata Encoding and Transmission Standard}}
+\DeclareAcronym{NAS}{short = NAS, long = \textit{Network Attached Storage}}
+\DeclareAcronym{OAI-PMH}{short = OAI-PMH, long = \textit{Open Archives Initiative Protocol for Metadata Harvesting}}
+\DeclareAcronym{OCR}{short = OCR, long = \textit{Optical Character Recognition}}
+\DeclareAcronym{OEMI}{short = OEMI, long = \textit{Objet Expression Manifestation Item}}
+\DeclareAcronym{PNG}{short = PNG, long = \textit{Portable Network Graphics}}
+\DeclareAcronym{PDF}{short = PDF, long =  \textit{Portable Document Format}}
+\DeclareAcronym{RAMEAU}{short = RAMEAU, long = \textit{Répertoire d'Autorité Matière Encyclopédique et Alphabétique Unifié}}
+\DeclareAcronym{RDA-FR}{short = RDA-FR, long = \textit{Resource Description and Access en France} }
+\DeclareAcronym{RDF}{short = RDF, long = \textit{Resource Description Framework}}
+\DeclareAcronym{RIS}{short = RIS, long = \textit{Research Information Systems}}
+\DeclareAcronym{SAML}{short = SAML, long = \textit{Security Assertion Markup Language}}
+\DeclareAcronym{SEO}{short = SEO, long = \textit{Search Engine Optimization}}
+\DeclareAcronym{SFTP}{short = SFTP, long = \textit{Secure File Transfer Protocol}}
+\DeclareAcronym{SIC}{short = SIC, long = Sciences de l'Information et de la Communication}
+\DeclareAcronym{SIGB}{short= SIGB, long = Système Intégré de Gestion de Bibliothèque}
+\DeclareAcronym{SIP}{short = SIP, long = \textit{Session Initiation Protocol}}
+\DeclareAcronym{SKOS}{short = SKOS, long = \textit{Simple Knowledge Organization System}}
+\DeclareAcronym{SSO}{short = SSO, long = \textit{Single Sign-On}}
+\DeclareAcronym{SQL}{short = SQL, long = \textit{Structure Query Language}}
+\DeclareAcronym{SUDOC}{short = SUDOC, long = Système universitaire de documentation}
+\DeclareAcronym{TDM}{short = TDM, long = \textit{Text and Data Mining}}
+\DeclareAcronym{TIFF}{short = TIFF, long = \textit{Tagged Image File Format}}
+\DeclareAcronym{URI}{short = URI, long = \textit{Uniform Resource Identifier}}
+\DeclareAcronym{UX}{short = UX, long = \textit{User Experience}}
+\DeclareAcronym{VIAF}{short = VIAF, long = \textit{Virtual International Authority File}}
+\DeclareAcronym{WCAG}{short = WCAG, long = \textit{Web Content Acessibility Guidelines}}
+\DeclareAcronym{XML}{short = XML, long = \textit{eXtensible Markup Language}}
+\DeclareAcronym{XML-TEI}{short = XML-TEI, long = \textit{eXtensible Markup Language - Text Enconding Initiative}}
+\DeclareAcronym{XTF}{short = XTF, long = \textit{eXtensible Text Framework}}
 
 %%%%%%%%%%%%%%%%%%% CONFIGURATION DE MISE EN PAGE %%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -98,7 +131,6 @@
 \usepackage{titlesec}
 \titleformat{\subsection}{\normalfont\large\bfseries\raggedright}{\thesubsection}{1em}{}
 % Indentation des sous-sections (ex: 2.1)
-% \titlespacing*{commande}{espace_à_gauche}{espace_au_dessus}{espace_en_dessous}
 \titlespacing*{\subsection}{0.5cm}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 
 % Indentation encore plus poussée des subsubsections (ex: 2.1.1)
@@ -147,8 +179,8 @@
 %% réglages propres aux annexes
 
 \appto\appendix{
-	\renewcommand{\chaptermark}[1]{\markboth{\small~Annexe \thechapter~--\ \textit{#1}}{}}%faire apparaître dans les headers le nom des annexes
-	%\renewcommand{\chaptermark}[1]{}%Commenter la ligne précédente et mettre celle-ci pour ne pas avoir le titre des chapitres  dans le header
+	%\renewcommand{\chaptermark}[1]{\markboth{\small~Annexe \thechapter~--\ \textit{#1}}{}}%faire apparaître dans les headers le nom des annexes
+	\renewcommand{\chaptermark}[1]{}%Commenter la ligne précédente et mettre celle-ci pour ne pas avoir le titre des chapitres  dans le header
 }
 
 
@@ -165,6 +197,7 @@
 \usepackage[colorlinks=false, breaklinks=true, pdfusetitle, pdfsubject ={Modernisation à l'accès du patrimoine juridique}, pdfkeywords={les mots-clés}]{hyperref} %
 \usepackage[numbered]{bookmark}%va avec hyperref; marche mieux pour les signets. l'option numbered: les signets dans le pdf sont numérotés
 \usepackage{xurl} % Permet les retours à la ligne n'importe où dans les URL
+\usepackage{nameref}  % Permet d'extraire automatiquement le titre de l'annexe étiquetée
 % Compléter pdfsubjet et pdfkeywords
 %Explication des options de hyperref (modifiables)
 % hyperindex=false
@@ -191,8 +224,8 @@
 \usepackage[toc=true]{glossaries}
 \makeglossaries
 %avec TexStudio: F9 pour compiler le glossaire (s'il y a aussi un index)
-
-\loadglsentries{glossaire.tex}
+\loadglsentries{./backmatter/glossaire.tex}
+\glsaddall %Force l'inclusion de tous les termes du glossaire
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -203,8 +236,16 @@
 \usepackage{float}
 \usepackage{graphicx}
 \usepackage{ulem}
+\usepackage{lscape} % Charge le package pour l'orientation paysage
 
-
+%%%%%%%%%%%%%%%%%% NOUVELLE COMMANDE %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Commande personnalisée pour renvoyer vers une annexe dans une note de bas de page
+% {m} = argument obligatoire (entre accolades)
+% {o} = argument optionnel (entre crochets)
+\NewDocumentCommand{\footannexe}{m o}{%
+	\footnote{Voir le #1\IfValueT{#2}{ #2}}%
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%% INFORMATIONS POUR LA PAGE DE TITRE %%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -281,7 +322,11 @@
 
 	\chapter{Résumé}
 \medskip
-	\lettrine{À} l'ère de la transition bibliographique, les technologies numériques évoluent si rapidement qu'il devient presqu'impossible de pouvoir toutes les suivre sans l'appui d'une communauté afin d'éviter aux institutions patrimoniales de se trouver isolées à cause de services devenus obsolètes. Aujourd'hui, il est important de construire une bibliothèque numérique capable de créer des passerelles afin de participer à la valorisation des collections des institutions patrimoniales sans se trouver noyé dans la masse de données. Ce mémoire s'inscrit dans le projet de réinformatisation de la Bibliothèque Cujas à travers l'étude fine de la bibliothèque numérique actuelle, consolidée par des entretiens faisant émerger des besoins auxquels un benchmark devait permettre de répondre aux attentes aussi bien des usagers que des experts métiers de la bibliothèque. Il met en lumière l'enjeu que représente la refonte de la bibliothèque numérique notamment en terme d'interopérabilité des données, d'alignement des métadonnées sur des référentiels et d'accompagnement auprès des usagers mais aussi auprès des personnels de bibliothèques qui l'utiliseront. \\
+	\lettrine{À} l'ère de la transition bibliographique, les technologies numériques évoluent si rapidement qu'il devient presqu'impossible de pouvoir toutes les suivre sans l'appui d'une communauté afin d'éviter aux institutions patrimoniales de se trouver isolées à cause de services devenus obsolètes. Aujourd'hui, il est important de construire une bibliothèque numérique capable de créer des passerelles afin de participer à la valorisation des collections des institutions patrimoniales sans se trouver noyé dans la masse de données. Ce mémoire s'inscrit dans le projet de réinformatisation de la Bibliothèque Cujas à travers l'étude fine de la bibliothèque numérique actuelle, consolidée par des entretiens faisant émerger des besoins auxquels un benchmark devait permettre de répondre aux attentes aussi bien des usagers que des experts métiers de la bibliothèque. Il met en lumière l'enjeu que représente la refonte de la bibliothèque numérique notamment en terme d'interopérabilité des données, d'alignement des métadonnées sur des référentiels et d'accompagnement auprès des usagers mais aussi auprès des personnels de bibliothèques qui l'utiliseront. 
+\medskip
+
+	\lettrine{I}n the era of bibliographic transition, digital technologies are evolving at such a rapid pace that it becomes nearly impossible for heritage institutions to keep up without community support, risking technological isolation due to obsolete services. Today, it is essential to design digital libraries capable of building bridges that actively enhance the value of heritage collections without drowning in an overwhelming mass of data. This thesis is fully integrated into the system redesign and modernization project of the Cujas Library. It provides a detailed diagnostic of the current digital library, consolidated by qualitative user interviews that map out functional requirements. These needs are further addressed through a comprehensive benchmark designed to meet the expectations of both academic researchers and library professionals. Ultimately, this work highlights the core challenges of this digital redesign, particularly regarding data interoperability, metadata alignment with standard authority files, and the essential change management and support required for both end-users and the library staff.  
+	\medskip
 	
 	\textbf{Mots-clés:} bibliothèque numérique; Bibliothèque interuniversitaire Cujas; interopérabilité; benchmark; web de données; éditorialisation; ouverture des données; approche centrée usagers.
 	
@@ -294,13 +339,13 @@
 	
 	\chapter{Remerciements}
 	
-\lettrine{M}es remerciements vont tout d'abord à Cécile Bolard et Stéphane Dufournet, pour m'avoir prise sous leurs ailes durant mon stage à la Bibliothèque interuniversitaire Cujas. Je tiens également à remercier Carmen Parvis, Céline Pauvros, Maeli Desenclos, Pauline Bigiarini, Philippe Le Guirriec, Sandrine Limandri, travaillant aux Départements du Patrimoine de la conservation et de la numérisation, pour leurs conseils et leurs réponses à mes questions. Je remercie également Mebrouk Leulmi, Alexandra Gottely, Anne-Sophie Gallo et Natacha Kotliar d'avoir pris le temps de me voir en entretien afin de parler de l'historique de la bibliothèque numérique de Cujas et de leurs attentes pour la refonte. 
+\lettrine{M}es remerciements vont tout d'abord à Cécile Bolard et Stéphane Dufournet, pour m'avoir prise sous leurs ailes durant mon stage à la Bibliothèque interuniversitaire Cujas. Je tiens également à remercier Pauline Bigiarini, Maeli Desenclos, Philippe Le Guirriec, Sandrine Limandri, Carmen Parvis, Céline Pauvros, travaillant aux Départements du Patrimoine de la conservation et de la numérisation, pour leurs conseils et leurs réponses à mes questions. Je remercie également Mebrouk Leulmi, Alexandra Gottely, Anne-Sophie Gallo et Natacha Kotliar d'avoir pris le temps de me voir en entretien afin de parler de l'historique de la bibliothèque numérique de Cujas et de leurs attentes pour la refonte. 
 
-Ma gratitude va aussi envers le directeur de la bibliothèque de Cujas, ainsi qu'aux enseignants-chercheurs en histoire du droit que j'ai pu rencontrer au cours de mon stage qui m'ont aidé à mener à bien mon étude pour cette nouvelle bibliothèque numérique. Je suis également reconnaissante d'avoir pu rencontrer d'autres responsables de bibliothèque numérique : Cécile Obligi, responsable de NuBIS, Olesea Dubois, responsable de la bibliothèque numérique de Sciences Po, Vincent Tardif, responsable de Lucienne et Pauline Rivière, responsable de Genovefa. J'ai pu avoir leur avis ainsi que leur retour d'expérience concernant un projet d'une telle ampleur, celle de la refonte d'une bibliothèque numérique.
+Ma gratitude va aussi au directeur de la bibliothèque de Cujas, ainsi qu'aux enseignants-chercheurs en histoire du droit que j'ai pu rencontrer au cours de mon stage et qui m'ont aidé à mener à bien mon étude pour cette nouvelle bibliothèque numérique. Je suis également reconnaissante d'avoir pu rencontrer d'autres responsables de bibliothèque numérique: Cécile Obligi, responsable de NuBIS, Olesea Dubois, responsable de la bibliothèque numérique de Sciences Po, Vincent Tardif, responsable de Lucienne et Pauline Rivière, responsable de Genovefa. J'ai pu avoir leur avis ainsi que leur retour d'expérience concernant un projet d'une telle ampleur, celle de la refonte d'une bibliothèque numérique.
 
-J'adresse ma reconnaissance envers Thomas Chaineux, mon tuteur pour ce stage, qui a su se montrer disponible et répondre à toutes mes questions au cours de ces quatre mois de stage. Grâce à ses conseils et son soutien, j'ai pu mener à bien ce stage. Je remercie également Emmanuelle Bermès, responsable pédagogique du master à l'Ecole des Chartes, pour sa disponibilité, ses conseils et ses encouragements.
+J'adresse ma reconnaissance envers Thomas Chaineux, mon tuteur, qui a su se montrer disponible et répondre à toutes mes questions au cours de ces quatre mois de stage. Grâce à ses conseils et son soutien, j'ai pu mener à bien ce stage. Je remercie également Emmanuelle Bermès, responsable pédagogique du master à l'Ecole des Chartes, pour sa disponibilité, ses conseils et ses encouragements.
 
-Enfin, je remercie ma famille de m'avoir soutenue au cours de ces six années d'études, et d'avoir pris le temps de relire attentivement mon travail. Merci à tous mes camarades de promotion pour cette année riche en découvertes, pour leur esprit d'entraide et la bonne ambiance partagée avec eux.
+Enfin, je remercie ma famille de m'avoir soutenu au cours de ces six années d'études, et d'avoir pris le temps de relire attentivement mon travail. Merci à tous mes camarades de promotion pour cette année riche en découvertes, pour leur esprit d'entraide et la bonne ambiance partagée avec eux.
 	\newpage{\pagestyle{empty}\cleardoublepage}
 	
 \chapter{Liste des abréviations}
@@ -309,14 +354,22 @@ Enfin, je remercie ma famille de m'avoir soutenue au cours de ces six années d'
 %%%%%%%%%%%%%%%%%%%%%%%%% BIBLIOGRAPHIE %%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Bibliographie}
-\printbibliography[keyword={tex}, notkeyword={dontcite}, title={Sources institutionnelles et documentation interne de la BIU Cujas}]
-\printbibliography[keyword={tex}, notkeyword={dontcite}, title={Histoire des institutions universitaires, de la discipline juridique et de ses collections}]
-\printbibliography[keyword={tex}, notkeyword={dontcite}, title={Transition bibliographique, Web sémantique et ingénierie de l'interopérabilité}]
+\chapter*{Bibliographie}
+\addcontentsline{toc}{chapter}{Bibliographie}
+\markboth{\small\textit{Bibliographie}}{\small\textit{Bibliographie}} % Met à jour l'en-tête de droite
+% Pour intégrer l'ensemble de la bibliographie au début
+\nocite{*}
+
+\printbibliography[heading=subbibliography, keyword={themeCujas}, title={Fonds patrimoniaux et histoire de la bibliothèque Cujas}]
+\printbibliography[heading=subbibliography, keyword={themeNumerisation}, title={Numérisation et valorisation du patrimoine écrit}]
+\printbibliography[heading=subbibliography, keyword={themeDonnees}, title={Données, métadonnées et systèmes d'information}]
+\printbibliography[heading=subbibliography, keyword={themeMethodo}, title={Méthodologie et réflexions professionnelles}]
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%% INTRODUCTION %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\input{introduction.tex}  % importation du fichier d'introduction
+\input{./mainmatter/introduction.tex}  % importation du fichier d'introduction
 
 \newpage{\pagestyle{empty}\cleardoublepage}
 
@@ -333,14 +386,35 @@ Enfin, je remercie ma famille de m'avoir soutenue au cours de ces six années d'
 	\part{Cujas et son patrimoine numérique : histoire et état des lieux }
 	
 %%%%%%%%%%%%%%%%%%%%%%%%%% INTRODUCTION %%%%%%%%%%%%%%%%%%%%%%%%%%	
-	
+\begin{quote}
+	\enquote{La confluence documentaire et médiatique, est le principe même de toute bibliothèque numérique. La confluence entre ressources documentaires suppose que soient réglés d'importants prérequis, qu'ils relèvent : 
+	\begin{itemize}
+		\item de la constitution des corpus (création de bases de données et agrégation des ressources);
+		\item de leur traitement scientifique (fiabilité des instruments de recherche et des catalogues, qualité de l'indexation);
+		\item de l'accessibilité et de la valorisation (numérisation, mise en ligne, interfaces, interopérabilité, fonctionnalités et usages);
+		\item de la visibilité (web de données, référencement);
+		\item des compétences (culture numérique, technicité, esprit d'innovation).
+	\end{itemize}} \footcite{claerrManuelConstitutionBibliotheques2013a}.
+\end{quote}
+
+\lettrine{L}e numérique est un environnement connu pour sa complexité, constitué d'usagers numériques et d'évolutions technologiques, que les bibliothèques numériques se doivent d'apprivoiser, transformant ainsi la production et la diffusion des savoirs. Thierry Claerr et Isabelle Westeel utilisent l'expression de \enquote{confluence médiatique} signifiant \enquote{l'imbrication progressive des médias}. Devenus des outils de diffusion, les bibliothèques numériques sont amenées à évoluer perpétuellement pour ne pas disparaître impliquant de s'adapter aux mouvances constantes du web et du numérique pour répondre aux usages de leur temps.
+
+Pour comprendre les défis de la refonte de la bibliothèque numérique CujasNum, il est indispensable avant de se plonger dans l'histoire de la Bibliothèque interuniversitaire Cujas, institution de référence nationale pour la recherche juridique. C'est au coeur de cette trajectoire séculaire que se comprend la constitution de ses collections d'exception, depuis le don du fonds Jean-Marie Pardessus jusqu'au projet fondateur de la liste Pfister-Roumy, valorisé par des innovations méthodologiques locales telles que l'indexation sémantique Hauville. Pourtant, ce riche patrimoine scientifique se heurte aujourd'hui à l'obsolescence de son infrastructure technique sous le framework XTF. Ce diagnostic met en lumière un back-office opaque fonctionnant comme une \enquote{boîte noire}, une chaîne de numérisation manuelle et un cloisonnement des données qui isolent l'établissement du Web sémantique. Cette première partie dresse ainsi l'état des lieux d'une transition nécessaire, où la dette technique accumulée impose de repenser les pratiques documentaires à l'aune des réseaux interconnectés.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%% CHAPITRE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{chapitre_1.tex}
-\input{chapitre_2.tex}
-\input{chapitre_3.tex}
+
+\input{./mainmatter/Partie_I/Ch1/chapitre_1.tex}
+\input{./mainmatter/Partie_I/Ch2/chapitre_2.tex}
+\input{./mainmatter/Partie_I/Ch3/chapitre_3.tex}
 
 %%%%%%%%%%%%%%%%% CONCLUSION DE LA PARTIE I %%%%%%%%%%%%%%%%%%%%
 
+\section*{Conclusion de la Première Partie}
+\lettrine{C}et état des lieux éclaire la trajectoire singulière de la Bibliothèque interuniversitaire Cujas, pôle national de référence pour la recherche juridique, et dresse un bilan critique de sa première vitrine numérique, CujasNum. Si l'établissement a été pionnière au début des années 2000 en numérisant des corpus scientifiques d'exception — à l'instar des cours polycopiés du doyen Jean Carbonnier et de la célèbre \enquote{liste Pfister-Roumy} de sources doctrinales —, cette dynamique de valorisation se heurte aujourd'hui aux limites de ses choix technologiques d'origine.
+Le choix du framework \ac{XTF}, jugé à l'époque optimal pour sa robustesse matérielle, s'est progressivement transformé en un carcan technique. Son architecture de données \enquote{à plat} condamne la plateforme à ne diffuser que des monographies, invisibilisant de fait les collections de périodiques ou d'archives dont la structure hiérarchique complexe ne peut y être modélisée. Au quotidien, cette rigidité logicielle impose aux experts métiers une chaîne de production segmentée et opaque, assimilée à une \enquote{boîte noire}. La retranscription manuelle des tables des matières sous tableur, l'attention constante portée aux moindres anomalies de balisage \ac{XML} pour répondre aux exigences du \ac{CINES}, et la lourdeur des corrections in situ s'apparentent à un \enquote{bricolage permanent} qui pèse lourdement sur le temps de travail des agents.
+Cette pénibilité opérationnelle s'est trouvée renforcée par une stratégie de sécurisation purement défensive. Marqué par le traumatisme de la cyberattaque par rançongiciel subie en 2017, l'établissement a fait le choix d'un cloisonnement technique strict : serveurs fermés, interdiction de connexion à distance pour les équipes de production, et transferts \ac{SFTP} nocturnes différés. Bien que légitime, cette hypervigilance paralyse le travail collaboratif et fige les métadonnées.
+Enfin, l'impasse est également ergonomique et documentaire. Aujourd'hui CujasNum est axée sur les contraintes du système, et n'est plus adaptée aux pratiques de recherche contemporaines. Cet éloignement s'explique notamment à cause d'un PageRank médiocre sur les moteurs de recherche, et l'absence d'un espace de travail personnel et persistant dédié aux chercheurs.
+Le bilan de CujasNum démontre qu'une simple mise à jour ou l'ajout d'une surcouche applicative comme WordPress ne sauraient résoudre cette dette technique accumulée. Pour asseoir à nouveau sa légitimité de pôle de référence sémantique, la \ac{BIU Cujas} doit opérer une rupture franche. Il est désormais indispensable de dépasser le modèle du simple \enquote{répertoire de PDF} fermé pour faire entrer l'établissement dans le troisième âge du numérique. Cette transition, qui impose d'ouvrir les données, de les modéliser en graphes de triplets \ac{RDF} interopérables et d'adopter des standards universels (IIIF, IFLA-LRM).
 
 %%%%%%%%%%%%%%%%%%%%%%%%% Partie II %%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -349,12 +423,33 @@ Enfin, je remercie ma famille de m'avoir soutenue au cours de ces six années d'
 	
 %%%%%%%%%%%%%%%%%%%%%%%%%% INTRODUCTION %%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\begin{quote}
+	\enquote{La bibliothèque numérique dispose d'atouts pour répondre aux usages actuels du web:
+	\begin{itemize}
+		\item des métadonnées descriptives, dont la fiabilité est assurée par les normes de standards des bibliothèques: celles-ci permettent aux usagers d'accorder leur confiance aux contenus et favorisent le référencement et l'interopérabilité de la ;
+		\item des contenus (livres, images, sons, etc.) consultables en ligne, parfois même téléchargeables et réutilisables.
+		\end{itemize}} \footcite{claerrManuelConstitutionBibliotheques2013a}.
+\end{quote}
+
+\lettrine{U}ne bibliothèque numérique peut détenir tous les atouts possibles ; il reste néanmoins primordial que celle-ci permette à l'usager de trouver les documents, les sélectionner et les utiliser selon ses besoins. Face à la surabondance informationnelle, les bibliothèques doivent redoubler de stratégie afin d'apporter une meilleure visibilité à leur contenu leur permettant ainsi de se trouver sur le \enquote{chemin de l'usager}. Pauline Moirez et Dominique Stutzmann insistent sur l'idée de ne pas concevoir la bibliothèque numérique comme un \enquote{lieu unique et fermé}. Ils recommandent de s'interroger sur l'architecture de gestion, les bénéfices d'un enrichissement de métadonnées, l'échange de données \footcite{claerrManuelConstitutionBibliotheques2013a}. Ces atouts amènent à transformer la manière dont travaillent les bibliothécaires.
+
+Le passage de la bibliothèque numérique CujasNum d'un modèle de production en silo fermé à un écosystème de catalogage partagé ne se réduit pas à une simple mise à niveau technique, mais consacre un profond changement de paradigme documentaire. Cette deuxième partie explore la manière dont les métadonnées s'affranchissent de leurs limites locales pour s'intégrer nativement dans le Web de données. L'articulation de nos chapitres démontre comment les principes fondamentaux du Web sémantique — à l'instar du modèle \ac{RDF}, de sa structuration en triplets (sujet, prédicat, objet) et du recours systématique aux identifiants pérennes (\ac{URI}, \ac{ARK}) — permettent de transformer des notices statiques en ressources dynamiques et interconnectées. Au cœur de cette architecture, l'adoption du modèle conceptuel \ac{IFLA-LRM} et l'alignement d'autorités locales spécifiques, comme l'indexation juridique Hauville, avec des référentiels nationaux d'autorité tels que \ac{RAMEAU} et IdRef, constituent la clé de voûte de la future plateforme Codex. C'est par cette déconstruction de la notice traditionnelle que la donnée acquiert son autonomie, garantissant l'interopérabilité et la visibilité des collections de la Bibliothèque Cujas sur le Web sémantique.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%% CHAPITRE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{chapitre_4.tex}
-\input{chapitre_5.tex}
+
+\input{./mainmatter/Partie_II/Ch4/chapitre_4.tex}
+\input{./mainmatter/Partie_II/Ch5/chapitre_5.tex}
 
 %%%%%%%%%%%%%%%%% CONCLUSION DE LA PARTIE II %%%%%%%%%%%%%%%%%%%%
-	
+
+\section*{Conclusion de la Deuxième Partie}
+
+\lettrine{C}e rapport démontre que le passage d’une architecture documentaire en silo à un écosystème de données liées ne relève pas d’un simple choix informatique, mais bien d’une nouvelle orientation fondamentale. En confrontant les limites de l’infrastructure \ac{XTF} de CujasNum aux opportunités offertes par le Web sémantique, nous avons posé les jalons de la future plateforme Codex, conçue non plus comme un réservoir fermé de fichiers \ac{PDF}, mais comme un nœud actif et interconnecté du Web de données.
+Cette transition repose sur l'adoption du modèle \ac{RDF}, dont la structure atomique en triplets permet de libérer l'information descriptive des rigidités des bases de données relationnelles ou des schémas \ac{XML} locaux. L’attribution systématique d’identifiants pérennes, sous la forme d’\ac{URI} et de notices \ac{ARK}, garantit à chaque ressource patrimoniale juridique une existence stable, unique et directement citable à l’échelle du Web, jetant les bases d'une Science Ouverte et distribuée.
+Au-delà de cette infrastructure sémantique, c'est la philosophie même de la description bibliographique qui a été réévaluée à l'aune de la Transition bibliographique. L'implémentation du modèle conceptuel de référence \ac{IFLA-LRM} permet de déconstruire la notice plate traditionnelle pour la structurer selon les quatre entités fondamentales : l’Œuvre, l’Expression, la Manifestation et l’Item. Cette modélisation s’avère particulièrement féconde pour restituer la complexité des sources du droit (traités, coutumiers, commentaires doctrinaux successifs), dont l’histoire éditoriale et intellectuelle ne pouvait être fidèlement représentée dans les anciens catalogues.
+Enfin, la clé de voûte de cette architecture réside dans l'indispensable alignement des référentiels. L’analyse des chantiers d’alignement sémantique a mis en évidence la nécessité de jeter des ponts entre la richesse de l’indexation locale de Cujas — héritière de la classification sémantique de l'indexation Hauville — et les grands réservoirs d’autorité nationaux et internationaux que sont IdRef, \ac{RAMEAU} et Wikidata. Ce travail de cartographie sémantique garantit que l’expertise juridique pointue développée historiquement au sein de l'établissement ne soit pas perdue, mais au contraire traduite, exposée et rendue pleinement découvrable par les moteurs de recherche généralistes.
+Cependant, cette rigueur sémantique et la modélisation en graphe, aussi robustes et élégantes soient-elles sur le plan de l'ingénierie documentaire, resteraient de pures abstractions si elles ne rencontraient pas leurs publics. Pour que cette technologie ne devienne pas une fin en soi, il convient de s’intéresser à la manière dont les chercheurs juristes et les étudiants s’approprient ces données, les manipulent et les valorisent au quotidien.
+
 %%%%%%%%%%%%%%%%%%%%%%%%% Partie III %%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	
@@ -362,29 +457,46 @@ Enfin, je remercie ma famille de m'avoir soutenue au cours de ces six années d'
 	
 %%%%%%%%%%%%%%%%%%%%%%%%%% INTRODUCTION %%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\begin{quote}
+	\enquote{La bibliothèque n'est plus cette forme durable instituée par l'imaginaire d'Alexandrie lié à l'histoire de l'écrit, elle devient avec le numérique, elle devient elle même patrimoine, porteur avec ses collections, son mobilier, son classement, une trace mémorielle... C'est toute la réalité de la bibliothèque qui en passe de se transformer en un espace virtuel, un nouvel espace pour imaginer la réalité autrement, un vaste espace virtuel, un nouvel espace pour imaginer la réalité autrement, un vaste espace de connaissances interrogeables, un laboratoire de recherche.} \footcite{elBibliothequeNumeriqueCognition}.
+\end{quote}
+
+\lettrine{L}a bibliothèque numérique n'est plus seulement un catalogue en ligne, elle devient un espace dynamique de production scientifique à part entière. En se dégageant de l'emprise du support physique pour s'approprier la plasticité et la malléabilité du numérique, l'institution réalise sa mutation conceptuelle la plus profonde. Le patrimoine numérisé n'est plus une collection figée, mais un objet que l'on peut enrichir.
+
+La technologie n’est rien sans ses usagers, et la réussite de la future plateforme Codex dépend fondamentalement de son appropriation par la communauté scientifique. Cette troisième partie démontre que la refonte de la bibliothèque numérique ne peut se limiter à de simples arbitrages d'infrastructure, mais doit s'ancrer dans une démarche rigoureuse centrée sur l'utilisateur. En nous appuyant sur une méthodologie d'audit UX complète, alliant entretiens qualitatifs semi-directifs et élaboration de personae méthodologiques, nous confrontons les habitudes réelles de travail des chercheurs juristes et des étudiants aux limites de l'ergonomie actuelle d'XTF. L'enjeu est de réconcilier les exigences scientifiques les plus pointues des historiens du droit — telles que la manipulabilité physique des sources, l'accès à l'indexation locale et le téléchargement ciblé — avec les opportunités offertes par l'éditorialisation numérique et la navigation sémantique moderne. Des dispositifs innovants comme l'intégration de visionneuses IIIF, de tables des matières interactives ou d'espaces de travail personnels transforment alors le réservoir documentaire passif en un véritable laboratoire de recherche collaboratif.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%% CHAPITRE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{chapitre_6.tex}
-\input{chapitre_7.tex}
-\input{chapitre_8.tex}
+
+\input{./mainmatter/Partie_III/Ch6/chapitre_6.tex}
+\input{./mainmatter/Partie_III/Ch7/chapitre_7.tex}
+\input{./mainmatter/Partie_III/Ch8/chapitre_8.tex}
 
 %%%%%%%%%%%%%%%%% CONCLUSION DE LA PARTIE III %%%%%%%%%%%%%%%%%%%%
+\section*{Conclusion de la Troisième Partie}
+
+\lettrine{C}ette étude s'achève en plaçant l’usager au cœur du dispositif technologique, consacrant le passage d’une approche purement axée sur les contraintes du système, à une démarche centrée sur l’expérience utilisateur. Le rapport d'audit et l’enquête de satisfaction menés à la \ac{BIU Cujas} révèlent que la réussite du futur prototype Codex ne réside pas dans une surenchère de complexité technique, mais dans sa capacité à réconcilier les exigences scientifiques des chercheurs avec la fluidité des interfaces contemporaines du Web.
+Pour répondre au \enquote{culte de la performance} et au besoin de \enquote{Slow Science} exprimés par la communauté académique, nos préconisations fonctionnelles s'attachent à recréer numériquement le confort et la manipulabilité du livre papier. L’intégration du standard \ac{IIIF} et de la visionneuse experte Mirador constitue le pivot de cette transformation. De plus, la restructuration sémantique de l’interface, à travers l’onglet \enquote{Explorer} et des facettes thématiques normalisées, en consciliant l'indexation Hauville et RAMEAU, résout enfin le bruit documentaire historique pour guider intuitivement l’étudiant et le chercheur sans restreindre leur sérendipité.
+L’appropriation de la donnée a également été pensée pour dépasser la consultation passive et briser la volatilité des sessions de recherche. L'implémentation d'un espace personnel permanent, permettant la sauvegarde des requêtes, l'annotation des images et la constitution d'un historique de recherche, complétée par des outils d’exportation de métadonnées riches (BibTeX, CSV, JSON-LD) vers Zotero, permettant aux juristes d'exploiter directement les données brutes au sein de leur travail.
+Enfin, nous avons démontré que la bibliothèque numérique moderne ne peut plus se contenter d'être un stock de fichiers statiques ; elle doit s’imposer comme un environnement de connaissances éditorialisées. En adoptant la flexibilité du format Markdown — inspiré de la BIS — et en ouvrant des espaces d'écriture collaborative tels que la \enquote{Galerie des grands juristes}, Codex transforme le rôle de l'usager. Celui-ci n'est plus un lecteur-passif, mais devient un acteur engagé de la valorisation du patrimoine juridique.
+Cette réconciliation entre technique sémantique et usages humains jette les bases d’une transition durable. Toutefois, cette mutation des services implique nécessairement de repenser en profondeur l’organisation interne de l’établissement, d'accompagner le changement auprès des équipes, et de pérenniser la maintenance d'une infrastructure souveraine sur-mesure, représentant un défi, à la fois humain, technique et institutionnel.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%% CONCLUSION %%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\input{conclusion.tex}
-	\addcontentsline{toc}{chapter}{Conclusion}
+\input{./mainmatter/conclusion.tex}
+
 \newpage{\pagestyle{empty}\cleardoublepage}
 	
 %%%%%%%%%%%%%%%%%%
 
 \appendix %Des appendices: tables figures, etc
-
 \part*{Annexes}
 \addcontentsline{toc}{part}{Annexes}
-\input{annexe_A_rapport_audit.tex}
-\input{annexe_B_preconisations.tex}
+\input{./backmatter/annexe_A_rapport_audit.tex}
+
+\input{./backmatter/annexe_B_preconisations.tex}
+
 \newpage{\pagestyle{empty}\cleardoublepage}
 
 %%%%%%%%%%%%%%%%%%
@@ -392,7 +504,7 @@ Enfin, je remercie ma famille de m'avoir soutenue au cours de ces six années d'
 \backmatter % glossaire, index, table des figures, table des matières.. (la bibliographie a déjà été appelée)
 
 \printglossaries
-%\listoftables
+%	\listoftables
 %\listoffigures
 \tableofcontents
 \end{document}

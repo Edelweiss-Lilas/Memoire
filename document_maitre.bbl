@@ -1,0 +1,4009 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{2006ProgrammeNumerisation}{online}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{2006 {{Programme}} de Numérisation de {{Cujas}} 2006.Pdf - {{Espace}} de Travail {{Cujas}}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/RHHI8WWT/2006 Programme de numérisation de Cujas 2006.pdf - Espace de travail Cujas.pdf;/home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/8WGSBR6F/1685705.html
+      \endverb
+      \verb{urlraw}
+      \verb https://bcujas-doc.univ-paris1.fr/index.php/apps/files/files/1685705?dir=/PATRIMOINE-service/Numerisation/Num_historique&editing=false&openfile=true
+      \endverb
+      \verb{url}
+      \verb https://bcujas-doc.univ-paris1.fr/index.php/apps/files/files/1685705?dir=/PATRIMOINE-service/Numerisation/Num_historique&editing=false&openfile=true
+      \endverb
+      \keyw{2006,Cujas,CujasNum,programme de numerisation}
+    \endentry
+    \entry{2007RefonteProgramme}{online}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{2007 {{Refonte}} Du Programme de Numérisation de {{Cujas}}.Pdf - {{Espace}} de Travail {{Cujas}}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/HLXBK9LQ/2007 Refonte du programme de numérisation de Cujas.pdf - Espace de travail Cujas.pdf;/home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/V9LX84EB/1685703.html
+      \endverb
+      \verb{urlraw}
+      \verb https://bcujas-doc.univ-paris1.fr/index.php/apps/files/files/1685703?dir=/PATRIMOINE-service/Numerisation/Num_historique&editing=false&openfile=true
+      \endverb
+      \verb{url}
+      \verb https://bcujas-doc.univ-paris1.fr/index.php/apps/files/files/1685703?dir=/PATRIMOINE-service/Numerisation/Num_historique&editing=false&openfile=true
+      \endverb
+      \keyw{2007,Cujas,programme de numerisation,proposition de refonte}
+    \endentry
+    \entry{2010CRProgramme}{online}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{2010 {{CR Programme}} de Numérisation.Pdf - {{Espace}} de Travail {{Cujas}}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/Y77HXHLD/programme de numerisation 22 nov 2010.pdf;/home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/3I5F3TAQ/1685711.html
+      \endverb
+      \verb{urlraw}
+      \verb https://bcujas-doc.univ-paris1.fr/index.php/apps/files/files/1685711?dir=/PATRIMOINE-service/Numerisation/Num_historique&editing=false&openfile=true
+      \endverb
+      \verb{url}
+      \verb https://bcujas-doc.univ-paris1.fr/index.php/apps/files/files/1685711?dir=/PATRIMOINE-service/Numerisation/Num_historique&editing=false&openfile=true
+      \endverb
+      \keyw{CujasNum,numerisation,reunion}
+    \endentry
+    \entry{2010CRArchivage}{online}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{2010 {{CR}} Sur Archivage Pérenne.Pdf - {{Espace}} de Travail {{Cujas}}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/F3WDY28Z/2010 CR sur archivage pérenne.pdf - Espace de travail Cujas.pdf;/home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/FI264SC6/1685708.html
+      \endverb
+      \verb{urlraw}
+      \verb https://bcujas-doc.univ-paris1.fr/index.php/apps/files/files/1685708?dir=/PATRIMOINE-service/Numerisation/Num_historique&editing=false&openfile=true
+      \endverb
+      \verb{url}
+      \verb https://bcujas-doc.univ-paris1.fr/index.php/apps/files/files/1685708?dir=/PATRIMOINE-service/Numerisation/Num_historique&editing=false&openfile=true
+      \endverb
+      \keyw{2010,Archivage perenne,compte-rendu,CujasNum}
+    \endentry
+    \entry{2011_programmeNumerisationPar}{online}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{2011\_programme de Numérisation Par {{N}}. {{Balley}}.Pdf - {{Espace}} de Travail {{Cujas}}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/7BIPIAHS/2011_programme de numérisation par N. Balley.pdf - Espace de travail Cujas.pdf;/home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/QTQHERBS/1867141.html
+      \endverb
+      \verb{urlraw}
+      \verb https://bcujas-doc.univ-paris1.fr/index.php/apps/files/files/1867141?dir=/PATRIMOINE-service/Numerisation/Num_historique&editing=false&openfile=true
+      \endverb
+      \verb{url}
+      \verb https://bcujas-doc.univ-paris1.fr/index.php/apps/files/files/1867141?dir=/PATRIMOINE-service/Numerisation/Num_historique&editing=false&openfile=true
+      \endverb
+      \keyw{CujasNum,numerisation,programme}
+    \endentry
+    \entry{2012_Num_Indexation_methode_FHdocEspaceTravail}{online}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{2012\_{{Num}}\_{{Indexation}}\_methode\_{{FH}}.Doc - {{Espace}} de Travail {{Cujas}}}
+      \field{urlday}{3}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/8KZ6GFMC/2860528.html
+      \endverb
+      \verb{urlraw}
+      \verb https://bcujas-doc.univ-paris1.fr/index.php/apps/onlyoffice/2860528?filePath=%2FPATRIMOINE-service%2FNumerisation%2FNum_Procedures%2F07-Indexation%2F2012_Num_Indexation_methode_FH.doc
+      \endverb
+      \verb{url}
+      \verb https://bcujas-doc.univ-paris1.fr/index.php/apps/onlyoffice/2860528?filePath=%2FPATRIMOINE-service%2FNumerisation%2FNum_Procedures%2F07-Indexation%2F2012_Num_Indexation_methode_FH.doc
+      \endverb
+      \keyw{themeCujas}
+    \endentry
+    \entry{2013_Num_Indexation_manuel_FHdocEspaceTravail}{online}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{2013\_{{Num}}\_{{Indexation}}\_manuel\_{{FH}}.Doc - {{Espace}} de Travail {{Cujas}}}
+      \field{urlday}{3}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/NUI7ZY3S/2860526.html
+      \endverb
+      \verb{urlraw}
+      \verb https://bcujas-doc.univ-paris1.fr/index.php/apps/onlyoffice/2860526?filePath=%2FPATRIMOINE-service%2FNumerisation%2FNum_Procedures%2F07-Indexation%2F2013_Num_Indexation_manuel_FH.doc
+      \endverb
+      \verb{url}
+      \verb https://bcujas-doc.univ-paris1.fr/index.php/apps/onlyoffice/2860526?filePath=%2FPATRIMOINE-service%2FNumerisation%2FNum_Procedures%2F07-Indexation%2F2013_Num_Indexation_manuel_FH.doc
+      \endverb
+      \keyw{themeCujas}
+    \endentry
+    \entry{20220425}{online}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{2022 04 25 {{Programme JURIDISSIMA}} Diffusion.Pdf - {{Espace}} de Travail {{Cujas}}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/9SCGZDHS/2022 04 25 Programme JURIDISSIMA diffusion.pdf - Espace de travail Cujas.pdf;/home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/RTQ4DS5F/1693061.html
+      \endverb
+      \verb{urlraw}
+      \verb https://bcujas-doc.univ-paris1.fr/index.php/apps/files/files/1693061?dir=/PATRIMOINE-service/Numerisation/Juridissima&editing=false&openfile=true
+      \endverb
+      \verb{url}
+      \verb https://bcujas-doc.univ-paris1.fr/index.php/apps/files/files/1693061?dir=/PATRIMOINE-service/Numerisation/Juridissima&editing=false&openfile=true
+      \endverb
+      \keyw{2023-2027,Collex,Cujas,programme}
+    \endentry
+    \entry{adreaniConstitutionReutilisationDonnees2016}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=592f2d557478c72c9ccb2c815afe6838}{%
+           family={Adreani},
+           familyi={A\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Éditions du Cercle de la Librairie}%
+      }
+      \strng{namehash}{592f2d557478c72c9ccb2c815afe6838}
+      \strng{fullhash}{592f2d557478c72c9ccb2c815afe6838}
+      \strng{fullhashraw}{592f2d557478c72c9ccb2c815afe6838}
+      \strng{bibnamehash}{592f2d557478c72c9ccb2c815afe6838}
+      \strng{authorbibnamehash}{592f2d557478c72c9ccb2c815afe6838}
+      \strng{authornamehash}{592f2d557478c72c9ccb2c815afe6838}
+      \strng{authorfullhash}{592f2d557478c72c9ccb2c815afe6838}
+      \strng{authorfullhashraw}{592f2d557478c72c9ccb2c815afe6838}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Vers de nouveaux catalogues}
+      \field{isbn}{978-2-7654-1513-8}
+      \field{issn}{0184-0886}
+      \field{langid}{french}
+      \field{title}{La constitution et la réutilisation des données entre bibliothèques}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{105\bibrangedash 114}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.3917/elec.berme.2016.01.0105
+      \endverb
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/AP6C3QLP/vers-de-nouveaux-catalogues--9782765415138-page-105.html
+      \endverb
+      \verb{urlraw}
+      \verb https://shs-cairn-info.portail.psl.eu/vers-de-nouveaux-catalogues--9782765415138-page-105
+      \endverb
+      \verb{url}
+      \verb https://shs-cairn-info.portail.psl.eu/vers-de-nouveaux-catalogues--9782765415138-page-105
+      \endverb
+    \endentry
+    \entry{adreaniConstitutionReutilisationDonnees2016a}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=592f2d557478c72c9ccb2c815afe6838}{%
+           family={Adreani},
+           familyi={A\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Éditions du Cercle de la Librairie}%
+      }
+      \strng{namehash}{592f2d557478c72c9ccb2c815afe6838}
+      \strng{fullhash}{592f2d557478c72c9ccb2c815afe6838}
+      \strng{fullhashraw}{592f2d557478c72c9ccb2c815afe6838}
+      \strng{bibnamehash}{592f2d557478c72c9ccb2c815afe6838}
+      \strng{authorbibnamehash}{592f2d557478c72c9ccb2c815afe6838}
+      \strng{authornamehash}{592f2d557478c72c9ccb2c815afe6838}
+      \strng{authorfullhash}{592f2d557478c72c9ccb2c815afe6838}
+      \strng{authorfullhashraw}{592f2d557478c72c9ccb2c815afe6838}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Vers de nouveaux catalogues}
+      \field{isbn}{978-2-7654-1513-8}
+      \field{issn}{0184-0886}
+      \field{langid}{french}
+      \field{title}{La constitution et la réutilisation des données entre bibliothèques}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{105\bibrangedash 114}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.3917/elec.berme.2016.01.0105
+      \endverb
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/DWL8CSAU/vers-de-nouveaux-catalogues--9782765415138-page-105.html
+      \endverb
+      \verb{urlraw}
+      \verb https://shs-cairn-info.portail.psl.eu/vers-de-nouveaux-catalogues--9782765415138-page-105
+      \endverb
+      \verb{url}
+      \verb https://shs-cairn-info.portail.psl.eu/vers-de-nouveaux-catalogues--9782765415138-page-105
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{androValoriserBibliothequeNumerique}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5d655f07c59c21519018ee3274593c0e}{%
+           family={Andro},
+           familyi={A\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=887e3924f0b0c4c169b8f1509287a919}{%
+           family={Chaigne},
+           familyi={C\bibinitperiod},
+           given={Marion},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6d4886445956cd40cc5050fe9dce000}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Franck},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a61b256f9a8f0f3cbeb73e38f36a3760}
+      \strng{fullhash}{a61b256f9a8f0f3cbeb73e38f36a3760}
+      \strng{fullhashraw}{a61b256f9a8f0f3cbeb73e38f36a3760}
+      \strng{bibnamehash}{a61b256f9a8f0f3cbeb73e38f36a3760}
+      \strng{authorbibnamehash}{a61b256f9a8f0f3cbeb73e38f36a3760}
+      \strng{authornamehash}{a61b256f9a8f0f3cbeb73e38f36a3760}
+      \strng{authorfullhash}{a61b256f9a8f0f3cbeb73e38f36a3760}
+      \strng{authorfullhashraw}{a61b256f9a8f0f3cbeb73e38f36a3760}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This feedback is about how digital projects at the Sainte-Genevieve Library have widely considered the diffusion questions of dissemination, SEO, but also communication and enhancement of digital library projects.}
+      \field{langid}{french}
+      \field{title}{Valoriser une bibliothèque numérique par des choix de référencement et diffusion. L'expérience de la Bibliothèque Sainte-Geneviève}
+      \true{nocite}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/VK2PIFLB/Andro et al. - Valoriser une bibliothèque numérique par des choix de référencement et diffusion. L'expérience de la.pdf
+      \endverb
+      \keyw{themeNumerisation}
+    \endentry
+    \entry{Arabesques_69_12_dossier_balleypdfEspaceTravail}{online}{}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{title}{Arabesques\_69\_12\_dossier\_balley.Pdf - {{Espace}} de Travail {{Cujas}}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/A9RKMKK9/Le programme national de numérisation et valorisation concertées en sciences juridiques.pdf - Espace.pdf;/home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/3S6RGVYK/3832841.html
+      \endverb
+      \verb{urlraw}
+      \verb https://bcujas-doc.univ-paris1.fr/index.php/apps/files/files/3832841?dir=/PATRIMOINE-service/Numerisation/Num_historique&editing=false&openfile=true
+      \endverb
+      \verb{url}
+      \verb https://bcujas-doc.univ-paris1.fr/index.php/apps/files/files/3832841?dir=/PATRIMOINE-service/Numerisation/Num_historique&editing=false&openfile=true
+      \endverb
+      \keyw{Cujas,CujasNum,numerisation,programme national}
+    \endentry
+    \entry{asselinRedigerCahierCharges2017}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=28002dd1db55deeae919264b0292243e}{%
+           family={Asselin},
+           familyi={A\bibinitperiod},
+           given={Emmanuelle},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{28002dd1db55deeae919264b0292243e}
+      \strng{fullhash}{28002dd1db55deeae919264b0292243e}
+      \strng{fullhashraw}{28002dd1db55deeae919264b0292243e}
+      \strng{bibnamehash}{28002dd1db55deeae919264b0292243e}
+      \strng{authorbibnamehash}{28002dd1db55deeae919264b0292243e}
+      \strng{authornamehash}{28002dd1db55deeae919264b0292243e}
+      \strng{authorfullhash}{28002dd1db55deeae919264b0292243e}
+      \strng{authorfullhashraw}{28002dd1db55deeae919264b0292243e}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Réinformatiser une bibliothèque}
+      \field{isbn}{979-10-91281-60-7}
+      \field{langid}{fre}
+      \field{title}{Rédiger un cahier des charges adapté à la mise en œuvre d’une réinformatisation}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.6628
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{balley2ReveillerFonds2012a}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c32d3d6739e89dfbf4e4a3e5d673a8c6}{%
+           family={Balley},
+           familyi={B\bibinitperiod},
+           given={Noëlle},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=6e789e8091e1fffb15841cde61cc5098}{%
+           family={Coq},
+           familyi={C\bibinitperiod},
+           given={Dominique},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{c32d3d6739e89dfbf4e4a3e5d673a8c6}
+      \strng{fullhash}{c32d3d6739e89dfbf4e4a3e5d673a8c6}
+      \strng{fullhashraw}{c32d3d6739e89dfbf4e4a3e5d673a8c6}
+      \strng{bibnamehash}{c32d3d6739e89dfbf4e4a3e5d673a8c6}
+      \strng{authorbibnamehash}{c32d3d6739e89dfbf4e4a3e5d673a8c6}
+      \strng{authornamehash}{c32d3d6739e89dfbf4e4a3e5d673a8c6}
+      \strng{authorfullhash}{c32d3d6739e89dfbf4e4a3e5d673a8c6}
+      \strng{authorfullhashraw}{c32d3d6739e89dfbf4e4a3e5d673a8c6}
+      \strng{editorbibnamehash}{6e789e8091e1fffb15841cde61cc5098}
+      \strng{editornamehash}{6e789e8091e1fffb15841cde61cc5098}
+      \strng{editorfullhash}{6e789e8091e1fffb15841cde61cc5098}
+      \strng{editorfullhashraw}{6e789e8091e1fffb15841cde61cc5098}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Apprendre à gérer des collections patrimoniales en bibliothèque}
+      \field{isbn}{978-2-37546-037-5}
+      \field{langid}{french}
+      \field{series}{La Boîte à outils}
+      \field{title}{2. Réveiller un fonds patrimonial}
+      \field{urlday}{12}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{142\bibrangedash 151}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.671
+      \endverb
+      \verb{urlraw}
+      \verb https://books.openedition.org/pressesenssib/671
+      \endverb
+      \verb{url}
+      \verb https://books.openedition.org/pressesenssib/671
+      \endverb
+    \endentry
+    \entry{balley4ExempleMediation2012}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c32d3d6739e89dfbf4e4a3e5d673a8c6}{%
+           family={Balley},
+           familyi={B\bibinitperiod},
+           given={Noëlle},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0368b216a29cbb6d4e9f21a208ceb111}{%
+           family={Dalmon},
+           familyi={D\bibinitperiod},
+           given={Sébastien},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=cd72cd392aae964f8021922a77d40797}{%
+           family={Galaup},
+           familyi={G\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{c2da1da7cef9dfb2d329cc55761095b4}
+      \strng{fullhash}{c2da1da7cef9dfb2d329cc55761095b4}
+      \strng{fullhashraw}{c2da1da7cef9dfb2d329cc55761095b4}
+      \strng{bibnamehash}{c2da1da7cef9dfb2d329cc55761095b4}
+      \strng{authorbibnamehash}{c2da1da7cef9dfb2d329cc55761095b4}
+      \strng{authornamehash}{c2da1da7cef9dfb2d329cc55761095b4}
+      \strng{authorfullhash}{c2da1da7cef9dfb2d329cc55761095b4}
+      \strng{authorfullhashraw}{c2da1da7cef9dfb2d329cc55761095b4}
+      \strng{editorbibnamehash}{cd72cd392aae964f8021922a77d40797}
+      \strng{editornamehash}{cd72cd392aae964f8021922a77d40797}
+      \strng{editorfullhash}{cd72cd392aae964f8021922a77d40797}
+      \strng{editorfullhashraw}{cd72cd392aae964f8021922a77d40797}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Développer la médiation documentaire numérique}
+      \field{isbn}{978-2-37546-038-2}
+      \field{langid}{french}
+      \field{series}{La Boîte à outils}
+      \field{shorttitle}{4. Un exemple de médiation documentaire numérique autour du centenaire de Jean Carbonnier (1908-2003)}
+      \field{title}{4. Un exemple de médiation documentaire numérique autour du centenaire de Jean Carbonnier (1908-2003)~: du colloque à l’exposition virtuelle et à la numérisation}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{186\bibrangedash 193}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.723
+      \endverb
+      \verb{urlraw}
+      \verb https://books.openedition.org/pressesenssib/723
+      \endverb
+      \verb{url}
+      \verb https://books.openedition.org/pressesenssib/723
+      \endverb
+    \endentry
+    \entry{barbierHistoireBibliothequesDAlexandrie2013}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8b38c9da15a47044f7f1dc677fc0946f}{%
+           family={Barbier},
+           familyi={B\bibinitperiod},
+           given={Frédéric},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \list{publisher}{1}{%
+        {Armand Colin}%
+      }
+      \strng{namehash}{8b38c9da15a47044f7f1dc677fc0946f}
+      \strng{fullhash}{8b38c9da15a47044f7f1dc677fc0946f}
+      \strng{fullhashraw}{8b38c9da15a47044f7f1dc677fc0946f}
+      \strng{bibnamehash}{8b38c9da15a47044f7f1dc677fc0946f}
+      \strng{authorbibnamehash}{8b38c9da15a47044f7f1dc677fc0946f}
+      \strng{authornamehash}{8b38c9da15a47044f7f1dc677fc0946f}
+      \strng{authorfullhash}{8b38c9da15a47044f7f1dc677fc0946f}
+      \strng{authorfullhashraw}{8b38c9da15a47044f7f1dc677fc0946f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-2-200-27440-5}
+      \field{langid}{fre}
+      \field{shorttitle}{Histoire des bibliothèques}
+      \field{title}{Histoire des bibliothèques: d'Alexandrie aux bibliothèques virtuelles}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \true{nocite}
+      \keyw{Bibliothèques,Histoire,themeCujas}
+    \endentry
+    \entry{barronModeDemploi2014a}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6128c6bad829550f793360e2181d8ef2}{%
+           family={Barron},
+           familyi={B\bibinitperiod},
+           given={Géraldine},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a2a25226d30213b83636348a090080d}{%
+           family={Goff-Janton},
+           familyi={G\bibinithyphendelim J\bibinitperiod},
+           given={Pauline\bibnamedelima Le},
+           giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=902e73c5c5a361ee78d19541bf8026ef}{%
+           family={Le\bibnamedelima Goff-Janton},
+           familyi={L\bibinitperiod\bibinitdelim G\bibinithyphendelim J\bibinitperiod},
+           given={Pauline},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{9976dfaa30fd730382a14de3d12c6c1d}
+      \strng{fullhash}{9976dfaa30fd730382a14de3d12c6c1d}
+      \strng{fullhashraw}{9976dfaa30fd730382a14de3d12c6c1d}
+      \strng{bibnamehash}{9976dfaa30fd730382a14de3d12c6c1d}
+      \strng{authorbibnamehash}{9976dfaa30fd730382a14de3d12c6c1d}
+      \strng{authornamehash}{9976dfaa30fd730382a14de3d12c6c1d}
+      \strng{authorfullhash}{9976dfaa30fd730382a14de3d12c6c1d}
+      \strng{authorfullhashraw}{9976dfaa30fd730382a14de3d12c6c1d}
+      \strng{editorbibnamehash}{902e73c5c5a361ee78d19541bf8026ef}
+      \strng{editornamehash}{902e73c5c5a361ee78d19541bf8026ef}
+      \strng{editorfullhash}{902e73c5c5a361ee78d19541bf8026ef}
+      \strng{editorfullhashraw}{902e73c5c5a361ee78d19541bf8026ef}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Intégrer des ressources numériques dans les collections}
+      \field{isbn}{978-2-37546-057-3}
+      \field{langid}{french}
+      \field{series}{La Boîte à outils}
+      \field{title}{Mode d’emploi}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{7\bibrangedash 12}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.11713
+      \endverb
+      \verb{urlraw}
+      \verb https://books.openedition.org/pressesenssib/11713
+      \endverb
+      \verb{url}
+      \verb https://books.openedition.org/pressesenssib/11713
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{barronRessourcesNumeriquesQuoi2014}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6128c6bad829550f793360e2181d8ef2}{%
+           family={Barron},
+           familyi={B\bibinitperiod},
+           given={Géraldine},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=902e73c5c5a361ee78d19541bf8026ef}{%
+           family={Le\bibnamedelima Goff-Janton},
+           familyi={L\bibinitperiod\bibinitdelim G\bibinithyphendelim J\bibinitperiod},
+           given={Pauline},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l'enssib}%
+      }
+      \strng{namehash}{a8f866a6c8808c7fb7a107815a800029}
+      \strng{fullhash}{a8f866a6c8808c7fb7a107815a800029}
+      \strng{fullhashraw}{a8f866a6c8808c7fb7a107815a800029}
+      \strng{bibnamehash}{a8f866a6c8808c7fb7a107815a800029}
+      \strng{authorbibnamehash}{a8f866a6c8808c7fb7a107815a800029}
+      \strng{authornamehash}{a8f866a6c8808c7fb7a107815a800029}
+      \strng{authorfullhash}{a8f866a6c8808c7fb7a107815a800029}
+      \strng{authorfullhashraw}{a8f866a6c8808c7fb7a107815a800029}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ce chapitre de la Boîte à Outils "Intégrer des ressources numériques dans les collections" s'applique à clarifier la notion de ressources numériques et les problématiques qui leur sont associées dans les bibliothèques et centres de documentation.}
+      \field{booktitle}{Intégrer des ressources numériques dans les collections}
+      \field{isbn}{979-10-91281-18-8}
+      \field{langid}{fre}
+      \field{series}{La Boîte à outils}
+      \field{title}{Les ressources numériques. De quoi parle-t-on ?}
+      \field{volume}{29}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{14\bibrangedash 20}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.2747
+      \endverb
+      \keyw{Humanities and Social Sciences,Library and information sciences,themeDonnees}
+    \endentry
+    \entry{beaudMiseresBibliothequeCujas1999}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=490855d2ac4cc8b3fe96210bb0a1575e}{%
+           family={Beaud},
+           familyi={B\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Paris, France}%
+      }
+      \list{publisher}{1}{%
+        {PUF}%
+      }
+      \strng{namehash}{490855d2ac4cc8b3fe96210bb0a1575e}
+      \strng{fullhash}{490855d2ac4cc8b3fe96210bb0a1575e}
+      \strng{fullhashraw}{490855d2ac4cc8b3fe96210bb0a1575e}
+      \strng{bibnamehash}{490855d2ac4cc8b3fe96210bb0a1575e}
+      \strng{authorbibnamehash}{490855d2ac4cc8b3fe96210bb0a1575e}
+      \strng{authornamehash}{490855d2ac4cc8b3fe96210bb0a1575e}
+      \strng{authorfullhash}{490855d2ac4cc8b3fe96210bb0a1575e}
+      \strng{authorfullhashraw}{490855d2ac4cc8b3fe96210bb0a1575e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0766-3838}
+      \field{langid}{french}
+      \field{pagetotal}{7}
+      \field{title}{Misères de la bibliothèque Cujas}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{volume}{29}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{207\bibrangedash 213}
+      \range{pages}{7}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/ZL2JP3ZN/Beaud - 1999 - Misères de la bibliothèque Cujas.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.proquest.com/docview/1294902383/citation/8C9E810FE694C07PQ/1
+      \endverb
+      \verb{url}
+      \verb https://www.proquest.com/docview/1294902383/citation/8C9E810FE694C07PQ/1
+      \endverb
+      \keyw{Law,themeCujas}
+    \endentry
+    \entry{bellierCollaborationOrganisationLimpact2016}{online}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c185b35c1e1210f4dfc7901ad1dc6e5f}{%
+           family={Bellier},
+           familyi={B\bibinitperiod},
+           given={Luc},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=18e5c73706f14dc9ae7337de38d283e5}{%
+           family={Bertrand},
+           familyi={B\bibinitperiod},
+           given={Sophie},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=eb81fcee4d38acf655e2bc32b473822b}{%
+           family={Bodet},
+           familyi={B\bibinitperiod},
+           given={Brigitte},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{597fcd8b0a7bac31d9e626c330319155}
+      \strng{fullhash}{597fcd8b0a7bac31d9e626c330319155}
+      \strng{fullhashraw}{597fcd8b0a7bac31d9e626c330319155}
+      \strng{bibnamehash}{597fcd8b0a7bac31d9e626c330319155}
+      \strng{authorbibnamehash}{597fcd8b0a7bac31d9e626c330319155}
+      \strng{authornamehash}{597fcd8b0a7bac31d9e626c330319155}
+      \strng{authorfullhash}{597fcd8b0a7bac31d9e626c330319155}
+      \strng{authorfullhashraw}{597fcd8b0a7bac31d9e626c330319155}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
+      \field{langid}{french}
+      \field{month}{1}
+      \field{shorttitle}{Collaboration, organisation}
+      \field{title}{Collaboration, organisation : l’impact du numérique}
+      \field{type}{Text}
+      \field{urlday}{3}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/ARLZPS2C/revue-2016-04-009.html
+      \endverb
+      \verb{urlraw}
+      \verb https://bbf.enssib.fr/revue-enssib/consulter/revue-2016-04-009
+      \endverb
+      \verb{url}
+      \verb https://bbf.enssib.fr/revue-enssib/consulter/revue-2016-04-009
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{zotero-item-471}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8e40ae58b4b76bbc3e8153921de23e6e}{%
+           family={Bermes},
+           familyi={B\bibinitperiod},
+           given={Emmanuelle},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {San Juan, Puerto Rico}%
+      }
+      \strng{namehash}{8e40ae58b4b76bbc3e8153921de23e6e}
+      \strng{fullhash}{8e40ae58b4b76bbc3e8153921de23e6e}
+      \strng{fullhashraw}{8e40ae58b4b76bbc3e8153921de23e6e}
+      \strng{bibnamehash}{8e40ae58b4b76bbc3e8153921de23e6e}
+      \strng{authorbibnamehash}{8e40ae58b4b76bbc3e8153921de23e6e}
+      \strng{authornamehash}{8e40ae58b4b76bbc3e8153921de23e6e}
+      \strng{authorfullhash}{8e40ae58b4b76bbc3e8153921de23e6e}
+      \strng{authorfullhashraw}{8e40ae58b4b76bbc3e8153921de23e6e}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventtitle}{World {{Library}} and {{Information Congress}}: 77th {{IFLA General Conference}} and {{Assembly}}}
+      \field{title}{Convergence et Interopérabilité : L’apport Du {{Web}} de Données}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/EE54G7B4/149-bermes-fr.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://conference.ifla.org/ifla77
+      \endverb
+      \verb{url}
+      \verb http://conference.ifla.org/ifla77
+      \endverb
+    \endentry
+    \entry{bermesNumeriqueBibliothequeNaissance}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8e40ae58b4b76bbc3e8153921de23e6e}{%
+           family={Bermes},
+           familyi={B\bibinitperiod},
+           given={Emmanuelle},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8e40ae58b4b76bbc3e8153921de23e6e}
+      \strng{fullhash}{8e40ae58b4b76bbc3e8153921de23e6e}
+      \strng{fullhashraw}{8e40ae58b4b76bbc3e8153921de23e6e}
+      \strng{bibnamehash}{8e40ae58b4b76bbc3e8153921de23e6e}
+      \strng{authorbibnamehash}{8e40ae58b4b76bbc3e8153921de23e6e}
+      \strng{authornamehash}{8e40ae58b4b76bbc3e8153921de23e6e}
+      \strng{authorfullhash}{8e40ae58b4b76bbc3e8153921de23e6e}
+      \strng{authorfullhashraw}{8e40ae58b4b76bbc3e8153921de23e6e}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{Le numérique en bibliothèque: naissance d'un patrimoine: l'exemple de la Bibliothèque nationale de France (1997-2019)}
+      \true{nocite}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/QCIJ6F2Q/Bermes - Le numérique en bibliothèque naissance d'un patrimoine l'exemple de la Bibliothèque nationale de F.pdf
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{bermesAmeliorerLaccesAux}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e030e2b20e092b3fabbe90ad5fc15c0d}{%
+           family={Bermès},
+           familyi={B\bibinitperiod},
+           given={Emmanuelle},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2458e0e7ad166d18acb49bf333f629a6}{%
+           family={Boulet},
+           familyi={B\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=306b4df158d417f1cc04d057529751dc}{%
+           family={Leclaire},
+           familyi={L\bibinitperiod},
+           given={Céline},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fbc211b1a08b90133b4f5fadd70db1f6}
+      \strng{fullhash}{fbc211b1a08b90133b4f5fadd70db1f6}
+      \strng{fullhashraw}{fbc211b1a08b90133b4f5fadd70db1f6}
+      \strng{bibnamehash}{fbc211b1a08b90133b4f5fadd70db1f6}
+      \strng{authorbibnamehash}{fbc211b1a08b90133b4f5fadd70db1f6}
+      \strng{authornamehash}{fbc211b1a08b90133b4f5fadd70db1f6}
+      \strng{authorfullhash}{fbc211b1a08b90133b4f5fadd70db1f6}
+      \strng{authorfullhashraw}{fbc211b1a08b90133b4f5fadd70db1f6}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{Améliorer l'accès aux données des bibliothèques sur le web: l'exemple de data.bnf.fr}
+      \true{nocite}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/BXZSTQUB/Ameliorer l’accès des données de bibliothèques sur le web.pdf
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{bermesWebSemantiqueBibliotheque2013}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e030e2b20e092b3fabbe90ad5fc15c0d}{%
+           family={Bermès},
+           familyi={B\bibinitperiod},
+           given={Emmanuelle},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=73a935f38c7dd51639f66d24fd0d9179}{%
+           family={Isaac},
+           familyi={I\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3589829689e3be332872995f39629943}{%
+           family={Poupeau},
+           familyi={P\bibinitperiod},
+           given={Gautier},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Éditions du Cercle de la Librairie}%
+      }
+      \strng{namehash}{d4c2b24d50d36f4cb26e34efa567a5ce}
+      \strng{fullhash}{d4c2b24d50d36f4cb26e34efa567a5ce}
+      \strng{fullhashraw}{d4c2b24d50d36f4cb26e34efa567a5ce}
+      \strng{bibnamehash}{d4c2b24d50d36f4cb26e34efa567a5ce}
+      \strng{authorbibnamehash}{d4c2b24d50d36f4cb26e34efa567a5ce}
+      \strng{authornamehash}{d4c2b24d50d36f4cb26e34efa567a5ce}
+      \strng{authorfullhash}{d4c2b24d50d36f4cb26e34efa567a5ce}
+      \strng{authorfullhashraw}{d4c2b24d50d36f4cb26e34efa567a5ce}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bibliothèques}
+      \field{isbn}{978-2-7654-1417-9}
+      \field{issn}{0184-0886}
+      \field{langid}{french}
+      \field{title}{Le Web sémantique en bibliothèque}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.3917/elec.berm.2013.01
+      \endverb
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/RNV4EFBA/le-web-semantique-en-bibliotheque--9782765414179.html
+      \endverb
+      \verb{urlraw}
+      \verb https://shs.cairn.info/le-web-semantique-en-bibliotheque--9782765414179
+      \endverb
+      \verb{url}
+      \verb https://shs.cairn.info/le-web-semantique-en-bibliotheque--9782765414179
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{bermesPatrimoineNumeriqueNational2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e030e2b20e092b3fabbe90ad5fc15c0d}{%
+           family={Bermès},
+           familyi={B\bibinitperiod},
+           given={Emmanuelle},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af26c2ece86542733e95704d8f9165b3}{%
+           family={Moiraghi},
+           familyi={M\bibinitperiod},
+           given={Eleonora},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8f63ad5a8b1adf37b29eb685961216eb}
+      \strng{fullhash}{8f63ad5a8b1adf37b29eb685961216eb}
+      \strng{fullhashraw}{8f63ad5a8b1adf37b29eb685961216eb}
+      \strng{bibnamehash}{8f63ad5a8b1adf37b29eb685961216eb}
+      \strng{authorbibnamehash}{8f63ad5a8b1adf37b29eb685961216eb}
+      \strng{authornamehash}{8f63ad5a8b1adf37b29eb685961216eb}
+      \strng{authorfullhash}{8f63ad5a8b1adf37b29eb685961216eb}
+      \strng{authorfullhashraw}{8f63ad5a8b1adf37b29eb685961216eb}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Dans un contexte d’augmentation des volumétries des données et de réduction des temps de traitement, la Bibliothèque nationale de France est confrontée à plusieurs défis et évolutions. Afin de collecter, préserver, décrire et permettre l’étude d’ensembles de données massifs et hétérogènes, elle fait non seulement appel aux méthodes relevant des sciences de l’information mais elle recourt aussi aux techniques issues de l’informatique, de plus en plus développées dans le domaine de l’intelligence artificielle. Cette nécessité croissante de convoquer des compétences complémentaires, s’ajoutant aux opportunités ouvertes par les collections numériques pour la recherche, notamment en sciences humaines et sociales, induit pour la Bibliothèque la définition d’un espace pour le développement des humanités numériques.}
+      \field{day}{10}
+      \field{issn}{2967-9672}
+      \field{journaltitle}{Revue Ouverte d'Intelligence Artificielle}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{1}
+      \field{title}{Le Patrimoine Numérique National à l’heure de l’intelligence Artificielle}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{volume}{1}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{89\bibrangedash 109}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.5802/roia.5
+      \endverb
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/YIBXAUIH/Bermès and Moiraghi - 2020 - Le patrimoine numérique national à l’heure de l’intelligence artificielle.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://roia.centre-mersenne.org/articles/10.5802/roia.5/
+      \endverb
+      \verb{url}
+      \verb https://roia.centre-mersenne.org/articles/10.5802/roia.5/
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{bermesTroisAgesNumerique}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e030e2b20e092b3fabbe90ad5fc15c0d}{%
+           family={Bermès},
+           familyi={B\bibinitperiod},
+           given={Emmanuelle},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3589829689e3be332872995f39629943}{%
+           family={Poupeau},
+           familyi={P\bibinitperiod},
+           given={Gautier},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{41ec814911995648c4fdd9d2f2dc0732}
+      \strng{fullhash}{41ec814911995648c4fdd9d2f2dc0732}
+      \strng{fullhashraw}{41ec814911995648c4fdd9d2f2dc0732}
+      \strng{bibnamehash}{41ec814911995648c4fdd9d2f2dc0732}
+      \strng{authorbibnamehash}{41ec814911995648c4fdd9d2f2dc0732}
+      \strng{authornamehash}{41ec814911995648c4fdd9d2f2dc0732}
+      \strng{authorfullhash}{41ec814911995648c4fdd9d2f2dc0732}
+      \strng{authorfullhashraw}{41ec814911995648c4fdd9d2f2dc0732}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{Les trois âges du numérique: regards croisés entre la médiévistique et les bibliothèques}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/YHRQV78G/Bermès and Poupeau - Les trois âges du numérique regards croisés entre la médiévistique et les bibliothèques.pdf
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{bernonLierBasesLocales2017}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=82968eb249669cd1b78d4cf14f707671}{%
+           family={Bernon},
+           familyi={B\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{82968eb249669cd1b78d4cf14f707671}
+      \strng{fullhash}{82968eb249669cd1b78d4cf14f707671}
+      \strng{fullhashraw}{82968eb249669cd1b78d4cf14f707671}
+      \strng{bibnamehash}{82968eb249669cd1b78d4cf14f707671}
+      \strng{authorbibnamehash}{82968eb249669cd1b78d4cf14f707671}
+      \strng{authornamehash}{82968eb249669cd1b78d4cf14f707671}
+      \strng{authorfullhash}{82968eb249669cd1b78d4cf14f707671}
+      \strng{authorfullhashraw}{82968eb249669cd1b78d4cf14f707671}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Réinformatiser une bibliothèque}
+      \field{isbn}{979-10-91281-60-7}
+      \field{langid}{fre}
+      \field{title}{Lier les bases locales aux catalogues fédérés}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.6711
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{berthierProspecterQuelAvenir2017}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=49ca99a32a6c89827d08f6a5d0475aaf}{%
+           family={Berthier},
+           familyi={B\bibinitperiod},
+           given={Sandrine},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{49ca99a32a6c89827d08f6a5d0475aaf}
+      \strng{fullhash}{49ca99a32a6c89827d08f6a5d0475aaf}
+      \strng{fullhashraw}{49ca99a32a6c89827d08f6a5d0475aaf}
+      \strng{bibnamehash}{49ca99a32a6c89827d08f6a5d0475aaf}
+      \strng{authorbibnamehash}{49ca99a32a6c89827d08f6a5d0475aaf}
+      \strng{authornamehash}{49ca99a32a6c89827d08f6a5d0475aaf}
+      \strng{authorfullhash}{49ca99a32a6c89827d08f6a5d0475aaf}
+      \strng{authorfullhashraw}{49ca99a32a6c89827d08f6a5d0475aaf}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Réinformatiser une bibliothèque}
+      \field{isbn}{979-10-91281-60-7}
+      \field{langid}{fre}
+      \field{shorttitle}{Prospecter}
+      \field{title}{Prospecter: quel avenir pour l’informatique documentaire~?}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.6729
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{bertrandKohaLaExempleClub2017}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=7e95cdbd1ca81a892f5ba6a16b33739f}{%
+           family={Bertrand},
+           familyi={B\bibinitperiod},
+           given={Valérie},
+           giveni={V\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=b9c45be36f3c80c38cc34f94c9fb7056}{%
+           family={Bouis},
+           familyi={B\bibinitperiod},
+           given={Sonia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{4857ac62e27fd8339f6f9e07cee2d94c}
+      \strng{fullhash}{4857ac62e27fd8339f6f9e07cee2d94c}
+      \strng{fullhashraw}{4857ac62e27fd8339f6f9e07cee2d94c}
+      \strng{bibnamehash}{4857ac62e27fd8339f6f9e07cee2d94c}
+      \strng{authorbibnamehash}{4857ac62e27fd8339f6f9e07cee2d94c}
+      \strng{authornamehash}{4857ac62e27fd8339f6f9e07cee2d94c}
+      \strng{authorfullhash}{4857ac62e27fd8339f6f9e07cee2d94c}
+      \strng{authorfullhashraw}{4857ac62e27fd8339f6f9e07cee2d94c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Réinformatiser une bibliothèque}
+      \field{isbn}{979-10-91281-60-7}
+      \field{langid}{fre}
+      \field{shorttitle}{KohaLa}
+      \field{title}{KohaLa: un exemple de club utilisateurs de SIGB}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.6676
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{BibliothequeInteruniversitaireCujas}{online}{}{}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bibliothèque interuniversitaire Cujas. Paris | Bibliothèque délégataire CollEx}
+      \field{langid}{french}
+      \field{title}{Bibliothèque interuniversitaire Cujas. Paris}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://ccfr.bnf.fr/portailccfr/ark:/16871/0027824
+      \endverb
+      \verb{url}
+      \verb https://ccfr.bnf.fr/portailccfr/ark:/16871/0027824
+      \endverb
+      \keyw{ccfr,Cujas,Histoire,themeCujas}
+    \endentry
+    \entry{calengeCommentIntegrerRessources2014}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=839d15a18671d77457df324a24a00424}{%
+           family={Calenge},
+           familyi={C\bibinitperiod},
+           given={Bertrand},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{839d15a18671d77457df324a24a00424}
+      \strng{fullhash}{839d15a18671d77457df324a24a00424}
+      \strng{fullhashraw}{839d15a18671d77457df324a24a00424}
+      \strng{bibnamehash}{839d15a18671d77457df324a24a00424}
+      \strng{authorbibnamehash}{839d15a18671d77457df324a24a00424}
+      \strng{authornamehash}{839d15a18671d77457df324a24a00424}
+      \strng{authorfullhash}{839d15a18671d77457df324a24a00424}
+      \strng{authorfullhashraw}{839d15a18671d77457df324a24a00424}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Intégrer des ressources numériques dans les collections}
+      \field{isbn}{979-10-91281-18-8}
+      \field{langid}{fre}
+      \field{title}{Comment intégrer les ressources numériques dans une politique documentaire~?}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{46\bibrangedash 57}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.11628
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{carlinBnFDataLabService}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e0a78fed4944c4106b449841d0e6729e}{%
+           family={Carlin},
+           familyi={C\bibinitperiod},
+           given={Marie},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f9a865c5d330b67fafacc08e7ee0395}{%
+           family={Laborderie},
+           familyi={L\bibinitperiod},
+           given={Arnaud},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Humanistica}%
+      }
+      \strng{namehash}{877020d4136d298014da1bcd4d209a9a}
+      \strng{fullhash}{877020d4136d298014da1bcd4d209a9a}
+      \strng{fullhashraw}{877020d4136d298014da1bcd4d209a9a}
+      \strng{bibnamehash}{877020d4136d298014da1bcd4d209a9a}
+      \strng{authorbibnamehash}{877020d4136d298014da1bcd4d209a9a}
+      \strng{authornamehash}{877020d4136d298014da1bcd4d209a9a}
+      \strng{authorfullhash}{877020d4136d298014da1bcd4d209a9a}
+      \strng{authorfullhashraw}{877020d4136d298014da1bcd4d209a9a}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Depuis une dizaine d’années, l’augmentation massive des collections numériques de la Bibliothèque nationale de France (BNF) –~Gallica, archives de l’Internet, métadonnées,~etc.~– ouvre de nouvelles pistes de recherche, faisant émerger des problématiques d’exploitation des données patrimoniales par les chercheurs. Pour répondre à leurs usages et besoins, la BNF met en place un nouveau service, le BnF DataLab, dont l’objectif est d’accompagner les équipes de recherche pour constituer et traiter des corpus numériques. Ce lieu, conçu pour le travail individuel et collaboratif, a ouvert ses portes en octobre~2021. Over the past ten years, the huge increase of digital collections at the National Library of France (BNF) — Gallica, Internet archives, metadata,~etc. — has opened up new perspectives, raising the issue of how researchers use heritage data. To meet these uses and needs, the BNF is setting up a new service: the BnF DataLab, aimed to support research teams in constituting and processing digital corpora. This place is designed for individual and collaborative work and opened in October 2021.}
+      \field{issn}{2736-2337}
+      \field{journaltitle}{Humanités numériques (Lille)}
+      \field{langid}{eng ; fre}
+      \field{title}{Le BnF DataLab, un service aux chercheurs en humanités numériques}
+      \field{volume}{4}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.4000/revuehn.2684
+      \endverb
+      \keyw{archives,bibliothque numerique,collection,dataLab,digital library,digitisation,humanités numériques,information and communication sciences,themeDonnees,Web}
+    \endentry
+    \entry{caronEnjeuxProfessionnelsAujourdhui2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5aaf46f02e6bb83a75abdb9157be250f}{%
+           family={Caron},
+           familyi={C\bibinitperiod},
+           given={Agnès},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {A.D.B.S.}%
+      }
+      \strng{namehash}{5aaf46f02e6bb83a75abdb9157be250f}
+      \strng{fullhash}{5aaf46f02e6bb83a75abdb9157be250f}
+      \strng{fullhashraw}{5aaf46f02e6bb83a75abdb9157be250f}
+      \strng{bibnamehash}{5aaf46f02e6bb83a75abdb9157be250f}
+      \strng{authorbibnamehash}{5aaf46f02e6bb83a75abdb9157be250f}
+      \strng{authornamehash}{5aaf46f02e6bb83a75abdb9157be250f}
+      \strng{authorfullhash}{5aaf46f02e6bb83a75abdb9157be250f}
+      \strng{authorfullhashraw}{5aaf46f02e6bb83a75abdb9157be250f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Transition bibliographique, web sémantique, données d’usage, open data et open science, données et métadonnées de la recherche… Autant d’enjeux auxquels feront face les professionnels de l’information et des bibliothèques dans les prochaines années. Ils devront non seulement être capables de collecter, traiter, analyser, valoriser les données et les réutiliser, mais aussi de mesurer les biais, limites et risques éthiques de la gouvernance par les données.}
+      \field{day}{16}
+      \field{issn}{2428-2111}
+      \field{journaltitle}{I2D - Information, données \& documents}
+      \field{langid}{french}
+      \field{month}{7}
+      \field{number}{1}
+      \field{shorttitle}{Enjeux professionnels aujourd’hui et demain}
+      \field{title}{Enjeux professionnels aujourd’hui et demain : les données au cœur de nos métiers}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{volume}{1}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{102\bibrangedash 106}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.3917/i2d.241.0102
+      \endverb
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/ZX93LZ6K/Caron - 2024 - Enjeux professionnels aujourd’hui et demain les données au cœur de nos métiers.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://shs.cairn.info/revue-i2d-information-donnees-et-documents-2024-1-page-102
+      \endverb
+      \verb{url}
+      \verb https://shs.cairn.info/revue-i2d-information-donnees-et-documents-2024-1-page-102
+      \endverb
+      \keyw{bibliotheque,données,IA,themeDonnees}
+    \endentry
+    \entry{cavalieLindexationMatiereTransition2019}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c9cd38b32c4e1fb50c763fd050b257a1}{%
+           family={Cavalié},
+           familyi={C\bibinitperiod},
+           given={Etienne},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c9cd38b32c4e1fb50c763fd050b257a1}
+      \strng{fullhash}{c9cd38b32c4e1fb50c763fd050b257a1}
+      \strng{fullhashraw}{c9cd38b32c4e1fb50c763fd050b257a1}
+      \strng{bibnamehash}{c9cd38b32c4e1fb50c763fd050b257a1}
+      \strng{authorbibnamehash}{c9cd38b32c4e1fb50c763fd050b257a1}
+      \strng{authornamehash}{c9cd38b32c4e1fb50c763fd050b257a1}
+      \strng{authorfullhash}{c9cd38b32c4e1fb50c763fd050b257a1}
+      \strng{authorfullhashraw}{c9cd38b32c4e1fb50c763fd050b257a1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Quarante ans après sa création, le langage documentaire Rameau subit une réforme en lien avec la transition bibliographique. L’évolution de cette indexation, pour une exploitation améliorée dans les systèmes de gestion, les catalogues et sur le web, mène à une transformation des missions des professionnels des bibliothèques qu’il est nécessaire d’appréhender au mieux.}
+      \field{booktitle}{L'indexation Matière En Transition - {{De}} La Réforme de {{Rameau}} à l'indexation Automatique, {{Etienne Cavalié}} Dir., {{Paris}}, {{Editions}} Du {{Cercle}} de La {{Librarie}}, 2019, ({{Collection}} ”{{Bibliothèques}}”) - 978-2-7654-1623-4}
+      \field{month}{12}
+      \field{shorttitle}{L'indexation Matière En Transition}
+      \field{title}{L'indexation Matière En Transition : De La Réforme de {{Rameau}} à l'indexation Automatique : Introduction et Conclusion}
+      \field{urlday}{28}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/E5S7BZEX/Cavalié - 2019 - L'indexation matière en transition de la réforme de Rameau à l'indexation automatique introducti.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://hal.science/hal-02435623
+      \endverb
+      \verb{url}
+      \verb https://hal.science/hal-02435623
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{cecilebolardLindexationPistePour2022}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7487493296b7379501eb400849e89391}{%
+           family={{cecilebolard}},
+           familyi={c\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {JurIST}%
+      }
+      \strng{namehash}{7487493296b7379501eb400849e89391}
+      \strng{fullhash}{7487493296b7379501eb400849e89391}
+      \strng{fullhashraw}{7487493296b7379501eb400849e89391}
+      \strng{bibnamehash}{7487493296b7379501eb400849e89391}
+      \strng{authorbibnamehash}{7487493296b7379501eb400849e89391}
+      \strng{authornamehash}{7487493296b7379501eb400849e89391}
+      \strng{authorfullhash}{7487493296b7379501eb400849e89391}
+      \strng{authorfullhashraw}{7487493296b7379501eb400849e89391}
+      \field{sortinit}{c}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{L’indexation est une méthode d’analyse d’un document permettant d’en indiquer les contenus dans sa notice bibliographique. Il s’agit pour les bibliothécaires d’en identifier les thèmes principaux pour en refléter le sens. Ainsi, un usager pourra rechercher un document d’après son contenu dans le catalogue de la bibliothèque ((Comprendre la différence entre cotation et indexation, fiche…}
+      \field{day}{7}
+      \field{issn}{2729-2789}
+      \field{langid}{french}
+      \field{month}{7}
+      \field{title}{L’indexation, une piste pour améliorer la visibilité de ses publications}
+      \field{type}{Billet}
+      \field{urlday}{28}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.58079/nf8m
+      \endverb
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/7EVSMAXE/765.html
+      \endverb
+      \verb{urlraw}
+      \verb https://cujas.hypotheses.org/765
+      \endverb
+      \verb{url}
+      \verb https://cujas.hypotheses.org/765
+      \endverb
+    \endentry
+    \entry{chaineuxLentreeDansWeb}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2985126a235fb1bff701de589bd7ccd5}{%
+           family={Chaineux},
+           familyi={C\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2985126a235fb1bff701de589bd7ccd5}
+      \strng{fullhash}{2985126a235fb1bff701de589bd7ccd5}
+      \strng{fullhashraw}{2985126a235fb1bff701de589bd7ccd5}
+      \strng{bibnamehash}{2985126a235fb1bff701de589bd7ccd5}
+      \strng{authorbibnamehash}{2985126a235fb1bff701de589bd7ccd5}
+      \strng{authornamehash}{2985126a235fb1bff701de589bd7ccd5}
+      \strng{authorfullhash}{2985126a235fb1bff701de589bd7ccd5}
+      \strng{authorfullhashraw}{2985126a235fb1bff701de589bd7ccd5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{L'entrée dans le Web de données: enjeux, principes et contraintes. Les cas de l'Association des Amis de la Fondation Seguin et du logiciel Omeka-S}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/PNNYNILP/Chaineux - L'entrée dans le Web de données enjeux, principes et contraintes. Les cas de l'Association des Amis.pdf
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{claerrGestionConservationCollections2014a}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=698bfb39b9d7f919e4df883ac1c31f88}{%
+           family={Claerr},
+           familyi={C\bibinitperiod},
+           given={Thierry},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3c91f4db08e3ca2be7a5395647de486}{%
+           family={Moufflet},
+           familyi={M\bibinitperiod},
+           given={Jean-François},
+           giveni={J\bibinithyphendelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{21e2b8afb5a4ca9095e2c7c99835a9db}
+      \strng{fullhash}{21e2b8afb5a4ca9095e2c7c99835a9db}
+      \strng{fullhashraw}{21e2b8afb5a4ca9095e2c7c99835a9db}
+      \strng{bibnamehash}{21e2b8afb5a4ca9095e2c7c99835a9db}
+      \strng{authorbibnamehash}{21e2b8afb5a4ca9095e2c7c99835a9db}
+      \strng{authornamehash}{21e2b8afb5a4ca9095e2c7c99835a9db}
+      \strng{authorfullhash}{21e2b8afb5a4ca9095e2c7c99835a9db}
+      \strng{authorfullhashraw}{21e2b8afb5a4ca9095e2c7c99835a9db}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Intégrer des ressources numériques dans les collections}
+      \field{isbn}{979-10-91281-18-8}
+      \field{langid}{fre}
+      \field{title}{Gestion de la conservation des collections numéiques}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{153\bibrangedash 166}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.11738
+      \endverb
+      \keyw{themeNumerisation}
+    \endentry
+    \entry{claerrManuelConstitutionBibliotheques2013a}{book}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=698bfb39b9d7f919e4df883ac1c31f88}{%
+           family={Claerr},
+           familyi={C\bibinitperiod},
+           given={Thierry},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=12367063ebf56fc3b36ee42a37b841e2}{%
+           family={Westeel},
+           familyi={W\bibinitperiod},
+           given={Isabelle)},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a20e228326033a7aeea5d02171af0c67}{%
+           family={Ory-Lavollée},
+           familyi={O\bibinithyphendelim L\bibinitperiod},
+           given={Bruno)},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ca42e59e7979dd8902171e65877b728}{%
+           family={Georges},
+           familyi={G\bibinitperiod},
+           given={Nicolas)},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \list{publisher}{1}{%
+        {Éd. du Cercle de la librairie, Éditions du Cercle de la librairie}%
+      }
+      \strng{namehash}{80f0eba3aa2a303c843709155f55e0ff}
+      \strng{fullhash}{35e56a44e9197e19ca627239c1ef2c2e}
+      \strng{fullhashraw}{35e56a44e9197e19ca627239c1ef2c2e}
+      \strng{bibnamehash}{35e56a44e9197e19ca627239c1ef2c2e}
+      \strng{authorbibnamehash}{35e56a44e9197e19ca627239c1ef2c2e}
+      \strng{authornamehash}{80f0eba3aa2a303c843709155f55e0ff}
+      \strng{authorfullhash}{35e56a44e9197e19ca627239c1ef2c2e}
+      \strng{authorfullhashraw}{35e56a44e9197e19ca627239c1ef2c2e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Claerr Thierry, Westeel Isabelle 1963-...., Ory-Lavollée Bruno 1961-...., Georges Nicolas 1966-....}
+      \field{isbn}{978-2-7654-1413-1}
+      \field{langid}{fre}
+      \field{pagetotal}{407}
+      \field{series}{Collection Bibliothèques}
+      \field{title}{Manuel de constitution de bibliothèques numériques}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://catalogue-bib.espci.psl.eu/cgi-bin/koha/opac-detail.pl?biblionumber=13621
+      \endverb
+      \verb{url}
+      \verb https://catalogue-bib.espci.psl.eu/cgi-bin/koha/opac-detail.pl?biblionumber=13621
+      \endverb
+      \keyw{Bibliothèques numériques,Bibliothèques virtuelles,Description bibliographique,Diffusion sélective de l'information,Documentation,Documentation de bibliothèque,Droit d'auteur,Édition en libre accès,Guides pratiques et mémentos,Information électronique,Internet,Numérisation,Technique,themeNumerisation}
+    \endentry
+    \entry{clavelReseauSuisseRERO2017}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b3a10e3ff25d33a39b473ecf7cef9fc3}{%
+           family={Clavel},
+           familyi={C\bibinitperiod},
+           given={Thierry},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{b3a10e3ff25d33a39b473ecf7cef9fc3}
+      \strng{fullhash}{b3a10e3ff25d33a39b473ecf7cef9fc3}
+      \strng{fullhashraw}{b3a10e3ff25d33a39b473ecf7cef9fc3}
+      \strng{bibnamehash}{b3a10e3ff25d33a39b473ecf7cef9fc3}
+      \strng{authorbibnamehash}{b3a10e3ff25d33a39b473ecf7cef9fc3}
+      \strng{authornamehash}{b3a10e3ff25d33a39b473ecf7cef9fc3}
+      \strng{authorfullhash}{b3a10e3ff25d33a39b473ecf7cef9fc3}
+      \strng{authorfullhashraw}{b3a10e3ff25d33a39b473ecf7cef9fc3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Réinformatiser une bibliothèque}
+      \field{isbn}{979-10-91281-60-7}
+      \field{langid}{fre}
+      \field{title}{Le réseau suisse RERO}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.6720
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{contatLangagesDocumentairesNouvelles2003}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f1a24612726a67b5c4760383b24e851c}{%
+           family={Contat},
+           familyi={C\bibinitperiod},
+           given={Odile},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Institut national des techniques de la documentation du CNAM}%
+      }
+      \strng{namehash}{f1a24612726a67b5c4760383b24e851c}
+      \strng{fullhash}{f1a24612726a67b5c4760383b24e851c}
+      \strng{fullhashraw}{f1a24612726a67b5c4760383b24e851c}
+      \strng{bibnamehash}{f1a24612726a67b5c4760383b24e851c}
+      \strng{authorbibnamehash}{f1a24612726a67b5c4760383b24e851c}
+      \strng{authornamehash}{f1a24612726a67b5c4760383b24e851c}
+      \strng{authorfullhash}{f1a24612726a67b5c4760383b24e851c}
+      \strng{authorfullhashraw}{f1a24612726a67b5c4760383b24e851c}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{L'auteur définit dans un premier temps les fonctions du langage documentaire (normalisation, désambiguïsation, organisation des connaissances et structuration), et le fonctionnement de l'indexation automatique et des différents traitements linguistiques, statistiques et sémantiques. Puis il replace la problématique de la recherche d'information dans le contexte particulier de la presse et décrit les systèmes d'informations de Bayard, du Monde, des Échos et du Nouvel Observateur. Ensuite, en partant des besoins d'informations des journalistes, il tente de définir les rôles et les fonctions des langages documentaires face à l'utilisation des nouvelles technologies en fonction d'une typologie de l'indexation. Dans les systèmes d'informations presse, les outils d'indexation automatique et de recherche en texte intégral peuvent prendre en charge le traitement linguistique et sémantique, la classification automatique, etc. Pourtant le rôle des langages documentaires et la place de l'indexation humaine restent importants. Un usage sélectif de l'indexation manuelle permet une meilleure conceptualisation du sujet et une véritable structuration des documents en fonction des types d'information. L'intégration des langages améliore les performances de la recherche sémantique et permet une meilleure normalisation et désambiguïsation du langage naturel. Les fonctions d'organisation des connaissances, de médiation et d'aide à la recherche des langages documentaires viennent en complémentarité des classifications et de l'hypertexte. Le langage documentaire apparaît en complémentarité de la recherche en texte intégral. Même s'il devient de plus en plus invisible, intégré aux nouvelles technologies, ces fonctions sont préservées et demeurent indispensables.}
+      \field{day}{5}
+      \field{langid}{french}
+      \field{month}{11}
+      \field{shorttitle}{Langages documentaires et nouvelles technologies}
+      \field{title}{Langages documentaires et nouvelles technologies : l'avenir des langages et leur positionnement au cœur des systèmes d'informations dans le contexte de la presse.}
+      \field{type}{other}
+      \field{urlday}{28}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/TWDK8H9Q/Contat - 2003 - Langages documentaires et nouvelles technologies l'avenir des langages et leur positionnement au c.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://memsic.ccsd.cnrs.fr/mem_00000057
+      \endverb
+      \verb{url}
+      \verb https://memsic.ccsd.cnrs.fr/mem_00000057
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{coudrinDispositifsSignalementUniversite2014}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1de620e1ff117c3ad5a5041c141ce976}{%
+           family={Coudrin},
+           familyi={C\bibinitperiod},
+           given={Delphine},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{1de620e1ff117c3ad5a5041c141ce976}
+      \strng{fullhash}{1de620e1ff117c3ad5a5041c141ce976}
+      \strng{fullhashraw}{1de620e1ff117c3ad5a5041c141ce976}
+      \strng{bibnamehash}{1de620e1ff117c3ad5a5041c141ce976}
+      \strng{authorbibnamehash}{1de620e1ff117c3ad5a5041c141ce976}
+      \strng{authornamehash}{1de620e1ff117c3ad5a5041c141ce976}
+      \strng{authorfullhash}{1de620e1ff117c3ad5a5041c141ce976}
+      \strng{authorfullhashraw}{1de620e1ff117c3ad5a5041c141ce976}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Intégrer des ressources numériques dans les collections}
+      \field{isbn}{979-10-91281-18-8}
+      \field{langid}{fre}
+      \field{title}{Les dispositifs de signalement en université}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{112\bibrangedash 126}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.11727
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{coudrinIntegrerSignalerRessources2014}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1de620e1ff117c3ad5a5041c141ce976}{%
+           family={Coudrin},
+           familyi={C\bibinitperiod},
+           given={Delphine},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=362e05a56f7435b5c0565dd52c81c64a}{%
+           family={Hatt},
+           familyi={H\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{d65f9b8ac1e59d339f3b96f357af5d6b}
+      \strng{fullhash}{d65f9b8ac1e59d339f3b96f357af5d6b}
+      \strng{fullhashraw}{d65f9b8ac1e59d339f3b96f357af5d6b}
+      \strng{bibnamehash}{d65f9b8ac1e59d339f3b96f357af5d6b}
+      \strng{authorbibnamehash}{d65f9b8ac1e59d339f3b96f357af5d6b}
+      \strng{authornamehash}{d65f9b8ac1e59d339f3b96f357af5d6b}
+      \strng{authorfullhash}{d65f9b8ac1e59d339f3b96f357af5d6b}
+      \strng{authorfullhashraw}{d65f9b8ac1e59d339f3b96f357af5d6b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Intégrer des ressources numériques dans les collections}
+      \field{isbn}{979-10-91281-18-8}
+      \field{langid}{fre}
+      \field{shorttitle}{Intégrer, signaler les ressources numériques}
+      \field{title}{Intégrer, signaler les ressources numériques: 20 questions-clés}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{90\bibrangedash 102}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.11637
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{creusotQuellesPerspectivesPour}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8dc5d257ef95210fcfb51fa29ff1751b}{%
+           family={Creusot},
+           familyi={C\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8dc5d257ef95210fcfb51fa29ff1751b}
+      \strng{fullhash}{8dc5d257ef95210fcfb51fa29ff1751b}
+      \strng{fullhashraw}{8dc5d257ef95210fcfb51fa29ff1751b}
+      \strng{bibnamehash}{8dc5d257ef95210fcfb51fa29ff1751b}
+      \strng{authorbibnamehash}{8dc5d257ef95210fcfb51fa29ff1751b}
+      \strng{authornamehash}{8dc5d257ef95210fcfb51fa29ff1751b}
+      \strng{authorfullhash}{8dc5d257ef95210fcfb51fa29ff1751b}
+      \strng{authorfullhashraw}{8dc5d257ef95210fcfb51fa29ff1751b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The environmental impact of digital technology has recently been highlighted as a growing concern. In this context, libraries are facing a new challenge: reconciling the general interest objectives assigned to heritage digitization with environmental responsibility. Efficient data management requires the implementation of best practices at every stage of the digitization process, from the capture of images to the design of digital libraries and the digital preservation. The environmental imperative also requires shifting digitization paradigm, as part of a sustainable digital ecosystem that strives for sobriety, without excluding the challenge of societal impact.}
+      \field{langid}{french}
+      \field{title}{Quelles perspectives pour des politiques de numérisation patrimoniale écoresponsables ?}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/9RA9ESHP/Creusot - Quelles perspectives pour des politiques de numérisation patrimoniale écoresponsables .pdf
+      \endverb
+      \keyw{themeNumerisation}
+    \endentry
+    \entry{dalmonRessourcesDocumentairesDroit2012}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0368b216a29cbb6d4e9f21a208ceb111}{%
+           family={Dalmon},
+           familyi={D\bibinitperiod},
+           given={Sébastien},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Éditions du Cercle de la Librairie}%
+      }
+      \strng{namehash}{0368b216a29cbb6d4e9f21a208ceb111}
+      \strng{fullhash}{0368b216a29cbb6d4e9f21a208ceb111}
+      \strng{fullhashraw}{0368b216a29cbb6d4e9f21a208ceb111}
+      \strng{bibnamehash}{0368b216a29cbb6d4e9f21a208ceb111}
+      \strng{authorbibnamehash}{0368b216a29cbb6d4e9f21a208ceb111}
+      \strng{authornamehash}{0368b216a29cbb6d4e9f21a208ceb111}
+      \strng{authorfullhash}{0368b216a29cbb6d4e9f21a208ceb111}
+      \strng{authorfullhashraw}{0368b216a29cbb6d4e9f21a208ceb111}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Droit d’auteur et bibliothèques}
+      \field{isbn}{978-2-7654-1348-6}
+      \field{issn}{0184-0886}
+      \field{langid}{french}
+      \field{title}{Les ressources documentaires sur le droit d’auteur en France}
+      \field{urlday}{12}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{219\bibrangedash 234}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.3917/elec.alix.2012.01.0219
+      \endverb
+      \verb{urlraw}
+      \verb https://droit.cairn.info/droit-d-auteur-et-bibliotheques--9782765413486-page-219
+      \endverb
+      \verb{url}
+      \verb https://droit.cairn.info/droit-d-auteur-et-bibliotheques--9782765413486-page-219
+      \endverb
+    \endentry
+    \entry{declimmerIdentifierSourcesFinancement2017}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=27b76a2a662a8cd41dd34022aea9fd3e}{%
+           family={De\bibnamedelima Climmer},
+           familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Esther},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{27b76a2a662a8cd41dd34022aea9fd3e}
+      \strng{fullhash}{27b76a2a662a8cd41dd34022aea9fd3e}
+      \strng{fullhashraw}{27b76a2a662a8cd41dd34022aea9fd3e}
+      \strng{bibnamehash}{27b76a2a662a8cd41dd34022aea9fd3e}
+      \strng{authorbibnamehash}{27b76a2a662a8cd41dd34022aea9fd3e}
+      \strng{authornamehash}{27b76a2a662a8cd41dd34022aea9fd3e}
+      \strng{authorfullhash}{27b76a2a662a8cd41dd34022aea9fd3e}
+      \strng{authorfullhashraw}{27b76a2a662a8cd41dd34022aea9fd3e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Réinformatiser une bibliothèque}
+      \field{isbn}{979-10-91281-60-7}
+      \field{langid}{fre}
+      \field{shorttitle}{Identifier des sources de financement}
+      \field{title}{Identifier des sources de financement: le cas de la médiathèque de Roubaix}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.6583
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{dipietroProduireContenusDocumentaires2014}{book}{}{}
+      \name{editor}{1}{}{%
+        {{un=0,uniquepart=base,hash=fbe333981b0af3b8e55afb4dfe9be427}{%
+           family={Di\bibnamedelima Pietro},
+           familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Christelle},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{fbe333981b0af3b8e55afb4dfe9be427}
+      \strng{fullhash}{fbe333981b0af3b8e55afb4dfe9be427}
+      \strng{fullhashraw}{fbe333981b0af3b8e55afb4dfe9be427}
+      \strng{bibnamehash}{fbe333981b0af3b8e55afb4dfe9be427}
+      \strng{editorbibnamehash}{fbe333981b0af3b8e55afb4dfe9be427}
+      \strng{editornamehash}{fbe333981b0af3b8e55afb4dfe9be427}
+      \strng{editorfullhash}{fbe333981b0af3b8e55afb4dfe9be427}
+      \strng{editorfullhashraw}{fbe333981b0af3b8e55afb4dfe9be427}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Les bibliothèques sont confrontées à des nécessités d’exploitation de leurs collections qui ne passent plus seulement par la gestion du stock mais par l’appropriation et la restitution de contenus documentaires. Le plan de l’ouvrage s’articule autour de quatre parties : exploiter les collections ; la curation et la production de contenus ; produire en réseau, et enfin, connaître le contexte juridique et écrire pour le web. Ainsi, le professionnel est devenu médiateur, producteur et éditeur de matières documentaires élaborées. Chaque partie traite aussi des nouvelles compétences relationnelles et techniques à acquérir pour ce faire. Une quinzaine de professionnels abordent ces différents aspects, en s’appuyant sur des réalisations concrètes menées dans les bibliothèques, de lecture publique comme des universités.}
+      \field{isbn}{978-2-37546-060-3}
+      \field{langid}{french}
+      \field{pagetotal}{188}
+      \field{series}{La Boîte à outils}
+      \field{shorttitle}{Produire des contenus documentaires en ligne}
+      \field{title}{Produire des contenus documentaires en ligne : Quelles stratégies pour les bibliothèques ?}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://books.openedition.org/pressesenssib/2814
+      \endverb
+      \verb{url}
+      \verb https://books.openedition.org/pressesenssib/2814
+      \endverb
+      \keyw{agrégateur,bibliothèques numériques,curation,documentaliste,droit de l'information,e-books,gestion de l'information,recherches documentaires,réseaux sociaux,themeDonnees}
+    \endentry
+    \entry{elBibliothequeNumeriqueCognition}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e7e29a589f80aca168591c21b532e8ad}{%
+           family={El},
+           familyi={E\bibinitperiod},
+           given={Allouche},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e7e29a589f80aca168591c21b532e8ad}
+      \strng{fullhash}{e7e29a589f80aca168591c21b532e8ad}
+      \strng{fullhashraw}{e7e29a589f80aca168591c21b532e8ad}
+      \strng{bibnamehash}{e7e29a589f80aca168591c21b532e8ad}
+      \strng{authorbibnamehash}{e7e29a589f80aca168591c21b532e8ad}
+      \strng{authornamehash}{e7e29a589f80aca168591c21b532e8ad}
+      \strng{authorfullhash}{e7e29a589f80aca168591c21b532e8ad}
+      \strng{authorfullhashraw}{e7e29a589f80aca168591c21b532e8ad}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{Bibliothèque numérique et cognition}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/XQA8I8E9/El - Bibliothèque numérique et cognition.pdf
+      \endverb
+      \keyw{themeNumerisation}
+    \endentry
+    \entry{fournier-sowinskiSlowScienceRepenser}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0686287622a5b1584c20f8f5579b2157}{%
+           family={Fournier-sowinski},
+           familyi={F\bibinithyphendelim s\bibinitperiod},
+           given={Jérôme},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0686287622a5b1584c20f8f5579b2157}
+      \strng{fullhash}{0686287622a5b1584c20f8f5579b2157}
+      \strng{fullhashraw}{0686287622a5b1584c20f8f5579b2157}
+      \strng{bibnamehash}{0686287622a5b1584c20f8f5579b2157}
+      \strng{authorbibnamehash}{0686287622a5b1584c20f8f5579b2157}
+      \strng{authornamehash}{0686287622a5b1584c20f8f5579b2157}
+      \strng{authorfullhash}{0686287622a5b1584c20f8f5579b2157}
+      \strng{authorfullhashraw}{0686287622a5b1584c20f8f5579b2157}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{Slow science: repenser le rythme de la recherche}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/8YW2L2GP/Fournier-sowinski - Slow science repenser le rythme de la recherche.pdf
+      \endverb
+      \keyw{themeMethodo}
+    \endentry
+    \entry{fraysseNumerisationDansCadre2015}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ce0cbea9934629be91cb2f4a82c0fedf}{%
+           family={Fraysse},
+           familyi={F\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’Université Toulouse Capitole;}%
+      }
+      \strng{namehash}{ce0cbea9934629be91cb2f4a82c0fedf}
+      \strng{fullhash}{ce0cbea9934629be91cb2f4a82c0fedf}
+      \strng{fullhashraw}{ce0cbea9934629be91cb2f4a82c0fedf}
+      \strng{bibnamehash}{ce0cbea9934629be91cb2f4a82c0fedf}
+      \strng{authorbibnamehash}{ce0cbea9934629be91cb2f4a82c0fedf}
+      \strng{authornamehash}{ce0cbea9934629be91cb2f4a82c0fedf}
+      \strng{authorfullhash}{ce0cbea9934629be91cb2f4a82c0fedf}
+      \strng{authorfullhashraw}{ce0cbea9934629be91cb2f4a82c0fedf}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{L’examen des projets de numérisation des collections des bibliothèques révèle une situation paradoxale. D’une part, on constate des progrès techniques considérables dans la mise en œuvre des numérisations : le matériel et les scanners sont de plus en plus performants et les coûts sont à la baisse. On est passé en une dizaine d’années d’une numérisation choisie à une numérisation de masse. Et d’autre part, le cadre juridique protecteur semble entraver la mise à disposition d’art}
+      \field{booktitle}{Des patrimoines et des normes}
+      \field{langid}{french}
+      \field{month}{1}
+      \field{title}{La numérisation dans le cadre du droit d’auteur}
+      \field{urlday}{11}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.4000/books.putc.9889
+      \endverb
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/KMDU2944/9964.html
+      \endverb
+      \verb{urlraw}
+      \verb https://books.openedition.org/putc/9964
+      \endverb
+      \verb{url}
+      \verb https://books.openedition.org/putc/9964
+      \endverb
+      \keyw{themeNumerisation}
+    \endentry
+    \entry{frejAlgorithmesNotificationPour}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=58e0fddb1acbc15ebe184ebf6ab457be}{%
+           family={Frej},
+           familyi={F\bibinitperiod},
+           given={Hanen\bibnamedelima Belhaj},
+           giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52da7d685e4acd59b2f2af0f849546f4}{%
+           family={Rigaux},
+           familyi={R\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=440b327e9194454b5d6864108ae8d92b}{%
+           family={Spyratos},
+           familyi={S\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0c872ee7c1377fa0125a4b18f91fb8be}
+      \strng{fullhash}{0c872ee7c1377fa0125a4b18f91fb8be}
+      \strng{fullhashraw}{0c872ee7c1377fa0125a4b18f91fb8be}
+      \strng{bibnamehash}{0c872ee7c1377fa0125a4b18f91fb8be}
+      \strng{authorbibnamehash}{0c872ee7c1377fa0125a4b18f91fb8be}
+      \strng{authornamehash}{0c872ee7c1377fa0125a4b18f91fb8be}
+      \strng{authorfullhash}{0c872ee7c1377fa0125a4b18f91fb8be}
+      \strng{authorfullhashraw}{0c872ee7c1377fa0125a4b18f91fb8be}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We consider a publish/subscribe system dedicated to large Digital Libraries. The system allows users to submit subscriptions in order to be informed of events that affect the content of the library. The paper addresses the problem of efficiently supporting the notification process, and proposes data structures and algorithms tailored to the context. An extensive experimental results shows the cost benefits obtained by our approach.}
+      \field{langid}{french}
+      \field{title}{Algorithmes de notification pour bibliothèques numériques}
+      \true{nocite}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/ZEIWW3LB/Frej et al. - Algorithmes de notiﬁcation pour bibliothèques numériques.pdf
+      \endverb
+      \keyw{themeNumerisation}
+    \endentry
+    \entry{garciaChoisirSolutionLibre2017}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3304a4781631ccbf2b000bddebe3df6f}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3036829909cea7bf41cf32a5ca325d3c}{%
+           family={Svenbro},
+           familyi={S\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{1878e11d9b3e55c11df958ed0ebd73a0}
+      \strng{fullhash}{1878e11d9b3e55c11df958ed0ebd73a0}
+      \strng{fullhashraw}{1878e11d9b3e55c11df958ed0ebd73a0}
+      \strng{bibnamehash}{1878e11d9b3e55c11df958ed0ebd73a0}
+      \strng{authorbibnamehash}{1878e11d9b3e55c11df958ed0ebd73a0}
+      \strng{authornamehash}{1878e11d9b3e55c11df958ed0ebd73a0}
+      \strng{authorfullhash}{1878e11d9b3e55c11df958ed0ebd73a0}
+      \strng{authorfullhashraw}{1878e11d9b3e55c11df958ed0ebd73a0}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Réinformatiser une bibliothèque}
+      \field{isbn}{979-10-91281-60-7}
+      \field{langid}{fre}
+      \field{title}{Choisir une solution libre ou propriétaire}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.6648
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{gaschignardPremieresReflexionsAu2017}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cce4f350dac104cf162a29244621d50d}{%
+           family={Gaschignard},
+           familyi={G\bibinitperiod},
+           given={Jean-Paul},
+           giveni={J\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{cce4f350dac104cf162a29244621d50d}
+      \strng{fullhash}{cce4f350dac104cf162a29244621d50d}
+      \strng{fullhashraw}{cce4f350dac104cf162a29244621d50d}
+      \strng{bibnamehash}{cce4f350dac104cf162a29244621d50d}
+      \strng{authorbibnamehash}{cce4f350dac104cf162a29244621d50d}
+      \strng{authornamehash}{cce4f350dac104cf162a29244621d50d}
+      \strng{authorfullhash}{cce4f350dac104cf162a29244621d50d}
+      \strng{authorfullhashraw}{cce4f350dac104cf162a29244621d50d}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Réinformatiser une bibliothèque}
+      \field{isbn}{979-10-91281-60-7}
+      \field{langid}{fre}
+      \field{shorttitle}{Des premières réflexions au dossier de préfiguration}
+      \field{title}{Des premières réflexions au dossier de préfiguration: analyse des besoins et choix des orientations}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.6570
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{gauthierProtocoleOAIPMHFonctionnalitesa}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=18c3f370e9cc3ea763880d4e107fc33f}{%
+           family={Gauthier},
+           familyi={G\bibinitperiod},
+           given={Mélanie},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{18c3f370e9cc3ea763880d4e107fc33f}
+      \strng{fullhash}{18c3f370e9cc3ea763880d4e107fc33f}
+      \strng{fullhashraw}{18c3f370e9cc3ea763880d4e107fc33f}
+      \strng{bibnamehash}{18c3f370e9cc3ea763880d4e107fc33f}
+      \strng{authorbibnamehash}{18c3f370e9cc3ea763880d4e107fc33f}
+      \strng{authornamehash}{18c3f370e9cc3ea763880d4e107fc33f}
+      \strng{authorfullhash}{18c3f370e9cc3ea763880d4e107fc33f}
+      \strng{authorfullhashraw}{18c3f370e9cc3ea763880d4e107fc33f}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{Le protocole OAI-PMH et les fonctionnalités de recherche: étude de portails du domaine patrimonial}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/ABIIARCB/Gauthier - Le protocole OAI-PMH et les fonctionnalités de recherche étude de portails du domaine patrimonial.pdf
+      \endverb
+      \keyw{themeNumerisation}
+    \endentry
+    \entry{gioanGestionLinformationLere}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6cfd915fda74e2ed1e57ad5a0b705c1f}{%
+           family={Gioan},
+           familyi={G\bibinitperiod},
+           given={Maëlys},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6cfd915fda74e2ed1e57ad5a0b705c1f}
+      \strng{fullhash}{6cfd915fda74e2ed1e57ad5a0b705c1f}
+      \strng{fullhashraw}{6cfd915fda74e2ed1e57ad5a0b705c1f}
+      \strng{bibnamehash}{6cfd915fda74e2ed1e57ad5a0b705c1f}
+      \strng{authorbibnamehash}{6cfd915fda74e2ed1e57ad5a0b705c1f}
+      \strng{authornamehash}{6cfd915fda74e2ed1e57ad5a0b705c1f}
+      \strng{authorfullhash}{6cfd915fda74e2ed1e57ad5a0b705c1f}
+      \strng{authorfullhashraw}{6cfd915fda74e2ed1e57ad5a0b705c1f}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{La gestion de l'information à l'ère du numérique: entre héritage et innovation. Le cas du Musée de l'Air et de l'Espace}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/B54H8WQU/Gioan - La gestion de l'information à l'ère du numérique entre héritage et innovation. Le cas du Musée de l.pdf
+      \endverb
+    \endentry
+    \entry{grasLoiLRUBibliotheques}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d9b0cb9ac06b338cfa0d4917ad13cf35}{%
+           family={Gras},
+           familyi={G\bibinitperiod},
+           given={Isabelle},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d9b0cb9ac06b338cfa0d4917ad13cf35}
+      \strng{fullhash}{d9b0cb9ac06b338cfa0d4917ad13cf35}
+      \strng{fullhashraw}{d9b0cb9ac06b338cfa0d4917ad13cf35}
+      \strng{bibnamehash}{d9b0cb9ac06b338cfa0d4917ad13cf35}
+      \strng{authorbibnamehash}{d9b0cb9ac06b338cfa0d4917ad13cf35}
+      \strng{authornamehash}{d9b0cb9ac06b338cfa0d4917ad13cf35}
+      \strng{authorfullhash}{d9b0cb9ac06b338cfa0d4917ad13cf35}
+      \strng{authorfullhashraw}{d9b0cb9ac06b338cfa0d4917ad13cf35}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The law related to the freedoms and the responsibilities of universities (LRU) dated August 1st 2007 aims at increasing the performance of French universities, giving them more autonomy. It confers the universities responsibilities and abilities more significant with governance based on the university president. The new layouts in terms of the management of human resources apply to the staff of academic libraries. These academic libraries are also affected by the new financial management. Consequently the law LRU reinforces the integration of libraries in the university and contributes to a recombining in the relationships between them and the state. In this new context, the stake will be to reach a narrower collaboration between the academic libraries and the universities for contributing to the establishment strategy.}
+      \field{langid}{french}
+      \field{title}{La loi LRU et les bibliothèques universitaires}
+      \true{nocite}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/EBD3XQF7/48199-la-loi-lru-et-les-bibliotheques-universitaires.pdf
+      \endverb
+      \keyw{themeNumerisation}
+    \endentry
+    \entry{haettigerNumerisationMasseMetadonnees2014}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6bceac078e37846529b55912a9b934f5}{%
+           family={Haettiger},
+           familyi={H\bibinitperiod},
+           given={Magali},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=fbe333981b0af3b8e55afb4dfe9be427}{%
+           family={Di\bibnamedelima Pietro},
+           familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Christelle},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{6bceac078e37846529b55912a9b934f5}
+      \strng{fullhash}{6bceac078e37846529b55912a9b934f5}
+      \strng{fullhashraw}{6bceac078e37846529b55912a9b934f5}
+      \strng{bibnamehash}{6bceac078e37846529b55912a9b934f5}
+      \strng{authorbibnamehash}{6bceac078e37846529b55912a9b934f5}
+      \strng{authornamehash}{6bceac078e37846529b55912a9b934f5}
+      \strng{authorfullhash}{6bceac078e37846529b55912a9b934f5}
+      \strng{authorfullhashraw}{6bceac078e37846529b55912a9b934f5}
+      \strng{editorbibnamehash}{fbe333981b0af3b8e55afb4dfe9be427}
+      \strng{editornamehash}{fbe333981b0af3b8e55afb4dfe9be427}
+      \strng{editorfullhash}{fbe333981b0af3b8e55afb4dfe9be427}
+      \strng{editorfullhashraw}{fbe333981b0af3b8e55afb4dfe9be427}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Produire des contenus documentaires en ligne : Quelles stratégies pour les bibliothèques ?}
+      \field{isbn}{978-2-37546-060-3}
+      \field{langid}{french}
+      \field{series}{La Boîte à outils}
+      \field{shorttitle}{Numérisation de masse, métadonnées et bibliothèque numérique}
+      \field{title}{Numérisation de masse, métadonnées et bibliothèque numérique~: l’exemple de Numelyo à la Bibliothèque municipale de Lyon}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{88\bibrangedash 97}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.2948
+      \endverb
+      \verb{urlraw}
+      \verb https://books.openedition.org/pressesenssib/2948
+      \endverb
+      \verb{url}
+      \verb https://books.openedition.org/pressesenssib/2948
+      \endverb
+      \keyw{bibliothque numerique,themeNumerisation}
+    \endentry
+    \entry{henryotNomBibliothequesNumeriques}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=eb07c82954888dd18c4f242fd9407e60}{%
+           family={Henryot},
+           familyi={H\bibinitperiod},
+           given={Fabienne},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eb07c82954888dd18c4f242fd9407e60}
+      \strng{fullhash}{eb07c82954888dd18c4f242fd9407e60}
+      \strng{fullhashraw}{eb07c82954888dd18c4f242fd9407e60}
+      \strng{bibnamehash}{eb07c82954888dd18c4f242fd9407e60}
+      \strng{authorbibnamehash}{eb07c82954888dd18c4f242fd9407e60}
+      \strng{authornamehash}{eb07c82954888dd18c4f242fd9407e60}
+      \strng{authorfullhash}{eb07c82954888dd18c4f242fd9407e60}
+      \strng{authorfullhashraw}{eb07c82954888dd18c4f242fd9407e60}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Résumé~: Les bibliothèques publiques sont engagées depuis trente ans dans la numérisation du patrimoine qu’elles conservent. Les objets numériques ainsi générés sont enrôlés dans des bibliothèques numériques supposées élargir les publics du patrimoine. Cet article s’intéresse au nom donné à ces dispositifs en France et aux attendus d’une telle démarche. Pourquoi et comment nommer une bibliothèque numérique patrimoniale~? L’analyse du cas de 32~bibliothèques municipales montre que le nom exploite des imaginaires variés relatifs à l’identité territoriale et aux représentations communes du patrimoine, ainsi qu’à l’innovation technologique. Elle montre aussi le caractère encore très empirique de ces pratiques de dénomination, et la difficulté –~ou le refus~– des bibliothèques d’entrer dans une véritable stratégie de marque. Abstract~: For the past thirty years, public libraries have been involved in digitising the heritage they preserve. The digital objects generated in this way are included in digital libraries that are supposed to broaden the audience for heritage. This paper looks at the name given to these digital systems in France, and what is expected of them. Why and how should a heritage digital library be named? An analysis of 32 municipal libraries shows that the name exploits a variety of imaginations relating to territorial identity and shared representations of heritage, as well as technological innovation. It also shows that these naming practices are still highly empirical, and that libraries are finding it difficult - or unwilling - to adopt a genuine branding strategy.}
+      \field{issn}{1633-5961}
+      \field{journaltitle}{Questions de communication (Nancy)}
+      \field{langid}{english}
+      \field{shorttitle}{Du Nom Des Bibliothèques Numériques Patrimoniales}
+      \field{title}{Du Nom Des Bibliothèques Numériques Patrimoniales: Enjeux et Pratiques}
+      \field{volume}{46}
+      \true{nocite}
+      \field{pages}{249\bibrangedash 276}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.4000/12yfo
+      \endverb
+      \keyw{themeNumerisation}
+    \endentry
+    \entry{HistoireMissionsPartenariats}{online}{}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{Histoire, missions et partenariats | Bibliothèque Cujas}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/DNSFPI2T/histoire-missions-et-partenariats.html
+      \endverb
+      \verb{urlraw}
+      \verb https://biu-cujas.univ-paris1.fr/histoire-missions-et-partenariats/
+      \endverb
+      \verb{url}
+      \verb https://biu-cujas.univ-paris1.fr/histoire-missions-et-partenariats/
+      \endverb
+      \keyw{themeCujas}
+    \endentry
+    \entry{HoppeDroit}{online}{}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labeltitlesource}{title}
+      \field{title}{Hoppe Droit}
+      \field{urlday}{10}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/TJDFPXUL/a-propos.html
+      \endverb
+      \verb{urlraw}
+      \verb https://bcujas-hoppe.univ-paris1.fr/a-propos
+      \endverb
+      \verb{url}
+      \verb https://bcujas-hoppe.univ-paris1.fr/a-propos
+      \endverb
+      \keyw{themeCujas}
+    \endentry
+    \entry{institutionsiflaManifesteIFLAPour2011}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,useprefix=false,hash=77814720f0000371b6a112e6334f4491}{%
+           family={Institutions\bibnamedelima (IFLA)},
+           familyi={I\bibinitperiod\bibinitdelim (\bibinitperiod},
+           given={International\bibnamedelimb Federation\bibnamedelimb of\bibnamedelimb Library\bibnamedelima Associations},
+           giveni={I\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0,
+           prefix={and},
+           prefixi={a\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{publisher}{1}{%
+        {International Federation of Library Associations and Institutions (IFLA)}%
+      }
+      \strng{namehash}{77814720f0000371b6a112e6334f4491}
+      \strng{fullhash}{77814720f0000371b6a112e6334f4491}
+      \strng{fullhashraw}{77814720f0000371b6a112e6334f4491}
+      \strng{bibnamehash}{77814720f0000371b6a112e6334f4491}
+      \strng{authorbibnamehash}{77814720f0000371b6a112e6334f4491}
+      \strng{authornamehash}{77814720f0000371b6a112e6334f4491}
+      \strng{authorfullhash}{77814720f0000371b6a112e6334f4491}
+      \strng{authorfullhashraw}{77814720f0000371b6a112e6334f4491}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Approuvé par l'UNESCO lors de sa Conférence générale de 2011, ce manifeste énonce des principes visant à aider les bibliothèques à entreprendre des activités de numérisation durables et interopérables afin de réduire la fracture numérique – un facteur clé pour atteindre les Objectifs du Millénaire pour le développement des Nations Unies.}
+      \field{day}{13}
+      \field{langid}{fra}
+      \field{month}{12}
+      \field{title}{Manifeste IFLA pour les bibliothèques numériques}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/NG4TVU32/Institutions (IFLA) - 2011 - Manifeste IFLA pour les bibliothèques numériques.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://repository.ifla.org/handle/20.500.14598/7003
+      \endverb
+      \verb{url}
+      \verb https://repository.ifla.org/handle/20.500.14598/7003
+      \endverb
+      \keyw{themeNumerisation}
+    \endentry
+    \entry{isaacEvaluatingThesaurusAlignments2009}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=73a935f38c7dd51639f66d24fd0d9179}{%
+           family={Isaac},
+           familyi={I\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be58931f6ec4a72271443605af590155}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Shenghui},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d20fa2ab77b08cb0e07fc9778baef64f}{%
+           family={Zinn},
+           familyi={Z\bibinitperiod},
+           given={Claus},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbee4f8545811d688b6aa40e53e3a3c4}{%
+           family={Matthezing},
+           familyi={M\bibinitperiod},
+           given={Henk},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6827be054501e4603a234a13e488b6e9}{%
+           family={Van\bibnamedelimb Der\bibnamedelima Meij},
+           familyi={V\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Lourens},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8acaf13b4c30b3e3091c8848e35d1246}{%
+           family={Schlobach},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0dbdc3df26949ca07e9e5898795a3b7a}
+      \strng{fullhash}{321b9dae72f4455d014c5cf202d21ada}
+      \strng{fullhashraw}{321b9dae72f4455d014c5cf202d21ada}
+      \strng{bibnamehash}{321b9dae72f4455d014c5cf202d21ada}
+      \strng{authorbibnamehash}{321b9dae72f4455d014c5cf202d21ada}
+      \strng{authornamehash}{0dbdc3df26949ca07e9e5898795a3b7a}
+      \strng{authorfullhash}{321b9dae72f4455d014c5cf202d21ada}
+      \strng{authorfullhashraw}{321b9dae72f4455d014c5cf202d21ada}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Thesaurus alignments play an important role in realising efficient access to heterogeneous Cultural Heritage data. Current technology, however, provides only limited value for such access as it fails to bridge the gap between theoretical study and user needs that stem from practical application requirements. In this paper, we explore common real-world problems of a library, and identify solutions that would greatly benefit from a more application embedded study, development, and evaluation of matching technology.}
+      \field{issn}{1541-1672}
+      \field{journaltitle}{IEEE Intelligent Systems}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{2}
+      \field{shortjournal}{IEEE Intell. Syst.}
+      \field{title}{Evaluating {{Thesaurus Alignments}} for {{Semantic Interoperability}} in the {{Library Domain}}}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{24}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{76\bibrangedash 86}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/MIS.2009.26
+      \endverb
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/F3TLB8FJ/Isaac et al. - 2009 - Evaluating Thesaurus Alignments for Semantic Interoperability in the Library Domain.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/document/4804826/
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/4804826/
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{joannic-setaEtudePrealableOperation1999}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3cc4f77ed43de082349b35028ee0cbe3}{%
+           family={Joannic-Seta},
+           familyi={J\bibinithyphendelim S\bibinitperiod},
+           given={Frédérique},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3cc4f77ed43de082349b35028ee0cbe3}
+      \strng{fullhash}{3cc4f77ed43de082349b35028ee0cbe3}
+      \strng{fullhashraw}{3cc4f77ed43de082349b35028ee0cbe3}
+      \strng{bibnamehash}{3cc4f77ed43de082349b35028ee0cbe3}
+      \strng{authorbibnamehash}{3cc4f77ed43de082349b35028ee0cbe3}
+      \strng{authornamehash}{3cc4f77ed43de082349b35028ee0cbe3}
+      \strng{authorfullhash}{3cc4f77ed43de082349b35028ee0cbe3}
+      \strng{authorfullhashraw}{3cc4f77ed43de082349b35028ee0cbe3}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Une opération de numérisation constitue un moyen extrêmement efficace de mettre en valeur une collection. Toutefois, et en particulier lorsqu'il s'agit de documents anciens et donc fragiles, il convient de mener au préalable une réflexion poussée portant sur les choix techniques comme intellectuels. Nous présentons ici, en guise d'exemple, la méthodologie qui a été appliquée à Cujas en 1998 en vue de préparer la rédaction d'un cahier des charges pour une entreprise de numérisation des ouvrages de sa réserve.}
+      \field{day}{1}
+      \field{langid}{french}
+      \field{month}{1}
+      \field{title}{Étude préalable à une opération de numérisation}
+      \field{type}{Text}
+      \field{urlday}{13}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/W6LYK52Y/bbf-1999-06-0076-011.html
+      \endverb
+      \verb{urlraw}
+      \verb https://bbf.enssib.fr/consulter/bbf-1999-06-0076-011
+      \endverb
+      \verb{url}
+      \verb https://bbf.enssib.fr/consulter/bbf-1999-06-0076-011
+      \endverb
+      \keyw{themeCujas}
+    \endentry
+    \entry{BibliothequeFaculteDroit2018}{online}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{day}{13}
+      \field{langid}{french}
+      \field{month}{6}
+      \field{title}{La bibliothèque de la faculté de droit de Paris dans la Grande Guerre – Des facultés sur le front du droit}
+      \field{urlday}{9}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/P3WIR9WZ/la-bibliotheque-de-la-faculte-de-droit-de-paris-dans-la-grande-guerre.html
+      \endverb
+      \verb{urlraw}
+      \verb https://expo-grande-guerre-biu-cujas.univ-paris1.fr/la-bibliotheque-de-la-faculte-de-droit-de-paris-dans-la-grande-guerre/
+      \endverb
+      \verb{url}
+      \verb https://expo-grande-guerre-biu-cujas.univ-paris1.fr/la-bibliotheque-de-la-faculte-de-droit-de-paris-dans-la-grande-guerre/
+      \endverb
+      \keyw{themeCujas}
+    \endentry
+    \entry{LoiFaure}{online}{}{}
+      \list{organization}{1}{%
+        {Académie de Paris}%
+      }
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{abstract}{La loi Faure et la refonte de l'enseignement supérieur en écho aux événements de 68}
+      \field{langid}{french}
+      \field{title}{La loi Faure}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/Y8W94HJW/la-loi-faure-123328.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ac-paris.fr/la-loi-faure-123328
+      \endverb
+      \verb{url}
+      \verb https://www.ac-paris.fr/la-loi-faure-123328
+      \endverb
+      \keyw{themeCujas}
+    \endentry
+    \entry{latourVersNouveauxCatalogues2016}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=58fddf56c04c56a78fef5865ffbf229a}{%
+           family={Latour},
+           familyi={L\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31743df08a0594f3e64d9ca87be55f60}{%
+           family={Palluault},
+           familyi={P\bibinitperiod},
+           given={Florent},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Éditions du Cercle de la Librairie}%
+      }
+      \strng{namehash}{d5043f40f26aca1cce9d4621c6f903ea}
+      \strng{fullhash}{d5043f40f26aca1cce9d4621c6f903ea}
+      \strng{fullhashraw}{d5043f40f26aca1cce9d4621c6f903ea}
+      \strng{bibnamehash}{d5043f40f26aca1cce9d4621c6f903ea}
+      \strng{authorbibnamehash}{d5043f40f26aca1cce9d4621c6f903ea}
+      \strng{authornamehash}{d5043f40f26aca1cce9d4621c6f903ea}
+      \strng{authorfullhash}{d5043f40f26aca1cce9d4621c6f903ea}
+      \strng{authorfullhashraw}{d5043f40f26aca1cce9d4621c6f903ea}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Bibliothèques}
+      \field{day}{2}
+      \field{isbn}{978-2-7654-1513-8}
+      \field{langid}{french}
+      \field{month}{11}
+      \field{title}{Vers de nouveaux catalogues}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{69\bibrangedash 79}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.3917/elec.berme.2016.01.0069
+      \endverb
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/A5I6QNBJ/Latour and Palluault - 2016 - Vers de nouveaux catalogues.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://shs.cairn.info/vers-de-nouveaux-catalogues--9782765415138-page-69?site_lang=fr
+      \endverb
+      \verb{url}
+      \verb https://shs.cairn.info/vers-de-nouveaux-catalogues--9782765415138-page-69?site_lang=fr
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{lavennedelamontoiseOAIPMHPMHLheure2020}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,useprefix=false,hash=b78b1ecc0fee8c77252a808895e7480f}{%
+           family={Lavenne\bibnamedelimb de\bibnamedelimb la\bibnamedelima Montoise},
+           familyi={L\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim l\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne, Rhône, France}%
+      }
+      \list{publisher}{1}{%
+        {École nationale supérieure des sciences de l'information et des bibliothèques}%
+      }
+      \strng{namehash}{b78b1ecc0fee8c77252a808895e7480f}
+      \strng{fullhash}{b78b1ecc0fee8c77252a808895e7480f}
+      \strng{fullhashraw}{b78b1ecc0fee8c77252a808895e7480f}
+      \strng{bibnamehash}{b78b1ecc0fee8c77252a808895e7480f}
+      \strng{authorbibnamehash}{b78b1ecc0fee8c77252a808895e7480f}
+      \strng{authornamehash}{b78b1ecc0fee8c77252a808895e7480f}
+      \strng{authorfullhash}{b78b1ecc0fee8c77252a808895e7480f}
+      \strng{authorfullhashraw}{b78b1ecc0fee8c77252a808895e7480f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{À l’approche du vingtième anniversaire du protocole OAI PMH, et dans un environnement web qui a subi de profondes évolutions (technologiques et d’usages), quelle est l’actualité de l’échange de données ? Comment se sont construits les usages des professionnelles en la matière ? Sont ils adaptés aux défis actuels ? Ce travail se propose d’analyser l’exposition et l’échange de données sous un angle historique, avant d’essayer de comprendre les enjeux actuels qui détermineront quelle(s) solution(s) techniques choisir.~While we are nearing the twentieth birthday of the OAI PMH protocol, and in a web environment which went through massive changes, both in technology and in usage, what is the actuality of data exchange ? How did the community build its practices? Are they still relevant in the light of today’s challenges? This work analyses data exposition and exchange from a historical standpoint, before trying to understand the current challenges which will determine what technical solution(s) should be used.}
+      \field{langid}{french}
+      \field{pagetotal}{116}
+      \field{shorttitle}{OAI-PMH à PMH à « l'heure du web sémantique »}
+      \field{title}{OAI-PMH à PMH à « l'heure du web sémantique »: bilans et perspectives}
+      \field{type}{Mémoire d'étude diplôme de conservateur des bibliothèques}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/SMVP685Y/69909-oai-pmh-a-l-heure-du-web-semantique.pdf;/home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/D63WB7ZZ/SHW.html
+      \endverb
+      \keyw{Bibliothèques numériques,Édition en libre accès,Métadonnées,themeNumerisation,Web 2.0,Web sémantique}
+    \endentry
+    \entry{ProgrammeNationalNumerisation}{online}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{title}{Le Programme National de Numérisation et Valorisation Concertées En Sciences Juridiques.Pdf - {{Espace}} de Travail {{Cujas}}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/A6ARZR8D/Le programme national de numérisation et valorisation concertées en sciences juridiques.pdf - Espace.pdf;/home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/T6HTVWRR/3833026.html
+      \endverb
+      \verb{urlraw}
+      \verb https://bcujas-doc.univ-paris1.fr/index.php/apps/files/files/3833026?dir=/PATRIMOINE-service/Numerisation/Num_historique/CST_Droit_historique&editing=false&openfile=true
+      \endverb
+      \verb{url}
+      \verb https://bcujas-doc.univ-paris1.fr/index.php/apps/files/files/3833026?dir=/PATRIMOINE-service/Numerisation/Num_historique/CST_Droit_historique&editing=false&openfile=true
+      \endverb
+      \keyw{Cujas,CujasNum,numerisation,programme national}
+    \endentry
+    \entry{leblancBibliothequesNumeriquesEnrichies}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=44ed50c6ee795daf937bd8d9c96bbe7d}{%
+           family={Leblanc},
+           familyi={L\bibinitperiod},
+           given={Elina},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{44ed50c6ee795daf937bd8d9c96bbe7d}
+      \strng{fullhash}{44ed50c6ee795daf937bd8d9c96bbe7d}
+      \strng{fullhashraw}{44ed50c6ee795daf937bd8d9c96bbe7d}
+      \strng{bibnamehash}{44ed50c6ee795daf937bd8d9c96bbe7d}
+      \strng{authorbibnamehash}{44ed50c6ee795daf937bd8d9c96bbe7d}
+      \strng{authornamehash}{44ed50c6ee795daf937bd8d9c96bbe7d}
+      \strng{authorfullhash}{44ed50c6ee795daf937bd8d9c96bbe7d}
+      \strng{authorfullhashraw}{44ed50c6ee795daf937bd8d9c96bbe7d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{Bibliothèques numériques enrichies et participatives: Utilisateurs, services, interfaces}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/JQ69YMXB/Leblanc - Bibliothèques numériques enrichies et participatives Utilisateurs, services, interfaces.pdf
+      \endverb
+      \keyw{themeNumerisation}
+    \endentry
+    \entry{zotero-item-511}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e067161157235cdf4603b94bfd699f95}{%
+           family={Lecomte},
+           familyi={L\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e067161157235cdf4603b94bfd699f95}
+      \strng{fullhash}{e067161157235cdf4603b94bfd699f95}
+      \strng{fullhashraw}{e067161157235cdf4603b94bfd699f95}
+      \strng{bibnamehash}{e067161157235cdf4603b94bfd699f95}
+      \strng{authorbibnamehash}{e067161157235cdf4603b94bfd699f95}
+      \strng{authornamehash}{e067161157235cdf4603b94bfd699f95}
+      \strng{authorfullhash}{e067161157235cdf4603b94bfd699f95}
+      \strng{authorfullhashraw}{e067161157235cdf4603b94bfd699f95}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Revue d'histoire Des {{Facultés}} de Droit et de La Science Juridique}
+      \field{volume}{n°10-nov}
+      \field{year}{1990}
+      \field{dateera}{ce}
+      \field{pages}{59\bibrangedash 98}
+      \range{pages}{40}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/MMC893Y4/11-10-1990-p059-098.pdf
+      \endverb
+    \endentry
+    \entry{lejeuneInformatiserPourCreer2017}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d4e993a94fb6d73cd6c8ed8217ab6d3c}{%
+           family={Lejeune},
+           familyi={L\bibinitperiod},
+           given={Albane},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{d4e993a94fb6d73cd6c8ed8217ab6d3c}
+      \strng{fullhash}{d4e993a94fb6d73cd6c8ed8217ab6d3c}
+      \strng{fullhashraw}{d4e993a94fb6d73cd6c8ed8217ab6d3c}
+      \strng{bibnamehash}{d4e993a94fb6d73cd6c8ed8217ab6d3c}
+      \strng{authorbibnamehash}{d4e993a94fb6d73cd6c8ed8217ab6d3c}
+      \strng{authornamehash}{d4e993a94fb6d73cd6c8ed8217ab6d3c}
+      \strng{authorfullhash}{d4e993a94fb6d73cd6c8ed8217ab6d3c}
+      \strng{authorfullhashraw}{d4e993a94fb6d73cd6c8ed8217ab6d3c}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Réinformatiser une bibliothèque}
+      \field{isbn}{979-10-91281-60-7}
+      \field{langid}{fre}
+      \field{shorttitle}{Informatiser pour créer le réseau}
+      \field{title}{Informatiser pour créer le réseau: le SIGB outil d’un projet fédérateur dans l’agglomération de Saint-Brieuc}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.6642
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{lerescheTransitionBibliographique2016}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ed50c7bb72057801f6ffcd825e148e24}{%
+           family={Leresche},
+           familyi={L\bibinitperiod},
+           given={Françoise},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Éditions du Cercle de la Librairie}%
+      }
+      \strng{namehash}{ed50c7bb72057801f6ffcd825e148e24}
+      \strng{fullhash}{ed50c7bb72057801f6ffcd825e148e24}
+      \strng{fullhashraw}{ed50c7bb72057801f6ffcd825e148e24}
+      \strng{bibnamehash}{ed50c7bb72057801f6ffcd825e148e24}
+      \strng{authorbibnamehash}{ed50c7bb72057801f6ffcd825e148e24}
+      \strng{authornamehash}{ed50c7bb72057801f6ffcd825e148e24}
+      \strng{authorfullhash}{ed50c7bb72057801f6ffcd825e148e24}
+      \strng{authorfullhashraw}{ed50c7bb72057801f6ffcd825e148e24}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Vers de nouveaux catalogues}
+      \field{isbn}{978-2-7654-1513-8}
+      \field{issn}{0184-0886}
+      \field{langid}{french}
+      \field{title}{La Transition bibliographique}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{49\bibrangedash 67}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.3917/elec.berme.2016.01.0049
+      \endverb
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/D6WTIBXY/vers-de-nouveaux-catalogues--9782765415138-page-49.html
+      \endverb
+      \verb{urlraw}
+      \verb https://shs-cairn-info.portail.psl.eu/vers-de-nouveaux-catalogues--9782765415138-page-49
+      \endverb
+      \verb{url}
+      \verb https://shs-cairn-info.portail.psl.eu/vers-de-nouveaux-catalogues--9782765415138-page-49
+      \endverb
+    \endentry
+    \entry{lerescheTransitionBibliographique2016a}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ed50c7bb72057801f6ffcd825e148e24}{%
+           family={Leresche},
+           familyi={L\bibinitperiod},
+           given={Françoise},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Éditions du Cercle de la Librairie}%
+      }
+      \strng{namehash}{ed50c7bb72057801f6ffcd825e148e24}
+      \strng{fullhash}{ed50c7bb72057801f6ffcd825e148e24}
+      \strng{fullhashraw}{ed50c7bb72057801f6ffcd825e148e24}
+      \strng{bibnamehash}{ed50c7bb72057801f6ffcd825e148e24}
+      \strng{authorbibnamehash}{ed50c7bb72057801f6ffcd825e148e24}
+      \strng{authornamehash}{ed50c7bb72057801f6ffcd825e148e24}
+      \strng{authorfullhash}{ed50c7bb72057801f6ffcd825e148e24}
+      \strng{authorfullhashraw}{ed50c7bb72057801f6ffcd825e148e24}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Vers de nouveaux catalogues}
+      \field{isbn}{978-2-7654-1513-8}
+      \field{issn}{0184-0886}
+      \field{langid}{french}
+      \field{title}{La Transition bibliographique}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{49\bibrangedash 67}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.3917/elec.berme.2016.01.0049
+      \endverb
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/Y6WL3EKB/vers-de-nouveaux-catalogues--9782765415138-page-49.html
+      \endverb
+      \verb{urlraw}
+      \verb https://shs-cairn-info.portail.psl.eu/vers-de-nouveaux-catalogues--9782765415138-page-49
+      \endverb
+      \verb{url}
+      \verb https://shs-cairn-info.portail.psl.eu/vers-de-nouveaux-catalogues--9782765415138-page-49
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{lerescheRDACommeOutil}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ed50c7bb72057801f6ffcd825e148e24}{%
+           family={Leresche},
+           familyi={L\bibinitperiod},
+           given={Françoise},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2458e0e7ad166d18acb49bf333f629a6}{%
+           family={Boulet},
+           familyi={B\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Macerata}%
+      }
+      \list{publisher}{1}{%
+        {EUM-Edizioni Università di Macerata}%
+      }
+      \strng{namehash}{05f80b613e56d33dcb795f2c3ac54995}
+      \strng{fullhash}{05f80b613e56d33dcb795f2c3ac54995}
+      \strng{fullhashraw}{05f80b613e56d33dcb795f2c3ac54995}
+      \strng{bibnamehash}{05f80b613e56d33dcb795f2c3ac54995}
+      \strng{authorbibnamehash}{05f80b613e56d33dcb795f2c3ac54995}
+      \strng{authornamehash}{05f80b613e56d33dcb795f2c3ac54995}
+      \strng{authorfullhash}{05f80b613e56d33dcb795f2c3ac54995}
+      \strng{authorfullhashraw}{05f80b613e56d33dcb795f2c3ac54995}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Cet article presente la demarche adoptee par la France pour mettre les catalogues des bibliotheques dans le Web de donnees et le role devolu a RDA dans cette strategie plus generale. Apres une analyse des contradictions et limites de RDA heritees de de la tradition des AACR et des catalogues en MARC 21, les auteurs presentent l'approche francaise vis-a-vis de RDA, quant a son positionnement par rapport aux normes internationales de reference comme l'ISBD et a la mise en oeuvre du modele FRBR. La methode retenue en France pour FRBRiser les catalogues passe par un chantier technique de creation d'alignements entre donnees existantes, en exploitant les technologies mises en oeuvre dans l'application data.bnf.fr, et par une revision des regles francaises de catalogage pour permettre un catalogage FRBRise des la creation des metadonnees. Cette revision s'appuie sur RDA et vise a preparer un profil francais d'application de RDA, mais maintient l'analyse francaise sur les points de divergence majeurs. En effet, l'adoption de RDA n'est pas un enjeu crucial pour la France, ni une fin en soi; ce n'est qu'un outil au service de la transition bibliographique vers le Web de donnees.}
+      \field{issn}{2038-1026}
+      \field{journaltitle}{JLIS.it : Italian journal of library and information science}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{shorttitle}{{{RDA}} Comme Outil Pour La Transition Bibliographique}
+      \field{title}{{{RDA}} Comme Outil Pour La Transition Bibliographique: La Position Française}
+      \field{volume}{7}
+      \true{nocite}
+      \field{pages}{229\bibrangedash 251}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.4403/jlis.it-11796
+      \endverb
+      \keyw{Adoption of innovations,Bibliographic literature,bibliographie,Bibliographies,Cataloging,catalogue,Catalogues,data,Data,Information science,Information storage and retrieval,International aspects,international standard,International standards,Library catalogs,Positioning,Resource Description & Access-RDA,Technology application,themeDonnees,transition bibliographique,Webs}
+    \endentry
+    \entry{SciencesJuridiqueslesSciences}{online}{}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Les Sciences Juridiques,Les Sciences Humaines, Sociales et Religieuses}
+      \field{urlday}{3}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/YK5A76UR/search.html
+      \endverb
+      \verb{urlraw}
+      \verb http://cujasweb.univ-paris1.fr/cujasdl/search?text=&text-join=&text-exclude=&text-prox=&title=&creator=carbonnier&subject=&year=&year-max=&smode=advanced
+      \endverb
+      \verb{url}
+      \verb http://cujasweb.univ-paris1.fr/cujasdl/search?text=&text-join=&text-exclude=&text-prox=&title=&creator=carbonnier&subject=&year=&year-max=&smode=advanced
+      \endverb
+      \keyw{themeCujas}
+    \endentry
+    \entry{llavoriRoleConsortiumsCAREL2014}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6c2750818bdba1574730aa90a0cf900f}{%
+           family={Llavori},
+           familyi={L\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{6c2750818bdba1574730aa90a0cf900f}
+      \strng{fullhash}{6c2750818bdba1574730aa90a0cf900f}
+      \strng{fullhashraw}{6c2750818bdba1574730aa90a0cf900f}
+      \strng{bibnamehash}{6c2750818bdba1574730aa90a0cf900f}
+      \strng{authorbibnamehash}{6c2750818bdba1574730aa90a0cf900f}
+      \strng{authornamehash}{6c2750818bdba1574730aa90a0cf900f}
+      \strng{authorfullhash}{6c2750818bdba1574730aa90a0cf900f}
+      \strng{authorfullhashraw}{6c2750818bdba1574730aa90a0cf900f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Intégrer des ressources numériques dans les collections}
+      \field{isbn}{979-10-91281-18-8}
+      \field{langid}{fre}
+      \field{shorttitle}{Le rôle des consortiums}
+      \field{title}{Le rôle des consortiums: CAREL : Coopération pour l’acquisition des ressources électroniques en ligne}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{73\bibrangedash 80}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.11703
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{lobetCujasTraditionModernite2002}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fc317dbe94e34e9903fb1819af18660b}{%
+           family={Lobet},
+           familyi={L\bibinitperiod},
+           given={Jean-Luc},
+           giveni={J\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=387475797116e9202790cf1a47199677}{%
+           family={Pierré},
+           familyi={P\bibinitperiod},
+           given={Colette},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Agence bibliographique de l'enseignement supérieur}%
+      }
+      \strng{namehash}{43d37d7f09cb7f1ff48f28451949ac9d}
+      \strng{fullhash}{43d37d7f09cb7f1ff48f28451949ac9d}
+      \strng{fullhashraw}{43d37d7f09cb7f1ff48f28451949ac9d}
+      \strng{bibnamehash}{43d37d7f09cb7f1ff48f28451949ac9d}
+      \strng{authorbibnamehash}{43d37d7f09cb7f1ff48f28451949ac9d}
+      \strng{authornamehash}{43d37d7f09cb7f1ff48f28451949ac9d}
+      \strng{authorfullhash}{43d37d7f09cb7f1ff48f28451949ac9d}
+      \strng{authorfullhashraw}{43d37d7f09cb7f1ff48f28451949ac9d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{La bibliothèque Cujas est une bibliothèque interuniversitaire (service interétablissements de coopération documentaire~–~SICD) dépendant des universités de Paris~I (Panthéon-Sorbonne) et Paris~II (Panthéon-Assas), rattachée administrativement à Paris~I. Héritière d’une histoire ancienne –~la première mention d’une «~bibliothèque de l’École de droit~» remonte à 1475~– , elle est devenue la bibliothèque française de référence en droit. La richesse de ses collections, l’étendue des services prop...}
+      \field{day}{1}
+      \field{issn}{2108-7016}
+      \field{journaltitle}{Arabesques}
+      \field{langid}{french}
+      \field{month}{10}
+      \field{number}{28}
+      \field{shorttitle}{Cujas}
+      \field{title}{Cujas : tradition \& modernité}
+      \field{urlday}{9}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{5\bibrangedash 8}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.35562/arabesques.3890
+      \endverb
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/CR7R8L85/Lobet and Pierré - 2002 - Cujas tradition & modernité.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://publications-prairial.fr/arabesques/index.php?id=3890
+      \endverb
+      \verb{url}
+      \verb https://publications-prairial.fr/arabesques/index.php?id=3890
+      \endverb
+      \keyw{themeCujas}
+    \endentry
+    \entry{martinolliEnrichirSesDonnees2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3c777b036eb73a4e97fdc8a13684e714}{%
+           family={Martinolli},
+           familyi={M\bibinitperiod},
+           given={Pascal},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3c777b036eb73a4e97fdc8a13684e714}
+      \strng{fullhash}{3c777b036eb73a4e97fdc8a13684e714}
+      \strng{fullhashraw}{3c777b036eb73a4e97fdc8a13684e714}
+      \strng{bibnamehash}{3c777b036eb73a4e97fdc8a13684e714}
+      \strng{authorbibnamehash}{3c777b036eb73a4e97fdc8a13684e714}
+      \strng{authornamehash}{3c777b036eb73a4e97fdc8a13684e714}
+      \strng{authorfullhash}{3c777b036eb73a4e97fdc8a13684e714}
+      \strng{authorfullhashraw}{3c777b036eb73a4e97fdc8a13684e714}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{8}
+      \field{journaltitle}{Programming Historian}
+      \field{langid}{french}
+      \field{month}{10}
+      \field{title}{Enrichir ses données avec le processus de réconciliation d’OpenRefine}
+      \field{urlday}{28}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://programminghistorian.org/fr/lecons/enrichir-donnees-reconciliation-openrefine
+      \endverb
+      \verb{url}
+      \verb https://programminghistorian.org/fr/lecons/enrichir-donnees-reconciliation-openrefine
+      \endverb
+      \keyw{themeMethodo}
+    \endentry
+    \entry{melhemUsagesApplicationsWeb}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e276fc12547bcbadf7c86199deabd2e9}{%
+           family={Melhem},
+           familyi={M\bibinitperiod},
+           given={Hiba},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e276fc12547bcbadf7c86199deabd2e9}
+      \strng{fullhash}{e276fc12547bcbadf7c86199deabd2e9}
+      \strng{fullhashraw}{e276fc12547bcbadf7c86199deabd2e9}
+      \strng{bibnamehash}{e276fc12547bcbadf7c86199deabd2e9}
+      \strng{authorbibnamehash}{e276fc12547bcbadf7c86199deabd2e9}
+      \strng{authornamehash}{e276fc12547bcbadf7c86199deabd2e9}
+      \strng{authorfullhash}{e276fc12547bcbadf7c86199deabd2e9}
+      \strng{authorfullhashraw}{e276fc12547bcbadf7c86199deabd2e9}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This research work deals with the interdisciplinary field of the information and communication sciences (CIS) and aims to explore the use of the semantic web in digital libraries. The web requires libraries to rethink their organizations, activities, practices and services in order to reposition themselves as reference institutes for the dissemination of knowledge. In this thesis, we wish to understand the contexts of use of the semantic web in French digital libraries. It questions the contributions of the semantic web within these libraries, as well as on the challenges and the obstacles that accompany its implementation. We are also interested in documentary practices and their evolutions following the introduction of the semantic web in digital libraries. The problem is related to the role that information professionals can play in the implementation of the semantic web in digital libraries. After selecting 98 digital libraries following an analysis of three censuses, a questionnaire survey aims to collect data on the use of the semantic web in these libraries. Then, a second interview-based survey consists of highlighting the representations that the information professionals have of the semantic web and its use in the library, as well as on the evolution of their professional practices. The results show that the representation of knowledge within the semantic web requires human intervention to provide the conceptual framework to determine the links between the data. Finally, information professionals can become actors of the semantic web, in the sense that their roles are not limited to the use of the semantic web but also to the development of its standards to ensure better organization of knowledge.}
+      \field{langid}{french}
+      \field{title}{Usages et applications du web sémantique en bibliothèques numériques}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/ULPE5XND/Melhem - Usages et applications du web sémantique en bibliothèques numériques.pdf
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{mesguichBibliothequesFaceAu2023}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=586d0ec2db0518dbd24205532515b9cb}{%
+           family={Mesguich},
+           familyi={M\bibinitperiod},
+           given={Véronique},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{586d0ec2db0518dbd24205532515b9cb}
+      \strng{fullhash}{586d0ec2db0518dbd24205532515b9cb}
+      \strng{fullhashraw}{586d0ec2db0518dbd24205532515b9cb}
+      \strng{bibnamehash}{586d0ec2db0518dbd24205532515b9cb}
+      \strng{authorbibnamehash}{586d0ec2db0518dbd24205532515b9cb}
+      \strng{authornamehash}{586d0ec2db0518dbd24205532515b9cb}
+      \strng{authorfullhash}{586d0ec2db0518dbd24205532515b9cb}
+      \strng{authorfullhashraw}{586d0ec2db0518dbd24205532515b9cb}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{La transformation numérique des processus documentaires amène les professionnels de l’information et des bibliothèques à gérer non seulement des documents imprimés ou numériques, mais encore des données numériques, structurées ou non. Ils sont de plus en plus concernés par ce nouveau monde de la donnée~: toutes les bibliothèques produisent des données concernant leur activité (fréquentation, prêt, utilisateurs…) qu’il convient de gérer et sécuriser en vertu des nouvelles réglementations comme le RGPD.~À partir de cette vision d’ensemble du monde de la donnée, les professionnels de l’information et des bibliothèques pourront détecter les enjeux et opportunités dans leurs pratiques professionnelles.}
+      \field{isbn}{978-2-37546-148-8}
+      \field{langid}{french}
+      \field{pagetotal}{192}
+      \field{series}{Papiers}
+      \field{title}{Les bibliothèques face au monde des données}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://books.openedition.org/pressesenssib/17655
+      \endverb
+      \verb{url}
+      \verb https://books.openedition.org/pressesenssib/17655
+      \endverb
+      \keyw{bibliothéconomie,bibliothèques et internet,bibliothèques numériques,data,document management,données,économie numérique,gestion des données,informatique documentaire,innovations technologiques,themeDonnees}
+    \endentry
+    \entry{nicolasAtomesCrochusMetadonnees2016}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=361bdafdf70c24ff6fe8787f50c990a3}{%
+           family={Nicolas},
+           familyi={N\bibinitperiod},
+           given={Yann},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Éditions du Cercle de la Librairie}%
+      }
+      \strng{namehash}{361bdafdf70c24ff6fe8787f50c990a3}
+      \strng{fullhash}{361bdafdf70c24ff6fe8787f50c990a3}
+      \strng{fullhashraw}{361bdafdf70c24ff6fe8787f50c990a3}
+      \strng{bibnamehash}{361bdafdf70c24ff6fe8787f50c990a3}
+      \strng{authorbibnamehash}{361bdafdf70c24ff6fe8787f50c990a3}
+      \strng{authornamehash}{361bdafdf70c24ff6fe8787f50c990a3}
+      \strng{authorfullhash}{361bdafdf70c24ff6fe8787f50c990a3}
+      \strng{authorfullhashraw}{361bdafdf70c24ff6fe8787f50c990a3}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Vers de nouveaux catalogues}
+      \field{isbn}{978-2-7654-1513-8}
+      \field{issn}{0184-0886}
+      \field{langid}{french}
+      \field{title}{Atomes crochus. Les métadonnées des éditeurs et l’ABES}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{127\bibrangedash 136}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.3917/elec.berme.2016.01.0127
+      \endverb
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/UPZJ62KD/vers-de-nouveaux-catalogues--9782765415138-page-127.html
+      \endverb
+      \verb{urlraw}
+      \verb https://shs-cairn-info.portail.psl.eu/vers-de-nouveaux-catalogues--9782765415138-page-127
+      \endverb
+      \verb{url}
+      \verb https://shs-cairn-info.portail.psl.eu/vers-de-nouveaux-catalogues--9782765415138-page-127
+      \endverb
+      \keyw{themeNumerisation}
+    \endentry
+    \entry{nousSlowScienceDesexcellence2020}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=10009e7e442c7046cea596e5085b48b3}{%
+           family={Noûs},
+           familyi={N\bibinitperiod},
+           given={Camille},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Belin}%
+      }
+      \strng{namehash}{10009e7e442c7046cea596e5085b48b3}
+      \strng{fullhash}{10009e7e442c7046cea596e5085b48b3}
+      \strng{fullhashraw}{10009e7e442c7046cea596e5085b48b3}
+      \strng{bibnamehash}{10009e7e442c7046cea596e5085b48b3}
+      \strng{authorbibnamehash}{10009e7e442c7046cea596e5085b48b3}
+      \strng{authornamehash}{10009e7e442c7046cea596e5085b48b3}
+      \strng{authorfullhash}{10009e7e442c7046cea596e5085b48b3}
+      \strng{authorfullhashraw}{10009e7e442c7046cea596e5085b48b3}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{issn}{1155-3219}
+      \field{journaltitle}{Genèses}
+      \field{langid}{french}
+      \field{month}{9}
+      \field{number}{2}
+      \field{title}{Slow Science – la désexcellence}
+      \field{urlday}{28}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{119}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{199\bibrangedash 208}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.3917/gen.119.0199
+      \endverb
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/SEMZGV6N/Noûs - 2020 - Slow Science – la désexcellence.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://shs.cairn.info/revue-geneses-2020-2-page-199
+      \endverb
+      \verb{url}
+      \verb https://shs.cairn.info/revue-geneses-2020-2-page-199
+      \endverb
+      \keyw{themeMethodo}
+    \endentry
+    \entry{pasquierIIIFSolutionOuverte2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7910a041df9d81fc469ab0a9fc7edee2}{%
+           family={Pasquier},
+           familyi={P\bibinitperiod},
+           given={Thierry},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e551d7a4a8a238aaca53c7f66ea5777e}{%
+           family={Robineau},
+           familyi={R\bibinitperiod},
+           given={Régis},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2cb42f3cff48f3ea3ffa2d121d2e28c0}
+      \strng{fullhash}{2cb42f3cff48f3ea3ffa2d121d2e28c0}
+      \strng{fullhashraw}{2cb42f3cff48f3ea3ffa2d121d2e28c0}
+      \strng{bibnamehash}{2cb42f3cff48f3ea3ffa2d121d2e28c0}
+      \strng{authorbibnamehash}{2cb42f3cff48f3ea3ffa2d121d2e28c0}
+      \strng{authornamehash}{2cb42f3cff48f3ea3ffa2d121d2e28c0}
+      \strng{authorfullhash}{2cb42f3cff48f3ea3ffa2d121d2e28c0}
+      \strng{authorfullhashraw}{2cb42f3cff48f3ea3ffa2d121d2e28c0}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{IIIF, la solution ouverte, pérenne et sobre pour diffuser et valoriser les images numériques}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/5Q5B54GI/Pasquier and Robineau - 2024 - IIIF, la solution ouverte, pérenne et sobre pour diffuser et valoriser les images numériques.pdf
+      \endverb
+      \keyw{themeNumerisation}
+    \endentry
+    \entry{pedauqueDocumentLumiereNumerique2006}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=50c73249a92011a5d701b682b9faedb2}{%
+           family={Pédauque},
+           familyi={P\bibinitperiod},
+           given={Roger\bibnamedelima T.},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {C\&F Éditions}%
+      }
+      \strng{namehash}{50c73249a92011a5d701b682b9faedb2}
+      \strng{fullhash}{50c73249a92011a5d701b682b9faedb2}
+      \strng{fullhashraw}{50c73249a92011a5d701b682b9faedb2}
+      \strng{bibnamehash}{50c73249a92011a5d701b682b9faedb2}
+      \strng{authorbibnamehash}{50c73249a92011a5d701b682b9faedb2}
+      \strng{authornamehash}{50c73249a92011a5d701b682b9faedb2}
+      \strng{authorfullhash}{50c73249a92011a5d701b682b9faedb2}
+      \strng{authorfullhashraw}{50c73249a92011a5d701b682b9faedb2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Hors collection}
+      \field{isbn}{978-2-915825-04-6}
+      \field{langid}{french}
+      \field{shorttitle}{Le Document à la lumière du numérique. Forme, texte, médium}
+      \field{title}{Le Document à la lumière du numérique. Forme, texte, médium : comprendre le rôle du document numérique dans l'émergence d'une nouvelle modernité}
+      \field{urlday}{27}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/33FHHQI7/le-document-a-la-lumiere-du-numerique--9782915825046.html
+      \endverb
+      \verb{urlraw}
+      \verb https://shs-cairn-info.portail.psl.eu/le-document-a-la-lumiere-du-numerique--9782915825046
+      \endverb
+      \verb{url}
+      \verb https://shs-cairn-info.portail.psl.eu/le-document-a-la-lumiere-du-numerique--9782915825046
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{PlateformeIdRefReseau}{online}{}{}
+      \list{organization}{1}{%
+        {abes.fr}%
+      }
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Production et enrichissement des notices d’autorité Accéder à IdRef IdRef – Identifiants et Référentiels pour l’ESR Socle de la qualité des données bibliographiques, les données d’autorité identifient sans ambiguïté les personnes (physiques et morales), les lieux, les concepts et les œuvres liés à la ressource décrite. Elles constituent une garantie de fiabilité et de structuration […]}
+      \field{langid}{french}
+      \field{title}{Plateforme IdRef - Réseau Autorités}
+      \field{urlday}{3}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/HBFDWGH7/plateforme-idref.html
+      \endverb
+      \verb{urlraw}
+      \verb https://abes.fr/reseaux-idref-orcid/outils-et-services-autorites/plateforme-idref/
+      \endverb
+      \verb{url}
+      \verb https://abes.fr/reseaux-idref-orcid/outils-et-services-autorites/plateforme-idref/
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{poulainHistoireBibliothequesFrancaises1992}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=903e19e185a48cf19b0bf0da2c9ed9d4}{%
+           family={Poulain},
+           familyi={P\bibinitperiod},
+           given={Martine},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \list{publisher}{1}{%
+        {Promodis Éd. du Cercle de la librairie}%
+      }
+      \strng{namehash}{903e19e185a48cf19b0bf0da2c9ed9d4}
+      \strng{fullhash}{903e19e185a48cf19b0bf0da2c9ed9d4}
+      \strng{fullhashraw}{903e19e185a48cf19b0bf0da2c9ed9d4}
+      \strng{bibnamehash}{903e19e185a48cf19b0bf0da2c9ed9d4}
+      \strng{authorbibnamehash}{903e19e185a48cf19b0bf0da2c9ed9d4}
+      \strng{authornamehash}{903e19e185a48cf19b0bf0da2c9ed9d4}
+      \strng{authorfullhash}{903e19e185a48cf19b0bf0da2c9ed9d4}
+      \strng{authorfullhashraw}{903e19e185a48cf19b0bf0da2c9ed9d4}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-2-7654-0510-8}
+      \field{langid}{fre}
+      \field{pagetotal}{xxii+793}
+      \field{title}{Histoire des bibliothèques françaises. [4]. Les bibliothèques au XXe siècle, 1914-1990}
+      \field{year}{1992}
+      \field{dateera}{ce}
+      \keyw{20e siècle.,Bibliothèques,France,Livres et lecture,themeCujas}
+    \endentry
+    \entry{poupeauHistoiresNotices}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3589829689e3be332872995f39629943}{%
+           family={Poupeau},
+           familyi={P\bibinitperiod},
+           given={Gautier},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3589829689e3be332872995f39629943}
+      \strng{fullhash}{3589829689e3be332872995f39629943}
+      \strng{fullhashraw}{3589829689e3be332872995f39629943}
+      \strng{bibnamehash}{3589829689e3be332872995f39629943}
+      \strng{authorbibnamehash}{3589829689e3be332872995f39629943}
+      \strng{authornamehash}{3589829689e3be332872995f39629943}
+      \strng{authorfullhash}{3589829689e3be332872995f39629943}
+      \strng{authorfullhashraw}{3589829689e3be332872995f39629943}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{Histoire(s) de notices}
+      \true{nocite}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/WGL79QYR/Poupeau - Histoire(s) de notices.pdf
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{RapportDactiviteBibliotheque}{online}{}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{Rapport d’activité | Bibliothèque Cujas}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/FCBTJLSE/2024_BIU_Cujas_Rapport_annuel-site.pdf;/home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/BVZWGGW7/rapport-dactivite.html
+      \endverb
+      \verb{urlraw}
+      \verb https://biu-cujas.univ-paris1.fr/rapport-dactivite/
+      \endverb
+      \verb{url}
+      \verb https://biu-cujas.univ-paris1.fr/rapport-dactivite/
+      \endverb
+      \keyw{themeCujas}
+    \endentry
+    \entry{respingue-perrinMarchesPublicsDocumentation2014}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e98f499469a9a20c6623eb4be3596c54}{%
+           family={Respingue-Perrin},
+           familyi={R\bibinithyphendelim P\bibinitperiod},
+           given={Sébastien},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{e98f499469a9a20c6623eb4be3596c54}
+      \strng{fullhash}{e98f499469a9a20c6623eb4be3596c54}
+      \strng{fullhashraw}{e98f499469a9a20c6623eb4be3596c54}
+      \strng{bibnamehash}{e98f499469a9a20c6623eb4be3596c54}
+      \strng{authorbibnamehash}{e98f499469a9a20c6623eb4be3596c54}
+      \strng{authornamehash}{e98f499469a9a20c6623eb4be3596c54}
+      \strng{authorfullhash}{e98f499469a9a20c6623eb4be3596c54}
+      \strng{authorfullhashraw}{e98f499469a9a20c6623eb4be3596c54}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Intégrer des ressources numériques dans les collections}
+      \field{isbn}{979-10-91281-18-8}
+      \field{langid}{fre}
+      \field{title}{Les marchés publics de documentation électronique. Un achat en miettes~?}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{58\bibrangedash 72}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.11823
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{roustanRechercheDansInstitutions2016}{book}{}{}
+      \name{editor}{1}{}{%
+        {{un=0,uniquepart=base,hash=1361a6904d2a908c320357072747ad7a}{%
+           family={Roustan},
+           familyi={R\bibinitperiod},
+           given={Mélanie},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{1361a6904d2a908c320357072747ad7a}
+      \strng{fullhash}{1361a6904d2a908c320357072747ad7a}
+      \strng{fullhashraw}{1361a6904d2a908c320357072747ad7a}
+      \strng{bibnamehash}{1361a6904d2a908c320357072747ad7a}
+      \strng{editorbibnamehash}{1361a6904d2a908c320357072747ad7a}
+      \strng{editornamehash}{1361a6904d2a908c320357072747ad7a}
+      \strng{editorfullhash}{1361a6904d2a908c320357072747ad7a}
+      \strng{editorfullhashraw}{1361a6904d2a908c320357072747ad7a}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Le classement et la conservation des sources patrimoniales sont le fruit d’une histoire, faite de hasards et de choix politiques. L’activité de gestion des fonds implique un travail continuel de renouvellement : de leur interprétation, des techniques de recherche, de leurs modes d’accès, de leurs usages. Les méthodes d’analyse sont réactualisées : quelles relations intellectuelles, sensorielles, entretient-on avec les collections patrimoniales ? Comment les utilise-t-on ? Qu’en retire-t-on ? Cet ouvrage est issu d’une journée d‘étude organisée à la BnF ; Anne Monjaret et Mélanie Roustan sont ethnologues.}
+      \field{isbn}{978-2-37546-077-1}
+      \field{langid}{french}
+      \field{pagetotal}{200}
+      \field{series}{Papiers}
+      \field{shorttitle}{La recherche dans les institutions patrimoniales}
+      \field{title}{La recherche dans les institutions patrimoniales : Sources matérielles et ressources numériques}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://books.openedition.org/pressesenssib/5682
+      \endverb
+      \verb{url}
+      \verb https://books.openedition.org/pressesenssib/5682
+      \endverb
+      \keyw{archive,patrimoine,ressource numérique,source matérielle,themeMethodo}
+    \endentry
+    \entry{salaunVuLuSu}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=46cbd150e9bf339f3790359f1b4880a5}{%
+           family={Salaün},
+           familyi={S\bibinitperiod},
+           given={Jean-Michel},
+           giveni={J\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{46cbd150e9bf339f3790359f1b4880a5}
+      \strng{fullhash}{46cbd150e9bf339f3790359f1b4880a5}
+      \strng{fullhashraw}{46cbd150e9bf339f3790359f1b4880a5}
+      \strng{bibnamehash}{46cbd150e9bf339f3790359f1b4880a5}
+      \strng{authorbibnamehash}{46cbd150e9bf339f3790359f1b4880a5}
+      \strng{authornamehash}{46cbd150e9bf339f3790359f1b4880a5}
+      \strng{authorfullhash}{46cbd150e9bf339f3790359f1b4880a5}
+      \strng{authorfullhashraw}{46cbd150e9bf339f3790359f1b4880a5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Vu, Lu, Su. {{Les}} Architectes de l'information Face Au Monopole Du Web}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/U3UX9XGI/Salaün - Vu, lu, su. Les architectes de l'information face au monopole du web.pdf
+      \endverb
+    \endentry
+    \entry{savardTransformationNumeriqueIntelligence2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c4114689453081e160fb7fe1a7b7ef61}{%
+           family={Savard},
+           familyi={S\bibinitperiod},
+           given={Réjean},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c4114689453081e160fb7fe1a7b7ef61}
+      \strng{fullhash}{c4114689453081e160fb7fe1a7b7ef61}
+      \strng{fullhashraw}{c4114689453081e160fb7fe1a7b7ef61}
+      \strng{bibnamehash}{c4114689453081e160fb7fe1a7b7ef61}
+      \strng{authorbibnamehash}{c4114689453081e160fb7fe1a7b7ef61}
+      \strng{authornamehash}{c4114689453081e160fb7fe1a7b7ef61}
+      \strng{authorfullhash}{c4114689453081e160fb7fe1a7b7ef61}
+      \strng{authorfullhashraw}{c4114689453081e160fb7fe1a7b7ef61}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{6}
+      \field{issn}{2291-8949, 0315-2340}
+      \field{journaltitle}{Documentation et bibliothèques}
+      \field{langid}{french}
+      \field{month}{8}
+      \field{number}{3}
+      \field{shorttitle}{Transformation numérique et intelligence artificielle}
+      \field{title}{Transformation numérique et intelligence artificielle: Quel avenir pour les milieux documentaires ?}
+      \field{urlday}{2}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{70}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \field{pages}{4}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.7202/1112892ar
+      \endverb
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/SATKER5S/Savard - 2024 - Transformation numérique et intelligence artificielle Quel avenir pour les milieux documentaires .pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://id.erudit.org/iderudit/1112892ar
+      \endverb
+      \verb{url}
+      \verb https://id.erudit.org/iderudit/1112892ar
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{sibilleConnaissanceLusageEvaluation2014}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8a94c6e7320152880f905da0da91d297}{%
+           family={Sibille},
+           familyi={S\bibinitperiod},
+           given={Chantal},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{8a94c6e7320152880f905da0da91d297}
+      \strng{fullhash}{8a94c6e7320152880f905da0da91d297}
+      \strng{fullhashraw}{8a94c6e7320152880f905da0da91d297}
+      \strng{bibnamehash}{8a94c6e7320152880f905da0da91d297}
+      \strng{authorbibnamehash}{8a94c6e7320152880f905da0da91d297}
+      \strng{authornamehash}{8a94c6e7320152880f905da0da91d297}
+      \strng{authorfullhash}{8a94c6e7320152880f905da0da91d297}
+      \strng{authorfullhashraw}{8a94c6e7320152880f905da0da91d297}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Intégrer des ressources numériques dans les collections}
+      \field{isbn}{979-10-91281-18-8}
+      \field{langid}{fre}
+      \field{title}{Connaissance de l’usage, évaluation, indicateurs en lecture publique}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{128\bibrangedash 140}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.11828
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{sorbonneBlog2026}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,useprefix=false,hash=3c605b8d55c7973f1a460b121d89ba15}{%
+           family={Sorbonne},
+           familyi={S\bibinitperiod},
+           given={Bibliothèque},
+           giveni={B\bibinitperiod},
+           givenun=0,
+           prefix={interuniversitaire\bibnamedelimb de\bibnamedelima la},
+           prefixi={i\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim l\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{organization}{1}{%
+        {NuBIS | Bibliothèque Numérique de la BIS}%
+      }
+      \strng{namehash}{3c605b8d55c7973f1a460b121d89ba15}
+      \strng{fullhash}{3c605b8d55c7973f1a460b121d89ba15}
+      \strng{fullhashraw}{3c605b8d55c7973f1a460b121d89ba15}
+      \strng{bibnamehash}{3c605b8d55c7973f1a460b121d89ba15}
+      \strng{authorbibnamehash}{3c605b8d55c7973f1a460b121d89ba15}
+      \strng{authornamehash}{3c605b8d55c7973f1a460b121d89ba15}
+      \strng{authorfullhash}{3c605b8d55c7973f1a460b121d89ba15}
+      \strng{authorfullhashraw}{3c605b8d55c7973f1a460b121d89ba15}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Actualités, événements et informations de la Bibliothèque Numérique de la BIS}
+      \field{day}{27}
+      \field{langid}{french}
+      \field{month}{4}
+      \field{title}{Blog}
+      \field{urlday}{3}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/2BB9NUUU/guide_redaction_billet_blog_nubis_1.pdf;/home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/9VTHL4M8/blog.html
+      \endverb
+      \verb{urlraw}
+      \verb https://nubis.bis-sorbonne.fr/blog/
+      \endverb
+      \verb{url}
+      \verb https://nubis.bis-sorbonne.fr/blog/
+      \endverb
+      \keyw{themeNumerisation}
+    \endentry
+    \entry{sorbonneExpositionsVirtuelles}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,useprefix=false,hash=3c605b8d55c7973f1a460b121d89ba15}{%
+           family={Sorbonne},
+           familyi={S\bibinitperiod},
+           given={Bibliothèque},
+           giveni={B\bibinitperiod},
+           givenun=0,
+           prefix={interuniversitaire\bibnamedelimb de\bibnamedelima la},
+           prefixi={i\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim l\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{organization}{1}{%
+        {NuBIS | Bibliothèque Numérique de la BIS}%
+      }
+      \strng{namehash}{3c605b8d55c7973f1a460b121d89ba15}
+      \strng{fullhash}{3c605b8d55c7973f1a460b121d89ba15}
+      \strng{fullhashraw}{3c605b8d55c7973f1a460b121d89ba15}
+      \strng{bibnamehash}{3c605b8d55c7973f1a460b121d89ba15}
+      \strng{authorbibnamehash}{3c605b8d55c7973f1a460b121d89ba15}
+      \strng{authornamehash}{3c605b8d55c7973f1a460b121d89ba15}
+      \strng{authorfullhash}{3c605b8d55c7973f1a460b121d89ba15}
+      \strng{authorfullhashraw}{3c605b8d55c7973f1a460b121d89ba15}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Découvrez les expositions numériques thématiques de la BIS - Collections et manuscrits numérisés, présentations thématiques et valorisation du patrimoine}
+      \field{langid}{french}
+      \field{title}{Expositions virtuelles}
+      \field{urlday}{3}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/972FNHG5/guide_realisation_expositions_virtuelles_nubis.pdf;/home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/UD8TCS42/expositions.html
+      \endverb
+      \verb{urlraw}
+      \verb https://nubis.bis-sorbonne.fr/expositions
+      \endverb
+      \verb{url}
+      \verb https://nubis.bis-sorbonne.fr/expositions
+      \endverb
+      \keyw{themeNumerisation}
+    \endentry
+    \entry{storne-sengelAccompagnerChangementsPratique2017}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aab4ef8256529fc158fdf212b3a2a464}{%
+           family={Storne-Sengel},
+           familyi={S\bibinithyphendelim S\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{aab4ef8256529fc158fdf212b3a2a464}
+      \strng{fullhash}{aab4ef8256529fc158fdf212b3a2a464}
+      \strng{fullhashraw}{aab4ef8256529fc158fdf212b3a2a464}
+      \strng{bibnamehash}{aab4ef8256529fc158fdf212b3a2a464}
+      \strng{authorbibnamehash}{aab4ef8256529fc158fdf212b3a2a464}
+      \strng{authornamehash}{aab4ef8256529fc158fdf212b3a2a464}
+      \strng{authorfullhash}{aab4ef8256529fc158fdf212b3a2a464}
+      \strng{authorfullhashraw}{aab4ef8256529fc158fdf212b3a2a464}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Réinformatiser une bibliothèque}
+      \field{isbn}{979-10-91281-60-7}
+      \field{langid}{fre}
+      \field{title}{Accompagner les changements de pratique dans un projet de réinformatisation}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.6634
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+    \entry{stutzmannSignalerRessourcesNumerisees2013}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7959cd913b05ecfa002f73d8ca7326f9}{%
+           family={Stutzmann},
+           familyi={S\bibinitperiod},
+           given={Dominique},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c4167ed5f8dd309bd62bf407c85e56d}{%
+           family={Moirez},
+           familyi={M\bibinitperiod},
+           given={Pauline},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{898bd67599b0a1c043d0bd6feac871d7}
+      \strng{fullhash}{898bd67599b0a1c043d0bd6feac871d7}
+      \strng{fullhashraw}{898bd67599b0a1c043d0bd6feac871d7}
+      \strng{bibnamehash}{898bd67599b0a1c043d0bd6feac871d7}
+      \strng{authorbibnamehash}{898bd67599b0a1c043d0bd6feac871d7}
+      \strng{authornamehash}{898bd67599b0a1c043d0bd6feac871d7}
+      \strng{authorfullhash}{898bd67599b0a1c043d0bd6feac871d7}
+      \strng{authorfullhashraw}{898bd67599b0a1c043d0bd6feac871d7}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{french}
+      \field{title}{Signaler les ressources numérisées: enrichissement, visibilité, dissémination}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/3JF4CH6S/Stutzmann and Moirez - 2013 - Signaler les ressources numérisées enrichissement, visibilité, dissémination.pdf
+      \endverb
+      \keyw{themeNumerisation}
+    \endentry
+    \entry{tosello-bancalBibliothequesInteruniversitairesEspaces2009}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2184783c7c23a747d85841a83e101856}{%
+           family={Tosello-Bancal},
+           familyi={T\bibinithyphendelim B\bibinitperiod},
+           given={Jean-Émile},
+           giveni={J\bibinithyphendelim É\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2184783c7c23a747d85841a83e101856}
+      \strng{fullhash}{2184783c7c23a747d85841a83e101856}
+      \strng{fullhashraw}{2184783c7c23a747d85841a83e101856}
+      \strng{bibnamehash}{2184783c7c23a747d85841a83e101856}
+      \strng{authorbibnamehash}{2184783c7c23a747d85841a83e101856}
+      \strng{authornamehash}{2184783c7c23a747d85841a83e101856}
+      \strng{authorfullhash}{2184783c7c23a747d85841a83e101856}
+      \strng{authorfullhashraw}{2184783c7c23a747d85841a83e101856}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Quelle est la place des bibliothèques interuniversitaires dans le tissu documentaire national ? Comment ces structures atypiques, qui s’appuient sur le concept de coopération entre plusieurs établissements, pourront-elles intégrer la nouvelle donne constituée par des regroupements au sein de pôles de recherche et d’enseignement supérieur ? Dans l’attente d’un rapport de l’Inspection générale des bibliothèques sur leurs possibles évolutions statutaires, cet article, prenant appui sur la bibliothèque Cujas, souligne les points forts et faibles de ces structures dans l’actuel changement de contexte, de modèle économique et de paradigme.}
+      \field{day}{1}
+      \field{langid}{french}
+      \field{month}{1}
+      \field{title}{Les bibliothèques interuniversitaires, espaces de coopération scientifique}
+      \field{type}{Text}
+      \field{urlday}{10}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2009}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/SRGAG3BZ/bbf-2009-06-0039-008.html
+      \endverb
+      \verb{urlraw}
+      \verb https://bbf.enssib.fr/consulter/bbf-2009-06-0039-008
+      \endverb
+      \verb{url}
+      \verb https://bbf.enssib.fr/consulter/bbf-2009-06-0039-008
+      \endverb
+      \keyw{themeCujas}
+    \endentry
+    \entry{PartenariatLheureLinteroperabilite}{online}{}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labeltitlesource}{title}
+      \field{title}{Un Partenariat à l'heure de l'interopérabilité - {{Archive}} Ouverte {{HAL}}}
+      \field{urlday}{26}
+      \field{urlmonth}{7}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{file}
+      \verb /home/fanny-suszko/snap/zotero-snap/common/Zotero/storage/M4ANFWVI/hal-03372323.html
+      \endverb
+      \verb{urlraw}
+      \verb https://hal.science/hal-03372323
+      \endverb
+      \verb{url}
+      \verb https://hal.science/hal-03372323
+      \endverb
+      \keyw{bibliothèques numériques,EAD,Fichier d'autorité,IIIF,Metadonnees,themeDonnees}
+    \endentry
+    \entry{westeelIndexerStructurerEchanger2010}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6144a506b17651d2e1fa2cfaddc5363a}{%
+           family={Westeel},
+           familyi={W\bibinitperiod},
+           given={Isabelle},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=698bfb39b9d7f919e4df883ac1c31f88}{%
+           family={Claerr},
+           familyi={C\bibinitperiod},
+           given={Thierry},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Villeurbanne}%
+      }
+      \list{publisher}{1}{%
+        {Presses de l’enssib}%
+      }
+      \strng{namehash}{6144a506b17651d2e1fa2cfaddc5363a}
+      \strng{fullhash}{6144a506b17651d2e1fa2cfaddc5363a}
+      \strng{fullhashraw}{6144a506b17651d2e1fa2cfaddc5363a}
+      \strng{bibnamehash}{6144a506b17651d2e1fa2cfaddc5363a}
+      \strng{authorbibnamehash}{6144a506b17651d2e1fa2cfaddc5363a}
+      \strng{authornamehash}{6144a506b17651d2e1fa2cfaddc5363a}
+      \strng{authorfullhash}{6144a506b17651d2e1fa2cfaddc5363a}
+      \strng{authorfullhashraw}{6144a506b17651d2e1fa2cfaddc5363a}
+      \strng{editorbibnamehash}{698bfb39b9d7f919e4df883ac1c31f88}
+      \strng{editornamehash}{698bfb39b9d7f919e4df883ac1c31f88}
+      \strng{editorfullhash}{698bfb39b9d7f919e4df883ac1c31f88}
+      \strng{editorfullhashraw}{698bfb39b9d7f919e4df883ac1c31f88}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Numériser et mettre en ligne}
+      \field{isbn}{978-2-37546-032-0}
+      \field{langid}{french}
+      \field{series}{La Boîte à outils}
+      \field{shorttitle}{Indexer, structurer, échanger}
+      \field{title}{Indexer, structurer, échanger~: métadonnées et interopérabilité}
+      \field{urlday}{3}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{100\bibrangedash 123}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.4000/books.pressesenssib.434
+      \endverb
+      \verb{urlraw}
+      \verb https://books.openedition.org/pressesenssib/434
+      \endverb
+      \verb{url}
+      \verb https://books.openedition.org/pressesenssib/434
+      \endverb
+      \keyw{themeDonnees}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,5 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[1] Config.pm:331> INFO - Logfile is 'chapitre_2.3.blg'
+[163] biber:342> INFO - === Mon Sep  7, 2026, 19:32:08
+[420] Utils.pm:479> ERROR - Cannot find 'chapitre_2.3.bcf'!
+[421] Biber.pm:137> INFO - ERRORS: 1

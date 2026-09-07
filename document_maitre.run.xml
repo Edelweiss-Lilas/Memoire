@@ -41,7 +41,7 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="0">
+  <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
       <file>document_maitre.bcf</file>
@@ -60,7 +60,7 @@
       <file>french.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="0">
+  <external package="biblatex" priority="5" active="1">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
@@ -77,6 +77,12 @@
     </provides>
     <requires type="dynamic">
       <file>document_maitre.bcf</file>
+    </requires>
+    <requires type="editable">
+      <file>./bibliographie/cujas.bib</file>
+      <file>./bibliographie/numerisation.bib</file>
+      <file>./bibliographie/donnees_metadonnees.bib</file>
+      <file>./bibliographie/methodologie.bib</file>
     </requires>
   </external>
 </requests>
