@@ -20,7 +20,7 @@
 \contentsline {subsection}{\numberline {2.2}Le bordereau de numérisation}{23}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.3}La phase de traitement: traitement d'images et OCRisation}{23}{subsection.2.2.3}%
 \contentsline {subsection}{\numberline {2.4}La phase de publication et d'archivage pérenne}{24}{subsection.2.2.4}%
-\contentsline {section}{\numberline {3.}L’indexation Hauville}{25}{section.2.3}%
+\contentsline {section}{\numberline {3.}L’indexation propre à la bibliothèque Cujas}{25}{section.2.3}%
 \contentsline {chapter}{\numberline {3}Le constat technique}{29}{chapter.3}%
 \contentsline {section}{\numberline {1.}Back-office : un effet \enquote {boîte noire}}{29}{section.3.1}%
 \contentsline {section}{\numberline {2.}Vulnérabilité et sécurité des données}{32}{section.3.2}%
@@ -38,15 +38,15 @@
 \contentsline {section}{\numberline {3.}Standardisation et transition bibliographique}{52}{section.4.3}%
 \contentsline {subsubsection}{\numberline {3.0.1}L'application d'IFLA-LRM aux objets complexes}{53}{subsubsection.4.3.0.1}%
 \contentsline {subsubsection}{\numberline {3.0.2}L'alignement d'autorités et l'URI pivot}{54}{subsubsection.4.3.0.2}%
-\contentsline {subsubsection}{\numberline {3.0.3}L'alignement entre l'indexation Hauville et RAMEAU}{55}{subsubsection.4.3.0.3}%
+\contentsline {subsubsection}{\numberline {3.0.3}L'alignement entre l'indexation propre à Cujas et RAMEAU}{55}{subsubsection.4.3.0.3}%
 \contentsline {chapter}{\numberline {5}Les attentes des usagers}{59}{chapter.5}%
 \contentsline {section}{\numberline {1.}Diversité des publics}{59}{section.5.1}%
 \contentsline {section}{\numberline {2.}Les attentes fonctionnelles}{61}{section.5.2}%
 \contentsline {section}{\numberline {3.}De la consultation à l'appropriation}{63}{section.5.3}%
 \contentsline {section}{\numberline {4.}Conception et accompagnement}{65}{section.5.4}%
 \contentsline {part}{III\hspace {1em}Concevoir les services et accompagner les usagers dans un système en mutation}{69}{part.3}%
-\contentsline {chapter}{\numberline {6}Prototype Codex}{73}{chapter.6}%
-\contentsline {section}{\numberline {1.}Le prototype Codex: architecture et choix techniques}{74}{section.6.1}%
+\contentsline {chapter}{\numberline {6}L'architecture du prototype}{73}{chapter.6}%
+\contentsline {section}{\numberline {1.}Le prototype : architecture et choix techniques}{74}{section.6.1}%
 \contentsline {subsection}{\numberline {1.1}Le dépassement de l'arborescence \enquote {à plat} et la modélisation hiérarchique}{74}{subsection.6.1.1}%
 \contentsline {subsection}{\numberline {1.2}La déconnexion du traitement des images par le standard IIIF}{76}{subsection.6.1.2}%
 \contentsline {subsection}{\numberline {1.3}L'interopérabilité des données et la pérennité des identifiants (ARK)}{77}{subsection.6.1.3}%
@@ -69,7 +69,7 @@
 \contentsline {chapter}{\numberline {8}Les défis de gouvernance de cette refonte}{95}{chapter.8}%
 \contentsline {section}{\numberline {1.}L'évolution des métiers et des pratiques}{95}{section.8.1}%
 \contentsline {subsection}{\numberline {1.1}L'état des lieux: un double cloisonnement}{96}{subsection.8.1.1}%
-\contentsline {subsection}{\numberline {1.2}Redonner l'autonomie aux métiers grâce à Codex}{96}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {1.2}Redonner l'autonomie aux métiers grâce au prototype}{96}{subsection.8.1.2}%
 \contentsline {subsection}{\numberline {1.3}La conduite du changement}{97}{subsection.8.1.3}%
 \contentsline {section}{\numberline {2.}Médiation et autonomie}{98}{section.8.2}%
 \contentsline {subsection}{\numberline {2.1}La médiation et l'autonomie des chercheurs}{98}{subsection.8.2.1}%
@@ -83,133 +83,115 @@
 \contentsline {subsection}{Présentation du projet de la bibliothèque}{110}{appendix.A}%
 \contentsline {subsection}{Méthodologie employée}{110}{appendix.A}%
 \contentsline {subsection}{Objectifs des entretiens}{111}{appendix.A}%
-\contentsline {section}{Sources}{111}{appendix.A}%
-\contentsline {subsection}{Enseignants et chercheurs, lecteurs de la bibliothèque numérique}{111}{appendix.A}%
-\contentsline {subsection}{Professionnel de Cujas}{112}{appendix.A}%
-\contentsline {section}{Analyse fonctionnelle}{113}{appendix.A}%
-\contentsline {section}{\numberline {1.}Les contenus}{113}{section.A.1}%
-\contentsline {subsection}{\numberline {1.1}L’analyse de l’existant}{113}{subsection.A.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}La politique documentaire et la qualité scientifique des contenus}{113}{subsubsection.A.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.2}La diversité des types de documents}{113}{subsubsection.A.1.1.2}%
-\contentsline {subsubsection}{\numberline {1.1.3}L’éditorialisation}{113}{subsubsection.A.1.1.3}%
-\contentsline {subsubsection}{\numberline {1.1.4}L’intégration de collections d’autres bibliothèques numériques}{114}{subsubsection.A.1.1.4}%
-\contentsline {subsection}{\numberline {1.2}Les propositions d’améliorations des répondants}{114}{subsection.A.1.2}%
-\contentsline {subsubsection}{\numberline {1.2.1}La politique documentaire et la qualité scientifique des contenus}{114}{subsubsection.A.1.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.2}La diversité des types de documents}{114}{subsubsection.A.1.2.2}%
-\contentsline {subsubsection}{\numberline {1.2.3}L’éditorialisation}{115}{subsubsection.A.1.2.3}%
-\contentsline {subsubsection}{\numberline {1.2.4}Les éléments de communication}{115}{subsubsection.A.1.2.4}%
-\contentsline {subsubsection}{\numberline {1.2.5}L’intégration de collections d’autres bibliothèques numériques}{115}{subsubsection.A.1.2.5}%
-\contentsline {section}{\numberline {2.}Les publics}{116}{section.A.2}%
-\contentsline {subsection}{\numberline {2.1}L’analyse de l’existant}{116}{subsection.A.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Les profils des utilisateurs}{116}{subsubsection.A.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}La fréquentation}{116}{subsubsection.A.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.3}Les statistiques de consultation}{117}{subsubsection.A.2.1.3}%
-\contentsline {subsection}{\numberline {2.2}Les propositions d’améliorations des répondants}{117}{subsection.A.2.2}%
-\contentsline {section}{\numberline {3.}La description des documents}{117}{section.A.3}%
-\contentsline {subsection}{\numberline {3.1}L’analyse de l’existant}{117}{subsection.A.3.1}%
-\contentsline {subsection}{\numberline {3.2}Les propositions d’amélioration des répondants}{118}{subsection.A.3.2}%
-\contentsline {section}{\numberline {4.}La recherche d’information}{118}{section.A.4}%
-\contentsline {subsection}{\numberline {4.1}L’analyse de l’existant}{118}{subsection.A.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Les moyens de recherche : recherche simple, avancée et dans l’OCR}{118}{subsubsection.A.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Navigation par thèmes}{119}{subsubsection.A.4.1.2}%
-\contentsline {subsection}{\numberline {4.2}Les propositions d’amélioration des répondants}{120}{subsection.A.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Les moyens de recherche : recherche simple, avancée et par OCR}{120}{subsubsection.A.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Navigation par thèmes}{120}{subsubsection.A.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}Filtres et facettes}{120}{subsubsection.A.4.2.3}%
-\contentsline {section}{\numberline {5.}La consultation}{121}{section.A.5}%
-\contentsline {subsection}{\numberline {5.1}L’analyse de l’existant}{121}{subsection.A.5.1}%
-\contentsline {subsection}{\numberline {5.2}Les propositions d’amélioration des répondants}{121}{subsection.A.5.2}%
-\contentsline {section}{\numberline {6.}Les services proposés}{122}{section.A.6}%
-\contentsline {subsection}{\numberline {6.1}L’analyse de l’existant}{122}{subsection.A.6.1}%
-\contentsline {subsection}{\numberline {6.2}Les propositions d’amélioration}{122}{subsection.A.6.2}%
-\contentsline {section}{\numberline {7.}Ergonomie}{123}{section.A.7}%
-\contentsline {subsection}{\numberline {7.1}L’analyse de l’existant}{123}{subsection.A.7.1}%
-\contentsline {subsection}{\numberline {7.2}Les propositions d’amélioration}{124}{subsection.A.7.2}%
-\contentsline {section}{\numberline {8.}Analyse juridique}{124}{section.A.8}%
-\contentsline {subsection}{\numberline {8.1}L’analyse de l’existant}{124}{subsection.A.8.1}%
-\contentsline {subsection}{\numberline {8.2}Les propositions d’amélioration}{124}{subsection.A.8.2}%
-\contentsline {section}{Analyse technique}{125}{subsection.A.8.2}%
-\contentsline {section}{\numberline {9.}CujasNum}{125}{section.A.9}%
-\contentsline {subsection}{\numberline {9.1}Éléments techniques}{125}{subsection.A.9.1}%
-\contentsline {subsection}{\numberline {9.2}SWOT}{127}{subsection.A.9.2}%
-\contentsline {section}{\numberline {10.}Codex}{128}{section.A.10}%
-\contentsline {subsection}{\numberline {10.1}Aspects techniques de Codex}{128}{subsection.A.10.1}%
-\contentsline {subsection}{\numberline {10.2}SWOT}{129}{subsection.A.10.2}%
-\contentsline {section}{Annexes}{130}{table.A.2}%
-\contentsline {subsection}{Annexe 1 : Descamps Olivier (OD), Professeur de l’histoire du droit de Paris II, responsable scientifique du CST droit (BNF).}{130}{table.A.2}%
-\contentsline {subsection}{Annexe 2 : Masséna Floriane (FM), Maître de conférence d’histoire du droit et des institutions de Paris I, entretien du 01/06/2026.}{132}{table.A.2}%
-\contentsline {subsection}{Annexe 3 : Moiroud Cécile (CM), Maître de conférences HDR, Droit public, Paris I, entretien du 17/05/2026.}{134}{table.A.2}%
-\contentsline {subsection}{Annexe 4 : Pfister Laurent (LP), Professeur d’histoire du droit et des institutions de Paris II, entretien du 17/05/2026.}{135}{table.A.2}%
-\contentsline {subsection}{Annexe 5 : Bolard Cécile (CB), Responsable de la numérisation et des collections numérisées, entretien du 19/05/2026.}{136}{table.A.2}%
-\contentsline {subsection}{Annexe 6 : Colcanap Gregory (GC), Directeur de la bibliothèque interuniversitaire Cujas, entretien du 27/04/2026.}{138}{table.A.2}%
-\contentsline {subsection}{Annexe 7 : Dubois Olesea (OD), Responsable de la bibliothèque numérique de Sciences Po, entretien du 15/06/2026.}{139}{table.A.2}%
-\contentsline {subsection}{Annexe 8 : Dufournet Stéphane (SD), Responsable du Département du Patrimoine, de la conservation, et de la numérisation, entretien du 22/04/2026.}{139}{table.A.2}%
-\contentsline {subsection}{Annexe 9 : Gottely Alexandra (AG) : Responsable du Département partenariats et appui à la recherche, ancienne responsable de la bibliothèque numérique, entretien du 28/04/2026.}{140}{table.A.2}%
-\contentsline {subsection}{Annexe 10 : Leulmi Mebrouk (BL), Responsable du Département informatique technique, entretien du 29/04/2026 et du 27/05/2026.}{142}{table.A.2}%
-\contentsline {subsection}{Annexe 11 : Limandri Sandrine (SL) : Responsable de l’atelier de numérisation, entretien du 02/04/2026.}{144}{table.A.2}%
-\contentsline {subsection}{Annexe 12 : Merat Alix (AM) et Sourdillon Jeanne (JS) : Responsable et adjointe du Département des périodiques et des ressources électroniques, entretien du 15/04/2026.}{144}{table.A.2}%
-\contentsline {subsection}{Annexe 13 : Suszko Fanny (FS), stagiaire, état de l’existant de la bibliothèque numérique actuelle et du prototype Codex datant du 16/06/2026.}{145}{table.A.2}%
-\contentsline {subsection}{Annexe 14 : Enquête de satisfaction sous LimeSurvey ouverte du 14 avril au 03 juillet 2026 sur les sites de la bibliothèque numérique et de la bibliothèque Cujas.}{147}{table.A.2}%
-\contentsline {chapter}{\numberline {B}Les préconisations pour la bibliothèque numérique}{149}{appendix.B}%
-\contentsline {section}{\numberline {1.}Présentation}{149}{section.B.1}%
-\contentsline {subsection}{\numberline {1.1}Contexte}{149}{subsection.B.1.1}%
-\contentsline {subsection}{\numberline {1.2}Méthodologie de travail}{149}{subsection.B.1.2}%
-\contentsline {subsection}{\numberline {1.3}Les limites de l’étude}{150}{subsection.B.1.3}%
-\contentsline {subsection}{\numberline {1.4}Conception du benchmark}{151}{subsection.B.1.4}%
-\contentsline {subsubsection}{\numberline {1.4.1}Objectif du benchmark}{151}{subsubsection.B.1.4.1}%
-\contentsline {subsubsection}{\numberline {1.4.2}Corpus des bibliothèques numériques examinées}{151}{subsubsection.B.1.4.2}%
-\contentsline {subsubsection}{\numberline {1.4.3}Notation des fonctionnalités examinées}{153}{subsubsection.B.1.4.3}%
-\contentsline {subsection}{\numberline {1.5}Conception des personae}{155}{subsection.B.1.5}%
-\contentsline {section}{\numberline {2.}Eléments fonctionnels}{156}{section.B.2}%
-\contentsline {subsection}{\numberline {2.1}Les modalités de recherche}{156}{subsection.B.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Les besoins identifiés}{156}{subsubsection.B.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Benchmark}{156}{subsubsection.B.2.1.2}%
-\contentsline {paragraph}{La Recherche simple:}{156}{subsubsection.B.2.1.2}%
-\contentsline {paragraph}{La recherche avancée :}{158}{subsubsection.B.2.1.2}%
-\contentsline {paragraph}{Recherche par filtrage (filtres, facettes):}{161}{subsubsection.B.2.1.2}%
-\contentsline {paragraph}{Collections:}{165}{subsubsection.B.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.3}Proposition pour la bibliothèque numérique de Cujas}{168}{subsubsection.B.2.1.3}%
-\contentsline {subsubsection}{\numberline {2.1.4}Eléments techniques}{169}{subsubsection.B.2.1.4}%
-\contentsline {paragraph}{Module Advanced Search (Omeka.org)}{169}{subsubsection.B.2.1.4}%
-\contentsline {paragraph}{API Omeka-S-module-SearchSolr}{169}{subsubsection.B.2.1.4}%
-\contentsline {subsubsection}{\numberline {2.1.5}Réponse aux besoins identifiés par les personae}{169}{subsubsection.B.2.1.5}%
-\contentsline {subsection}{\numberline {2.2}La page d’un document}{170}{subsection.B.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Les besoins identifiés}{170}{subsubsection.B.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Benchmark}{170}{subsubsection.B.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}Proposition pour la bibliothèque numérique de Cujas}{174}{subsubsection.B.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.4}Eléments techniques}{174}{subsubsection.B.2.2.4}%
-\contentsline {subsubsection}{\numberline {2.2.5}Réponse aux besoins identifiés par les personae}{175}{subsubsection.B.2.2.5}%
-\contentsline {subsection}{\numberline {2.3}Compte personnel, consultation et exploitation des documents}{176}{subsection.B.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Les besoins identifiés}{176}{subsubsection.B.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Benchmark : le compte personnel}{176}{subsubsection.B.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Benchmark : la consultation des documents}{179}{subsubsection.B.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.4}Benchmark : exploitation des documents : options de téléchargements et formats disponibles}{181}{subsubsection.B.2.3.4}%
-\contentsline {subsubsection}{\numberline {2.3.5}Benchmark : exploitation des documents : options de partage, d’annotation des documents}{183}{subsubsection.B.2.3.5}%
-\contentsline {subsubsection}{\numberline {2.3.6}Benchmark : OCR, transcription}{184}{subsubsection.B.2.3.6}%
-\contentsline {subsubsection}{\numberline {2.3.7}Benchmark : Droits d’accès et de réutilisation}{185}{subsubsection.B.2.3.7}%
-\contentsline {subsubsection}{\numberline {2.3.8}Proposition pour la bibliothèque numérique de Cujas}{186}{subsubsection.B.2.3.8}%
-\contentsline {subsubsection}{\numberline {2.3.9}Eléments techniques}{186}{subsubsection.B.2.3.9}%
-\contentsline {paragraph}{Module IIIF Server}{186}{subsubsection.B.2.3.9}%
-\contentsline {subsubsection}{\numberline {2.3.10}Réponse aux besoins identifiés par les personae}{187}{subsubsection.B.2.3.10}%
-\contentsline {subsection}{\numberline {2.4}Valorisation, information et accompagnement des usagers}{188}{subsection.B.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Les besoins identifiés}{188}{subsubsection.B.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2}Benchmark : Informations institutionnelles}{189}{subsubsection.B.2.4.2}%
-\contentsline {paragraph}{Page « A propos »}{189}{subsubsection.B.2.4.2}%
-\contentsline {subsubsection}{\numberline {2.4.3}Benchmark : Accompagnement des usagers}{203}{subsubsection.B.2.4.3}%
-\contentsline {subsubsection}{\numberline {2.4.4}Benchmark : Valorisation}{207}{subsubsection.B.2.4.4}%
-\contentsline {subsubsection}{\numberline {2.4.5}Proposition pour la bibliothèque numérique de Cujas}{216}{subsubsection.B.2.4.5}%
-\contentsline {subsubsection}{\numberline {2.4.6}Réponse aux besoins identifiés par les personae}{217}{subsubsection.B.2.4.6}%
-\contentsline {section}{\numberline {3.}Page d'accueil}{218}{section.B.3}%
-\contentsline {subsection}{\numberline {3.1}Le plan du site}{218}{subsection.B.3.1}%
-\contentsline {subsection}{\numberline {3.2}Page d’accueil : maquette}{220}{subsection.B.3.2}%
-\contentsline {section}{Conclusion}{221}{subsection.B.3.2}%
-\contentsline {section}{Annexes}{221}{subsection.B.3.2}%
-\contentsline {subsection}{Personae}{221}{subsection.B.3.2}%
-\contentsline {subsubsection}{Chercheur expert en histoire du droit}{221}{subsection.B.3.2}%
-\contentsline {subsubsection}{Doctorante en histoire du droit et des institutions}{224}{subsection.B.3.2}%
-\contentsline {subsubsection}{Etudiant en histoire du droit}{226}{subsection.B.3.2}%
-\contentsline {subsubsection}{L’Amatrice éclairée}{227}{subsection.B.3.2}%
-\contentsline {subsubsection}{Bibliothécaire}{229}{subsection.B.3.2}%
-\contentsline {subsubsection}{Responsable de la bibliothèque numérique}{230}{subsection.B.3.2}%
-\contentsline {subsubsection}{Informaticien}{232}{subsection.B.3.2}%
-\contentsline {chapter}{\textfrench {Glossaire}}{235}{section*.8}%
+\contentsline {section}{Analyse fonctionnelle}{111}{appendix.A}%
+\contentsline {section}{\numberline {1.}Les contenus}{111}{section.A.1}%
+\contentsline {subsection}{\numberline {1.1}L’analyse de l’existant}{111}{subsection.A.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}La politique documentaire et la qualité scientifique des contenus}{111}{subsubsection.A.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}La diversité des types de documents}{111}{subsubsection.A.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}L’éditorialisation}{112}{subsubsection.A.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.4}L’intégration de collections d’autres bibliothèques numériques}{112}{subsubsection.A.1.1.4}%
+\contentsline {subsection}{\numberline {1.2}Les propositions d’améliorations des répondants}{112}{subsection.A.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}La politique documentaire et la qualité scientifique des contenus}{112}{subsubsection.A.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}La diversité des types de documents}{113}{subsubsection.A.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}L’éditorialisation}{113}{subsubsection.A.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}Les éléments de communication}{113}{subsubsection.A.1.2.4}%
+\contentsline {subsubsection}{\numberline {1.2.5}L’intégration de collections d’autres bibliothèques numériques}{114}{subsubsection.A.1.2.5}%
+\contentsline {section}{\numberline {2.}Les publics}{114}{section.A.2}%
+\contentsline {subsection}{\numberline {2.1}L’analyse de l’existant}{114}{subsection.A.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Les profils des utilisateurs}{114}{subsubsection.A.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}La fréquentation}{114}{subsubsection.A.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Les statistiques de consultation}{115}{subsubsection.A.2.1.3}%
+\contentsline {subsection}{\numberline {2.2}Les propositions d’améliorations des répondants}{115}{subsection.A.2.2}%
+\contentsline {section}{\numberline {3.}La description des documents}{116}{section.A.3}%
+\contentsline {subsection}{\numberline {3.1}L’analyse de l’existant}{116}{subsection.A.3.1}%
+\contentsline {subsection}{\numberline {3.2}Les propositions d’amélioration des répondants}{116}{subsection.A.3.2}%
+\contentsline {section}{\numberline {4.}La recherche d’information}{117}{section.A.4}%
+\contentsline {subsection}{\numberline {4.1}L’analyse de l’existant}{117}{subsection.A.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Les moyens de recherche : recherche simple, avancée et dans l’OCR}{117}{subsubsection.A.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Navigation par thèmes}{117}{subsubsection.A.4.1.2}%
+\contentsline {subsection}{\numberline {4.2}Les propositions d’amélioration des répondants}{118}{subsection.A.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Les moyens de recherche : recherche simple, avancée et par OCR}{118}{subsubsection.A.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Navigation par thèmes}{118}{subsubsection.A.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Filtres et facettes}{118}{subsubsection.A.4.2.3}%
+\contentsline {section}{\numberline {5.}La consultation}{119}{section.A.5}%
+\contentsline {subsection}{\numberline {5.1}L’analyse de l’existant}{119}{subsection.A.5.1}%
+\contentsline {subsection}{\numberline {5.2}Les propositions d’amélioration des répondants}{119}{subsection.A.5.2}%
+\contentsline {section}{\numberline {6.}Les services proposés}{120}{section.A.6}%
+\contentsline {subsection}{\numberline {6.1}L’analyse de l’existant}{120}{subsection.A.6.1}%
+\contentsline {subsection}{\numberline {6.2}Les propositions d’amélioration}{120}{subsection.A.6.2}%
+\contentsline {section}{\numberline {7.}Ergonomie}{121}{section.A.7}%
+\contentsline {subsection}{\numberline {7.1}L’analyse de l’existant}{121}{subsection.A.7.1}%
+\contentsline {subsection}{\numberline {7.2}Les propositions d’amélioration}{122}{subsection.A.7.2}%
+\contentsline {section}{\numberline {8.}Analyse juridique}{122}{section.A.8}%
+\contentsline {subsection}{\numberline {8.1}L’analyse de l’existant}{122}{subsection.A.8.1}%
+\contentsline {subsection}{\numberline {8.2}Les propositions d’amélioration}{122}{subsection.A.8.2}%
+\contentsline {section}{Analyse technique}{123}{subsection.A.8.2}%
+\contentsline {section}{\numberline {9.}CujasNum}{123}{section.A.9}%
+\contentsline {subsection}{\numberline {9.1}Éléments techniques}{123}{subsection.A.9.1}%
+\contentsline {subsection}{\numberline {9.2}SWOT}{125}{subsection.A.9.2}%
+\contentsline {section}{\numberline {10.}Prototype}{126}{section.A.10}%
+\contentsline {subsection}{\numberline {10.1}Aspects techniques du prototype}{126}{subsection.A.10.1}%
+\contentsline {subsection}{\numberline {10.2}SWOT}{127}{subsection.A.10.2}%
+\contentsline {chapter}{\numberline {B}Les préconisations pour la bibliothèque numérique}{129}{appendix.B}%
+\contentsline {section}{\numberline {1.}Présentation}{129}{section.B.1}%
+\contentsline {subsection}{\numberline {1.1}Contexte}{129}{subsection.B.1.1}%
+\contentsline {subsection}{\numberline {1.2}Méthodologie de travail}{129}{subsection.B.1.2}%
+\contentsline {subsection}{\numberline {1.3}Les limites de l’étude}{130}{subsection.B.1.3}%
+\contentsline {subsection}{\numberline {1.4}Conception du benchmark}{131}{subsection.B.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1}Objectif du benchmark}{131}{subsubsection.B.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.2}Corpus des bibliothèques numériques examinées}{131}{subsubsection.B.1.4.2}%
+\contentsline {subsubsection}{\numberline {1.4.3}Notation des fonctionnalités examinées}{133}{subsubsection.B.1.4.3}%
+\contentsline {subsection}{\numberline {1.5}Conception des personae}{135}{subsection.B.1.5}%
+\contentsline {section}{\numberline {2.}Eléments fonctionnels}{136}{section.B.2}%
+\contentsline {subsection}{\numberline {2.1}Les modalités de recherche}{136}{subsection.B.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Les besoins identifiés}{136}{subsubsection.B.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Benchmark}{136}{subsubsection.B.2.1.2}%
+\contentsline {paragraph}{La Recherche simple:}{136}{subsubsection.B.2.1.2}%
+\contentsline {paragraph}{La recherche avancée :}{138}{subsubsection.B.2.1.2}%
+\contentsline {paragraph}{Recherche par filtrage (filtres, facettes):}{141}{subsubsection.B.2.1.2}%
+\contentsline {paragraph}{Collections:}{145}{subsubsection.B.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Proposition pour la bibliothèque numérique de Cujas}{148}{subsubsection.B.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Eléments techniques}{149}{subsubsection.B.2.1.4}%
+\contentsline {paragraph}{Module Advanced Search (Omeka.org)}{149}{subsubsection.B.2.1.4}%
+\contentsline {paragraph}{API Omeka-S-module-SearchSolr}{149}{subsubsection.B.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.5}Réponse aux besoins identifiés par les personae}{149}{subsubsection.B.2.1.5}%
+\contentsline {subsection}{\numberline {2.2}La page d’un document}{150}{subsection.B.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Les besoins identifiés}{150}{subsubsection.B.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Benchmark}{150}{subsubsection.B.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Proposition pour la bibliothèque numérique de Cujas}{154}{subsubsection.B.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Eléments techniques}{154}{subsubsection.B.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.5}Réponse aux besoins identifiés par les personae}{155}{subsubsection.B.2.2.5}%
+\contentsline {subsection}{\numberline {2.3}Compte personnel, consultation et exploitation des documents}{156}{subsection.B.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Les besoins identifiés}{156}{subsubsection.B.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Benchmark : le compte personnel}{156}{subsubsection.B.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Benchmark : la consultation des documents}{159}{subsubsection.B.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}Benchmark : exploitation des documents : options de téléchargements et formats disponibles}{161}{subsubsection.B.2.3.4}%
+\contentsline {subsubsection}{\numberline {2.3.5}Benchmark : exploitation des documents : options de partage, d’annotation des documents}{163}{subsubsection.B.2.3.5}%
+\contentsline {subsubsection}{\numberline {2.3.6}Benchmark : OCR, transcription}{164}{subsubsection.B.2.3.6}%
+\contentsline {subsubsection}{\numberline {2.3.7}Benchmark : Droits d’accès et de réutilisation}{165}{subsubsection.B.2.3.7}%
+\contentsline {subsubsection}{\numberline {2.3.8}Proposition pour la bibliothèque numérique de Cujas}{166}{subsubsection.B.2.3.8}%
+\contentsline {subsubsection}{\numberline {2.3.9}Eléments techniques}{166}{subsubsection.B.2.3.9}%
+\contentsline {paragraph}{Module IIIF Server}{166}{subsubsection.B.2.3.9}%
+\contentsline {subsubsection}{\numberline {2.3.10}Réponse aux besoins identifiés par les personae}{167}{subsubsection.B.2.3.10}%
+\contentsline {subsection}{\numberline {2.4}Valorisation, information et accompagnement des usagers}{168}{subsection.B.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Les besoins identifiés}{168}{subsubsection.B.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Benchmark : Informations institutionnelles}{169}{subsubsection.B.2.4.2}%
+\contentsline {paragraph}{Page « A propos »}{169}{subsubsection.B.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Benchmark : Accompagnement des usagers}{183}{subsubsection.B.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.4}Benchmark : Valorisation}{187}{subsubsection.B.2.4.4}%
+\contentsline {subsubsection}{\numberline {2.4.5}Proposition pour la bibliothèque numérique de Cujas}{196}{subsubsection.B.2.4.5}%
+\contentsline {subsubsection}{\numberline {2.4.6}Réponse aux besoins identifiés par les personae}{197}{subsubsection.B.2.4.6}%
+\contentsline {section}{\numberline {3.}Page d'accueil}{198}{section.B.3}%
+\contentsline {subsection}{\numberline {3.1}Le plan du site}{198}{subsection.B.3.1}%
+\contentsline {subsection}{\numberline {3.2}Page d’accueil : maquette}{200}{subsection.B.3.2}%
+\contentsline {section}{Conclusion}{201}{subsection.B.3.2}%
+\contentsline {section}{Annexes}{201}{subsection.B.3.2}%
+\contentsline {subsection}{Personae}{201}{subsection.B.3.2}%
+\contentsline {subsubsection}{Chercheur expert en histoire du droit}{201}{subsection.B.3.2}%
+\contentsline {subsubsection}{Doctorante en histoire du droit et des institutions}{204}{subsection.B.3.2}%
+\contentsline {subsubsection}{Etudiant en histoire du droit}{206}{subsection.B.3.2}%
+\contentsline {subsubsection}{L’Amatrice éclairée}{207}{subsection.B.3.2}%
+\contentsline {subsubsection}{Bibliothécaire}{209}{subsection.B.3.2}%
+\contentsline {subsubsection}{Responsable de la bibliothèque numérique}{210}{subsection.B.3.2}%
+\contentsline {subsubsection}{Informaticien}{212}{subsection.B.3.2}%
+\contentsline {chapter}{\textfrench {Glossaire}}{215}{section*.8}%

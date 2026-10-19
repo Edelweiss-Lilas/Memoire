@@ -4,17 +4,17 @@
 
 \section{Présentation}
 \subsection{Contexte}
-Le rapport d’audit fonctionnel de l’existant révèle que malgré sa robustesse l’ancien système XTF sous lequel CujasNum a été développé souffre de défauts d’ergonomie (multiplications des facettes, impossibilité de créer des collections, absence d’éditorialisation, etc.). Le prototype Codex semble résoudre certains problèmes identifiés dans l’ancienne bibliothèque en proposant des services (visionneuse Mirador, explorer, une page par document) auxquels on est habitués dans d’autres bibliothèques numériques. Cependant, le front-office de Codex nécessite des ajustements afin de fluidifier le parcours de l’usager. C’est sur la base de ce constat que ce document a été réalisé afin de proposer les meilleures solutions d’interface possible.
+Le rapport d’audit fonctionnel de l’existant révèle que malgré sa robustesse l’ancien système XTF sous lequel CujasNum a été développé souffre de défauts d’ergonomie (multiplications des facettes, impossibilité de créer des collections, absence d’éditorialisation, etc.). Le prototype semble résoudre certains problèmes identifiés dans l’ancienne bibliothèque en proposant des services (visionneuse Mirador, explorer, une page par document) auxquels on est habitués dans d’autres bibliothèques numériques. Cependant, le front-office du prototype nécessite des ajustements afin de fluidifier le parcours de l’usager. C’est sur la base de ce constat que ce document a été réalisé afin de proposer les meilleures solutions d’interface possible.
 
 \subsection{Méthodologie de travail}
 J’ai adopté une méthodologie itérative et démonstrative, pour mener à bien cette étude afin de formuler des recommandations pertinentes. Celle-ci s’articule autour des étapes suivantes :
 \begin{itemize}
-	\item L’exploitation de l’état des lieux : je me suis appuyé sur le document réalisé pour le rapport d’audit fonctionnel et technique, intitulé état de l’existant de la bibliothèque numérique actuelle et du prototype Codex. Ce document fait état des limites des fonctionnalités proposées dans Codex et des besoins exprimés par les utilisateurs et les professionnels. Il fait émerger les éléments essentiels à implémenter dans le nouveau système. 
+	\item L’exploitation de l’état des lieux : je me suis appuyé sur le document réalisé pour le rapport d’audit fonctionnel et technique, intitulé état de l’existant de la bibliothèque numérique actuelle et du prototype. Ce document fait état des limites des fonctionnalités proposées dans le prototype et des besoins exprimés par les utilisateurs et les professionnels. Il fait émerger les éléments essentiels à implémenter dans le nouveau système. 
 \item Pour chaque thématique étudiée, ma méthode de travail fut la suivante : 
 \begin{itemize}
 	\item Identification des besoins
 \item Réalisation d’un benchmark de cette fonction comparant ce qui se fait ailleurs, 
-\item Préconisations pour le prototype Codex
+\item Préconisations pour le prototype
 \item Eventuellement proposition d’un module technique. 
 \item Examen de la pertinence de la fonction proposée à travers la figure du personae. 
 \end{itemize}
@@ -45,7 +45,7 @@ J’ai adopté une méthodologie itérative et démonstrative, pour mener à bie
 \begin{itemize}
 	\item Identifier les bonnes pratiques des bibliothèques numériques
 \item Comparer les fonctionnalités existantes avec ce qui se fait maintenant en bibliothèque numérique
-\item Dégager des pistes d’amélioration pour Codex
+\item Dégager des pistes d’amélioration pour le prototype
 \item Alimenter les choix fonctionnels du projet
 \end{itemize}
 
@@ -223,7 +223,7 @@ Le formulaire de recherche avancée permet de faire un filtrage par droit d’au
 
 \paragraph*{Recherche par filtrage (filtres, facettes):}
 \addcontentsline{toc}{paragraph}{Recherche par filtrage (filtres, facettes):}
-Il s’agit de la recherche par filtrage intitulée « Explorer » dans le prototype Codex, qui comprend l’ensemble des documents que l’on peut filtrer par des facettes. 
+Il s’agit de la recherche par filtrage intitulée « Explorer » dans le prototype, qui comprend l’ensemble des documents que l’on peut filtrer par des facettes. 
 
 \begin{center}
 	\includegraphics[width=0.5\textwidth]{./images/filtrage/IMG_5966.jpeg}
@@ -1426,9 +1426,9 @@ Afin de valider la pertinence des choix fonctionnels proposés pour la valorisat
 \section*{Conclusion}
 \addcontentsline{toc}{section}{Conclusion}
 \begin{itemize}
-	\item Ces recommandations constituent une base de travail pour le futur cahier des charges de Codex. Certains points sont à instruire, comme les métadonnées descriptives et leur alignement avec des référentiels. Les propositions sont à préciser, valider ou modifier. 
+	\item Ces recommandations constituent une base de travail pour le futur cahier des charges du prototype. Certains points sont à instruire, comme les métadonnées descriptives et leur alignement avec des référentiels. Les propositions sont à préciser, valider ou modifier. 
 \item Le développement de cette interface représente une belle opportunité de modernisation. Cette transition doit s’inscrire dans une démarche globale d’accompagnement des équipes afin qu’ils comprennent ces nouveaux outils et services mis à disposition des usagers. De plus, une forme éditorialisation (présentation des collections, parcours guidés, rédaction d’actualités) est attendue demandant une connaissance fine des espaces prévus à cet effet et de leur fonctionnement. Enfin, dans une logique de transmission et d’ouverture, une documentation rigoureuse est nécessaire pour s’approprier l’architecture de la plateforme.
-\item En réunissant ces conditions, le prototype Codex ne sera plus uniquement un catalogue de consultation mais deviendra un véritable espace de vie intellectuelle, de médiation culturelle et de partage du savoir.
+\item En réunissant ces conditions, le prototype ne sera plus uniquement un catalogue de consultation mais deviendra un véritable espace de vie intellectuelle, de médiation culturelle et de partage du savoir.
 \end{itemize}
 
 
@@ -1564,7 +1564,7 @@ Tendance d’utilisation de la bibliothèque numérique :
 \item Pour accéder à la bibliothèque numérique, ils ont tendance à utiliser soit le site de la bibliothèque Cujas, le catalogue ou encore par une recherche internet qu’ils ont effectué dans un moteur de recherche.
 \item Ils utilisent principalement le PDF, la recherche simple et la recherche avancée ainsi que les tables des matières.
 \end{itemize}
-\paragraph*{Besoins pour Codex:}
+\paragraph*{Besoins pour le prototype:}
 \begin{itemize}
 	\item Une visionneuse IIIF (zoom profond, visualisation aisé de documents en haute résolution, comparaison entre images, recherche plein texte...)
 \item Reconnaissance automatique de texte (tous les documents ou une catégorie)
@@ -1596,7 +1596,7 @@ Tendance d’utilisation de la bibliothèque numérique :
 \item Il accède généralement à la bibliothèque numérique grâce à une recherche dans le catalogue de la bibliothèque, par le site de la bibliothèque ou bien au cours d’une recherche sur Internet.
 \item Ils ont tendance à consulter la visionneuse JPEG, le PDF, la recherche simple et avancée ainsi que la table des matières et par moment les collections présentes dans la page d’accueil.
 \end{itemize}
-\paragraph*{Besoins pour Codex:}
+\paragraph*{Besoins pour le prototype:}
 \begin{itemize}
 	\item Une visionneuse IIIF (zoom profond, visualisation aisé de documents en haute résolution, comparaison entre images, recherche plein texte...)
 \item Reconnaissance automatique de texte (tous les documents ou une catégorie)
@@ -1722,7 +1722,7 @@ données et de l’interopérabilité.
 	\item Il a construit "ArcNum" (en Python), un script automatisé complexe qui gère la chaîne de traitement (workflow) de la validation à la publication, en passant par de multiples serveurs de stockage (118, 134, NAS).
 \item Il doit gérer l'héritage de CujasNum, basé sur XTF : une technologie choisie par défaut vers 2008 car c'était la seule capable de gérer des livres électroniques océrisés, mais qui fonctionne de manière très rigide (sans véritable back-office, où tout ce qui est versé est immédiatement publié).
 \end{itemize}
-\paragraph*{Besoins techniques pour Codex:}
+\paragraph*{Besoins techniques pour le prototype:}
 \begin{itemize}
 	\item Une architecture modulaire et API : Le système doit reposer sur des modules communicants et exposer ses données via des API REST (nécessitant parfois des clés de connexion) et le protocole OAI-PMH pour le moissonnage externe.
 \item Une gestion fine des données : Le système doit être capable de modéliser des hiérarchies complexes (comme pour les périodiques : Titre > Année > Fascicule > Article) et de regrouper les documents en "sets" (par sujet, par lots, par classification Dewey) pour un moissonnage sélectif.

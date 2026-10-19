@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.19)  7 SEP 2026 23:22
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.19)  19 OCT 2026 16:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1845,10 +1845,6 @@ Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=
 ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
 
 
 [110]
@@ -1856,29 +1852,9 @@ Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=
 ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
 
 
 [111]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
@@ -1895,15 +1871,8 @@ ex-text;!
 
 
 [113]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
 
 [114]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
@@ -1911,16 +1880,17 @@ ex-text;!
 
 
 [115]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
 
 
 [116]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
 
 [117]
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
 Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
 text;!
 
@@ -1931,19 +1901,18 @@ ex-text;!
 
 
 [119]
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
 
 
 [120]
-
-[121]
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
+
+
+[121]
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
 
@@ -1951,1055 +1920,159 @@ ex-text;!
 [122]
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
 
 
 [123]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
 
 [124]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
 
 [125]
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
+text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
+ex-text;!
+
 
 [126]
-
-[127]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[128]
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[129]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[130]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[131]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[132]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[133]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[134]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[135]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[136]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[137]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[138]
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[139]
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[140]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[141]
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[142]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[143]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[144]
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[145]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[146]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-bold]:mapping=tex-
-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
 File: ./images/IMG_5952.jpeg Graphic file (type bmp)
 <./images/IMG_5952.jpeg>
 
 
-[147]
+[127]
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
 File: ./images/IMG_5953.jpeg Graphic file (type bmp)
@@ -3010,33 +2083,33 @@ File: ./images/IMG_5954.jpeg Graphic file (type bmp)
 <./images/IMG_5954.jpeg>
 ) (./backmatter/annexe_B_preconisations.tex
 
-[148]
+[128]
 Annexe B.
 
 
-[149
+[129
 
 ]
 
-[150]
+[130]
 
-[151]
+[131]
 
-[152]
+[132]
 File: ./images/IMG_5955.jpeg Graphic file (type bmp)
 <./images/IMG_5955.jpeg>
 
 
-[153]
+[133]
 
-[154]
+[134]
 
-[155]
+[135]
 File: ./images/recherche_simple/Lucienne.jpeg Graphic file (type bmp)
 <./images/recherche_simple/Lucienne.jpeg>
 
 
-[156]
+[136]
 File: ./images/recherche_simple/Cariatide.jpeg Graphic file (type bmp)
 <./images/recherche_simple/Cariatide.jpeg>
 File: ./images/recherche_simple/Institut_de_France.jpeg Graphic file (type bmp)
@@ -3046,12 +2119,12 @@ File: ./images/recherche_simple/Gallica.jpeg Graphic file (type bmp)
 <./images/recherche_simple/Gallica.jpeg>
 
 
-[157]
+[137]
 File: ./images/recherche_simple/NuBIS.jpeg Graphic file (type bmp)
 <./images/recherche_simple/NuBIS.jpeg>
 
 
-[158]
+[138]
 File: ./images/recherche_avancee/Lucienne.jpeg Graphic file (type bmp)
 <./images/recherche_avancee/Lucienne.jpeg>
 File: ./images/recherche_avancee/Institut_de_France.jpeg Graphic file (type bmp
@@ -3059,7 +2132,7 @@ File: ./images/recherche_avancee/Institut_de_France.jpeg Graphic file (type bmp
 <./images/recherche_avancee/Institut_de_France.jpeg>
 
 
-[159]
+[139]
 File: ./images/recherche_avancee/Cariatide.jpeg Graphic file (type bmp)
 <./images/recherche_avancee/Cariatide.jpeg>
 File: ./images/recherche_avancee/Gallica.jpeg Graphic file (type bmp)
@@ -3068,110 +2141,110 @@ File: ./images/recherche_avancee/Polona.jpeg Graphic file (type bmp)
 <./images/recherche_avancee/Polona.jpeg>
 
 
-[160]
+[140]
 File: ./images/filtrage/IMG_5966.jpeg Graphic file (type bmp)
 <./images/filtrage/IMG_5966.jpeg>
 File: ./images/filtrage/IMG_5967.jpeg Graphic file (type bmp)
 <./images/filtrage/IMG_5967.jpeg>
 
 
-[161]
+[141]
 File: ./images/filtrage/IMG_5968.jpeg Graphic file (type bmp)
 <./images/filtrage/IMG_5968.jpeg>
 
 
-[162]
+[142]
 File: ./images/filtrage/IMG_5969.jpeg Graphic file (type bmp)
 <./images/filtrage/IMG_5969.jpeg>
 
 
-[163]
+[143]
 File: ./images/filtrage/IMG_5970.jpeg Graphic file (type bmp)
 <./images/filtrage/IMG_5970.jpeg>
 
 
-[164]
+[144]
 File: ./images/filtrage/IMG_5971.jpeg Graphic file (type bmp)
 <./images/filtrage/IMG_5971.jpeg>
 File: ./images/collections/IMG_5972.jpeg Graphic file (type bmp)
 <./images/collections/IMG_5972.jpeg>
 
 
-[165]
+[145]
 File: ./images/collections/IMG_5973.jpeg Graphic file (type bmp)
 <./images/collections/IMG_5973.jpeg>
 File: ./images/collections/IMG_5974.jpeg Graphic file (type bmp)
 <./images/collections/IMG_5974.jpeg>
 
 
-[166]
+[146]
 File: ./images/collections/IMG_5975.jpeg Graphic file (type bmp)
 <./images/collections/IMG_5975.jpeg>
 File: ./images/collections/IMG_5976.jpeg Graphic file (type bmp)
 <./images/collections/IMG_5976.jpeg>
 
 
-[167]
+[147]
 File: ./images/collections/IMG_5977.jpeg Graphic file (type bmp)
 <./images/collections/IMG_5977.jpeg>
 
 
-[168]
+[148]
 
-[169]
+[149]
 
-[170]
+[150]
 File: ./images/page_document/IMG_5978.jpeg Graphic file (type bmp)
 <./images/page_document/IMG_5978.jpeg>
 
 
-[171]
+[151]
 File: ./images/page_document/IMG_5979.jpeg Graphic file (type bmp)
 <./images/page_document/IMG_5979.jpeg>
 
 
-[172]
+[152]
 File: ./images/page_document/IMG_5980.jpeg Graphic file (type bmp)
 <./images/page_document/IMG_5980.jpeg>
 File: ./images/page_document/IMG_5981.jpeg Graphic file (type bmp)
 <./images/page_document/IMG_5981.jpeg>
 
 
-[173]
+[153]
 
-[174]
+[154]
 
-[175]
+[155]
 
-[176]
+[156]
 File: ./images/compte_personnel/IMG_5982.jpeg Graphic file (type bmp)
 <./images/compte_personnel/IMG_5982.jpeg>
 File: ./images/compte_personnel/IMG_5983.jpeg Graphic file (type bmp)
 <./images/compte_personnel/IMG_5983.jpeg>
 
 
-[177]
+[157]
 File: ./images/compte_personnel/IMG_5984.jpeg Graphic file (type bmp)
 <./images/compte_personnel/IMG_5984.jpeg>
 File: ./images/compte_personnel/IMG_5985.jpeg Graphic file (type bmp)
 <./images/compte_personnel/IMG_5985.jpeg>
 
 
-[178]
+[158]
 File: ./images/compte_personnel/IMG_5986.jpeg Graphic file (type bmp)
 <./images/compte_personnel/IMG_5986.jpeg>
 File: ./images/consultation_documents/IMG_5987.jpeg Graphic file (type bmp)
 <./images/consultation_documents/IMG_5987.jpeg>
 
 
-[179]
+[159]
 File: ./images/consultation_documents/IMG_5988.jpeg Graphic file (type bmp)
 <./images/consultation_documents/IMG_5988.jpeg>
 File: ./images/consultation_documents/IMG_5989.jpeg Graphic file (type bmp)
 <./images/consultation_documents/IMG_5989.jpeg>
 
 
-[180]
+[160]
 File: ./images/consultation_documents/IMG_5990.jpeg Graphic file (type bmp)
 <./images/consultation_documents/IMG_5990.jpeg>
 File: ./images/telechargements_et_formats/IMG_5991.jpeg Graphic file (type bmp)
@@ -3179,7 +2252,7 @@ File: ./images/telechargements_et_formats/IMG_5991.jpeg Graphic file (type bmp)
 <./images/telechargements_et_formats/IMG_5991.jpeg>
 
 
-[181]
+[161]
 File: ./images/telechargements_et_formats/IMG_5992.jpeg Graphic file (type bmp)
 
 <./images/telechargements_et_formats/IMG_5992.jpeg>
@@ -3188,14 +2261,14 @@ File: ./images/telechargements_et_formats/IMG_5993.jpeg Graphic file (type bmp)
 <./images/telechargements_et_formats/IMG_5993.jpeg>
 
 
-[182]
+[162]
 File: ./images/exploitation_documents/IMG_5994.jpeg Graphic file (type bmp)
 <./images/exploitation_documents/IMG_5994.jpeg>
 File: ./images/exploitation_documents/IMG_5995.jpeg Graphic file (type bmp)
 <./images/exploitation_documents/IMG_5995.jpeg>
 
 
-[183]
+[163]
 File: ./images/exploitation_documents/IMG_5996.jpeg Graphic file (type bmp)
 <./images/exploitation_documents/IMG_5996.jpeg>
 File: ./images/OCR_transcriptions/IMG_5997.jpeg Graphic file (type bmp)
@@ -3204,30 +2277,30 @@ File: ./images/OCR_transcriptions/IMG_5998.jpeg Graphic file (type bmp)
 <./images/OCR_transcriptions/IMG_5998.jpeg>
 
 
-[184]
+[164]
 File: ./images/droit_acces/IMG_5999.jpeg Graphic file (type bmp)
 <./images/droit_acces/IMG_5999.jpeg>
 
 
-[185]
+[165]
 
-[186]
+[166]
 
-[187]
+[167]
 
-[188]
+[168]
 File: ./images/a_propos/IMG_6001.jpeg Graphic file (type bmp)
 <./images/a_propos/IMG_6001.jpeg>
 File: ./images/a_propos/IMG_6002.jpeg Graphic file (type bmp)
 <./images/a_propos/IMG_6002.jpeg>
 
 
-[189]
+[169]
 File: ./images/a_propos/IMG_6003.jpeg Graphic file (type bmp)
 <./images/a_propos/IMG_6003.jpeg>
 
 
-[190]
+[170]
 File: ./images/a_propos/IMG_6004.jpeg Graphic file (type bmp)
 <./images/a_propos/IMG_6004.jpeg>
 File: ./images/a_propos/IMG_6005.jpeg Graphic file (type bmp)
@@ -3236,38 +2309,38 @@ File: ./images/a_propos/IMG_6006.jpeg Graphic file (type bmp)
 <./images/a_propos/IMG_6006.jpeg>
 
 
-[191]
+[171]
 File: ./images/mentions_legales/IMG_6007.jpeg Graphic file (type bmp)
 <./images/mentions_legales/IMG_6007.jpeg>
 
 
-[192]
+[172]
 File: ./images/mentions_legales/IMG_6008.jpeg Graphic file (type bmp)
 <./images/mentions_legales/IMG_6008.jpeg>
 File: ./images/mentions_legales/IMG_6009.jpeg Graphic file (type bmp)
 <./images/mentions_legales/IMG_6009.jpeg>
 
 
-[193]
+[173]
 File: ./images/mentions_legales/IMG_6010.jpeg Graphic file (type bmp)
 <./images/mentions_legales/IMG_6010.jpeg>
 File: ./images/mentions_legales/IMG_6011.jpeg Graphic file (type bmp)
 <./images/mentions_legales/IMG_6011.jpeg>
 
 
-[194]
+[174]
 File: ./images/RGPD/IMG_6012.jpeg Graphic file (type bmp)
 <./images/RGPD/IMG_6012.jpeg>
 
 
-[195]
+[175]
 File: ./images/RGPD/IMG_6013.jpeg Graphic file (type bmp)
 <./images/RGPD/IMG_6013.jpeg>
 File: ./images/RGPD/IMG_6014.jpeg Graphic file (type bmp)
 <./images/RGPD/IMG_6014.jpeg>
 
 
-[196]
+[176]
 File: ./images/conditions_utilisation/IMG_6015.jpeg Graphic file (type bmp)
 <./images/conditions_utilisation/IMG_6015.jpeg>
 File: ./images/conditions_utilisation/IMG_6016.jpeg Graphic file (type bmp)
@@ -3276,31 +2349,31 @@ File: ./images/conditions_utilisation/IMG_6017.jpeg Graphic file (type bmp)
 <./images/conditions_utilisation/IMG_6017.jpeg>
 
 
-[197]
+[177]
 File: ./images/conditions_utilisation/IMG_6018.jpeg Graphic file (type bmp)
 <./images/conditions_utilisation/IMG_6018.jpeg>
 File: ./images/conditions_utilisation/IMG_6019.jpeg Graphic file (type bmp)
 <./images/conditions_utilisation/IMG_6019.jpeg>
 
 
-[198]
+[178]
 File: ./images/WCAG/IMG_6020.jpeg Graphic file (type bmp)
 <./images/WCAG/IMG_6020.jpeg>
 
 
-[199]
+[179]
 File: ./images/WCAG/IMG_6021.jpeg Graphic file (type bmp)
 <./images/WCAG/IMG_6021.jpeg>
 File: ./images/WCAG/IMG_6022.jpeg Graphic file (type bmp)
 <./images/WCAG/IMG_6022.jpeg>
 
 
-[200]
+[180]
 File: ./images/contact/IMG_6023.jpeg Graphic file (type bmp)
 <./images/contact/IMG_6023.jpeg>
 
 
-[201]
+[181]
 File: ./images/contact/IMG_6024.jpeg Graphic file (type bmp)
 <./images/contact/IMG_6024.jpeg>
 File: ./images/contact/IMG_6025.jpeg Graphic file (type bmp)
@@ -3309,38 +2382,38 @@ File: ./images/contact/IMG_6026.jpeg Graphic file (type bmp)
 <./images/contact/IMG_6026.jpeg>
 
 
-[202]
+[182]
 File: ./images/tutoriels/IMG_6027.jpeg Graphic file (type bmp)
 <./images/tutoriels/IMG_6027.jpeg>
 
 
-[203]
+[183]
 File: ./images/tutoriels/IMG_6028.jpeg Graphic file (type bmp)
 <./images/tutoriels/IMG_6028.jpeg>
 File: ./images/tutoriels/IMG_6029.jpeg Graphic file (type bmp)
 <./images/tutoriels/IMG_6029.jpeg>
 
 
-[204]
+[184]
 File: ./images/tutoriels/IMG_6030.jpeg Graphic file (type bmp)
 <./images/tutoriels/IMG_6030.jpeg>
 File: ./images/tutoriels/IMG_6031.jpeg Graphic file (type bmp)
 <./images/tutoriels/IMG_6031.jpeg>
 
 
-[205]
+[185]
 File: ./images/FAQ/IMG_6032.jpeg Graphic file (type bmp)
 <./images/FAQ/IMG_6032.jpeg>
 File: ./images/FAQ/IMG_6033.jpeg Graphic file (type bmp)
 <./images/FAQ/IMG_6033.jpeg>
 
 
-[206]
+[186]
 File: ./images/FAQ/IMG_6034.jpeg Graphic file (type bmp)
 <./images/FAQ/IMG_6034.jpeg>
 
 
-[207]
+[187]
 File: ./images/presentation_editorialisation/IMG_6035.jpeg Graphic file (type b
 mp)
 <./images/presentation_editorialisation/IMG_6035.jpeg>
@@ -3349,13 +2422,13 @@ mp)
 <./images/presentation_editorialisation/IMG_6036.jpeg>
 
 
-[208]
+[188]
 File: ./images/presentation_editorialisation/IMG_6037.jpeg Graphic file (type b
 mp)
 <./images/presentation_editorialisation/IMG_6037.jpeg>
 
 
-[209]
+[189]
 File: ./images/presentation_editorialisation/IMG_6038.jpeg Graphic file (type b
 mp)
 <./images/presentation_editorialisation/IMG_6038.jpeg>
@@ -3367,7 +2440,7 @@ bmp)
 <./images/organisation_focus_thematiques/IMG_6041.jpeg>
 
 
-[210]
+[190]
 File: ./images/fonds/IMG_6042.jpeg Graphic file (type bmp)
 <./images/fonds/IMG_6042.jpeg>
 File: ./images/fiches_biographiques_et_galerie_personnalites/IMG_6043.jpeg Grap
@@ -3375,7 +2448,7 @@ hic file (type bmp)
 <./images/fiches_biographiques_et_galerie_personnalites/IMG_6043.jpeg>
 
 
-[211]
+[191]
 File: ./images/fiches_biographiques_et_galerie_personnalites/IMG_6044.jpeg Grap
 hic file (type bmp)
 <./images/fiches_biographiques_et_galerie_personnalites/IMG_6044.jpeg>
@@ -3383,111 +2456,120 @@ File: ./images/expositions_virtuelles/IMG_6045.jpeg Graphic file (type bmp)
 <./images/expositions_virtuelles/IMG_6045.jpeg>
 
 
-[212]
+[192]
 File: ./images/expositions_virtuelles/IMG_6046.jpeg Graphic file (type bmp)
 <./images/expositions_virtuelles/IMG_6046.jpeg>
 File: ./images/expositions_virtuelles/IMG_6047.jpeg Graphic file (type bmp)
 <./images/expositions_virtuelles/IMG_6047.jpeg>
 
 
-[213]
+[193]
 File: ./images/editions_numeriques/IMG_6048.jpeg Graphic file (type bmp)
 <./images/editions_numeriques/IMG_6048.jpeg>
 File: ./images/blog_actualites_lettres/IMG_6049.jpeg Graphic file (type bmp)
 <./images/blog_actualites_lettres/IMG_6049.jpeg>
 
 
-[214]
+[194]
 File: ./images/blog_actualites_lettres/IMG_6050.jpeg Graphic file (type bmp)
 <./images/blog_actualites_lettres/IMG_6050.jpeg>
 File: ./images/blog_actualites_lettres/IMG_6051.jpeg Graphic file (type bmp)
 <./images/blog_actualites_lettres/IMG_6051.jpeg>
 
 
-[215]
+[195]
 File: ./images/blog_actualites_lettres/IMG_6052.jpeg Graphic file (type bmp)
 <./images/blog_actualites_lettres/IMG_6052.jpeg>
 File: ./images/blog_actualites_lettres/IMG_6053.jpeg Graphic file (type bmp)
 <./images/blog_actualites_lettres/IMG_6053.jpeg>
 
 
-[216]
+[196]
 
-[217]
+[197]
 
-[218]
+[198]
 File: ./images/Page_accueil_2.pdf Graphic file (type pdf)
 <./images/Page_accueil_2.pdf>
 
 
-[219]
+[199]
 
-[220]
+[200]
 
-[221]
+[201]
 
-[222]
+[202]
 
-[223]
+[203]
 
-[224]
+[204]
 
-[225]
+[205]
 
-[226]
+[206]
 
-[227]
+[207]
 
-[228]
+[208]
 
-[229]
+[209]
 
-[230]
+[210]
 
-[231]
+[211]
 
-[232]
+[212]
 
-[233])
+[213])
 
-[234] (./document_maitre.gls
+[214] (./document_maitre.gls
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\textfrench' on input line 1.
 
 
+Package glossaries Warning: Glossary entry `Codex' has not been defined on inpu
+t line 10.
 
-[235
+
+Package glossaries Warning: Glossary entry `Codex' has not been defined on inpu
+t line 10.
+
+
+Package glossaries Warning: Glossary entry `Codex' has not been defined on inpu
+t line 10.
+
+
+Package glossaries Warning: Glossary entry `Indexation Hauville' has not been d
+efined on input line 22.
+
+
+Package glossaries Warning: Glossary entry `Indexation Hauville' has not been d
+efined on input line 22.
+
+
+Package glossaries Warning: Glossary entry `Indexation Hauville' has not been d
+efined on input line 22.
+
+
+
+[215
 
 
 
 
 ])
 
-[236] (./document_maitre.toc
+[216] (./document_maitre.toc
 
-[237
+[217
 
 ]
 
-[238]
+[218]
 
-[239]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-
-
-[240]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
+[219]
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
 ex-text;!
 Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
@@ -3496,36 +2578,17 @@ Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=
 ex-text;!
 
 
-[241]
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
-Missing character: There is no   (U+202F) in font [lmroman12-regular]:mapping=t
-ex-text;!
+[220]
 
+[221]
 
-[242]
-
-[243])
+[222])
 \tf@toc=\write7
 \openout7 = `document_maitre.toc'.
 
 
 
-[244] (./document_maitre.aux)
+[223] (./document_maitre.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -3544,12 +2607,12 @@ Package logreq Info: Writing requests to 'document_maitre.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48097 strings out of 468389
- 1162048 string characters out of 5440619
- 1985426 words of memory out of 5000000
- 75971 multiletter control sequences out of 15000+600000
- 649991 words of font info for 142 fonts, out of 8000000 for 9000
+ 48019 strings out of 468389
+ 1160540 string characters out of 5440619
+ 1983119 words of memory out of 5000000
+ 75893 multiletter control sequences out of 15000+600000
+ 649970 words of font info for 142 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  75i,13n,104p,2498b,5778s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on document_maitre.pdf (266 pages).
+Output written on document_maitre.pdf (245 pages).
